@@ -1,0 +1,17 @@
+{
+  "base_book_commit": "ec983e86ed3aa50ed29d2f5937f039419e854809",
+  "data_source": "original anchor randomized respondents and Unit 11 invited-frame observed records",
+  "derived_observed_commit": "b59adb629b5a5a9ff261017ddb301bc4b2e0f9a3",
+  "designer_blindness_claimed": false,
+  "hidden_truth_imported": false,
+  "labels_unknown_are_blank": true,
+  "new_analysis_random_permutations": 128,
+  "new_profile": "manual fictional enrollment frame, not a simulator draw",
+  "new_world_random_draws": 0,
+  "permutations_shipped": true,
+  "reader_pending": true,
+  "reanalysis_of_previously_reported_data": true,
+  "schema_version": 1,
+  "unit": 12,
+  "world_original_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163"
+}

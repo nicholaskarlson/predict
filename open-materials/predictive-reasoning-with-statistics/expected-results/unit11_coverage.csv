@@ -1,0 +1,9 @@
+method_id,role,invited,predictions,labels_known,labels_unknown,survey_route_n,frame_fallback_n,nonrespondents,partial_item_respondents
+frame_only,temporal_continuing,1792,1792,1792,0,0,0,451,371
+frame_only,temporal_new,1800,1800,1800,0,0,0,491,336
+survey_fallback,temporal_continuing,1792,1792,1792,0,1341,451,451,371
+survey_fallback,temporal_new,1800,1800,1800,0,1309,491,491,336
+imputed,temporal_continuing,1792,1792,1792,0,0,0,451,371
+imputed,temporal_new,1800,1800,1800,0,0,0,491,336
+imputed_indicators,temporal_continuing,1792,1792,1792,0,0,0,451,371
+imputed_indicators,temporal_new,1800,1800,1800,0,0,0,491,336

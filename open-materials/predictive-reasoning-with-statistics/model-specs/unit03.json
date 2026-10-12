@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "frozen_world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "raw_source": "source/tonmick-v1.0.0",
+  "solver": {
+    "method": "QR",
+    "rank_relative_tolerance": 1e-10,
+    "condition_measure": "infinity_norm_R_times_infinity_norm_inverse_R",
+    "maximum_condition": 100000.0,
+    "maximum_normalized_score": 1e-10
+  },
+  "case_id": "unit03_tonmick_optimism",
+  "unit_id": 3,
+  "state": "specified_before_fitting",
+  "source_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "LICENSES.md": "8655b5e0fdad79eb17b5eddd66b1a3b77d164f484bffebd4f86ed154b9646d10",
+    "PROVENANCE.md": "61370f42ed53698125a98534c927bc48ce709d48b672007fd4bf3cb838a0ca15",
+    "WORLD_SPEC.md": "3fad7526f5060dbdbdcbebba8235d28df0d9e4e1c93f87fe20982090a62517e5",
+    "DICTIONARY.csv": "ce8096cacf4fcb55b09c11714435c23395f2a17bfe08412640d522341855ee01",
+    "MANIFEST.json": "2f92d8ee27fe4b49f5a17dba84ed7605e10edfb3af0595671d7cf862c1195647"
+  },
+  "prediction_time": "enrollment",
+  "target": "recorded_grade_at_12_months_or_exit_after_month4",
+  "policy": "no_offer",
+  "development": "anchor_West_survey_respondents_offer0_observed_grade",
+  "setting_check": "anchor_other_regions_survey_respondents_offer0_observed_grade",
+  "missing_grade": "explicit_exclusion_never_zero",
+  "exit_grade": "retain_and_report_mixed_measurement_time",
+  "predictor_allowlist": [
+    "prior_grade",
+    "part_time",
+    "first_gen",
+    "age"
+  ],
+  "model_ids": [
+    "entry",
+    "baseline",
+    "rich"
+  ],
+  "model_terms": {
+    "entry": [
+      "intercept",
+      "z_prior_grade"
+    ],
+    "baseline": [
+      "intercept",
+      "z_prior_grade",
+      "part_time",
+      "first_gen",
+      "z_age"
+    ],
+    "rich": [
+      "intercept",
+      "z_prior_grade",
+      "part_time",
+      "first_gen",
+      "z_age",
+      "z_prior_grade_squared",
+      "z_age_squared",
+      "z_prior_grade_part_time",
+      "z_prior_grade_first_gen",
+      "z_prior_grade_z_age"
+    ]
+  },
+  "standardization": {
+    "columns": [
+      "prior_grade",
+      "age"
+    ],
+    "mean": "fit_slots_only",
+    "sd_denominator": "n_fit_slots",
+    "zero_sd": "fail"
+  },
+  "selection": {
+    "criterion": "n_log_MSE_plus_2_times_p_plus_1",
+    "interpretation": "Gaussian_ML_AIC_up_to_common_constant_with_residual_variance_counted",
+    "tie_tolerance": 1e-10,
+    "tie_order": [
+      "entry",
+      "baseline",
+      "rich"
+    ],
+    "refit_every_bootstrap": true,
+    "setting_check_labels_for_selection": false
+  },
+  "bootstrap": {
+    "replicates": 200,
+    "unit": "students_within_fixed_college",
+    "preserve_college_sample_counts": true,
+    "replacement": true,
+    "namespace": "nekpress-unit03-fixed-west-bootstrap-v1",
+    "draw": "sha256_rejection_uniform_64bit_of_namespace_pipe_rep_pipe_college_pipe_slot_pipe_attempt",
+    "membership": "committed_slots_in_unit03_bootstrap.csv",
+    "rank_or_condition_failure": "fail_entire_audit_never_skip_or_redraw",
+    "correction_mse": "apparent_plus_mean_original_minus_bootstrap_MSE",
+    "correction_r2": "apparent_minus_mean_bootstrap_minus_original_R2",
+    "r2_denominator": "sum_squared_deviations_from_each_scored_sample_mean",
+    "mcse": "sample_SD_of_gaps_divided_by_sqrt_B_not_population_uncertainty",
+    "confidence_interval": "not_estimated"
+  },
+  "final_test_labels_for_selection": false,
+  "clip_predictions": false,
+  "comparison": {
+    "prediction_absolute_tolerance": 1e-09,
+    "coefficient_absolute_tolerance": 1e-09,
+    "score_absolute_tolerance": 1e-10,
+    "transform_absolute_tolerance": 1e-12,
+    "condition_relative_tolerance": 1e-08,
+    "printed_decimals": 6,
+    "printed_rounding": "decimal_half_even"
+  }
+}

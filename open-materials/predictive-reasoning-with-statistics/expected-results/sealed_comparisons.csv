@@ -1,0 +1,3 @@
+population,prior_role,prior_n,prior_brier,sealed_n,sealed_brier,difference,reason
+continuing,temporal_continuing,1792,0.14612601221024324,55440,0.14162932176883941,-0.0044966904414038278,descriptive_different_recruitment_populations
+previously_new,temporal_new,1800,0.14018119885516281,6234,0.12712515820510678,-0.013056040650056028,descriptive_different_recruitment_populations

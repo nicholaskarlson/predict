@@ -1,0 +1,19 @@
+variable,description,availability,source
+college_id,observed Tonmick college_id,enrollment_or_fixed_identity,frozen_world_v1.0.0
+region,observed Tonmick region,enrollment_or_fixed_identity,frozen_world_v1.0.0
+part_time,observed Tonmick part_time,enrollment_or_fixed_identity,frozen_world_v1.0.0
+first_gen,observed Tonmick first_gen,enrollment_or_fixed_identity,frozen_world_v1.0.0
+age,observed Tonmick age,enrollment_or_fixed_identity,frozen_world_v1.0.0
+gender,observed Tonmick gender,enrollment_or_fixed_identity,frozen_world_v1.0.0
+program_area,observed Tonmick program_area,enrollment_or_fixed_identity,frozen_world_v1.0.0
+prior_grade,observed Tonmick prior_grade,enrollment_or_fixed_identity,frozen_world_v1.0.0
+row_id,observed Tonmick row_id,enrollment_or_fixed_identity,frozen_world_v1.0.0
+cohort,observed Tonmick cohort,enrollment_or_fixed_identity,frozen_world_v1.0.0
+college_group,observed Tonmick college_group,enrollment_or_fixed_identity,frozen_world_v1.0.0
+offer,observed Tonmick offer,enrollment_or_fixed_identity,frozen_world_v1.0.0
+wellbeing_score,observed Tonmick wellbeing_score,enrollment_or_fixed_identity,frozen_world_v1.0.0
+stress_score,observed Tonmick stress_score,enrollment_or_fixed_identity,frozen_world_v1.0.0
+exit_type,observed Tonmick exit_type,follow_up_outcome_not_predictor,frozen_world_v1.0.0
+gpa_at_exit,observed Tonmick gpa_at_exit,follow_up_outcome_not_predictor,frozen_world_v1.0.0
+binary_y,known withdrawal before transfer by twelve months; blank is unknown,follow_up_outcome_not_predictor,frozen_world_v1.0.0
+grade_y,observed Tonmick grade_y,follow_up_outcome_not_predictor,frozen_world_v1.0.0

@@ -1,0 +1,14 @@
+field,meaning,availability
+row_id,unique student_id from frozen source,identifier
+college_id,fixed represented college,resampling stratum
+region,observed region at enrollment,defines West development or other-region check
+part_time,binary part-time enrollment,enrollment
+first_gen,binary first-generation indicator,enrollment
+age,age in years,enrollment
+prior_grade,recorded entry grade from 0 to 4,enrollment
+exit_type,first recorded event,after enrollment audit only
+gpa_at_exit,1 means eligible exit grade retained,outcome audit only
+y,recorded grade at 12 months or eligible exit blank if missing,outcome
+role,development setting_check or excluded_missing_grade,committed observed-grade analysis role
+replicate,bootstrap draw B0001 to B0200,resampling
+slot,within-college resample slot repetition keeps multiplicity,resampling

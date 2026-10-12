@@ -1,0 +1,35 @@
+variable,definition
+row_id,observed student identifier; metadata only
+cohort,anchor or cohort2
+role,"development, excluded_offered, excluded_unknown, temporal_continuing or temporal_new"
+legacy_role,original Unit 9 assignment or explicit not_in_prior_respondent_analysis
+y,observed withdrawal label 0/1; blank if unknown; never a deployment input
+outcome_known,administrative label availability; not a predictor
+offer,no mentoring offer required for fit and later evaluation
+responded_baseline,resolved response flag at enrollment
+wellbeing_score,at least three reversed observed wb items; otherwise blank
+stress_score,at least three reversed observed st items; otherwise blank
+survey_absent,one minus response
+wb_item_missing,raw wb observed count <5
+st_item_missing,raw st observed count <5
+pattern,predeclared missingness pattern
+wb_imputed,audit completion flag; route defines whether score enters prediction
+st_imputed,audit completion flag; route defines whether score enters prediction
+route,frozen method actually used; survey fallback may use frame_only
+support_reason,unseen_missingness_pattern when development pattern count is zero
+part_time,complete administrative frame predictor
+first_gen,complete administrative frame predictor
+age,complete administrative frame predictor
+gender,complete administrative frame predictor
+program_area,complete administrative frame predictor
+prior_grade,complete administrative frame predictor
+wb1,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+wb2,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+wb3,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+wb4,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+wb5,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+st1,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+st2,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+st3,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+st4,observed 1..5 baseline item; blank if missing; item 4 reverse coded
+st5,observed 1..5 baseline item; blank if missing; item 4 reverse coded

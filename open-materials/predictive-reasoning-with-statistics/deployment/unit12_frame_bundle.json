@@ -1,0 +1,42 @@
+{
+  "coefficients": [
+    -1.79582047986401,
+    0.34509629496751804,
+    0.21326872022088847,
+    0.21307775624631095,
+    -0.32690747022457484,
+    -0.8662674407387994,
+    -0.13981910169532882,
+    0.26723929859338097,
+    -0.15024684069734573,
+    0.13988381170963235,
+    -0.5510742913012152
+  ],
+  "method_id": "frozen_unit11_frame_only",
+  "outcome_required": false,
+  "prediction_time": "enrollment_snapshot",
+  "schema_version": 1,
+  "terms": [
+    "intercept",
+    "part_time",
+    "first_gen",
+    "z_age",
+    "gender_male",
+    "gender_another",
+    "program_Social_Sciences",
+    "program_STEM",
+    "program_Health",
+    "program_Business",
+    "z_prior_grade"
+  ],
+  "transforms": {
+    "age": [
+      22.816056910569106,
+      6.689369851106404
+    ],
+    "prior_grade": [
+      2.8962906504064985,
+      0.4802901402010807
+    ]
+  }
+}

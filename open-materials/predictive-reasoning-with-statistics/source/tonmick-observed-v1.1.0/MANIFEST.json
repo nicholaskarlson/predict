@@ -1,0 +1,30 @@
+{
+  "canonical_outcome": "withdrawal_label",
+  "counts": {
+    "anchor": {
+      "invited": 1600,
+      "nonrespondents": 381,
+      "respondents": 1219,
+      "unknown": 11,
+      "withdrawals_known": 257
+    },
+    "cohort2": {
+      "invited": 3592,
+      "nonrespondents": 942,
+      "respondents": 2650,
+      "unknown": 0,
+      "withdrawals_known": 700
+    }
+  },
+  "data_sha256": {
+    "data/anchor_observed_registry.csv": "28c2a43ab569f517435fbb58c0152cfdbe990012f8f91139714146483e2f6e35",
+    "data/cohort2_observed_registry.csv": "4b5ee9082d8db37039103623d39afb8473829574a5c6cad2a89db32460ae6815"
+  },
+  "independent_route": "integer_micro_months",
+  "kind": "derived_observation_extension_not_new_world_simulation",
+  "new_world_draws": 0,
+  "original_world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "release": "1.1.0",
+  "schema_version": 1,
+  "unknown_outcomes": "blank_not_zero"
+}

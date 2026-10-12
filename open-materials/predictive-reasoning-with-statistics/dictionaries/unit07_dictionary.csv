@@ -1,0 +1,28 @@
+variable,source,meaning,availability
+row_id,declared_derivation,row_id,audit_only_not_predictor
+cohort,declared_derivation,cohort,audit_only_not_predictor
+college_id,participant_frame,college_id,enrollment
+region,participant_frame,region,enrollment
+part_time,participant_frame,part_time,enrollment
+first_gen,participant_frame,first_gen,enrollment
+age,participant_frame,age,enrollment
+gender,participant_frame,gender,enrollment
+program_area,participant_frame,program_area,enrollment
+prior_grade,participant_frame,prior_grade,enrollment
+offer,baseline_survey_or_assignment,observed randomized anchor offer; set to 0 for later forecasts,enrollment
+wb1,baseline_survey_or_assignment,wb1,enrollment
+wb2,baseline_survey_or_assignment,wb2,enrollment
+wb3,baseline_survey_or_assignment,wb3,enrollment
+wb4,baseline_survey_or_assignment,wb4,enrollment
+wb5,baseline_survey_or_assignment,wb5,enrollment
+st1,baseline_survey_or_assignment,st1,enrollment
+st2,baseline_survey_or_assignment,st2,enrollment
+st3,baseline_survey_or_assignment,st3,enrollment
+st4,baseline_survey_or_assignment,st4,enrollment
+st5,baseline_survey_or_assignment,st5,enrollment
+wellbeing_score,declared_derivation,mean observed wb items after reversing item 4; requires at least 3,enrollment
+stress_score,baseline_survey_or_assignment,mean observed st items after reversing item 4; requires at least 3,enrollment
+exit_type,registry,exit_type,audit_only_not_predictor
+exit_month,registry,exit_month,audit_only_not_predictor
+y,registry,1=withdrawal before transfer by 12 months; blank=unknown,audit_only_not_predictor
+role,declared_derivation,development or temporal_final; excluded_unknown or excluded_unscorable_items,audit_only_not_predictor

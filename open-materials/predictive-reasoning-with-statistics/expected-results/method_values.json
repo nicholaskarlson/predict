@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "values": {
+    "more_parameters_expected_events": {
+      "display": "322.3",
+      "places": 1,
+      "value": "322.34999999999997"
+    },
+    "more_parameters_invitations": {
+      "display": "2687",
+      "places": 0,
+      "value": "2687"
+    },
+    "more_parameters_n_optimism": {
+      "display": "663",
+      "places": 0,
+      "value": "663"
+    },
+    "more_parameters_n_required": {
+      "display": "2149",
+      "places": 0,
+      "value": "2149"
+    },
+    "more_parameters_n_risk": {
+      "display": "196",
+      "places": 0,
+      "value": "196"
+    },
+    "more_parameters_n_shrinkage": {
+      "display": "2149",
+      "places": 0,
+      "value": "2149"
+    },
+    "more_parameters_optimism_shrinkage": {
+      "display": "0.737",
+      "places": 3,
+      "value": "0.73711582534310249"
+    },
+    "more_parameters_r2_cs": {
+      "display": "0.080",
+      "places": 3,
+      "value": "0.080000000000000002"
+    },
+    "plan_main_expected_events": {
+      "display": "209.5",
+      "places": 1,
+      "value": "209.54999999999998"
+    },
+    "plan_main_invitations": {
+      "display": "1747",
+      "places": 0,
+      "value": "1747"
+    },
+    "plan_main_n_optimism": {
+      "display": "431",
+      "places": 0,
+      "value": "431"
+    },
+    "plan_main_n_required": {
+      "display": "1397",
+      "places": 0,
+      "value": "1397"
+    },
+    "plan_main_n_risk": {
+      "display": "196",
+      "places": 0,
+      "value": "196"
+    },
+    "plan_main_n_shrinkage": {
+      "display": "1397",
+      "places": 0,
+      "value": "1397"
+    },
+    "plan_main_optimism_shrinkage": {
+      "display": "0.737",
+      "places": 3,
+      "value": "0.73711582534310249"
+    },
+    "plan_main_r2_cs": {
+      "display": "0.080",
+      "places": 3,
+      "value": "0.080000000000000002"
+    },
+    "score_control_mean_difference": {
+      "display": "0.0163",
+      "places": 4,
+      "value": "0.016339557393226012"
+    },
+    "score_control_mean_lower": {
+      "display": "0.0085",
+      "places": 4,
+      "value": "0.0084612026921654145"
+    },
+    "score_control_mean_upper": {
+      "display": "0.0243",
+      "places": 4,
+      "value": "0.024349602518900459"
+    },
+    "score_control_table_difference": {
+      "display": "0.0065",
+      "places": 4,
+      "value": "0.0064829237276435416"
+    },
+    "score_control_table_lower": {
+      "display": "0.0009",
+      "places": 4,
+      "value": "0.00089647393664599455"
+    },
+    "score_control_table_upper": {
+      "display": "0.0121",
+      "places": 4,
+      "value": "0.012099892863967582"
+    },
+    "stronger_signal_expected_events": {
+      "display": "165.6",
+      "places": 1,
+      "value": "165.59999999999999"
+    },
+    "stronger_signal_invitations": {
+      "display": "1380",
+      "places": 0,
+      "value": "1380"
+    },
+    "stronger_signal_n_optimism": {
+      "display": "426",
+      "places": 0,
+      "value": "426"
+    },
+    "stronger_signal_n_required": {
+      "display": "1104",
+      "places": 0,
+      "value": "1104"
+    },
+    "stronger_signal_n_risk": {
+      "display": "196",
+      "places": 0,
+      "value": "196"
+    },
+    "stronger_signal_n_shrinkage": {
+      "display": "1104",
+      "places": 0,
+      "value": "1104"
+    },
+    "stronger_signal_optimism_shrinkage": {
+      "display": "0.778",
+      "places": 3,
+      "value": "0.77802174626975074"
+    },
+    "stronger_signal_r2_cs": {
+      "display": "0.100",
+      "places": 3,
+      "value": "0.10000000000000001"
+    },
+    "unit07_full_apparent_plugin_optimistic_expected_events": {
+      "display": "166.4",
+      "places": 1,
+      "value": "166.41225165562915"
+    },
+    "unit07_full_apparent_plugin_optimistic_invitations": {
+      "display": "1162",
+      "places": 0,
+      "value": "1162"
+    },
+    "unit07_full_apparent_plugin_optimistic_n_optimism": {
+      "display": "435",
+      "places": 0,
+      "value": "435"
+    },
+    "unit07_full_apparent_plugin_optimistic_n_required": {
+      "display": "1162",
+      "places": 0,
+      "value": "1162"
+    },
+    "unit07_full_apparent_plugin_optimistic_n_risk": {
+      "display": "189",
+      "places": 0,
+      "value": "189"
+    },
+    "unit07_full_apparent_plugin_optimistic_n_shrinkage": {
+      "display": "1162",
+      "places": 0,
+      "value": "1162"
+    },
+    "unit07_full_apparent_plugin_optimistic_optimism_shrinkage": {
+      "display": "0.773",
+      "places": 3,
+      "value": "0.77289481036569896"
+    },
+    "unit07_full_apparent_plugin_optimistic_r2_cs": {
+      "display": "0.095",
+      "places": 3,
+      "value": "0.095329989145164107"
+    },
+    "unit07_full_assumed_15pct_max_expected_events": {
+      "display": "190.0",
+      "places": 1,
+      "value": "190.04221854304637"
+    },
+    "unit07_full_assumed_15pct_max_invitations": {
+      "display": "1327",
+      "places": 0,
+      "value": "1327"
+    },
+    "unit07_full_assumed_15pct_max_n_optimism": {
+      "display": "438",
+      "places": 0,
+      "value": "438"
+    },
+    "unit07_full_assumed_15pct_max_n_required": {
+      "display": "1327",
+      "places": 0,
+      "value": "1327"
+    },
+    "unit07_full_assumed_15pct_max_n_risk": {
+      "display": "189",
+      "places": 0,
+      "value": "189"
+    },
+    "unit07_full_assumed_15pct_max_n_shrinkage": {
+      "display": "1327",
+      "places": 0,
+      "value": "1327"
+    },
+    "unit07_full_assumed_15pct_max_optimism_shrinkage": {
+      "display": "0.750",
+      "places": 3,
+      "value": "0.74999999999999989"
+    },
+    "unit07_full_assumed_15pct_max_r2_cs": {
+      "display": "0.084",
+      "places": 3,
+      "value": "0.08403447004284291"
+    },
+    "unit07_full_events": {
+      "display": "173",
+      "places": 0,
+      "value": "173"
+    },
+    "unit07_full_heuristic_shrinkage": {
+      "display": "0.893",
+      "places": 3,
+      "value": "0.89258286060779179"
+    },
+    "unit07_full_likelihood_ratio": {
+      "display": "121.024",
+      "places": 3,
+      "value": "121.02351704352861"
+    },
+    "unit07_full_n": {
+      "display": "1208",
+      "places": 0,
+      "value": "1208"
+    },
+    "unit07_full_parameters": {
+      "display": "13",
+      "places": 0,
+      "value": "13"
+    },
+    "unit07_full_prevalence": {
+      "display": "0.143",
+      "places": 3,
+      "value": "0.14321192052980133"
+    },
+    "unit07_full_r2_apparent": {
+      "display": "0.095",
+      "places": 3,
+      "value": "0.095329989145164107"
+    },
+    "unit07_full_r2_max": {
+      "display": "0.560",
+      "places": 3,
+      "value": "0.56022980028561942"
+    },
+    "unit09_refit_apparent_plugin_optimistic_expected_events": {
+      "display": "206.2",
+      "places": 1,
+      "value": "206.24427480916032"
+    },
+    "unit09_refit_apparent_plugin_optimistic_invitations": {
+      "display": "1185",
+      "places": 0,
+      "value": "1185"
+    },
+    "unit09_refit_apparent_plugin_optimistic_n_optimism": {
+      "display": "375",
+      "places": 0,
+      "value": "375"
+    },
+    "unit09_refit_apparent_plugin_optimistic_n_required": {
+      "display": "1185",
+      "places": 0,
+      "value": "1185"
+    },
+    "unit09_refit_apparent_plugin_optimistic_n_risk": {
+      "display": "221",
+      "places": 0,
+      "value": "221"
+    },
+    "unit09_refit_apparent_plugin_optimistic_n_shrinkage": {
+      "display": "1185",
+      "places": 0,
+      "value": "1185"
+    },
+    "unit09_refit_apparent_plugin_optimistic_optimism_shrinkage": {
+      "display": "0.742",
+      "places": 3,
+      "value": "0.74184525536400314"
+    },
+    "unit09_refit_apparent_plugin_optimistic_r2_cs": {
+      "display": "0.087",
+      "places": 3,
+      "value": "0.086678530569119006"
+    },
+    "unit09_refit_assumed_15pct_max_expected_events": {
+      "display": "197.2",
+      "places": 1,
+      "value": "197.193893129771"
+    },
+    "unit09_refit_assumed_15pct_max_invitations": {
+      "display": "1133",
+      "places": 0,
+      "value": "1133"
+    },
+    "unit09_refit_assumed_15pct_max_n_optimism": {
+      "display": "374",
+      "places": 0,
+      "value": "374"
+    },
+    "unit09_refit_assumed_15pct_max_n_required": {
+      "display": "1133",
+      "places": 0,
+      "value": "1133"
+    },
+    "unit09_refit_assumed_15pct_max_n_risk": {
+      "display": "221",
+      "places": 0,
+      "value": "221"
+    },
+    "unit09_refit_assumed_15pct_max_n_shrinkage": {
+      "display": "1133",
+      "places": 0,
+      "value": "1133"
+    },
+    "unit09_refit_assumed_15pct_max_optimism_shrinkage": {
+      "display": "0.750",
+      "places": 3,
+      "value": "0.74999999999999989"
+    },
+    "unit09_refit_assumed_15pct_max_r2_cs": {
+      "display": "0.090",
+      "places": 3,
+      "value": "0.090489790543372181"
+    },
+    "unit09_refit_events": {
+      "display": "114",
+      "places": 0,
+      "value": "114"
+    },
+    "unit09_refit_heuristic_shrinkage": {
+      "display": "0.798",
+      "places": 3,
+      "value": "0.79793598174963132"
+    },
+    "unit09_refit_likelihood_ratio": {
+      "display": "59.387",
+      "places": 3,
+      "value": "59.387119507498483"
+    },
+    "unit09_refit_n": {
+      "display": "655",
+      "places": 0,
+      "value": "655"
+    },
+    "unit09_refit_parameters": {
+      "display": "12",
+      "places": 0,
+      "value": "12"
+    },
+    "unit09_refit_prevalence": {
+      "display": "0.174",
+      "places": 3,
+      "value": "0.17404580152671756"
+    },
+    "unit09_refit_r2_apparent": {
+      "display": "0.087",
+      "places": 3,
+      "value": "0.086678530569119006"
+    },
+    "unit09_refit_r2_max": {
+      "display": "0.603",
+      "places": 3,
+      "value": "0.60326527028914789"
+    },
+    "weaker_signal_expected_events": {
+      "display": "341.2",
+      "places": 1,
+      "value": "341.25"
+    },
+    "weaker_signal_invitations": {
+      "display": "2844",
+      "places": 0,
+      "value": "2844"
+    },
+    "weaker_signal_n_optimism": {
+      "display": "438",
+      "places": 0,
+      "value": "438"
+    },
+    "weaker_signal_n_required": {
+      "display": "2275",
+      "places": 0,
+      "value": "2275"
+    },
+    "weaker_signal_n_risk": {
+      "display": "196",
+      "places": 0,
+      "value": "196"
+    },
+    "weaker_signal_n_shrinkage": {
+      "display": "2275",
+      "places": 0,
+      "value": "2275"
+    },
+    "weaker_signal_optimism_shrinkage": {
+      "display": "0.637",
+      "places": 3,
+      "value": "0.63669033707820677"
+    },
+    "weaker_signal_r2_cs": {
+      "display": "0.050",
+      "places": 3,
+      "value": "0.050000000000000003"
+    }
+  }
+}

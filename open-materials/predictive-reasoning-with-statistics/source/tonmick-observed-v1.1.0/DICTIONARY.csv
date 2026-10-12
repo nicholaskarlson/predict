@@ -1,0 +1,10 @@
+variable,type,role,definition
+student_id,string,one_to_one_join_key,Original invited student key
+cohort,category,metadata,anchor or cohort2
+responded_baseline,binary,prediction_time_metadata,Original baseline response flag
+offer,binary,policy_metadata,Original anchor respondent offer; zero otherwise
+exit_month,decimal,post_prediction_observation,Original respondent text; derived three-decimal event or horizon time
+exit_type,category,post_prediction_observation,none withdrawal transfer consent_withdrawn
+withdrawal_label,nullable_binary,outcome_only,Withdrawal before transfer through 12 months; blank if consent censored
+outcome_known,binary,observation_metadata,1 known label; 0 unknown label
+observation_source,category,provenance_metadata,Original respondent registry or derived administrative no-offer observation

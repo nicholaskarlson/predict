@@ -1,0 +1,22 @@
+{
+  "files": {
+    "DICTIONARY.csv": "78a6f84904c754c399c63db847dfdd48e25d037cf9708b3513441ba8d3437473",
+    "LICENSES.md": "c870b5b89b68c9777441b7be1d3c94461e29db8be4843a83e6c00b51849bb8a0",
+    "MANIFEST.json": "455620fd81c85b5b8700a23f4e4f55d5ad388420a41aed612aec8b8c33687d67",
+    "OBSERVATION_CONTRACT.json": "d95ae3145b03c5e6b82b9c2648f17555b3648cfdd817745299744659dab607e7",
+    "OBSERVATION_POLICY.md": "20ba14604463a9b6a15c46060b62fda6e4bfbb44d4a7e55cc88356e7431a29f3",
+    "PROVENANCE.json": "2da523be695523c2c3ca767e98c19eaf502f9b13dcef1f7653d5250d050063ad",
+    "data/anchor_observed_registry.csv": "28c2a43ab569f517435fbb58c0152cfdbe990012f8f91139714146483e2f6e35",
+    "data/cohort2_observed_registry.csv": "4b5ee9082d8db37039103623d39afb8473829574a5c6cad2a89db32460ae6815"
+  },
+  "hidden_or_author_derivation_imported": false,
+  "kind": "selected_observed_release_inputs",
+  "original_world_git_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "original_world_version": "1.0.0",
+  "schema_version": 1,
+  "source_archive": "tonmick-world-main(2).zip",
+  "upstream_release_inventory_sha256": "819991cfdf8fa8f96d14001c4d9db1a37ab8af8c9d827d78485155f53448a5ef",
+  "world_git_commit": "b59adb629b5a5a9ff261017ddb301bc4b2e0f9a3",
+  "world_release": "1.1.0",
+  "world_tag": "v1.1.0"
+}

@@ -1,0 +1,10 @@
+field,type,availability,role
+row_id,string,identifier,join_only
+college_id,string,enrollment,predictor_and_fixed_site_stratum
+region,string,enrollment,description_only
+part_time,binary,enrollment,predictor
+program_area,string,enrollment,predictor
+prior_grade,float_0_4,enrollment,predictor
+role,string,post_followup,label_eligibility_not_predictor
+y,binary_or_blank,12_month_registry,outcome_never_valid_predictor
+exit_type,string,12_month_registry,outcome_and_invalid_filter_demo

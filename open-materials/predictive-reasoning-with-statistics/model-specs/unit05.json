@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "unit_id": 5,
+  "title": "Leakage",
+  "prediction_time": "enrollment",
+  "target": "withdrawal_before_transfer_by_12_months",
+  "population": "anchor_no_offer_baseline_survey_respondents_with_known_labels_at_16_fixed_colleges",
+  "raw_source": "source/tonmick-v1.0.0/data/anchor",
+  "source_sha256": {
+    "participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47"
+  },
+  "unknown": "consent_withdrawn_excluded_not_zero",
+  "predictor_allowlist": [
+    "college_id",
+    "program_area",
+    "part_time",
+    "prior_grade"
+  ],
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "assignments": "label_blind_sha256_sorted_round_robin_within_college",
+  "deployment_new_college_claim": false,
+  "encoding_key": [
+    "college_id",
+    "program_area",
+    "part_time"
+  ],
+  "smoothing_weight": 5,
+  "encoding": "(category_events+5*fit_prevalence)/(category_n+5)",
+  "absent_category": "fit_prevalence",
+  "calibrator": "unpenalized_OLS_intercept_and_encoding_then_clip_to_0_1",
+  "calibrator_fit": "outer_training_labels_on_inner_out_of_fold_encodings",
+  "calibrator_rank": "encoding_SST>1e-12_else_fail",
+  "risk_table": "part_time_by_type7_training_quartiles_empirical_risk_empty_cell_fit_prevalence",
+  "comparison": {
+    "prediction_abs": 1e-10,
+    "score_abs": 1e-12,
+    "coefficient_abs": 1e-09
+  },
+  "auc": "positive_negative_pairs_half_credit_exact_stored_score_ties_one_class_undefined",
+  "pipeline_status": {
+    "prevalence": "valid",
+    "risk_table": "valid",
+    "encoding_nested": "valid",
+    "encoding_in_sample": "training_mismatch_outer_evaluation_honest",
+    "encoding_pooled": "invalid_validation_labels_in_encoding",
+    "table_pooled_cutpoints": "invalid_validation_features_in_transform",
+    "future_registry": "invalid_future_outcome_predictor"
+  },
+  "future_filter": "remove_known_transfer_rows_only_when_scoring_same_risk_table_predictions;changes_evaluation_population",
+  "selection": "none_no_ranking_or_winner_selection_from_counterexamples",
+  "cohort2_read": false,
+  "final_labels_for_selection": false,
+  "local_freeze_scope": "record_computation_order_only_no_remote_preregistration_or_blindness_claim"
+}

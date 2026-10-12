@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "unit_id": 2,
+  "state": "specified_before_fitting",
+  "prediction_time": "enrollment",
+  "policy": "no_offer",
+  "population": "baseline_respondents_anchor_controls_and_cohort2_continuing",
+  "targets": {
+    "withdrawal": "first_recorded_withdrawal_before_transfer_by_12_months",
+    "first_exit": "first_recorded_withdrawal_or_transfer_by_12_months",
+    "grade": "recorded_grade_at_12_months_or_exit_after_month4"
+  },
+  "unknown": "exclude_consent_withdrawn_for_both_binary_targets",
+  "grade_missing": "exclude_without_replacement_for_grade_only",
+  "predictor_allowlist": [
+    "part_time",
+    "prior_grade"
+  ],
+  "roles": {
+    "fit": "train",
+    "evaluation": "final"
+  },
+  "binary_recipes": [
+    "prevalence",
+    "risk_table"
+  ],
+  "grade_recipes": [
+    "mean",
+    "median",
+    "prior_grade"
+  ],
+  "quartiles": {
+    "method": "Hyndman_Fan_type7",
+    "probabilities": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "fit_role": "train_known_binary"
+  },
+  "bin": "1_plus_cutpoints_strictly_below_prior_grade",
+  "empty_cell": "training_target_prevalence_with_flag",
+  "grade_mean": "training_observed_grade_mean",
+  "grade_median": "arithmetic_midpoint_of_two_central_values_when_even",
+  "prior_grade": "identity_carryforward_no_fitting",
+  "scores": {
+    "binary": [
+      "Brier",
+      "log_loss"
+    ],
+    "grade": [
+      "MSE",
+      "MAE"
+    ],
+    "denominator": "number_of_evaluated_rows",
+    "weighted": false,
+    "log_base": "natural",
+    "clip_epsilon": 1e-12,
+    "clip_count_required": true
+  },
+  "final_labels_for_selection": false,
+  "select_winner": false,
+  "report": "final_only_fixed_recipes_on_identical_rows_within_target",
+  "month4_model": "not_implemented_requires_new_risk_set_and_horizon",
+  "temporal_availability": {
+    "status": "teaching_assumption",
+    "rule": "anchor_12_month_labels_available_before_cohort2_enrollment",
+    "operational_calendar_verified": false
+  },
+  "exact_counts": {
+    "anchor_pool": 610,
+    "anchor_known": 603,
+    "anchor_unknown": 7,
+    "anchor_withdrawals": 93,
+    "anchor_transfers": 22,
+    "anchor_grade_observed": 555,
+    "anchor_grade_missing": 55,
+    "anchor_exit_grades": 67,
+    "cohort2_pool": 1341,
+    "cohort2_known": 1341,
+    "cohort2_unknown": 0,
+    "cohort2_withdrawals": 242,
+    "cohort2_transfers": 41,
+    "cohort2_grade_observed": 1200,
+    "cohort2_grade_missing": 141,
+    "cohort2_exit_grades": 142
+  },
+  "raw_source": "source/tonmick-v1.0.0",
+  "source_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978"
+  },
+  "absolute_tolerance": 1e-12,
+  "display_rounding": "decimal_half_even_6_places",
+  "toy_loss_example": {
+    "observations": [
+      0,
+      0,
+      3
+    ],
+    "mean_forecast": 1,
+    "median_forecast": 0,
+    "purpose": "hand_arithmetic_not_Tonmick_rows"
+  }
+}

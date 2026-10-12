@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "predictor_allowlist": [
+    "part_time",
+    "first_gen",
+    "age",
+    "gender",
+    "program_area",
+    "prior_grade",
+    "wellbeing_score",
+    "stress_score"
+  ],
+  "clip_epsilon": 1e-12,
+  "raw_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978"
+  },
+  "solver": {
+    "maximum_iterations": 200,
+    "gradient_inf_tolerance": 1e-10,
+    "newton_step_inf_tolerance": 1e-10,
+    "rank_relative_tolerance": 1e-10,
+    "condition_r_inf_limit": 100000.0,
+    "maximum_abs_coefficient": 30,
+    "backtracking_factor": 0.5,
+    "minimum_step": 9.094947017729282e-13
+  },
+  "comparison": {
+    "probability": 1e-10,
+    "prediction": 1e-10,
+    "score": 1e-10,
+    "coefficient": 1e-08,
+    "condition": 1e-08
+  },
+  "unit_id": 9,
+  "title": "Changing Populations",
+  "binary_rule": "frozen_unit07_full_logistic_offer_zero",
+  "methods": [
+    "unchanged",
+    "offset",
+    "joint",
+    "refit"
+  ],
+  "update_rows": "new_updating_known_scorable_only",
+  "final_rows": "new_final_known_scorable_only",
+  "selection_between_methods": false,
+  "roles_reused_from_unit08": true,
+  "previous_final_labels_already_reported": true,
+  "evidence_scope": "teaching_reanalysis_not_fresh_validation",
+  "refit": {
+    "features": [
+      "part_time",
+      "first_gen",
+      "age",
+      "gender",
+      "program_area",
+      "prior_grade",
+      "wellbeing_score",
+      "stress_score"
+    ],
+    "coding": "intercept_plus_12_slopes_gender_female_program_Arts_and_Humanities_reference",
+    "offer": "constant_zero_omitted_to_avoid_rank_deficiency",
+    "transforms": "update_only_means_population_sd_age_prior_grade_wellbeing_stress",
+    "objective": "unpenalized_summed_binary_negative_log_likelihood",
+    "zero_sd": "fail"
+  },
+  "scores": [
+    "auc",
+    "brier",
+    "log_loss",
+    "offset_intercept",
+    "joint_intercept",
+    "joint_slope"
+  ],
+  "pooling": [
+    "respondent_weighted",
+    "equal_college_unweighted_mean_loss"
+  ],
+  "college_resampling": {
+    "draws": 256,
+    "units": "whole_colleges_with_replacement_four_positions",
+    "enumeration": "all_4_power_4_ordered_draws_lexicographic",
+    "fits": "fixed_no_refit",
+    "pairing": "identical_draw_for_all_methods",
+    "percentiles": "type7_0.025_0.5_0.975",
+    "scope": "empirical_college_composition_sensitivity_not_population_confidence_interval",
+    "stratified_sampling_inference": false
+  },
+  "unknown_binary": "exclude_not_zero",
+  "latent_truth_used": false,
+  "public_release_authorized": false
+}

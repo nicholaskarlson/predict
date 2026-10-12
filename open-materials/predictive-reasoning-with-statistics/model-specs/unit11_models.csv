@@ -1,0 +1,5 @@
+method_id,fit_population,use_scales,use_imputation,use_indicators
+frame_only,all_development,0,0,0
+survey_fallback,both_scores_observed,1,0,0
+imputed,all_development,1,1,0
+imputed_indicators,all_development,1,1,1

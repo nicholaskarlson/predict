@@ -1,0 +1,15 @@
+field,meaning,availability
+row_id,Stable original student ID,key
+cohort,Anchor or later cohort,key
+college_id,Observed college ID,enrollment
+region,Observed college region,enrollment
+part_time,One for part-time enrollment,enrollment
+first_gen,One for first in family at college,enrollment
+age,Recorded age in years,enrollment
+prior_grade,Recorded entry grade on zero to four scale,enrollment
+offer,Zero for the declared no-offer analysis,assigned_at_enrollment
+exit_type,First recorded exit or consent withdrawal,follow_up_not_predictor
+exit_month,Recorded observation or exit month,follow_up_not_predictor
+gpa_at_exit,One for an exit-time grade rather than a twelve-month grade,follow_up_not_predictor
+y,Recorded grade with blank missing outcomes,follow_up_not_predictor
+role,Development or temporal_final or excluded_missing_grade,analysis_rule

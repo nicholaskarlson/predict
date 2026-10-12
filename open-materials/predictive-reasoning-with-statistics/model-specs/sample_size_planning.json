@@ -1,0 +1,66 @@
+{
+  "additional_requirements": "cluster-aware design, sparse categories, subgroup precision, individual prediction stability, external validation; separate from this calculation",
+  "assumption_role": "future adjusted Cox-Snell signal; apparent plugin displayed only as optimistic retrospective sensitivity",
+  "criteria": [
+    "global_shrinkage",
+    "Nagelkerke_optimism",
+    "overall_risk_precision"
+  ],
+  "final_labels_used": false,
+  "independence": "illustrative independent-observation calculation; not adjusted for college clustering",
+  "new_world_random_draws": 0,
+  "numeric_tolerance": 2e-10,
+  "parameter_count": "all_candidate_slopes_excluding_intercept; categorical_indicators_count_separately",
+  "prospective_scenarios": [
+    {
+      "id": "plan_main",
+      "optimism_delta": 0.05,
+      "parameters": 13,
+      "prevalence": 0.15,
+      "r2_cs": 0.08,
+      "risk_margin": 0.05,
+      "shrinkage": 0.9,
+      "usable_fraction": 0.8,
+      "z": 1.96
+    },
+    {
+      "id": "weaker_signal",
+      "optimism_delta": 0.05,
+      "parameters": 13,
+      "prevalence": 0.15,
+      "r2_cs": 0.05,
+      "risk_margin": 0.05,
+      "shrinkage": 0.9,
+      "usable_fraction": 0.8,
+      "z": 1.96
+    },
+    {
+      "id": "stronger_signal",
+      "optimism_delta": 0.05,
+      "parameters": 13,
+      "prevalence": 0.15,
+      "r2_cs": 0.1,
+      "risk_margin": 0.05,
+      "shrinkage": 0.9,
+      "usable_fraction": 0.8,
+      "z": 1.96
+    },
+    {
+      "id": "more_parameters",
+      "optimism_delta": 0.05,
+      "parameters": 20,
+      "prevalence": 0.15,
+      "r2_cs": 0.08,
+      "risk_margin": 0.05,
+      "shrinkage": 0.9,
+      "usable_fraction": 0.8,
+      "z": 1.96
+    }
+  ],
+  "references": [
+    "https://doi.org/10.1002/sim.7992",
+    "https://doi.org/10.1136/bmj.m441"
+  ],
+  "schema_version": 1,
+  "scope": "three_Riley_2019_binary_development_criteria"
+}

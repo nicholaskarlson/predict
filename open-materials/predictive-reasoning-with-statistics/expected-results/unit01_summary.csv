@@ -1,0 +1,17 @@
+name,value
+control_pool_n,610
+development_brier_baseline,0.1304423157842628
+development_brier_table,0.12323501773727047
+development_events,93
+development_n,603
+development_transfer_n,22
+temporal_brier_baseline,0.14858388060144481
+temporal_brier_table,0.13872724693586233
+temporal_events,242
+temporal_improvement,0.0098566336655824816
+temporal_n,1341
+temporal_prevalence,0.18046234153616703
+temporal_relative_improvement,0.066337166761860952
+temporal_transfer_n,41
+training_prevalence,0.15422885572139303
+unknown_n,7

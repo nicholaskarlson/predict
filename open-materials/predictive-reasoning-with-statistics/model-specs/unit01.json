@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "case_id": "unit01_tonmick_withdrawal",
+  "unit_id": 1,
+  "state": "implemented",
+  "frozen_world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "predictor_allowlist": [
+    "part_time",
+    "prior_grade"
+  ],
+  "prediction_time": "enrollment",
+  "binary_target": "withdrawal_before_transfer_by_12_months",
+  "unknown": "consent_withdrawn_not_negative",
+  "development": "anchor_survey_respondents_offer0_known_outcome",
+  "evaluation": "cohort2_continuing_survey_respondents_known_outcome",
+  "final_test_labels_for_selection": false,
+  "score": "unweighted_binary_Brier",
+  "cutpoints": {
+    "probabilities": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "method": "Hyndman_Fan_type7",
+    "fit_role": "train"
+  },
+  "grade_bins": "1_plus_number_of_cutpoints_strictly_below_prior_grade",
+  "learner": "two_by_four_empirical_event_proportions",
+  "empty_cell": "training_prevalence_with_flag",
+  "comparator": "eligible_development_prevalence",
+  "row_order": "row_id_ascending",
+  "missing_predictors": "error_not_silent_imputation",
+  "temporal_availability": {
+    "status": "teaching_assumption",
+    "rule": "anchor_12_month_labels_available_before_cohort2_enrollment",
+    "operational_calendar_verified": false
+  },
+  "inference": "conditional_realized_fictional_temporal_comparison_not_a_population_CI",
+  "raw_source": "source/tonmick-v1.0.0",
+  "source_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978",
+    "LICENSES.md": "8655b5e0fdad79eb17b5eddd66b1a3b77d164f484bffebd4f86ed154b9646d10",
+    "PROVENANCE.md": "61370f42ed53698125a98534c927bc48ce709d48b672007fd4bf3cb838a0ca15",
+    "WORLD_SPEC.md": "3fad7526f5060dbdbdcbebba8235d28df0d9e4e1c93f87fe20982090a62517e5",
+    "DICTIONARY.csv": "ce8096cacf4fcb55b09c11714435c23395f2a17bfe08412640d522341855ee01",
+    "MANIFEST.json": "2f92d8ee27fe4b49f5a17dba84ed7605e10edfb3af0595671d7cf862c1195647"
+  },
+  "exact_counts": {
+    "control_pool": 610,
+    "excluded_unknown": 7,
+    "train": 603,
+    "train_events": 93,
+    "test": 1341,
+    "test_events": 242
+  },
+  "comparison": {
+    "prediction_absolute_tolerance": 1e-12,
+    "score_absolute_tolerance": 1e-12,
+    "cutpoint_absolute_tolerance": 1e-12,
+    "printed_decimals": 6,
+    "printed_rounding": "decimal_half_even_from_exact_stdlib_rational"
+  }
+}

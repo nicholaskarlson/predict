@@ -1,0 +1,1295 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even",
+  "anchors": {
+    "unit08_binary_scores_continuing_final_unchanged_n": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_events": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_observed_fraction": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "observed_fraction",
+      "value": "0.18046234153616703",
+      "places": 6,
+      "display": "0.180462"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_mean_probability": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "mean_probability",
+      "value": "0.16585206507068134",
+      "places": 6,
+      "display": "0.165852"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_observed_minus_predicted": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "observed_minus_predicted",
+      "value": "0.014610276465485683",
+      "places": 6,
+      "display": "0.014610"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_brier": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "brier",
+      "value": "0.1322443232082188",
+      "places": 6,
+      "display": "0.132244"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_log_loss": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "log_loss",
+      "value": "0.42245243811017213",
+      "places": 6,
+      "display": "0.422452"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_offset_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "offset_intercept",
+      "value": "0.11694191079172721",
+      "places": 6,
+      "display": "0.116942"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_joint_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "joint_intercept",
+      "value": "-0.017769679963971743",
+      "places": 6,
+      "display": "-0.017770"
+    },
+    "unit08_binary_scores_continuing_final_unchanged_joint_slope": {
+      "source": "binary_scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged"
+      },
+      "column": "joint_slope",
+      "value": "0.90529691797709144",
+      "places": 6,
+      "display": "0.905297"
+    },
+    "unit08_binary_scores_new_final_unchanged_n": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit08_binary_scores_new_final_unchanged_events": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit08_binary_scores_new_final_unchanged_observed_fraction": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit08_binary_scores_new_final_unchanged_mean_probability": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "mean_probability",
+      "value": "0.16565204386151608",
+      "places": 6,
+      "display": "0.165652"
+    },
+    "unit08_binary_scores_new_final_unchanged_observed_minus_predicted": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "observed_minus_predicted",
+      "value": "0.0010146228051505779",
+      "places": 6,
+      "display": "0.001015"
+    },
+    "unit08_binary_scores_new_final_unchanged_brier": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "brier",
+      "value": "0.12447772779230275",
+      "places": 6,
+      "display": "0.124478"
+    },
+    "unit08_binary_scores_new_final_unchanged_log_loss": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "log_loss",
+      "value": "0.40288901823811624",
+      "places": 6,
+      "display": "0.402889"
+    },
+    "unit08_binary_scores_new_final_unchanged_offset_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "offset_intercept",
+      "value": "0.0083449207307887217",
+      "places": 6,
+      "display": "0.008345"
+    },
+    "unit08_binary_scores_new_final_unchanged_joint_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "joint_intercept",
+      "value": "-0.11834079417718797",
+      "places": 6,
+      "display": "-0.118341"
+    },
+    "unit08_binary_scores_new_final_unchanged_joint_slope": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged"
+      },
+      "column": "joint_slope",
+      "value": "0.90954625126343513",
+      "places": 6,
+      "display": "0.909546"
+    },
+    "unit08_binary_scores_new_final_offset_n": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit08_binary_scores_new_final_offset_events": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit08_binary_scores_new_final_offset_observed_fraction": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit08_binary_scores_new_final_offset_mean_probability": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "mean_probability",
+      "value": "0.17976439024470589",
+      "places": 6,
+      "display": "0.179764"
+    },
+    "unit08_binary_scores_new_final_offset_observed_minus_predicted": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "observed_minus_predicted",
+      "value": "-0.013097723578039233",
+      "places": 6,
+      "display": "-0.013098"
+    },
+    "unit08_binary_scores_new_final_offset_brier": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "brier",
+      "value": "0.12477018232251083",
+      "places": 6,
+      "display": "0.124770"
+    },
+    "unit08_binary_scores_new_final_offset_log_loss": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "log_loss",
+      "value": "0.40356331950743612",
+      "places": 6,
+      "display": "0.403563"
+    },
+    "unit08_binary_scores_new_final_offset_offset_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "offset_intercept",
+      "value": "-0.10456078415019086",
+      "places": 6,
+      "display": "-0.104561"
+    },
+    "unit08_binary_scores_new_final_offset_joint_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "joint_intercept",
+      "value": "-0.22103375479791992",
+      "places": 6,
+      "display": "-0.221034"
+    },
+    "unit08_binary_scores_new_final_offset_joint_slope": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset"
+      },
+      "column": "joint_slope",
+      "value": "0.90954625126343513",
+      "places": 6,
+      "display": "0.909546"
+    },
+    "unit08_binary_scores_new_final_joint_n": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit08_binary_scores_new_final_joint_events": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit08_binary_scores_new_final_joint_observed_fraction": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit08_binary_scores_new_final_joint_mean_probability": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "mean_probability",
+      "value": "0.17823871610335454",
+      "places": 6,
+      "display": "0.178239"
+    },
+    "unit08_binary_scores_new_final_joint_observed_minus_predicted": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "observed_minus_predicted",
+      "value": "-0.011572049436687881",
+      "places": 6,
+      "display": "-0.011572"
+    },
+    "unit08_binary_scores_new_final_joint_brier": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "brier",
+      "value": "0.12497610069311492",
+      "places": 6,
+      "display": "0.124976"
+    },
+    "unit08_binary_scores_new_final_joint_log_loss": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "log_loss",
+      "value": "0.40495008829917939",
+      "places": 6,
+      "display": "0.404950"
+    },
+    "unit08_binary_scores_new_final_joint_offset_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "offset_intercept",
+      "value": "-0.087028098013336011",
+      "places": 6,
+      "display": "-0.087028"
+    },
+    "unit08_binary_scores_new_final_joint_joint_intercept": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "joint_intercept",
+      "value": "0.28160028376747603",
+      "places": 6,
+      "display": "0.281600"
+    },
+    "unit08_binary_scores_new_final_joint_joint_slope": {
+      "source": "binary_scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint"
+      },
+      "column": "joint_slope",
+      "value": "1.2718418523368245",
+      "places": 6,
+      "display": "1.271842"
+    },
+    "unit08_coverage_continuing_final_all_n": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "n",
+      "value": "1200",
+      "places": 0,
+      "display": "1200"
+    },
+    "unit08_coverage_continuing_final_all_covered": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "covered",
+      "value": "1060",
+      "places": 0,
+      "display": "1060"
+    },
+    "unit08_coverage_continuing_final_all_coverage": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "coverage",
+      "value": "0.8833333333333333",
+      "places": 6,
+      "display": "0.883333"
+    },
+    "unit08_coverage_continuing_final_all_mean_width": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "mean_width",
+      "value": "1.4081289197788207",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_coverage_continuing_final_all_exit_grades": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "exit_grades",
+      "value": "142",
+      "places": 0,
+      "display": "142"
+    },
+    "unit08_coverage_continuing_final_all_bounds_outside_0_4": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "bounds_outside_0_4",
+      "value": "172",
+      "places": 0,
+      "display": "172"
+    },
+    "unit08_coverage_continuing_final_part_time_0_n": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "n",
+      "value": "790",
+      "places": 0,
+      "display": "790"
+    },
+    "unit08_coverage_continuing_final_part_time_0_covered": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "covered",
+      "value": "701",
+      "places": 0,
+      "display": "701"
+    },
+    "unit08_coverage_continuing_final_part_time_0_coverage": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "coverage",
+      "value": "0.88734177215189869",
+      "places": 6,
+      "display": "0.887342"
+    },
+    "unit08_coverage_continuing_final_part_time_0_mean_width": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "mean_width",
+      "value": "1.4081289197788212",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_coverage_continuing_final_part_time_0_exit_grades": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "exit_grades",
+      "value": "67",
+      "places": 0,
+      "display": "67"
+    },
+    "unit08_coverage_continuing_final_part_time_0_bounds_outside_0_4": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "bounds_outside_0_4",
+      "value": "127",
+      "places": 0,
+      "display": "127"
+    },
+    "unit08_coverage_continuing_final_part_time_1_n": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "n",
+      "value": "410",
+      "places": 0,
+      "display": "410"
+    },
+    "unit08_coverage_continuing_final_part_time_1_covered": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "covered",
+      "value": "359",
+      "places": 0,
+      "display": "359"
+    },
+    "unit08_coverage_continuing_final_part_time_1_coverage": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "coverage",
+      "value": "0.87560975609756098",
+      "places": 6,
+      "display": "0.875610"
+    },
+    "unit08_coverage_continuing_final_part_time_1_mean_width": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "mean_width",
+      "value": "1.4081289197788209",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_coverage_continuing_final_part_time_1_exit_grades": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "exit_grades",
+      "value": "75",
+      "places": 0,
+      "display": "75"
+    },
+    "unit08_coverage_continuing_final_part_time_1_bounds_outside_0_4": {
+      "source": "coverage",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "bounds_outside_0_4",
+      "value": "45",
+      "places": 0,
+      "display": "45"
+    },
+    "unit08_coverage_new_final_all_n": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "n",
+      "value": "597",
+      "places": 0,
+      "display": "597"
+    },
+    "unit08_coverage_new_final_all_covered": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "covered",
+      "value": "535",
+      "places": 0,
+      "display": "535"
+    },
+    "unit08_coverage_new_final_all_coverage": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "coverage",
+      "value": "0.89614740368509216",
+      "places": 6,
+      "display": "0.896147"
+    },
+    "unit08_coverage_new_final_all_mean_width": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "mean_width",
+      "value": "1.4081289197788207",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_coverage_new_final_all_exit_grades": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "exit_grades",
+      "value": "72",
+      "places": 0,
+      "display": "72"
+    },
+    "unit08_coverage_new_final_all_bounds_outside_0_4": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "bounds_outside_0_4",
+      "value": "63",
+      "places": 0,
+      "display": "63"
+    },
+    "unit08_coverage_new_final_part_time_0_n": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "n",
+      "value": "397",
+      "places": 0,
+      "display": "397"
+    },
+    "unit08_coverage_new_final_part_time_0_covered": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "covered",
+      "value": "357",
+      "places": 0,
+      "display": "357"
+    },
+    "unit08_coverage_new_final_part_time_0_coverage": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "coverage",
+      "value": "0.89924433249370272",
+      "places": 6,
+      "display": "0.899244"
+    },
+    "unit08_coverage_new_final_part_time_0_mean_width": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "mean_width",
+      "value": "1.4081289197788209",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_coverage_new_final_part_time_0_exit_grades": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "exit_grades",
+      "value": "35",
+      "places": 0,
+      "display": "35"
+    },
+    "unit08_coverage_new_final_part_time_0_bounds_outside_0_4": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "bounds_outside_0_4",
+      "value": "49",
+      "places": 0,
+      "display": "49"
+    },
+    "unit08_coverage_new_final_part_time_1_n": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "n",
+      "value": "200",
+      "places": 0,
+      "display": "200"
+    },
+    "unit08_coverage_new_final_part_time_1_covered": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "covered",
+      "value": "178",
+      "places": 0,
+      "display": "178"
+    },
+    "unit08_coverage_new_final_part_time_1_coverage": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "coverage",
+      "value": "0.89000000000000001",
+      "places": 6,
+      "display": "0.890000"
+    },
+    "unit08_coverage_new_final_part_time_1_mean_width": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "mean_width",
+      "value": "1.4081289197788209",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_coverage_new_final_part_time_1_exit_grades": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "exit_grades",
+      "value": "37",
+      "places": 0,
+      "display": "37"
+    },
+    "unit08_coverage_new_final_part_time_1_bounds_outside_0_4": {
+      "source": "coverage",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "bounds_outside_0_4",
+      "value": "14",
+      "places": 0,
+      "display": "14"
+    },
+    "unit08_selection_n_fit": {
+      "source": "selection",
+      "where": {},
+      "column": "n_fit",
+      "value": "285",
+      "places": 0,
+      "display": "285"
+    },
+    "unit08_selection_n_calibration": {
+      "source": "selection",
+      "where": {},
+      "column": "n_calibration",
+      "value": "270",
+      "places": 0,
+      "display": "270"
+    },
+    "unit08_selection_k": {
+      "source": "selection",
+      "where": {},
+      "column": "k",
+      "value": "244",
+      "places": 0,
+      "display": "244"
+    },
+    "unit08_selection_q": {
+      "source": "selection",
+      "where": {},
+      "column": "q",
+      "value": "0.70406445988941035",
+      "places": 6,
+      "display": "0.704064"
+    },
+    "unit08_selection_width": {
+      "source": "selection",
+      "where": {},
+      "column": "width",
+      "value": "1.4081289197788207",
+      "places": 6,
+      "display": "1.408129"
+    },
+    "unit08_selection_condition_r_inf": {
+      "source": "selection",
+      "where": {},
+      "column": "condition_r_inf",
+      "value": "31.249418506087203",
+      "places": 6,
+      "display": "31.249419"
+    },
+    "unit08_summary_grade_fit_pool_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "pool_n",
+      "value": "308",
+      "places": 0,
+      "display": "308"
+    },
+    "unit08_summary_grade_fit_binary_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "binary_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_grade_fit_unknown_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "unknown_n",
+      "value": "3",
+      "places": 0,
+      "display": "3"
+    },
+    "unit08_summary_grade_fit_unscorable_known_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "unscorable_known_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_grade_fit_observed_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "observed_grade_n",
+      "value": "285",
+      "places": 0,
+      "display": "285"
+    },
+    "unit08_summary_grade_fit_missing_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "missing_grade_n",
+      "value": "23",
+      "places": 0,
+      "display": "23"
+    },
+    "unit08_summary_grade_fit_colleges": {
+      "source": "summary",
+      "where": {
+        "role": "grade_fit"
+      },
+      "column": "colleges",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit08_summary_grade_calibration_pool_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "pool_n",
+      "value": "302",
+      "places": 0,
+      "display": "302"
+    },
+    "unit08_summary_grade_calibration_binary_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "binary_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_grade_calibration_unknown_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "unknown_n",
+      "value": "4",
+      "places": 0,
+      "display": "4"
+    },
+    "unit08_summary_grade_calibration_unscorable_known_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "unscorable_known_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_grade_calibration_observed_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "observed_grade_n",
+      "value": "270",
+      "places": 0,
+      "display": "270"
+    },
+    "unit08_summary_grade_calibration_missing_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "missing_grade_n",
+      "value": "32",
+      "places": 0,
+      "display": "32"
+    },
+    "unit08_summary_grade_calibration_colleges": {
+      "source": "summary",
+      "where": {
+        "role": "grade_calibration"
+      },
+      "column": "colleges",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit08_summary_continuing_final_pool_n": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "pool_n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit08_summary_continuing_final_binary_n": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "binary_n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit08_summary_continuing_final_unknown_n": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "unknown_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_continuing_final_unscorable_known_n": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "unscorable_known_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_continuing_final_observed_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "observed_grade_n",
+      "value": "1200",
+      "places": 0,
+      "display": "1200"
+    },
+    "unit08_summary_continuing_final_missing_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "missing_grade_n",
+      "value": "141",
+      "places": 0,
+      "display": "141"
+    },
+    "unit08_summary_continuing_final_colleges": {
+      "source": "summary",
+      "where": {
+        "role": "continuing_final"
+      },
+      "column": "colleges",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit08_summary_new_updating_pool_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "pool_n",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit08_summary_new_updating_binary_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "binary_n",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit08_summary_new_updating_unknown_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "unknown_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_new_updating_unscorable_known_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "unscorable_known_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_new_updating_observed_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "observed_grade_n",
+      "value": "589",
+      "places": 0,
+      "display": "589"
+    },
+    "unit08_summary_new_updating_missing_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "missing_grade_n",
+      "value": "66",
+      "places": 0,
+      "display": "66"
+    },
+    "unit08_summary_new_updating_colleges": {
+      "source": "summary",
+      "where": {
+        "role": "new_updating"
+      },
+      "column": "colleges",
+      "value": "4",
+      "places": 0,
+      "display": "4"
+    },
+    "unit08_summary_new_final_pool_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "pool_n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit08_summary_new_final_binary_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "binary_n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit08_summary_new_final_unknown_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "unknown_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_new_final_unscorable_known_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "unscorable_known_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit08_summary_new_final_observed_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "observed_grade_n",
+      "value": "597",
+      "places": 0,
+      "display": "597"
+    },
+    "unit08_summary_new_final_missing_grade_n": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "missing_grade_n",
+      "value": "57",
+      "places": 0,
+      "display": "57"
+    },
+    "unit08_summary_new_final_colleges": {
+      "source": "summary",
+      "where": {
+        "role": "new_final"
+      },
+      "column": "colleges",
+      "value": "4",
+      "places": 0,
+      "display": "4"
+    },
+    "unit08_coefficients_update_offset_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_offset",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "0.11290570488095891",
+      "places": 6,
+      "display": "0.112906"
+    },
+    "unit08_coefficients_update_joint_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_joint",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "-0.31445818299643991",
+      "places": 6,
+      "display": "-0.314458"
+    },
+    "unit08_coefficients_update_joint_slope_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_joint",
+        "term": "slope"
+      },
+      "column": "coefficient",
+      "value": "0.71514099775241402",
+      "places": 6,
+      "display": "0.715141"
+    },
+    "unit08_coefficients_grade_ols_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "grade_ols",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "0.70887873584546324",
+      "places": 6,
+      "display": "0.708879"
+    },
+    "unit08_coefficients_grade_ols_slope_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "grade_ols",
+        "term": "slope"
+      },
+      "column": "coefficient",
+      "value": "0.75424396625805434",
+      "places": 6,
+      "display": "0.754244"
+    }
+  }
+}

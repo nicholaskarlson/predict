@@ -1,0 +1,13 @@
+key,value
+min_items,3
+reverse_item,4
+reverse_constant,6
+clip_low,1
+clip_high,5
+maxit,100
+score_limit,1e-9
+step_limit,1e-9
+coefficient_limit,30
+rank_limit,1e-10
+condition_limit,1e5
+ridge_lambda,1

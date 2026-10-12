@@ -1,0 +1,54 @@
+{
+  "assignment_generation": {
+    "algorithm": "random.Random.choice on sorted college IDs; 16 draws per replicate",
+    "assignment_sha256": "df35cc3d6f8076b86ee0b8679f3172938f8f3f6fc885e2e1e24e65ce31914845",
+    "python_random_seed": 20261012
+  },
+  "colleges": [
+    "TC01",
+    "TC02",
+    "TC04",
+    "TC07",
+    "TC11",
+    "TC12",
+    "TC15",
+    "TC17",
+    "TC21",
+    "TC23",
+    "TC25",
+    "TC30",
+    "TC31",
+    "TC33",
+    "TC35",
+    "TC36"
+  ],
+  "comparators": [
+    "control_mean",
+    "control_table"
+  ],
+  "created_after_original_evaluation": true,
+  "difference": "comparator_minus_full; positive favors full",
+  "evaluation_role": "temporal_final",
+  "inputs": [
+    "data/unit07_rows.csv",
+    "predictions/unit07_predictions.csv"
+  ],
+  "interval_scope": "conditional empirical college-bootstrap evaluation variation; pointwise; approximate",
+  "new_analysis_assignments": 10000,
+  "new_world_random_draws": 0,
+  "numeric_tolerance": 2e-12,
+  "percentiles": [
+    0.025,
+    0.975
+  ],
+  "quantile": "type7",
+  "reference": "full_logistic",
+  "refit": false,
+  "resampling_unit": "whole_college",
+  "rows": 1341,
+  "sampling": "16 college slots iid uniform with replacement per replicate",
+  "schema_version": 1,
+  "scope": "paired_frozen_unit07_brier_difference",
+  "selection_allowed": false,
+  "target_weighting": "ratio_of_total_paired_loss_to_total_students; student-weighted, not equal-college mean"
+}

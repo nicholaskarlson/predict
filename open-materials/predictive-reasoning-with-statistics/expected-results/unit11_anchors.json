@@ -1,0 +1,808 @@
+{
+  "anchors": {
+    "u11_coef_frame_first_gen": {
+      "column": "coefficient",
+      "display": "0.213269",
+      "places": 6,
+      "source": "model-specs/unit11_coefficients.csv",
+      "value": "0.21326872022088847",
+      "where": {
+        "component": "frame_only",
+        "term": "first_gen"
+      }
+    },
+    "u11_coef_frame_intercept": {
+      "column": "coefficient",
+      "display": "-1.795820",
+      "places": 6,
+      "source": "model-specs/unit11_coefficients.csv",
+      "value": "-1.7958204798640101",
+      "where": {
+        "component": "frame_only",
+        "term": "intercept"
+      }
+    },
+    "u11_coef_frame_part_time": {
+      "column": "coefficient",
+      "display": "0.345096",
+      "places": 6,
+      "source": "model-specs/unit11_coefficients.csv",
+      "value": "0.34509629496751804",
+      "where": {
+        "component": "frame_only",
+        "term": "part_time"
+      }
+    },
+    "u11_coef_frame_program_STEM": {
+      "column": "coefficient",
+      "display": "0.267239",
+      "places": 6,
+      "source": "model-specs/unit11_coefficients.csv",
+      "value": "0.26723929859338097",
+      "where": {
+        "component": "frame_only",
+        "term": "program_STEM"
+      }
+    },
+    "u11_coef_frame_z_age": {
+      "column": "coefficient",
+      "display": "0.213078",
+      "places": 6,
+      "source": "model-specs/unit11_coefficients.csv",
+      "value": "0.21307775624631095",
+      "where": {
+        "component": "frame_only",
+        "term": "z_age"
+      }
+    },
+    "u11_coef_frame_z_prior_grade": {
+      "column": "coefficient",
+      "display": "-0.551074",
+      "places": 6,
+      "source": "model-specs/unit11_coefficients.csv",
+      "value": "-0.55107429130121521",
+      "where": {
+        "component": "frame_only",
+        "term": "z_prior_grade"
+      }
+    },
+    "u11_cov_c_survey_frame_fallback_n": {
+      "column": "frame_fallback_n",
+      "display": "451",
+      "places": 0,
+      "source": "expected-results/unit11_coverage.csv",
+      "value": "451",
+      "where": {
+        "method_id": "survey_fallback",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_cov_c_survey_survey_route_n": {
+      "column": "survey_route_n",
+      "display": "1341",
+      "places": 0,
+      "source": "expected-results/unit11_coverage.csv",
+      "value": "1341",
+      "where": {
+        "method_id": "survey_fallback",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_cov_n_survey_frame_fallback_n": {
+      "column": "frame_fallback_n",
+      "display": "491",
+      "places": 0,
+      "source": "expected-results/unit11_coverage.csv",
+      "value": "491",
+      "where": {
+        "method_id": "survey_fallback",
+        "role": "temporal_new"
+      }
+    },
+    "u11_cov_n_survey_survey_route_n": {
+      "column": "survey_route_n",
+      "display": "1309",
+      "places": 0,
+      "source": "expected-results/unit11_coverage.csv",
+      "value": "1309",
+      "where": {
+        "method_id": "survey_fallback",
+        "role": "temporal_new"
+      }
+    },
+    "u11_new_absent_frame_eta": {
+      "column": "eta",
+      "display": "-0.853875",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "-0.85387522823009776",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_absent_frame_probability": {
+      "column": "probability",
+      "display": "0.298621",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "0.29862057232667261",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_absent_frame_stress_score": {
+      "column": "stress_score",
+      "display": "3.125781",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "3.1257810002308322",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_absent_frame_wellbeing_score": {
+      "column": "wellbeing_score",
+      "display": "3.438660",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "3.4386599954233374",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_absent_imputed_probability": {
+      "column": "probability",
+      "display": "0.298839",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "0.29883880841157701",
+      "where": {
+        "method_id": "imputed",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_absent_indicators_probability": {
+      "column": "probability",
+      "display": "0.316587",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "0.31658744493831031",
+      "where": {
+        "method_id": "imputed_indicators",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_absent_survey_probability": {
+      "column": "probability",
+      "display": "0.298621",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "0.29862057232667261",
+      "where": {
+        "method_id": "survey_fallback",
+        "record_id": "UNIT11_NEW_ABSENT"
+      }
+    },
+    "u11_new_partial_frame_stress_score": {
+      "column": "stress_score",
+      "display": "2.500000",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "2.5",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_PARTIAL"
+      }
+    },
+    "u11_new_partial_frame_training_pattern_n": {
+      "column": "training_pattern_n",
+      "display": "14",
+      "places": 0,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "14",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_PARTIAL"
+      }
+    },
+    "u11_new_partial_frame_wellbeing_score": {
+      "column": "wellbeing_score",
+      "display": "3.750000",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "3.75",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_PARTIAL"
+      }
+    },
+    "u11_new_unscorable_frame_training_pattern_n": {
+      "column": "training_pattern_n",
+      "display": "0",
+      "places": 0,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "0",
+      "where": {
+        "method_id": "frame_only",
+        "record_id": "UNIT11_NEW_UNSCORABLE"
+      }
+    },
+    "u11_new_unscorable_indicators_probability": {
+      "column": "probability",
+      "display": "0.212244",
+      "places": 6,
+      "source": "expected-results/unit11_new_predictions.csv",
+      "value": "0.21224396620500796",
+      "where": {
+        "method_id": "imputed_indicators",
+        "record_id": "UNIT11_NEW_UNSCORABLE"
+      }
+    },
+    "u11_score_c_absent_brier": {
+      "column": "brier",
+      "display": "0.1723",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.17228058940830571",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "survey_absent",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_absent_events": {
+      "column": "events",
+      "display": "125",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "125",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "survey_absent",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_absent_n_scored": {
+      "column": "n_scored",
+      "display": "451",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "451",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "survey_absent",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_frame_auc": {
+      "column": "auc",
+      "display": "0.7141",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.71414121133897412",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_frame_brier": {
+      "column": "brier",
+      "display": "0.1461",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.14612601221024324",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_frame_events": {
+      "column": "events",
+      "display": "367",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "367",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_frame_n_scored": {
+      "column": "n_scored",
+      "display": "1792",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1792",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_imputed_auc": {
+      "column": "auc",
+      "display": "0.7316",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.7315971126726899",
+      "where": {
+        "method_id": "imputed",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_imputed_brier": {
+      "column": "brier",
+      "display": "0.1436",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.143574256006433",
+      "where": {
+        "method_id": "imputed",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_imputed_n_scored": {
+      "column": "n_scored",
+      "display": "1792",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1792",
+      "where": {
+        "method_id": "imputed",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_indicators_auc": {
+      "column": "auc",
+      "display": "0.7266",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.72660261006740279",
+      "where": {
+        "method_id": "imputed_indicators",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_indicators_brier": {
+      "column": "brier",
+      "display": "0.1439",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.14386723203303101",
+      "where": {
+        "method_id": "imputed_indicators",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_indicators_n_scored": {
+      "column": "n_scored",
+      "display": "1792",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1792",
+      "where": {
+        "method_id": "imputed_indicators",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_partial_both_auc": {
+      "column": "auc",
+      "display": "0.9762",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.97619047619047616",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "scores_partial_both",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_partial_both_events": {
+      "column": "events",
+      "display": "4",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "4",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "scores_partial_both",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_partial_both_n_scored": {
+      "column": "n_scored",
+      "display": "25",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "25",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "scores_partial_both",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_survey_auc": {
+      "column": "auc",
+      "display": "0.7200",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.72003441847124627",
+      "where": {
+        "method_id": "survey_fallback",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_survey_brier": {
+      "column": "brier",
+      "display": "0.1452",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.14524365590291022",
+      "where": {
+        "method_id": "survey_fallback",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_c_survey_n_scored": {
+      "column": "n_scored",
+      "display": "1792",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1792",
+      "where": {
+        "method_id": "survey_fallback",
+        "pattern": "all",
+        "role": "temporal_continuing"
+      }
+    },
+    "u11_score_n_absent_brier": {
+      "column": "brier",
+      "display": "0.1568",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.15675986197605049",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "survey_absent",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_absent_events": {
+      "column": "events",
+      "display": "110",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "110",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "survey_absent",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_absent_n_scored": {
+      "column": "n_scored",
+      "display": "491",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "491",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "survey_absent",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_frame_auc": {
+      "column": "auc",
+      "display": "0.6823",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.68232752179582445",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_frame_brier": {
+      "column": "brier",
+      "display": "0.1402",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.14018119885516281",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_frame_events": {
+      "column": "events",
+      "display": "333",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "333",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_frame_n_scored": {
+      "column": "n_scored",
+      "display": "1800",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1800",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_imputed_auc": {
+      "column": "auc",
+      "display": "0.7067",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.70666371893365754",
+      "where": {
+        "method_id": "imputed",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_imputed_brier": {
+      "column": "brier",
+      "display": "0.1370",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.13697744827359865",
+      "where": {
+        "method_id": "imputed",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_imputed_n_scored": {
+      "column": "n_scored",
+      "display": "1800",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1800",
+      "where": {
+        "method_id": "imputed",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_indicators_auc": {
+      "column": "auc",
+      "display": "0.6979",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.69785941360583492",
+      "where": {
+        "method_id": "imputed_indicators",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_indicators_brier": {
+      "column": "brier",
+      "display": "0.1382",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.13818188987860583",
+      "where": {
+        "method_id": "imputed_indicators",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_indicators_n_scored": {
+      "column": "n_scored",
+      "display": "1800",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1800",
+      "where": {
+        "method_id": "imputed_indicators",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_partial_both_auc": {
+      "column": "auc",
+      "display": "0.4896",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.48958333333333331",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "scores_partial_both",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_partial_both_events": {
+      "column": "events",
+      "display": "4",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "4",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "scores_partial_both",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_partial_both_n_scored": {
+      "column": "n_scored",
+      "display": "28",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "28",
+      "where": {
+        "method_id": "frame_only",
+        "pattern": "scores_partial_both",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_survey_auc": {
+      "column": "auc",
+      "display": "0.6954",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.69538864017391622",
+      "where": {
+        "method_id": "survey_fallback",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_survey_brier": {
+      "column": "brier",
+      "display": "0.1388",
+      "places": 4,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "0.13876178853360951",
+      "where": {
+        "method_id": "survey_fallback",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_score_n_survey_n_scored": {
+      "column": "n_scored",
+      "display": "1800",
+      "places": 0,
+      "source": "expected-results/unit11_scores.csv",
+      "value": "1800",
+      "where": {
+        "method_id": "survey_fallback",
+        "pattern": "all",
+        "role": "temporal_new"
+      }
+    },
+    "u11_summary_anchor_invited": {
+      "column": "value",
+      "display": "1600",
+      "places": 0,
+      "source": "expected-results/unit11_summary.csv",
+      "value": "1600",
+      "where": {
+        "name": "anchor_invited"
+      }
+    },
+    "u11_summary_anchor_offered_excluded": {
+      "column": "value",
+      "display": "609",
+      "places": 0,
+      "source": "expected-results/unit11_summary.csv",
+      "value": "609",
+      "where": {
+        "name": "anchor_offered_excluded"
+      }
+    },
+    "u11_summary_anchor_unknown_no_offer_excluded": {
+      "column": "value",
+      "display": "7",
+      "places": 0,
+      "source": "expected-results/unit11_summary.csv",
+      "value": "7",
+      "where": {
+        "name": "anchor_unknown_no_offer_excluded"
+      }
+    },
+    "u11_summary_development_n": {
+      "column": "value",
+      "display": "984",
+      "places": 0,
+      "source": "expected-results/unit11_summary.csv",
+      "value": "984",
+      "where": {
+        "name": "development_n"
+      }
+    },
+    "u11_summary_development_nonrespondents": {
+      "column": "value",
+      "display": "381",
+      "places": 0,
+      "source": "expected-results/unit11_summary.csv",
+      "value": "381",
+      "where": {
+        "name": "development_nonrespondents"
+      }
+    },
+    "u11_summary_development_respondents": {
+      "column": "value",
+      "display": "603",
+      "places": 0,
+      "source": "expected-results/unit11_summary.csv",
+      "value": "603",
+      "where": {
+        "name": "development_respondents"
+      }
+    },
+    "u11_transform_frame_age_mean": {
+      "column": "mean",
+      "display": "22.816057",
+      "places": 6,
+      "source": "model-specs/unit11_transforms.csv",
+      "value": "22.816056910569106",
+      "where": {
+        "component": "frame_only",
+        "feature": "age"
+      }
+    },
+    "u11_transform_frame_age_sd": {
+      "column": "sd",
+      "display": "6.689370",
+      "places": 6,
+      "source": "model-specs/unit11_transforms.csv",
+      "value": "6.6893698511064041",
+      "where": {
+        "component": "frame_only",
+        "feature": "age"
+      }
+    },
+    "u11_transform_frame_prior_grade_mean": {
+      "column": "mean",
+      "display": "2.896291",
+      "places": 6,
+      "source": "model-specs/unit11_transforms.csv",
+      "value": "2.8962906504064985",
+      "where": {
+        "component": "frame_only",
+        "feature": "prior_grade"
+      }
+    },
+    "u11_transform_frame_prior_grade_sd": {
+      "column": "sd",
+      "display": "0.480290",
+      "places": 6,
+      "source": "model-specs/unit11_transforms.csv",
+      "value": "0.48029014020108068",
+      "where": {
+        "component": "frame_only",
+        "feature": "prior_grade"
+      }
+    }
+  },
+  "rounding": "decimal_half_even",
+  "schema_version": 1
+}

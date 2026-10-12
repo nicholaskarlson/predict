@@ -1,0 +1,21 @@
+{
+  "world_version": "1.0.0",
+  "world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "fictional": true,
+  "regenerated": false,
+  "latent_truth_used": false,
+  "raw_source_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978"
+  },
+  "roles_source_sha256": "1a8ea7963d0dc913b2ec7028afb729aa0a1313c2e928440a175f386d4fc421d0",
+  "role_change": "anchor roles collapsed into unused reference; new/continuing assignments unchanged",
+  "base_model_refitted": false,
+  "new_full_model_fitted_only_on_updating_rows": true,
+  "local_freeze_scope": "computation_order_only_no_blindness_or_preregistration",
+  "prior_new_final_results_known": true
+}

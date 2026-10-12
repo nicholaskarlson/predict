@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "unit_id": 6,
+  "title": "Regularization and Model Complexity",
+  "raw_source": "source/tonmick-v1.0.0/data/anchor",
+  "source_sha256": {
+    "participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47"
+  },
+  "prediction_time": "enrollment",
+  "target": "recorded_grade_at_12_months_or_exit_after_month4",
+  "development": "anchor_West_no_offer_respondents_observed_grade",
+  "setting_check": "anchor_other_regions_no_offer_respondents_observed_grade",
+  "missing_grade": "exclude_never_zero",
+  "cohort2_used": false,
+  "latent_truth_used": false,
+  "setting_labels_for_selection": false,
+  "predictor_allowlist": [
+    "prior_grade",
+    "part_time",
+    "first_gen",
+    "age"
+  ],
+  "rich_features": [
+    "prior_grade",
+    "part_time",
+    "first_gen",
+    "age",
+    "prior_grade_squared",
+    "age_squared",
+    "prior_grade_part_time",
+    "prior_grade_first_gen",
+    "prior_grade_age"
+  ],
+  "model_ids": [
+    "entry",
+    "rich",
+    "ridge",
+    "lasso"
+  ],
+  "standardization": "construct_raw_terms_then_fit_each_column_mean_population_SD_on_permitted_rows_only",
+  "zero_sd": "fail_if_le_1e-12",
+  "outcome_standardization": false,
+  "intercept_penalized": false,
+  "objectives": {
+    "ridge": "sum_squared_residuals_plus_lambda_sum_squared_slopes",
+    "lasso": "sum_squared_residuals_plus_lambda_sum_absolute_slopes"
+  },
+  "ridge_grid": [
+    "0",
+    "0.1",
+    "1",
+    "10",
+    "100",
+    "1000"
+  ],
+  "lasso_grid": [
+    "0",
+    "0.1",
+    "0.3",
+    "1",
+    "3",
+    "10",
+    "30",
+    "100"
+  ],
+  "lambda_scaling": "fixed_sum_scale_no_fold_n_rescaling",
+  "outer_folds": 5,
+  "inner_folds": 5,
+  "assignments": "label_blind_SHA256_sort_round_robin_within_fixed_college",
+  "selection": "pooled_inner_MSE_separately_within_ridge_and_lasso",
+  "tie_absolute": 1e-10,
+  "tie_rule": "largest_lambda_within_tolerance_of_global_minimum",
+  "between_method_selection": "none_all_four_procedures_prespecified",
+  "prediction_clipping": false,
+  "solver": {
+    "rank_relative_tolerance": 1e-10,
+    "maximum_condition": 100000.0,
+    "maximum_normalized_kkt": 1e-10,
+    "maximum_sweeps": 100000,
+    "maximum_coordinate_change": 1e-12,
+    "lasso_initialization": "all_slopes_zero_each_lambda_no_warm_start",
+    "lasso_update": "cyclic_fixed_feature_order_soft_threshold_lambda_over_2",
+    "lambda_zero": "unpenalized_QR"
+  },
+  "nonzero_count_threshold": 1e-10,
+  "calibration": "OLS_y_on_intercept_and_predictions_diagnostic_only",
+  "constant_prediction_SST": 1e-12,
+  "loss": "MSE_denominator_n_and_MAE",
+  "comparison": {
+    "prediction_abs": 1e-09,
+    "coefficient_abs": 1e-08,
+    "score_abs": 1e-10,
+    "calibration_abs": 1e-08,
+    "objective_abs": 1e-08,
+    "transform_abs": 1e-10
+  },
+  "local_freeze_scope": "local_computation_order_only_no_remote_preregistration_or_designer_blindness"
+}

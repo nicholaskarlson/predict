@@ -1,0 +1,18 @@
+id,field,value,label
+all,all,all,All evaluated respondents
+part_time_0,part_time,0,part_time = 0
+part_time_1,part_time,1,part_time = 1
+first_gen_0,first_gen,0,first_gen = 0
+first_gen_1,first_gen,1,first_gen = 1
+gender_female,gender,female,gender = female
+gender_male,gender,male,gender = male
+gender_another,gender,another,gender = another
+program_area_Arts_and_Humanities,program_area,Arts and Humanities,program_area = Arts and Humanities
+program_area_Social_Sciences,program_area,Social Sciences,program_area = Social Sciences
+program_area_STEM,program_area,STEM,program_area = STEM
+program_area_Health,program_area,Health,program_area = Health
+program_area_Business,program_area,Business,program_area = Business
+part_time_0_first_gen_0,part_time_first_gen,0|0,"Part-time 0, first-generation 0"
+part_time_0_first_gen_1,part_time_first_gen,0|1,"Part-time 0, first-generation 1"
+part_time_1_first_gen_0,part_time_first_gen,1|0,"Part-time 1, first-generation 0"
+part_time_1_first_gen_1,part_time_first_gen,1|1,"Part-time 1, first-generation 1"

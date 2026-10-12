@@ -1,0 +1,702 @@
+{
+  "anchors": {
+    "u12_cont_constant_auc": {
+      "column": "auc",
+      "display": "0.500000",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.5",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_constant_brier": {
+      "column": "brier",
+      "display": "0.163477",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.16347749200624626",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_constant_events": {
+      "column": "events",
+      "display": "367",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "367",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_constant_n": {
+      "column": "n",
+      "display": "1792",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "1792",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_draws": {
+      "column": "draws",
+      "display": "64",
+      "places": 0,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "64",
+      "where": {
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_frame_auc": {
+      "column": "auc",
+      "display": "0.714141",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.71414121133897412",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_frame_brier": {
+      "column": "brier",
+      "display": "0.146126",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.14612601221024324",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_frame_events": {
+      "column": "events",
+      "display": "367",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "367",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_frame_n": {
+      "column": "n",
+      "display": "1792",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "1792",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_mean_difference": {
+      "column": "mean_difference",
+      "display": "0.014663",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.01466258901315089",
+      "where": {
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_permutation_sd": {
+      "column": "permutation_sd",
+      "display": "0.001179",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.0011791436742772147",
+      "where": {
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_positive_draws": {
+      "column": "positive_draws",
+      "display": "64",
+      "places": 0,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "64",
+      "where": {
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_q025": {
+      "column": "q025",
+      "display": "0.012688",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.012687549828671069",
+      "where": {
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_cont_q975": {
+      "column": "q975",
+      "display": "0.016976",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.016975783688342481",
+      "where": {
+        "role": "temporal_continuing"
+      }
+    },
+    "u12_new_constant_auc": {
+      "column": "auc",
+      "display": "0.500000",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.5",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_constant_brier": {
+      "column": "brier",
+      "display": "0.150801",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.15080123438429502",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_constant_events": {
+      "column": "events",
+      "display": "333",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "333",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_constant_n": {
+      "column": "n",
+      "display": "1800",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "1800",
+      "where": {
+        "method_id": "training_prevalence",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_draws": {
+      "column": "draws",
+      "display": "64",
+      "places": 0,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "64",
+      "where": {
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_eta": {
+      "column": "eta",
+      "display": "-2.009160",
+      "places": 6,
+      "source": "expected-results/unit12_new_prediction.csv",
+      "value": "-2.0091599493697649",
+      "where": {}
+    },
+    "u12_new_frame_auc": {
+      "column": "auc",
+      "display": "0.682328",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.68232752179582445",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_frame_brier": {
+      "column": "brier",
+      "display": "0.140181",
+      "places": 6,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "0.14018119885516284",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_frame_events": {
+      "column": "events",
+      "display": "333",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "333",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_frame_n": {
+      "column": "n",
+      "display": "1800",
+      "places": 0,
+      "source": "expected-results/unit12_scores.csv",
+      "value": "1800",
+      "where": {
+        "method_id": "frame_only",
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_mean_difference": {
+      "column": "mean_difference",
+      "display": "0.013220",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.013220413845967168",
+      "where": {
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_permutation_sd": {
+      "column": "permutation_sd",
+      "display": "0.001412",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.0014123356726307736",
+      "where": {
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_positive_draws": {
+      "column": "positive_draws",
+      "display": "64",
+      "places": 0,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "64",
+      "where": {
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_probability": {
+      "column": "probability",
+      "display": "0.118245",
+      "places": 6,
+      "source": "expected-results/unit12_new_prediction.csv",
+      "value": "0.11824453572669508",
+      "where": {}
+    },
+    "u12_new_q025": {
+      "column": "q025",
+      "display": "0.010833",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.010833039390396563",
+      "where": {
+        "role": "temporal_new"
+      }
+    },
+    "u12_new_q975": {
+      "column": "q975",
+      "display": "0.015719",
+      "places": 6,
+      "source": "expected-results/unit12_permutation_summary.csv",
+      "value": "0.015718835219475983",
+      "where": {
+        "role": "temporal_new"
+      }
+    },
+    "u12_pool_assigned0": {
+      "column": "assigned0",
+      "display": "610",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "610",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_assigned1": {
+      "column": "assigned1",
+      "display": "609",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "609",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_events0": {
+      "column": "events0",
+      "display": "93",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "93",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_events1": {
+      "column": "events1",
+      "display": "80",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "80",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_known0": {
+      "column": "known0",
+      "display": "603",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "603",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_known1": {
+      "column": "known1",
+      "display": "605",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "605",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_randomized_n": {
+      "column": "randomized_n",
+      "display": "1219",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "1219",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_risk_known0": {
+      "column": "risk_known0",
+      "display": "0.154229",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.15422885572139303",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_risk_known1": {
+      "column": "risk_known1",
+      "display": "0.132231",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.13223140495867769",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_unknown0": {
+      "column": "unknown0",
+      "display": "7",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "7",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pool_unknown1": {
+      "column": "unknown1",
+      "display": "4",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "4",
+      "where": {
+        "college_id": "pooled"
+      }
+    },
+    "u12_pooled_known_n": {
+      "column": "known_n",
+      "display": "1208",
+      "places": 0,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "1208",
+      "where": {
+        "contrast_id": "pooled"
+      }
+    },
+    "u12_pooled_rd_known": {
+      "column": "rd_known",
+      "display": "-0.021997",
+      "places": 6,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "-0.021997450762715337",
+      "where": {
+        "contrast_id": "pooled"
+      }
+    },
+    "u12_pooled_rd_lower": {
+      "column": "rd_lower",
+      "display": "-0.032572",
+      "places": 6,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "-0.03257153624592854",
+      "where": {
+        "contrast_id": "pooled"
+      }
+    },
+    "u12_pooled_rd_upper": {
+      "column": "rd_upper",
+      "display": "-0.014528",
+      "places": 6,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "-0.014527981910683996",
+      "where": {
+        "contrast_id": "pooled"
+      }
+    },
+    "u12_pooled_unknown_n": {
+      "column": "unknown_n",
+      "display": "11",
+      "places": 0,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "11",
+      "where": {
+        "contrast_id": "pooled"
+      }
+    },
+    "u12_prevalence": {
+      "column": "prevalence",
+      "display": "0.179878",
+      "places": 6,
+      "source": "expected-results/unit12_training.csv",
+      "value": "0.1798780487804878",
+      "where": {}
+    },
+    "u12_standardized_known_n": {
+      "column": "known_n",
+      "display": "1208",
+      "places": 0,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "1208",
+      "where": {
+        "contrast_id": "standardized"
+      }
+    },
+    "u12_standardized_rd_known": {
+      "column": "rd_known",
+      "display": "-0.022456",
+      "places": 6,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "-0.02245620721454256",
+      "where": {
+        "contrast_id": "standardized"
+      }
+    },
+    "u12_standardized_rd_lower": {
+      "column": "rd_lower",
+      "display": "-0.032487",
+      "places": 6,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "-0.032486664862223125",
+      "where": {
+        "contrast_id": "standardized"
+      }
+    },
+    "u12_standardized_rd_upper": {
+      "column": "rd_upper",
+      "display": "-0.014475",
+      "places": 6,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "-0.014474508068817681",
+      "where": {
+        "contrast_id": "standardized"
+      }
+    },
+    "u12_standardized_unknown_n": {
+      "column": "unknown_n",
+      "display": "11",
+      "places": 0,
+      "source": "expected-results/unit12_offer_contrasts.csv",
+      "value": "11",
+      "where": {
+        "contrast_id": "standardized"
+      }
+    },
+    "u12_tc01_assigned0": {
+      "column": "assigned0",
+      "display": "36",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "36",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_assigned1": {
+      "column": "assigned1",
+      "display": "35",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "35",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_events0": {
+      "column": "events0",
+      "display": "3",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "3",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_events1": {
+      "column": "events1",
+      "display": "5",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "5",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_known0": {
+      "column": "known0",
+      "display": "35",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "35",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_known1": {
+      "column": "known1",
+      "display": "35",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "35",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_randomized_n": {
+      "column": "randomized_n",
+      "display": "71",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "71",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_rd_known": {
+      "column": "rd_known",
+      "display": "0.057143",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.057142857142857134",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_rd_lower": {
+      "column": "rd_lower",
+      "display": "0.031746",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.031746031746031744",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_rd_upper": {
+      "column": "rd_upper",
+      "display": "0.059524",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.059523809523809521",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_risk_known0": {
+      "column": "risk_known0",
+      "display": "0.085714",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.085714285714285715",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_risk_known1": {
+      "column": "risk_known1",
+      "display": "0.142857",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.14285714285714285",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_unknown0": {
+      "column": "unknown0",
+      "display": "1",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "1",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_unknown1": {
+      "column": "unknown1",
+      "display": "0",
+      "places": 0,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_tc01_weight": {
+      "column": "weight",
+      "display": "0.058244",
+      "places": 6,
+      "source": "expected-results/unit12_offer_counts.csv",
+      "value": "0.058244462674323219",
+      "where": {
+        "college_id": "TC01"
+      }
+    },
+    "u12_training_events": {
+      "column": "events",
+      "display": "177",
+      "places": 0,
+      "source": "expected-results/unit12_training.csv",
+      "value": "177",
+      "where": {}
+    },
+    "u12_training_n": {
+      "column": "n",
+      "display": "984",
+      "places": 0,
+      "source": "expected-results/unit12_training.csv",
+      "value": "984",
+      "where": {}
+    }
+  },
+  "rounding": "decimal_half_even",
+  "schema_version": 1
+}

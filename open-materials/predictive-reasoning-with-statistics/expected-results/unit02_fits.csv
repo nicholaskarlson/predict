@@ -1,0 +1,11 @@
+target,recipe,component,value
+first_exit,prevalence,constant,0.19071310116086235
+first_exit,risk_table,cut_1,2.6699999999999999
+first_exit,risk_table,cut_2,2.9900000000000002
+first_exit,risk_table,cut_3,3.2999999999999998
+grade,mean,constant,2.9532072072072078
+grade,median,constant,2.9700000000000002
+withdrawal,prevalence,constant,0.15422885572139303
+withdrawal,risk_table,cut_1,2.6699999999999999
+withdrawal,risk_table,cut_2,2.9900000000000002
+withdrawal,risk_table,cut_3,3.2999999999999998

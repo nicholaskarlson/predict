@@ -1,0 +1,14 @@
+{
+  "data_source": "selected administrative observed extract and original observed frames/baselines",
+  "derived_observed_commit": "b59adb629b5a5a9ff261017ddb301bc4b2e0f9a3",
+  "derived_tag": "v1.1.0",
+  "hidden_truth_imported": false,
+  "labels_unknown_are_blank": true,
+  "new_profiles": "manual fictional profiles, not simulator draws",
+  "no_new_world_random_draws": true,
+  "reader_pending": true,
+  "reanalysis_of_previously_reported_respondents": true,
+  "schema_version": 1,
+  "unit": 11,
+  "world_original_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163"
+}

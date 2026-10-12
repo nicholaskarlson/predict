@@ -1,0 +1,101 @@
+file,variable,type_or_range,meaning
+data/population/frame_c1.csv; frame_c2.csv,student_id,id,"Student identifier; S1 = cohort 1, S2 = cohort 2, SD = deployment sample"
+data/population/frame_c1.csv; frame_c2.csv,college_id,id,College identifier TC01 to TC40
+data/population/frame_c1.csv; frame_c2.csv,region,category,"North, East, South or West; the sampling stratum for colleges"
+data/population/frame_c1.csv; frame_c2.csv,part_time,0/1,1 = enrolled part-time at entry
+data/population/frame_c1.csv; frame_c2.csv,age,years,"Age at entry, whole years"
+data/population/frame_c1.csv; frame_c2.csv,gender,category,"female, male or another"
+data/population/frame_c1.csv; frame_c2.csv,first_gen,0/1,1 = first in family to attend college
+data/population/frame_c1.csv; frame_c2.csv,program_area,category,"Arts and Humanities, Social Sciences, STEM, Health or Business"
+data/population/frame_c1.csv; frame_c2.csv,prior_grade,0 to 4,"Entry grade average from school records, two decimals (range 1.5 to 4.0)"
+data/population/colleges.csv,college_id,id,College identifier
+data/population/colleges.csv,region,category,Region (stratum)
+data/population/colleges.csv,urban,0/1,1 = urban campus
+data/population/colleges.csv,size_c1,count,"Entering students, cohort 1 (the anchor year)"
+data/population/colleges.csv,size_c2,count,"Entering students, cohort 2 (the next year)"
+data/population/colleges.csv,part_time_c1,count,"Part-time entrants, cohort 1"
+data/population/colleges.csv,part_time_c2,count,"Part-time entrants, cohort 2"
+data/population/registry_totals_c1.csv,college_id,id,College identifier
+data/population/registry_totals_c1.csv,region,category,Region
+data/population/registry_totals_c1.csv,entrants,count,Cohort 1 entrants
+data/population/registry_totals_c1.csv,part_time,count,Part-time entrants
+data/population/registry_totals_c1.csv,withdrawn_12,count,Entrants who withdrew by 12 months (administrative total)
+data/population/registry_totals_c1.csv,transferred_12,count,Entrants who transferred out by 12 months
+data/population/registry_totals_c1.csv,gpa12_mean,0 to 4,Mean of recorded 12-month grade averages
+data/population/registry_totals_c1.csv,gpa12_n,count,Entrants with a recorded 12-month grade average
+data/anchor/design_colleges.csv,college_id,id,College
+data/anchor/design_colleges.csv,region,category,Stratum
+data/anchor/design_colleges.csv,size_c1,count,Measure of size
+data/anchor/design_colleges.csv,certainty,0/1,1 = selected with certainty (probability 1)
+data/anchor/design_colleges.csv,pi_college,probability,First-stage inclusion probability; Sampford pi-ps sampling of 4 per region
+data/anchor/design_colleges.csv,selected_c1,0/1,1 = in the anchor sample
+data/anchor/design_joint_pi.csv,region,category,Stratum
+data/anchor/design_joint_pi.csv,college_a,id,First college of the pair
+data/anchor/design_joint_pi.csv,college_b,id,Second college
+data/anchor/design_joint_pi.csv,pi_joint,probability,"Joint inclusion probability of the pair, exact by enumeration of the Sampford design"
+data/anchor/participants.csv,student_id,id,"Student identifier; S1 = cohort 1, S2 = cohort 2, SD = deployment sample"
+data/anchor/participants.csv,college_id,id,College identifier TC01 to TC40
+data/anchor/participants.csv,region,category,"North, East, South or West; the sampling stratum for colleges"
+data/anchor/participants.csv,part_time,0/1,1 = enrolled part-time at entry
+data/anchor/participants.csv,age,years,"Age at entry, whole years"
+data/anchor/participants.csv,gender,category,"female, male or another"
+data/anchor/participants.csv,first_gen,0/1,1 = first in family to attend college
+data/anchor/participants.csv,program_area,category,"Arts and Humanities, Social Sciences, STEM, Health or Business"
+data/anchor/participants.csv,prior_grade,0 to 4,"Entry grade average from school records, two decimals (range 1.5 to 4.0)"
+data/anchor/participants.csv,stratum,category,Within-college sampling stratum: part_time or full_time
+data/anchor/participants.csv,pi_college,probability,Inclusion probability of the college (first stage)
+data/anchor/participants.csv,pi_within,probability,Inclusion probability of the student within college and stratum (second stage)
+data/anchor/participants.csv,pi_student,probability,pi_college times pi_within
+data/anchor/participants.csv,base_weight,weight,"Sampling (design) weight, 1 / pi_student; no nonresponse adjustment"
+data/anchor/participants.csv,responded_baseline,0/1,1 = completed the baseline survey and joined the study
+data/anchor/participants.csv,var_stratum,id,"Variance stratum: region, or the certainty college itself"
+data/anchor/participants.csv,var_unit,id,"Variance unit (PSU): the college, or one of two random halves of a certainty college"
+data/anchor/participants.csv,repw01 to repw18,weight,Delete-one-unit jackknife (JKn) replicate weights built from base_weight
+data/anchor/baseline.csv,student_id,id,Study participant
+data/anchor/baseline.csv,college_id,id,College
+data/anchor/baseline.csv,offer,0/1,Z: 1 = randomly offered peer mentoring (about half within each college)
+data/anchor/baseline.csv,sessions_attended,count 0 to 6,Mentoring sessions attended; 0 for students not offered
+data/anchor/baseline.csv,uptake,0/1,D: 1 = attended at least 3 sessions; always 0 without an offer
+data/anchor/baseline.csv,mode,category,Survey mode at baseline: online or paper
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,wb1,1 to 5,Wellbeing item 1; 5 = strongly agree
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,wb2,1 to 5,Wellbeing item 2; 5 = strongly agree
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,wb3,1 to 5,Wellbeing item 3; 5 = strongly agree
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,wb4,1 to 5,Wellbeing item 4; 5 = strongly agree; reverse-keyed: recode as 6 minus the value
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,wb5,1 to 5,Wellbeing item 5; 5 = strongly agree; weakest loading item
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,st1,1 to 5,Stress item 1; 5 = strongly agree
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,st2,1 to 5,Stress item 2; 5 = strongly agree; scored higher on paper than online at the same stress level
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,st3,1 to 5,Stress item 3; 5 = strongly agree
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,st4,1 to 5,Stress item 4; 5 = strongly agree; reverse-keyed: recode as 6 minus the value
+data/anchor/baseline.csv; followup_long.csv; data/cohort2/baseline.csv,st5,1 to 5,Stress item 5; 5 = strongly agree
+data/anchor/followup_long.csv,wave_month,"3, 6, 12",Months after entry
+data/anchor/followup_long.csv,responded,0/1,1 = returned the follow-up survey
+data/anchor/followup_long.csv,mode,category,online or paper; blank if no response
+data/anchor/followup_long.csv,form,0 to 3,"Three-form planned-missingness version at 6 months (1 omits wb3 and st3, 2 omits wb4 and st4, 3 omits wb5 and st5); 0 otherwise"
+data/anchor/followup_long.csv,intention_leave,0/1,"Y*: at 3 months, 1 = says they intend to leave before the year ends; blank at other waves or if no response"
+data/anchor/registry.csv; data/cohort2/registry.csv,exit_month,months,"Months from entry to the first of withdrawal, transfer, consent withdrawal or 12; three decimals"
+data/anchor/registry.csv; data/cohort2/registry.csv,exit_type,category,"withdrawal, transfer, consent_withdrawn (study only; registry follow-up stops) or none"
+data/anchor/registry.csv; data/cohort2/registry.csv,withdrawn_12,0/1,1 = withdrew from the college system by 12 months (a transfer first counts as 0)
+data/anchor/registry.csv; data/cohort2/registry.csv,transferred_12,0/1,"1 = transferred out of the system by 12 months, before any withdrawal"
+data/anchor/registry.csv; data/cohort2/registry.csv,gpa12,0 to 4,"Cumulative grade average at 12 months, or at exit if the student left after month 4; blank if the student left before month 4 or withdrew consent"
+data/anchor/registry.csv; data/cohort2/registry.csv,gpa_at_exit,0/1,1 = gpa12 was recorded at exit rather than at 12 months
+data/anchor/registry.csv,months_enrolled,months,"Exposure for visit counts: min(exit_month, 12)"
+data/anchor/registry.csv,visits_12,count,"Visits to student support services while enrolled, up to 12 months"
+data/cohort2/participants.csv,student_id,id,"Student identifier; S1 = cohort 1, S2 = cohort 2, SD = deployment sample"
+data/cohort2/participants.csv,college_id,id,College identifier TC01 to TC40
+data/cohort2/participants.csv,region,category,"North, East, South or West; the sampling stratum for colleges"
+data/cohort2/participants.csv,part_time,0/1,1 = enrolled part-time at entry
+data/cohort2/participants.csv,age,years,"Age at entry, whole years"
+data/cohort2/participants.csv,gender,category,"female, male or another"
+data/cohort2/participants.csv,first_gen,0/1,1 = first in family to attend college
+data/cohort2/participants.csv,program_area,category,"Arts and Humanities, Social Sciences, STEM, Health or Business"
+data/cohort2/participants.csv,prior_grade,0 to 4,"Entry grade average from school records, two decimals (range 1.5 to 4.0)"
+data/cohort2/participants.csv,college_group,category,continuing = one of the 16 anchor colleges; new = one of 4 colleges sampled for the first time
+data/cohort2/participants.csv,stratum,category,Within-college sampling stratum: part_time or full_time
+data/cohort2/participants.csv,pi_college,probability,Inclusion probability of the college (first stage)
+data/cohort2/participants.csv,pi_within,probability,Inclusion probability of the student within college and stratum (second stage)
+data/cohort2/participants.csv,pi_student,probability,pi_college times pi_within
+data/cohort2/participants.csv,base_weight,weight,"Sampling (design) weight, 1 / pi_student; no nonresponse adjustment"
+data/cohort2/participants.csv,responded_baseline,0/1,1 = completed the baseline survey and joined the study
+data/cohort2/baseline.csv,college_group,category,continuing or new
+data/cohort2/baseline.csv,mode,category,Survey mode: online or paper. No mentoring was offered to cohort 2
+hidden/*,(all),truth,"Simulator truth: latent traits, potential outcomes, compliance types, true risks and complete item responses. Used only to check teaching machinery and in clearly marked hidden-simulator addenda; never evidence"

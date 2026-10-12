@@ -1,0 +1,15 @@
+name,value
+calibration_fits,15
+clipped_nested,0
+colleges,16
+eligible_n,603
+encoder_maps,4792
+events,93
+fallback_nested,33
+fit_memberships,25326
+inner_memberships,2412
+outer_folds,5
+pool_n,610
+prediction_records,4221
+transfer_n,22
+unknown_n,7

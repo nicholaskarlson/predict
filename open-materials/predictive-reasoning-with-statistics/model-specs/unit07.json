@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "unit_id": 7,
+  "state": "specified_before_fitting",
+  "raw_source": "source/tonmick-v1.0.0",
+  "source_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978",
+    "LICENSES.md": "8655b5e0fdad79eb17b5eddd66b1a3b77d164f484bffebd4f86ed154b9646d10",
+    "PROVENANCE.md": "61370f42ed53698125a98534c927bc48ce709d48b672007fd4bf3cb838a0ca15",
+    "WORLD_SPEC.md": "3fad7526f5060dbdbdcbebba8235d28df0d9e4e1c93f87fe20982090a62517e5",
+    "DICTIONARY.csv": "ce8096cacf4fcb55b09c11714435c23395f2a17bfe08412640d522341855ee01",
+    "MANIFEST.json": "2f92d8ee27fe4b49f5a17dba84ed7605e10edfb3af0595671d7cf862c1195647"
+  },
+  "target": "withdrawal_before_transfer_by_12_months",
+  "positive_label": 1,
+  "prediction_time": "enrollment",
+  "prediction_policy": "offer_zero",
+  "development": "all_anchor_respondents_with_known_binary_outcome_and_scorable_baseline_items",
+  "temporal": "cohort2_continuing_college_respondents_with_known_outcome_and_scorable_baseline_items",
+  "unknown_rule": "consent_withdrawn_is_unknown_not_zero",
+  "predictor_allowlist": [
+    "part_time",
+    "first_gen",
+    "age",
+    "gender",
+    "program_area",
+    "prior_grade",
+    "wellbeing_score",
+    "stress_score",
+    "offer"
+  ],
+  "item_scoring": {
+    "items_per_scale": 5,
+    "reverse_items": [
+      "wb4",
+      "st4"
+    ],
+    "reverse_rule": "6_minus_value",
+    "minimum_observed": 3,
+    "aggregation": "mean_of_observed_scored_items",
+    "unscorable": "exclude_and_report_no_imputation"
+  },
+  "models": [
+    "control_mean",
+    "control_table",
+    "entry_logistic",
+    "full_logistic"
+  ],
+  "table": {
+    "fit": "eligible_anchor_controls",
+    "cutpoints": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "quantile": "type7",
+    "bins": "right_closed",
+    "empty_cell": "control_prevalence"
+  },
+  "categorical_references": {
+    "gender": "female",
+    "program_area": "Arts and Humanities"
+  },
+  "gender_levels": [
+    "female",
+    "male",
+    "another"
+  ],
+  "program_levels": [
+    "Arts and Humanities",
+    "Social Sciences",
+    "STEM",
+    "Health",
+    "Business"
+  ],
+  "feature_order": {
+    "entry_logistic": [
+      "intercept",
+      "z_prior_grade",
+      "offer"
+    ],
+    "full_logistic": [
+      "intercept",
+      "part_time",
+      "first_gen",
+      "z_age",
+      "gender_male",
+      "gender_another",
+      "program_Social_Sciences",
+      "program_STEM",
+      "program_Health",
+      "program_Business",
+      "z_prior_grade",
+      "z_wellbeing_score",
+      "z_stress_score",
+      "offer"
+    ]
+  },
+  "candidate_predictor_parameters": 13,
+  "intercept_counted_separately": true,
+  "standardize": {
+    "entry_logistic": [
+      "prior_grade"
+    ],
+    "full_logistic": [
+      "age",
+      "prior_grade",
+      "wellbeing_score",
+      "stress_score"
+    ]
+  },
+  "standardization": "fit_only_mean_and_population_sd_denominator_n",
+  "zero_sd": "fail",
+  "fit_policy": "observed_anchor_offer_in_both_logistic_models",
+  "evaluation_offer": 0,
+  "objective": "sum(log(1+exp(eta))-y*eta)_stable_unpenalized",
+  "solver": {
+    "numpy": "Newton_backtracking_weighted_QR",
+    "stdlib": "Newton_backtracking_Householder_weighted_QR",
+    "base_r": "stats_glm_fit_binomial_IRLS_QR_with_independent_score_step_checks",
+    "maximum_iterations": 100,
+    "gradient_inf_tolerance": 1e-09,
+    "newton_step_inf_tolerance": 1e-09,
+    "rank_relative_tolerance": 1e-10,
+    "condition_r_inf_limit": 100000.0,
+    "maximum_abs_coefficient": 30,
+    "backtracking_factor": 0.5,
+    "minimum_step": 9.313225746154785e-10,
+    "failure": "reject_rank_conditioning_separation_or_nonconvergence"
+  },
+  "log_loss": {
+    "clip_epsilon": 1e-12,
+    "base": "natural",
+    "reject_before_clipping": true,
+    "report_clipped_count": true
+  },
+  "auc": {
+    "definition": "positive_negative_pairs",
+    "tie_credit": "1/2",
+    "exact_numerator": "2*wins+ties",
+    "denominator": "2*n_positive*n_negative",
+    "single_class": "undefined_with_reason"
+  },
+  "action": {
+    "utility_true_positive": 4,
+    "utility_false_positive": -1,
+    "threshold": 0.2,
+    "orientation": "p_greater_than_or_equal",
+    "capacity": 300,
+    "rank_ties": "row_id_ascending",
+    "rules": [
+      "threshold_020",
+      "capacity_300",
+      "all",
+      "none"
+    ],
+    "net_benefit": "TP/n-FP/n*0.25",
+    "claim": "hypothetical_utility_not_proven_prevention"
+  },
+  "example_rows": "first_three_temporal_row_ids_ascending",
+  "test_labels_for_selection": false,
+  "model_selection": false,
+  "new_college_labels_used": false,
+  "comparison": {
+    "coefficient_absolute": 1e-08,
+    "prediction_absolute": 1e-09,
+    "score_absolute": 1e-10,
+    "transform_absolute": 1e-12,
+    "condition_relative": 1e-08,
+    "counts_and_auc_pairs": "exact",
+    "printed_places": 6,
+    "rounding": "decimal_half_even",
+    "rounding_margin_minimum": 1e-09
+  },
+  "teaching_timeline": "earlier_labels_available_before_later_forecasts_assumed_not_calendar_verified",
+  "preparation_scope": "local_before_first_fit_not_remote_preregistration_or_blind_world_design"
+}

@@ -1,0 +1,50 @@
+{
+  "author_input_columns": [
+    "T_withdraw_0",
+    "T_transfer"
+  ],
+  "case11_models": "not_implemented",
+  "cohorts": {
+    "anchor": {
+      "invited": 1600,
+      "nonrespondents": 381,
+      "respondents": 1219,
+      "unknown_outcomes": 11
+    },
+    "cohort2": {
+      "invited": 3592,
+      "nonrespondents": 942,
+      "respondents": 2650,
+      "unknown_outcomes": 0
+    }
+  },
+  "event_order": [
+    "withdrawal",
+    "transfer",
+    "horizon"
+  ],
+  "grade_and_visit_outcomes": "not_added_by_this_withdrawal_registry_release",
+  "horizon_months": "12",
+  "kind": "append_only_derived_observed_registry",
+  "new_time_precision": "frozen_six_decimal_times_exact_months_round_half_even_to_three_decimals_for_display",
+  "new_world_random_draws": 0,
+  "nonrespondent_followup": "fictional_administrative_access_without_baseline_survey_no_consent_censoring_draw",
+  "nonrespondent_policy": "no_mentoring_offer_no_uptake",
+  "ordinary_analyzer_hidden_inputs": false,
+  "original_world_version": "1.0.0",
+  "output_fields": [
+    "student_id",
+    "cohort",
+    "responded_baseline",
+    "offer",
+    "exit_month",
+    "exit_type",
+    "withdrawal_label",
+    "outcome_known",
+    "observation_source"
+  ],
+  "prediction_time_for_book": "enrollment",
+  "release": "1.1.0",
+  "respondent_rule": "copy_original_exit_month_exit_type_and_offer; label_blank_for_consent_withdrawn; otherwise_copy_withdrawn_12",
+  "schema_version": 1
+}

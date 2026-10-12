@@ -1,0 +1,179 @@
+{
+  "book_base": "51b79e32dc3234c9843b2a4df7415ffc97b84db8",
+  "calibration_bins": {
+    "closure": "left closed, right open, final upper endpoint closed",
+    "edges": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "empty": "blank means with empty_bin reason"
+  },
+  "college_groups": {
+    "continuing": [
+      "TC01",
+      "TC02",
+      "TC04",
+      "TC07",
+      "TC11",
+      "TC12",
+      "TC15",
+      "TC17",
+      "TC21",
+      "TC23",
+      "TC25",
+      "TC30",
+      "TC31",
+      "TC33",
+      "TC35",
+      "TC36"
+    ],
+    "previously_new": [
+      "TC06",
+      "TC18",
+      "TC29",
+      "TC34"
+    ],
+    "unseen": [
+      "TC03",
+      "TC05",
+      "TC08",
+      "TC09",
+      "TC10",
+      "TC13",
+      "TC14",
+      "TC16",
+      "TC19",
+      "TC20",
+      "TC22",
+      "TC24",
+      "TC26",
+      "TC27",
+      "TC28",
+      "TC32",
+      "TC37",
+      "TC38",
+      "TC39",
+      "TC40"
+    ]
+  },
+  "comparator": {
+    "events": 177,
+    "method": "development_prevalence",
+    "n": 984,
+    "population": "the exact Unit11 known-outcome no-offer development rows; not a deployment prevalence",
+    "probability_denominator": 984,
+    "probability_numerator": 177
+  },
+  "comparison_to_prior_evidence": "same frozen frame_only rule on Unit11 all-invitee known-label continuing and new evaluation; comparisons are descriptive, not equivalent sampling/response populations",
+  "compatible_methods": [
+    "frame_only",
+    "development_prevalence"
+  ],
+  "expected_rows": 100000,
+  "frame_features": [
+    "part_time",
+    "first_gen",
+    "age",
+    "gender",
+    "program_area",
+    "prior_grade"
+  ],
+  "freeze_kind": "local_teaching_evaluation_contract_not_blind_preregistration",
+  "frozen_book_inputs": {
+    "data/unit11_rows.csv": "2f050c4c79c562481a7273185d70a3cb6b6c1c6072bab02fda9edea2c86dae6c",
+    "deployment/unit12_frame_bundle.json": "a1b8d20ec2159c2b1e483c3997a7cae66d827c910a41f0a4236e3262995ddd48",
+    "expected-results/unit11_scores.csv": "b533f2600b031b038cbb03cc6786e6b9c5f63202da3904a5de41e50dc90d2b09",
+    "model-specs/unit12_coefficients.csv": "992bd4ee8a0a43a7e1859d880f16862d245c6378a96d2835b49eb24be33bcb9f",
+    "model-specs/unit12_transforms.csv": "39ab73c7f9478a37f4e2985fc84c4229bd1522c972ba1db9056137fcb7850a09",
+    "source/unit12_predict.py": "e3847cac182c42fdc929eb497bb7e694e0bde7ba8fcb0af3e5e54df2f84a1c8e"
+  },
+  "incompatible_methods": {
+    "Unit11_survey_or_imputed_methods": "not authorized by this frame-only plan; no synthetic survey reconstruction",
+    "Unit7_survey_logistic": "requires survey scales absent from the sealed population"
+  },
+  "metadata": [
+    "student_id",
+    "college_id",
+    "region"
+  ],
+  "new_analysis_assignments": 0,
+  "new_world_draws": 0,
+  "no_model_refit": true,
+  "no_threshold_selection": true,
+  "numeric_tolerance": {
+    "integer_counts_and_ids": "exact",
+    "probabilities_abs": 2e-12,
+    "score_abs": 2e-10
+  },
+  "outcome_field": "withdrawn_12",
+  "outcome_observation": "no consent censoring in the sealed deployment; transfer is an observed competing nonwithdrawal for this target",
+  "outputs": [
+    "sealed_predictions.csv",
+    "sealed_scores.csv",
+    "sealed_bins.csv",
+    "sealed_comparisons.csv"
+  ],
+  "population": "all 100000 further cohort-2 students from the frozen World across its 40 colleges",
+  "prediction_time": "enrollment",
+  "prior_information": "Book unit results and a review-disclosed deployment prevalence near 0.182 were already available. Generator schema and target semantics were inspected before locking this plan.",
+  "raw_header": [
+    "student_id",
+    "college_id",
+    "region",
+    "part_time",
+    "age",
+    "gender",
+    "first_gen",
+    "program_area",
+    "prior_grade",
+    "risk12_no_transfer",
+    "exit_month",
+    "exit_type",
+    "withdrawn_12",
+    "transferred_12",
+    "gpa12",
+    "gpa_at_exit"
+  ],
+  "report_populations": [
+    "all",
+    "continuing",
+    "previously_new",
+    "unseen"
+  ],
+  "schema_version": 1,
+  "scope": "sealed_envelope_frame_only_evaluation",
+  "scores": {
+    "auc": "exact ties receive 1/2; blank with reason for one-class/empty populations",
+    "brier": "mean((p-y)^2)",
+    "clip_epsilon": 1e-12,
+    "log_loss": "natural-log Bernoulli loss with clipped probabilities"
+  },
+  "selection_from_reveal_allowed": false,
+  "simulator_reference": {
+    "field": "risk12_no_transfer",
+    "interpretation": "descriptive distance to a different-target simulator risk; neither target calibration error nor expected Brier excess; no oracle claim for withdrawn_12",
+    "matches_primary_target": false,
+    "precision": "rounded to six decimals in the original World",
+    "reported": [
+      "mean_no_transfer_risk",
+      "mean_prediction_minus_no_transfer_risk",
+      "mean_absolute_gap_to_no_transfer_risk",
+      "root_mean_squared_gap_to_no_transfer_risk"
+    ],
+    "target": "withdrawal by month12 under no offer with transfer removed"
+  },
+  "site_reporting": "all 40 sites separately; preserve groups and denominators; do not rank college quality",
+  "target": "withdrawal by month 12 before transfer under no mentoring offer",
+  "uncertainty": "finite frozen evaluation totals; no new bootstrap, population confidence interval, multiple-testing claim or universal transfer claim",
+  "world_base": "b59adb629b5a5a9ff261017ddb301bc4b2e0f9a3",
+  "world_input_sha256": {
+    "data/population/colleges.csv": "6fdce221917d1c16c6e6105b09cdcea172c13f846ceb2f0abe5b28c11e5dbcae",
+    "generator/generate_world.py": "d31e0fbe9e6c4dc06436a87252f6edda51e9a69d158b4b67b18b266453337c3a",
+    "generator/spec.py": "638ab5f6003659899d172b1fd107b28be2db0fa4545f38db9c82c73624dd866f",
+    "hidden/deployment_c2.csv": "507c1502d7b3d53e38fc02bfb1e3ac788594d17dcd7f1d15f7925685db92ed9f"
+  }
+}

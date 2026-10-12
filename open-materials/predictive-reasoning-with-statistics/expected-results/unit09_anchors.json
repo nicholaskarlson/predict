@@ -1,0 +1,4002 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even",
+  "anchors": {
+    "unit09_scores_continuing_final_unchanged_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit09_scores_continuing_final_unchanged_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "unit09_scores_continuing_final_unchanged_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "auc",
+      "value": "0.72959264244730371",
+      "places": 6,
+      "display": "0.729593"
+    },
+    "unit09_scores_continuing_final_unchanged_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.18046234153616703",
+      "places": 6,
+      "display": "0.180462"
+    },
+    "unit09_scores_continuing_final_unchanged_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.16585206507068134",
+      "places": 6,
+      "display": "0.165852"
+    },
+    "unit09_scores_continuing_final_unchanged_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "brier",
+      "value": "0.1322443232082188",
+      "places": 6,
+      "display": "0.132244"
+    },
+    "unit09_scores_continuing_final_unchanged_all_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "log_loss",
+      "value": "0.42245243811017213",
+      "places": 6,
+      "display": "0.422452"
+    },
+    "unit09_scores_continuing_final_unchanged_all_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "offset_intercept",
+      "value": "0.11694191079172721",
+      "places": 6,
+      "display": "0.116942"
+    },
+    "unit09_scores_continuing_final_unchanged_all_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "joint_intercept",
+      "value": "-0.017769679963971743",
+      "places": 6,
+      "display": "-0.017770"
+    },
+    "unit09_scores_continuing_final_unchanged_all_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "joint_slope",
+      "value": "0.90529691797709144",
+      "places": 6,
+      "display": "0.905297"
+    },
+    "unit09_scores_new_final_unchanged_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit09_scores_new_final_unchanged_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit09_scores_new_final_unchanged_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "auc",
+      "value": "0.73130207894958332",
+      "places": 6,
+      "display": "0.731302"
+    },
+    "unit09_scores_new_final_unchanged_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit09_scores_new_final_unchanged_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.16565204386151608",
+      "places": 6,
+      "display": "0.165652"
+    },
+    "unit09_scores_new_final_unchanged_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "brier",
+      "value": "0.12447772779230275",
+      "places": 6,
+      "display": "0.124478"
+    },
+    "unit09_scores_new_final_unchanged_all_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "log_loss",
+      "value": "0.40288901823811624",
+      "places": 6,
+      "display": "0.402889"
+    },
+    "unit09_scores_new_final_unchanged_all_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "offset_intercept",
+      "value": "0.0083449207307887217",
+      "places": 6,
+      "display": "0.008345"
+    },
+    "unit09_scores_new_final_unchanged_all_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "joint_intercept",
+      "value": "-0.11834079417718797",
+      "places": 6,
+      "display": "-0.118341"
+    },
+    "unit09_scores_new_final_unchanged_all_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "all"
+      },
+      "column": "joint_slope",
+      "value": "0.90954625126343513",
+      "places": 6,
+      "display": "0.909546"
+    },
+    "unit09_scores_new_final_unchanged_TC06_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "n",
+      "value": "158",
+      "places": 0,
+      "display": "158"
+    },
+    "unit09_scores_new_final_unchanged_TC06_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "events",
+      "value": "33",
+      "places": 0,
+      "display": "33"
+    },
+    "unit09_scores_new_final_unchanged_TC06_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "auc",
+      "value": "0.71709090909090911",
+      "places": 6,
+      "display": "0.717091"
+    },
+    "unit09_scores_new_final_unchanged_TC06_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "observed_fraction",
+      "value": "0.20886075949367089",
+      "places": 6,
+      "display": "0.208861"
+    },
+    "unit09_scores_new_final_unchanged_TC06_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "mean_probability",
+      "value": "0.1803822951292427",
+      "places": 6,
+      "display": "0.180382"
+    },
+    "unit09_scores_new_final_unchanged_TC06_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "brier",
+      "value": "0.14670990762413003",
+      "places": 6,
+      "display": "0.146710"
+    },
+    "unit09_scores_new_final_unchanged_TC06_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "log_loss",
+      "value": "0.46273543762132807",
+      "places": 6,
+      "display": "0.462735"
+    },
+    "unit09_scores_new_final_unchanged_TC06_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "offset_intercept",
+      "value": "0.20584228636670304",
+      "places": 6,
+      "display": "0.205842"
+    },
+    "unit09_scores_new_final_unchanged_TC06_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "joint_intercept",
+      "value": "0.12580541125447833",
+      "places": 6,
+      "display": "0.125805"
+    },
+    "unit09_scores_new_final_unchanged_TC06_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC06"
+      },
+      "column": "joint_slope",
+      "value": "0.94165401902909285",
+      "places": 6,
+      "display": "0.941654"
+    },
+    "unit09_scores_new_final_unchanged_TC18_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "n",
+      "value": "161",
+      "places": 0,
+      "display": "161"
+    },
+    "unit09_scores_new_final_unchanged_TC18_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "events",
+      "value": "39",
+      "places": 0,
+      "display": "39"
+    },
+    "unit09_scores_new_final_unchanged_TC18_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "auc",
+      "value": "0.70218579234972678",
+      "places": 6,
+      "display": "0.702186"
+    },
+    "unit09_scores_new_final_unchanged_TC18_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "observed_fraction",
+      "value": "0.24223602484472051",
+      "places": 6,
+      "display": "0.242236"
+    },
+    "unit09_scores_new_final_unchanged_TC18_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "mean_probability",
+      "value": "0.16534346751645015",
+      "places": 6,
+      "display": "0.165343"
+    },
+    "unit09_scores_new_final_unchanged_TC18_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "brier",
+      "value": "0.17274511435355128",
+      "places": 6,
+      "display": "0.172745"
+    },
+    "unit09_scores_new_final_unchanged_TC18_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "log_loss",
+      "value": "0.53413442262376132",
+      "places": 6,
+      "display": "0.534134"
+    },
+    "unit09_scores_new_final_unchanged_TC18_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "offset_intercept",
+      "value": "0.5484965013586216",
+      "places": 6,
+      "display": "0.548497"
+    },
+    "unit09_scores_new_final_unchanged_TC18_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "joint_intercept",
+      "value": "0.20412445980568691",
+      "places": 6,
+      "display": "0.204124"
+    },
+    "unit09_scores_new_final_unchanged_TC18_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC18"
+      },
+      "column": "joint_slope",
+      "value": "0.77856439198360972",
+      "places": 6,
+      "display": "0.778564"
+    },
+    "unit09_scores_new_final_unchanged_TC29_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "n",
+      "value": "165",
+      "places": 0,
+      "display": "165"
+    },
+    "unit09_scores_new_final_unchanged_TC29_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit09_scores_new_final_unchanged_TC29_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "auc",
+      "value": "0.71937919463087252",
+      "places": 6,
+      "display": "0.719379"
+    },
+    "unit09_scores_new_final_unchanged_TC29_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "observed_fraction",
+      "value": "0.09696969696969697",
+      "places": 6,
+      "display": "0.096970"
+    },
+    "unit09_scores_new_final_unchanged_TC29_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "mean_probability",
+      "value": "0.15738066232757389",
+      "places": 6,
+      "display": "0.157381"
+    },
+    "unit09_scores_new_final_unchanged_TC29_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "brier",
+      "value": "0.087273737308331475",
+      "places": 6,
+      "display": "0.087274"
+    },
+    "unit09_scores_new_final_unchanged_TC29_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "log_loss",
+      "value": "0.30814083909763135",
+      "places": 6,
+      "display": "0.308141"
+    },
+    "unit09_scores_new_final_unchanged_TC29_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "offset_intercept",
+      "value": "-0.62109690044377497",
+      "places": 6,
+      "display": "-0.621097"
+    },
+    "unit09_scores_new_final_unchanged_TC29_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "joint_intercept",
+      "value": "-0.82470468699748467",
+      "places": 6,
+      "display": "-0.824705"
+    },
+    "unit09_scores_new_final_unchanged_TC29_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC29"
+      },
+      "column": "joint_slope",
+      "value": "0.84726006863552861",
+      "places": 6,
+      "display": "0.847260"
+    },
+    "unit09_scores_new_final_unchanged_TC34_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "n",
+      "value": "170",
+      "places": 0,
+      "display": "170"
+    },
+    "unit09_scores_new_final_unchanged_TC34_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit09_scores_new_final_unchanged_TC34_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "auc",
+      "value": "0.80441035474592526",
+      "places": 6,
+      "display": "0.804410"
+    },
+    "unit09_scores_new_final_unchanged_TC34_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "observed_fraction",
+      "value": "0.12352941176470589",
+      "places": 6,
+      "display": "0.123529"
+    },
+    "unit09_scores_new_final_unchanged_TC34_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "mean_probability",
+      "value": "0.16028192059301763",
+      "places": 6,
+      "display": "0.160282"
+    },
+    "unit09_scores_new_final_unchanged_TC34_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "brier",
+      "value": "0.094212579439747077",
+      "places": 6,
+      "display": "0.094213"
+    },
+    "unit09_scores_new_final_unchanged_TC34_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "log_loss",
+      "value": "0.31493140170602024",
+      "places": 6,
+      "display": "0.314931"
+    },
+    "unit09_scores_new_final_unchanged_TC34_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "offset_intercept",
+      "value": "-0.34717146744520139",
+      "places": 6,
+      "display": "-0.347171"
+    },
+    "unit09_scores_new_final_unchanged_TC34_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "joint_intercept",
+      "value": "-0.12573389257936318",
+      "places": 6,
+      "display": "-0.125734"
+    },
+    "unit09_scores_new_final_unchanged_TC34_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "unchanged",
+        "college_id": "TC34"
+      },
+      "column": "joint_slope",
+      "value": "1.1766781572462337",
+      "places": 6,
+      "display": "1.176678"
+    },
+    "unit09_scores_new_final_offset_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit09_scores_new_final_offset_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit09_scores_new_final_offset_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "auc",
+      "value": "0.73130207894958332",
+      "places": 6,
+      "display": "0.731302"
+    },
+    "unit09_scores_new_final_offset_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit09_scores_new_final_offset_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.17976439024470589",
+      "places": 6,
+      "display": "0.179764"
+    },
+    "unit09_scores_new_final_offset_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "brier",
+      "value": "0.12477018232251083",
+      "places": 6,
+      "display": "0.124770"
+    },
+    "unit09_scores_new_final_offset_all_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "log_loss",
+      "value": "0.40356331950743612",
+      "places": 6,
+      "display": "0.403563"
+    },
+    "unit09_scores_new_final_offset_all_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "offset_intercept",
+      "value": "-0.10456078415019086",
+      "places": 6,
+      "display": "-0.104561"
+    },
+    "unit09_scores_new_final_offset_all_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "joint_intercept",
+      "value": "-0.22103375479791992",
+      "places": 6,
+      "display": "-0.221034"
+    },
+    "unit09_scores_new_final_offset_all_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "all"
+      },
+      "column": "joint_slope",
+      "value": "0.90954625126343513",
+      "places": 6,
+      "display": "0.909546"
+    },
+    "unit09_scores_new_final_offset_TC06_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "n",
+      "value": "158",
+      "places": 0,
+      "display": "158"
+    },
+    "unit09_scores_new_final_offset_TC06_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "events",
+      "value": "33",
+      "places": 0,
+      "display": "33"
+    },
+    "unit09_scores_new_final_offset_TC06_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "auc",
+      "value": "0.71709090909090911",
+      "places": 6,
+      "display": "0.717091"
+    },
+    "unit09_scores_new_final_offset_TC06_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "observed_fraction",
+      "value": "0.20886075949367089",
+      "places": 6,
+      "display": "0.208861"
+    },
+    "unit09_scores_new_final_offset_TC06_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "mean_probability",
+      "value": "0.19564063150224817",
+      "places": 6,
+      "display": "0.195641"
+    },
+    "unit09_scores_new_final_offset_TC06_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "brier",
+      "value": "0.14602272783951981",
+      "places": 6,
+      "display": "0.146023"
+    },
+    "unit09_scores_new_final_offset_TC06_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "log_loss",
+      "value": "0.46037314213499853",
+      "places": 6,
+      "display": "0.460373"
+    },
+    "unit09_scores_new_final_offset_TC06_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "offset_intercept",
+      "value": "0.092936581487202991",
+      "places": 6,
+      "display": "0.092937"
+    },
+    "unit09_scores_new_final_offset_TC06_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "joint_intercept",
+      "value": "0.019487300482010653",
+      "places": 6,
+      "display": "0.019487"
+    },
+    "unit09_scores_new_final_offset_TC06_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC06"
+      },
+      "column": "joint_slope",
+      "value": "0.94165401902909274",
+      "places": 6,
+      "display": "0.941654"
+    },
+    "unit09_scores_new_final_offset_TC18_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "n",
+      "value": "161",
+      "places": 0,
+      "display": "161"
+    },
+    "unit09_scores_new_final_offset_TC18_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "events",
+      "value": "39",
+      "places": 0,
+      "display": "39"
+    },
+    "unit09_scores_new_final_offset_TC18_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "auc",
+      "value": "0.70218579234972678",
+      "places": 6,
+      "display": "0.702186"
+    },
+    "unit09_scores_new_final_offset_TC18_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "observed_fraction",
+      "value": "0.24223602484472051",
+      "places": 6,
+      "display": "0.242236"
+    },
+    "unit09_scores_new_final_offset_TC18_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "mean_probability",
+      "value": "0.17954452833645262",
+      "places": 6,
+      "display": "0.179545"
+    },
+    "unit09_scores_new_final_offset_TC18_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "brier",
+      "value": "0.17056607613586258",
+      "places": 6,
+      "display": "0.170566"
+    },
+    "unit09_scores_new_final_offset_TC18_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "log_loss",
+      "value": "0.5262465587931433",
+      "places": 6,
+      "display": "0.526247"
+    },
+    "unit09_scores_new_final_offset_TC18_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "offset_intercept",
+      "value": "0.43559079647789228",
+      "places": 6,
+      "display": "0.435591"
+    },
+    "unit09_scores_new_final_offset_TC18_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "joint_intercept",
+      "value": "0.11622009833356259",
+      "places": 6,
+      "display": "0.116220"
+    },
+    "unit09_scores_new_final_offset_TC18_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC18"
+      },
+      "column": "joint_slope",
+      "value": "0.77856439198360983",
+      "places": 6,
+      "display": "0.778564"
+    },
+    "unit09_scores_new_final_offset_TC29_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "n",
+      "value": "165",
+      "places": 0,
+      "display": "165"
+    },
+    "unit09_scores_new_final_offset_TC29_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit09_scores_new_final_offset_TC29_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "auc",
+      "value": "0.71937919463087252",
+      "places": 6,
+      "display": "0.719379"
+    },
+    "unit09_scores_new_final_offset_TC29_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "observed_fraction",
+      "value": "0.09696969696969697",
+      "places": 6,
+      "display": "0.096970"
+    },
+    "unit09_scores_new_final_offset_TC29_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "mean_probability",
+      "value": "0.17091340718916459",
+      "places": 6,
+      "display": "0.170913"
+    },
+    "unit09_scores_new_final_offset_TC29_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "brier",
+      "value": "0.089770616809910539",
+      "places": 6,
+      "display": "0.089771"
+    },
+    "unit09_scores_new_final_offset_TC29_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "log_loss",
+      "value": "0.3157178327806634",
+      "places": 6,
+      "display": "0.315718"
+    },
+    "unit09_scores_new_final_offset_TC29_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "offset_intercept",
+      "value": "-0.73400260532571826",
+      "places": 6,
+      "display": "-0.734003"
+    },
+    "unit09_scores_new_final_offset_TC29_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "joint_intercept",
+      "value": "-0.92036518226426878",
+      "places": 6,
+      "display": "-0.920365"
+    },
+    "unit09_scores_new_final_offset_TC29_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC29"
+      },
+      "column": "joint_slope",
+      "value": "0.8472600686355285",
+      "places": 6,
+      "display": "0.847260"
+    },
+    "unit09_scores_new_final_offset_TC34_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "n",
+      "value": "170",
+      "places": 0,
+      "display": "170"
+    },
+    "unit09_scores_new_final_offset_TC34_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit09_scores_new_final_offset_TC34_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "auc",
+      "value": "0.80441035474592526",
+      "places": 6,
+      "display": "0.804410"
+    },
+    "unit09_scores_new_final_offset_TC34_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "observed_fraction",
+      "value": "0.12352941176470589",
+      "places": 6,
+      "display": "0.123529"
+    },
+    "unit09_scores_new_final_offset_TC34_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "mean_probability",
+      "value": "0.1738077070253024",
+      "places": 6,
+      "display": "0.173808"
+    },
+    "unit09_scores_new_final_offset_TC34_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "brier",
+      "value": "0.09561657769864014",
+      "places": 6,
+      "display": "0.095617"
+    },
+    "unit09_scores_new_final_offset_TC34_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "log_loss",
+      "value": "0.31983715368251697",
+      "places": 6,
+      "display": "0.319837"
+    },
+    "unit09_scores_new_final_offset_TC34_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "offset_intercept",
+      "value": "-0.46007717232562445",
+      "places": 6,
+      "display": "-0.460077"
+    },
+    "unit09_scores_new_final_offset_TC34_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "joint_intercept",
+      "value": "-0.25858756934127708",
+      "places": 6,
+      "display": "-0.258588"
+    },
+    "unit09_scores_new_final_offset_TC34_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "offset",
+        "college_id": "TC34"
+      },
+      "column": "joint_slope",
+      "value": "1.1766781572462337",
+      "places": 6,
+      "display": "1.176678"
+    },
+    "unit09_scores_new_final_joint_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit09_scores_new_final_joint_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit09_scores_new_final_joint_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "auc",
+      "value": "0.73130207894958332",
+      "places": 6,
+      "display": "0.731302"
+    },
+    "unit09_scores_new_final_joint_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit09_scores_new_final_joint_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.17823871610335454",
+      "places": 6,
+      "display": "0.178239"
+    },
+    "unit09_scores_new_final_joint_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "brier",
+      "value": "0.12497610069311492",
+      "places": 6,
+      "display": "0.124976"
+    },
+    "unit09_scores_new_final_joint_all_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "log_loss",
+      "value": "0.40495008829917939",
+      "places": 6,
+      "display": "0.404950"
+    },
+    "unit09_scores_new_final_joint_all_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "offset_intercept",
+      "value": "-0.087028098013336011",
+      "places": 6,
+      "display": "-0.087028"
+    },
+    "unit09_scores_new_final_joint_all_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "joint_intercept",
+      "value": "0.28160028376747603",
+      "places": 6,
+      "display": "0.281600"
+    },
+    "unit09_scores_new_final_joint_all_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "all"
+      },
+      "column": "joint_slope",
+      "value": "1.2718418523368245",
+      "places": 6,
+      "display": "1.271842"
+    },
+    "unit09_scores_new_final_joint_TC06_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "n",
+      "value": "158",
+      "places": 0,
+      "display": "158"
+    },
+    "unit09_scores_new_final_joint_TC06_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "events",
+      "value": "33",
+      "places": 0,
+      "display": "33"
+    },
+    "unit09_scores_new_final_joint_TC06_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "auc",
+      "value": "0.71709090909090911",
+      "places": 6,
+      "display": "0.717091"
+    },
+    "unit09_scores_new_final_joint_TC06_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "observed_fraction",
+      "value": "0.20886075949367089",
+      "places": 6,
+      "display": "0.208861"
+    },
+    "unit09_scores_new_final_joint_TC06_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "mean_probability",
+      "value": "0.19087290670369847",
+      "places": 6,
+      "display": "0.190873"
+    },
+    "unit09_scores_new_final_joint_TC06_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "brier",
+      "value": "0.1479994588353398",
+      "places": 6,
+      "display": "0.147999"
+    },
+    "unit09_scores_new_final_joint_TC06_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "log_loss",
+      "value": "0.4633360143897296",
+      "places": 6,
+      "display": "0.463336"
+    },
+    "unit09_scores_new_final_joint_TC06_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "offset_intercept",
+      "value": "0.12051359626318744",
+      "places": 6,
+      "display": "0.120514"
+    },
+    "unit09_scores_new_final_joint_TC06_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "joint_intercept",
+      "value": "0.53986475446905779",
+      "places": 6,
+      "display": "0.539865"
+    },
+    "unit09_scores_new_final_joint_TC06_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC06"
+      },
+      "column": "joint_slope",
+      "value": "1.31673896754427",
+      "places": 6,
+      "display": "1.316739"
+    },
+    "unit09_scores_new_final_joint_TC18_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "n",
+      "value": "161",
+      "places": 0,
+      "display": "161"
+    },
+    "unit09_scores_new_final_joint_TC18_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "events",
+      "value": "39",
+      "places": 0,
+      "display": "39"
+    },
+    "unit09_scores_new_final_joint_TC18_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "auc",
+      "value": "0.70218579234972678",
+      "places": 6,
+      "display": "0.702186"
+    },
+    "unit09_scores_new_final_joint_TC18_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "observed_fraction",
+      "value": "0.24223602484472051",
+      "places": 6,
+      "display": "0.242236"
+    },
+    "unit09_scores_new_final_joint_TC18_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "mean_probability",
+      "value": "0.17829311940402184",
+      "places": 6,
+      "display": "0.178293"
+    },
+    "unit09_scores_new_final_joint_TC18_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "brier",
+      "value": "0.17175680789450257",
+      "places": 6,
+      "display": "0.171757"
+    },
+    "unit09_scores_new_final_joint_TC18_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "log_loss",
+      "value": "0.52317695926692143",
+      "places": 6,
+      "display": "0.523177"
+    },
+    "unit09_scores_new_final_joint_TC18_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "offset_intercept",
+      "value": "0.41743190042252015",
+      "places": 6,
+      "display": "0.417432"
+    },
+    "unit09_scores_new_final_joint_TC18_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "joint_intercept",
+      "value": "0.54647085697540165",
+      "places": 6,
+      "display": "0.546471"
+    },
+    "unit09_scores_new_final_joint_TC18_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC18"
+      },
+      "column": "joint_slope",
+      "value": "1.0886865589170895",
+      "places": 6,
+      "display": "1.088687"
+    },
+    "unit09_scores_new_final_joint_TC29_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "n",
+      "value": "165",
+      "places": 0,
+      "display": "165"
+    },
+    "unit09_scores_new_final_joint_TC29_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit09_scores_new_final_joint_TC29_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "auc",
+      "value": "0.71937919463087252",
+      "places": 6,
+      "display": "0.719379"
+    },
+    "unit09_scores_new_final_joint_TC29_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "observed_fraction",
+      "value": "0.09696969696969697",
+      "places": 6,
+      "display": "0.096970"
+    },
+    "unit09_scores_new_final_joint_TC29_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "mean_probability",
+      "value": "0.17152407912800924",
+      "places": 6,
+      "display": "0.171524"
+    },
+    "unit09_scores_new_final_joint_TC29_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "brier",
+      "value": "0.087545629262759259",
+      "places": 6,
+      "display": "0.087546"
+    },
+    "unit09_scores_new_final_joint_TC29_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "log_loss",
+      "value": "0.31438712437951688",
+      "places": 6,
+      "display": "0.314387"
+    },
+    "unit09_scores_new_final_joint_TC29_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "offset_intercept",
+      "value": "-0.69710865288248491",
+      "places": 6,
+      "display": "-0.697109"
+    },
+    "unit09_scores_new_final_joint_TC29_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "joint_intercept",
+      "value": "-0.45215177429088238",
+      "places": 6,
+      "display": "-0.452152"
+    },
+    "unit09_scores_new_final_joint_TC29_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC29"
+      },
+      "column": "joint_slope",
+      "value": "1.1847454855732591",
+      "places": 6,
+      "display": "1.184745"
+    },
+    "unit09_scores_new_final_joint_TC34_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "n",
+      "value": "170",
+      "places": 0,
+      "display": "170"
+    },
+    "unit09_scores_new_final_joint_TC34_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit09_scores_new_final_joint_TC34_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "auc",
+      "value": "0.80441035474592526",
+      "places": 6,
+      "display": "0.804410"
+    },
+    "unit09_scores_new_final_joint_TC34_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "observed_fraction",
+      "value": "0.12352941176470589",
+      "places": 6,
+      "display": "0.123529"
+    },
+    "unit09_scores_new_final_joint_TC34_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "mean_probability",
+      "value": "0.17296197524847343",
+      "places": 6,
+      "display": "0.172962"
+    },
+    "unit09_scores_new_final_joint_TC34_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "brier",
+      "value": "0.095603414458489785",
+      "places": 6,
+      "display": "0.095603"
+    },
+    "unit09_scores_new_final_joint_TC34_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "log_loss",
+      "value": "0.32661706770289028",
+      "places": 6,
+      "display": "0.326617"
+    },
+    "unit09_scores_new_final_joint_TC34_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "offset_intercept",
+      "value": "-0.4238584284533285",
+      "places": 6,
+      "display": "-0.423858"
+    },
+    "unit09_scores_new_final_joint_TC34_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "joint_intercept",
+      "value": "0.39166907615289703",
+      "places": 6,
+      "display": "0.391669"
+    },
+    "unit09_scores_new_final_joint_TC34_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "joint",
+        "college_id": "TC34"
+      },
+      "column": "joint_slope",
+      "value": "1.645379248210304",
+      "places": 6,
+      "display": "1.645379"
+    },
+    "unit09_scores_new_final_refit_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit09_scores_new_final_refit_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit09_scores_new_final_refit_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "auc",
+      "value": "0.70388014476895888",
+      "places": 6,
+      "display": "0.703880"
+    },
+    "unit09_scores_new_final_refit_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "unit09_scores_new_final_refit_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.18439056305723836",
+      "places": 6,
+      "display": "0.184391"
+    },
+    "unit09_scores_new_final_refit_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "brier",
+      "value": "0.12807877128810441",
+      "places": 6,
+      "display": "0.128079"
+    },
+    "unit09_scores_new_final_refit_all_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "log_loss",
+      "value": "0.41427098866402812",
+      "places": 6,
+      "display": "0.414271"
+    },
+    "unit09_scores_new_final_refit_all_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "offset_intercept",
+      "value": "-0.13592061830310409",
+      "places": 6,
+      "display": "-0.135921"
+    },
+    "unit09_scores_new_final_refit_all_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "joint_intercept",
+      "value": "-0.25336644127455049",
+      "places": 6,
+      "display": "-0.253366"
+    },
+    "unit09_scores_new_final_refit_all_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "all"
+      },
+      "column": "joint_slope",
+      "value": "0.90963729038541152",
+      "places": 6,
+      "display": "0.909637"
+    },
+    "unit09_scores_new_final_refit_TC06_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "n",
+      "value": "158",
+      "places": 0,
+      "display": "158"
+    },
+    "unit09_scores_new_final_refit_TC06_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "events",
+      "value": "33",
+      "places": 0,
+      "display": "33"
+    },
+    "unit09_scores_new_final_refit_TC06_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "auc",
+      "value": "0.68896969696969701",
+      "places": 6,
+      "display": "0.688970"
+    },
+    "unit09_scores_new_final_refit_TC06_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "observed_fraction",
+      "value": "0.20886075949367089",
+      "places": 6,
+      "display": "0.208861"
+    },
+    "unit09_scores_new_final_refit_TC06_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "mean_probability",
+      "value": "0.19306866106632689",
+      "places": 6,
+      "display": "0.193069"
+    },
+    "unit09_scores_new_final_refit_TC06_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "brier",
+      "value": "0.14670549254306714",
+      "places": 6,
+      "display": "0.146705"
+    },
+    "unit09_scores_new_final_refit_TC06_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "log_loss",
+      "value": "0.467712394603643",
+      "places": 6,
+      "display": "0.467712"
+    },
+    "unit09_scores_new_final_refit_TC06_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "offset_intercept",
+      "value": "0.10874493860250384",
+      "places": 6,
+      "display": "0.108745"
+    },
+    "unit09_scores_new_final_refit_TC06_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "joint_intercept",
+      "value": "0.07064730609800618",
+      "places": 6,
+      "display": "0.070647"
+    },
+    "unit09_scores_new_final_refit_TC06_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC06"
+      },
+      "column": "joint_slope",
+      "value": "0.97044825583734218",
+      "places": 6,
+      "display": "0.970448"
+    },
+    "unit09_scores_new_final_refit_TC18_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "n",
+      "value": "161",
+      "places": 0,
+      "display": "161"
+    },
+    "unit09_scores_new_final_refit_TC18_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "events",
+      "value": "39",
+      "places": 0,
+      "display": "39"
+    },
+    "unit09_scores_new_final_refit_TC18_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "auc",
+      "value": "0.71647751155947881",
+      "places": 6,
+      "display": "0.716478"
+    },
+    "unit09_scores_new_final_refit_TC18_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "observed_fraction",
+      "value": "0.24223602484472051",
+      "places": 6,
+      "display": "0.242236"
+    },
+    "unit09_scores_new_final_refit_TC18_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "mean_probability",
+      "value": "0.19032920711824344",
+      "places": 6,
+      "display": "0.190329"
+    },
+    "unit09_scores_new_final_refit_TC18_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "brier",
+      "value": "0.16670952481978149",
+      "places": 6,
+      "display": "0.166710"
+    },
+    "unit09_scores_new_final_refit_TC18_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "log_loss",
+      "value": "0.50975957903575897",
+      "places": 6,
+      "display": "0.509760"
+    },
+    "unit09_scores_new_final_refit_TC18_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "offset_intercept",
+      "value": "0.34612533965812847",
+      "places": 6,
+      "display": "0.346125"
+    },
+    "unit09_scores_new_final_refit_TC18_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "joint_intercept",
+      "value": "0.28356814477198783",
+      "places": 6,
+      "display": "0.283568"
+    },
+    "unit09_scores_new_final_refit_TC18_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC18"
+      },
+      "column": "joint_slope",
+      "value": "0.95397483431320895",
+      "places": 6,
+      "display": "0.953975"
+    },
+    "unit09_scores_new_final_refit_TC29_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "n",
+      "value": "165",
+      "places": 0,
+      "display": "165"
+    },
+    "unit09_scores_new_final_refit_TC29_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit09_scores_new_final_refit_TC29_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "auc",
+      "value": "0.71770134228187921",
+      "places": 6,
+      "display": "0.717701"
+    },
+    "unit09_scores_new_final_refit_TC29_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "observed_fraction",
+      "value": "0.09696969696969697",
+      "places": 6,
+      "display": "0.096970"
+    },
+    "unit09_scores_new_final_refit_TC29_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "mean_probability",
+      "value": "0.17157377240241056",
+      "places": 6,
+      "display": "0.171574"
+    },
+    "unit09_scores_new_final_refit_TC29_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "brier",
+      "value": "0.092451813063683108",
+      "places": 6,
+      "display": "0.092452"
+    },
+    "unit09_scores_new_final_refit_TC29_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "log_loss",
+      "value": "0.32395968357938321",
+      "places": 6,
+      "display": "0.323960"
+    },
+    "unit09_scores_new_final_refit_TC29_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "offset_intercept",
+      "value": "-0.7176157734155314",
+      "places": 6,
+      "display": "-0.717616"
+    },
+    "unit09_scores_new_final_refit_TC29_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "joint_intercept",
+      "value": "-0.97071687182672706",
+      "places": 6,
+      "display": "-0.970717"
+    },
+    "unit09_scores_new_final_refit_TC29_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC29"
+      },
+      "column": "joint_slope",
+      "value": "0.80585510051756437",
+      "places": 6,
+      "display": "0.805855"
+    },
+    "unit09_scores_new_final_refit_TC34_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "n",
+      "value": "170",
+      "places": 0,
+      "display": "170"
+    },
+    "unit09_scores_new_final_refit_TC34_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit09_scores_new_final_refit_TC34_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "auc",
+      "value": "0.69702780441035472",
+      "places": 6,
+      "display": "0.697028"
+    },
+    "unit09_scores_new_final_refit_TC34_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "observed_fraction",
+      "value": "0.12352941176470589",
+      "places": 6,
+      "display": "0.123529"
+    },
+    "unit09_scores_new_final_refit_TC34_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "mean_probability",
+      "value": "0.18314061763834882",
+      "places": 6,
+      "display": "0.183141"
+    },
+    "unit09_scores_new_final_refit_TC34_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "brier",
+      "value": "0.10876038793601854",
+      "places": 6,
+      "display": "0.108760"
+    },
+    "unit09_scores_new_final_refit_TC34_log_loss": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "log_loss",
+      "value": "0.36182369543260812",
+      "places": 6,
+      "display": "0.361824"
+    },
+    "unit09_scores_new_final_refit_TC34_offset_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "offset_intercept",
+      "value": "-0.51215678175539903",
+      "places": 6,
+      "display": "-0.512157"
+    },
+    "unit09_scores_new_final_refit_TC34_joint_intercept": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "joint_intercept",
+      "value": "-0.69845264809884844",
+      "places": 6,
+      "display": "-0.698453"
+    },
+    "unit09_scores_new_final_refit_TC34_joint_slope": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "method": "refit",
+        "college_id": "TC34"
+      },
+      "column": "joint_slope",
+      "value": "0.85102578347009827",
+      "places": 6,
+      "display": "0.851026"
+    },
+    "unit09_diagnostics_update_offset_n_fit": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_offset"
+      },
+      "column": "n_fit",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit09_diagnostics_update_offset_events": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_offset"
+      },
+      "column": "events",
+      "value": "114",
+      "places": 0,
+      "display": "114"
+    },
+    "unit09_diagnostics_update_offset_p": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_offset"
+      },
+      "column": "p",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "unit09_diagnostics_update_offset_nll": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_offset"
+      },
+      "column": "nll",
+      "value": "284.62583679876911",
+      "places": 6,
+      "display": "284.625837"
+    },
+    "unit09_diagnostics_update_joint_n_fit": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_joint"
+      },
+      "column": "n_fit",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit09_diagnostics_update_joint_events": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_joint"
+      },
+      "column": "events",
+      "value": "114",
+      "places": 0,
+      "display": "114"
+    },
+    "unit09_diagnostics_update_joint_p": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_joint"
+      },
+      "column": "p",
+      "value": "2",
+      "places": 0,
+      "display": "2"
+    },
+    "unit09_diagnostics_update_joint_nll": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_joint"
+      },
+      "column": "nll",
+      "value": "281.70620398962973",
+      "places": 6,
+      "display": "281.706204"
+    },
+    "unit09_diagnostics_update_refit_n_fit": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_refit"
+      },
+      "column": "n_fit",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit09_diagnostics_update_refit_events": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_refit"
+      },
+      "column": "events",
+      "value": "114",
+      "places": 0,
+      "display": "114"
+    },
+    "unit09_diagnostics_update_refit_p": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_refit"
+      },
+      "column": "p",
+      "value": "13",
+      "places": 0,
+      "display": "13"
+    },
+    "unit09_diagnostics_update_refit_nll": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "update_refit"
+      },
+      "column": "nll",
+      "value": "273.07606661442179",
+      "places": 6,
+      "display": "273.076067"
+    },
+    "unit09_coefficients_update_offset_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_offset",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "0.11290570488095891",
+      "places": 6,
+      "display": "0.112906"
+    },
+    "unit09_coefficients_update_joint_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_joint",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "-0.31445818299643991",
+      "places": 6,
+      "display": "-0.314458"
+    },
+    "unit09_coefficients_update_joint_slope_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_joint",
+        "term": "slope"
+      },
+      "column": "coefficient",
+      "value": "0.71514099775241402",
+      "places": 6,
+      "display": "0.715141"
+    },
+    "unit09_coefficients_update_refit_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "-2.0340661216602562",
+      "places": 6,
+      "display": "-2.034066"
+    },
+    "unit09_coefficients_update_refit_part_time_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "part_time"
+      },
+      "column": "coefficient",
+      "value": "0.5843243946926906",
+      "places": 6,
+      "display": "0.584324"
+    },
+    "unit09_coefficients_update_refit_first_gen_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "first_gen"
+      },
+      "column": "coefficient",
+      "value": "0.38768821792697244",
+      "places": 6,
+      "display": "0.387688"
+    },
+    "unit09_coefficients_update_refit_z_age_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "z_age"
+      },
+      "column": "coefficient",
+      "value": "-0.11697629966884486",
+      "places": 6,
+      "display": "-0.116976"
+    },
+    "unit09_coefficients_update_refit_gender_male_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "gender_male"
+      },
+      "column": "coefficient",
+      "value": "-0.1021683257642771",
+      "places": 6,
+      "display": "-0.102168"
+    },
+    "unit09_coefficients_update_refit_gender_another_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "gender_another"
+      },
+      "column": "coefficient",
+      "value": "-0.28117397327536009",
+      "places": 6,
+      "display": "-0.281174"
+    },
+    "unit09_coefficients_update_refit_program_Social_Sciences_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "program_Social_Sciences"
+      },
+      "column": "coefficient",
+      "value": "0.24935956058888462",
+      "places": 6,
+      "display": "0.249360"
+    },
+    "unit09_coefficients_update_refit_program_STEM_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "program_STEM"
+      },
+      "column": "coefficient",
+      "value": "-0.11244331085807106",
+      "places": 6,
+      "display": "-0.112443"
+    },
+    "unit09_coefficients_update_refit_program_Health_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "program_Health"
+      },
+      "column": "coefficient",
+      "value": "-0.12676628879322901",
+      "places": 6,
+      "display": "-0.126766"
+    },
+    "unit09_coefficients_update_refit_program_Business_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "program_Business"
+      },
+      "column": "coefficient",
+      "value": "0.010349099921228748",
+      "places": 6,
+      "display": "0.010349"
+    },
+    "unit09_coefficients_update_refit_z_prior_grade_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "z_prior_grade"
+      },
+      "column": "coefficient",
+      "value": "-0.54241055888339407",
+      "places": 6,
+      "display": "-0.542411"
+    },
+    "unit09_coefficients_update_refit_z_wellbeing_score_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "z_wellbeing_score"
+      },
+      "column": "coefficient",
+      "value": "-0.2660865208226228",
+      "places": 6,
+      "display": "-0.266087"
+    },
+    "unit09_coefficients_update_refit_z_stress_score_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "update_refit",
+        "term": "z_stress_score"
+      },
+      "column": "coefficient",
+      "value": "0.22043627843686137",
+      "places": 6,
+      "display": "0.220436"
+    },
+    "unit09_summary_equal_college_loss_new_final_unchanged_brier_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "unchanged",
+        "metric": "brier"
+      },
+      "column": "value",
+      "value": "0.12523533468143996",
+      "places": 6,
+      "display": "0.125235"
+    },
+    "unit09_summary_equal_college_loss_new_final_unchanged_log_loss_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "unchanged",
+        "metric": "log_loss"
+      },
+      "column": "value",
+      "value": "0.40498552526218529",
+      "places": 6,
+      "display": "0.404986"
+    },
+    "unit09_summary_equal_college_loss_new_final_offset_brier_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "offset",
+        "metric": "brier"
+      },
+      "column": "value",
+      "value": "0.12549399962098326",
+      "places": 6,
+      "display": "0.125494"
+    },
+    "unit09_summary_equal_college_loss_new_final_offset_log_loss_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "offset",
+        "metric": "log_loss"
+      },
+      "column": "value",
+      "value": "0.40554367184783058",
+      "places": 6,
+      "display": "0.405544"
+    },
+    "unit09_summary_equal_college_loss_new_final_joint_brier_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "joint",
+        "metric": "brier"
+      },
+      "column": "value",
+      "value": "0.12572632761277286",
+      "places": 6,
+      "display": "0.125726"
+    },
+    "unit09_summary_equal_college_loss_new_final_joint_log_loss_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "joint",
+        "metric": "log_loss"
+      },
+      "column": "value",
+      "value": "0.40687929143476459",
+      "places": 6,
+      "display": "0.406879"
+    },
+    "unit09_summary_equal_college_loss_new_final_refit_brier_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "refit",
+        "metric": "brier"
+      },
+      "column": "value",
+      "value": "0.12865680459063755",
+      "places": 6,
+      "display": "0.128657"
+    },
+    "unit09_summary_equal_college_loss_new_final_refit_log_loss_value": {
+      "source": "summary",
+      "where": {
+        "kind": "equal_college_loss",
+        "role": "new_final",
+        "method": "refit",
+        "metric": "log_loss"
+      },
+      "column": "value",
+      "value": "0.41581383816284834",
+      "places": 6,
+      "display": "0.415814"
+    },
+    "unit09_summary_eligibility_anchor_reference__pool_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "anchor_reference",
+        "method": "",
+        "metric": "pool_n"
+      },
+      "column": "value",
+      "value": "610",
+      "places": 0,
+      "display": "610"
+    },
+    "unit09_summary_eligibility_anchor_reference__known_scorable_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "anchor_reference",
+        "method": "",
+        "metric": "known_scorable_n"
+      },
+      "column": "value",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit09_summary_eligibility_anchor_reference__events_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "anchor_reference",
+        "method": "",
+        "metric": "events"
+      },
+      "column": "value",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit09_summary_eligibility_anchor_reference__unknown_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "anchor_reference",
+        "method": "",
+        "metric": "unknown_n"
+      },
+      "column": "value",
+      "value": "7",
+      "places": 0,
+      "display": "7"
+    },
+    "unit09_summary_eligibility_anchor_reference__colleges_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "anchor_reference",
+        "method": "",
+        "metric": "colleges"
+      },
+      "column": "value",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit09_summary_eligibility_continuing_final__pool_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "continuing_final",
+        "method": "",
+        "metric": "pool_n"
+      },
+      "column": "value",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit09_summary_eligibility_continuing_final__known_scorable_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "continuing_final",
+        "method": "",
+        "metric": "known_scorable_n"
+      },
+      "column": "value",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit09_summary_eligibility_continuing_final__events_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "continuing_final",
+        "method": "",
+        "metric": "events"
+      },
+      "column": "value",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "unit09_summary_eligibility_continuing_final__unknown_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "continuing_final",
+        "method": "",
+        "metric": "unknown_n"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit09_summary_eligibility_continuing_final__colleges_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "continuing_final",
+        "method": "",
+        "metric": "colleges"
+      },
+      "column": "value",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit09_summary_eligibility_new_updating__pool_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_updating",
+        "method": "",
+        "metric": "pool_n"
+      },
+      "column": "value",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit09_summary_eligibility_new_updating__known_scorable_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_updating",
+        "method": "",
+        "metric": "known_scorable_n"
+      },
+      "column": "value",
+      "value": "655",
+      "places": 0,
+      "display": "655"
+    },
+    "unit09_summary_eligibility_new_updating__events_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_updating",
+        "method": "",
+        "metric": "events"
+      },
+      "column": "value",
+      "value": "114",
+      "places": 0,
+      "display": "114"
+    },
+    "unit09_summary_eligibility_new_updating__unknown_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_updating",
+        "method": "",
+        "metric": "unknown_n"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit09_summary_eligibility_new_updating__colleges_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_updating",
+        "method": "",
+        "metric": "colleges"
+      },
+      "column": "value",
+      "value": "4",
+      "places": 0,
+      "display": "4"
+    },
+    "unit09_summary_eligibility_new_final__pool_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_final",
+        "method": "",
+        "metric": "pool_n"
+      },
+      "column": "value",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit09_summary_eligibility_new_final__known_scorable_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_final",
+        "method": "",
+        "metric": "known_scorable_n"
+      },
+      "column": "value",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "unit09_summary_eligibility_new_final__events_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_final",
+        "method": "",
+        "metric": "events"
+      },
+      "column": "value",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "unit09_summary_eligibility_new_final__unknown_n_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_final",
+        "method": "",
+        "metric": "unknown_n"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit09_summary_eligibility_new_final__colleges_value": {
+      "source": "summary",
+      "where": {
+        "kind": "eligibility",
+        "role": "new_final",
+        "method": "",
+        "metric": "colleges"
+      },
+      "column": "value",
+      "value": "4",
+      "places": 0,
+      "display": "4"
+    },
+    "unit09_profiles_anchor_anchor_invited_n": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "invited"
+      },
+      "column": "n",
+      "value": "1600",
+      "places": 0,
+      "display": "1600"
+    },
+    "unit09_profiles_anchor_anchor_invited_part_time_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "invited"
+      },
+      "column": "part_time_fraction",
+      "value": "0.40000000000000002",
+      "places": 6,
+      "display": "0.400000"
+    },
+    "unit09_profiles_anchor_anchor_invited_first_gen_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "invited"
+      },
+      "column": "first_gen_fraction",
+      "value": "0.3775",
+      "places": 6,
+      "display": "0.377500"
+    },
+    "unit09_profiles_anchor_anchor_invited_prior_grade_mean": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "invited"
+      },
+      "column": "prior_grade_mean",
+      "value": "2.9458687499999998",
+      "places": 6,
+      "display": "2.945869"
+    },
+    "unit09_profiles_anchor_anchor_responded_n": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "responded"
+      },
+      "column": "n",
+      "value": "1219",
+      "places": 0,
+      "display": "1219"
+    },
+    "unit09_profiles_anchor_anchor_responded_part_time_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "responded"
+      },
+      "column": "part_time_fraction",
+      "value": "0.36833470057424117",
+      "places": 6,
+      "display": "0.368335"
+    },
+    "unit09_profiles_anchor_anchor_responded_first_gen_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "responded"
+      },
+      "column": "first_gen_fraction",
+      "value": "0.35110746513535684",
+      "places": 6,
+      "display": "0.351107"
+    },
+    "unit09_profiles_anchor_anchor_responded_prior_grade_mean": {
+      "source": "profiles",
+      "where": {
+        "cohort": "anchor",
+        "college_group": "anchor",
+        "frame_role": "responded"
+      },
+      "column": "prior_grade_mean",
+      "value": "3.0098687448728465",
+      "places": 6,
+      "display": "3.009869"
+    },
+    "unit09_profiles_cohort2_continuing_invited_n": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "invited"
+      },
+      "column": "n",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit09_profiles_cohort2_continuing_invited_part_time_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "invited"
+      },
+      "column": "part_time_fraction",
+      "value": "0.4017857142857143",
+      "places": 6,
+      "display": "0.401786"
+    },
+    "unit09_profiles_cohort2_continuing_invited_first_gen_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "invited"
+      },
+      "column": "first_gen_fraction",
+      "value": "0.37109375",
+      "places": 6,
+      "display": "0.371094"
+    },
+    "unit09_profiles_cohort2_continuing_invited_prior_grade_mean": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "invited"
+      },
+      "column": "prior_grade_mean",
+      "value": "2.8715680803571431",
+      "places": 6,
+      "display": "2.871568"
+    },
+    "unit09_profiles_cohort2_continuing_responded_n": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "responded"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "unit09_profiles_cohort2_continuing_responded_part_time_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "responded"
+      },
+      "column": "part_time_fraction",
+      "value": "0.37136465324384788",
+      "places": 6,
+      "display": "0.371365"
+    },
+    "unit09_profiles_cohort2_continuing_responded_first_gen_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "responded"
+      },
+      "column": "first_gen_fraction",
+      "value": "0.33407904548844147",
+      "places": 6,
+      "display": "0.334079"
+    },
+    "unit09_profiles_cohort2_continuing_responded_prior_grade_mean": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "continuing",
+        "frame_role": "responded"
+      },
+      "column": "prior_grade_mean",
+      "value": "2.9363460104399706",
+      "places": 6,
+      "display": "2.936346"
+    },
+    "unit09_profiles_cohort2_new_invited_n": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "invited"
+      },
+      "column": "n",
+      "value": "1800",
+      "places": 0,
+      "display": "1800"
+    },
+    "unit09_profiles_cohort2_new_invited_part_time_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "invited"
+      },
+      "column": "part_time_fraction",
+      "value": "0.40000000000000002",
+      "places": 6,
+      "display": "0.400000"
+    },
+    "unit09_profiles_cohort2_new_invited_first_gen_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "invited"
+      },
+      "column": "first_gen_fraction",
+      "value": "0.33777777777777779",
+      "places": 6,
+      "display": "0.337778"
+    },
+    "unit09_profiles_cohort2_new_invited_prior_grade_mean": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "invited"
+      },
+      "column": "prior_grade_mean",
+      "value": "2.8501888888888889",
+      "places": 6,
+      "display": "2.850189"
+    },
+    "unit09_profiles_cohort2_new_responded_n": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "responded"
+      },
+      "column": "n",
+      "value": "1309",
+      "places": 0,
+      "display": "1309"
+    },
+    "unit09_profiles_cohort2_new_responded_part_time_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "responded"
+      },
+      "column": "part_time_fraction",
+      "value": "0.35599694423223838",
+      "places": 6,
+      "display": "0.355997"
+    },
+    "unit09_profiles_cohort2_new_responded_first_gen_fraction": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "responded"
+      },
+      "column": "first_gen_fraction",
+      "value": "0.30710466004583653",
+      "places": 6,
+      "display": "0.307105"
+    },
+    "unit09_profiles_cohort2_new_responded_prior_grade_mean": {
+      "source": "profiles",
+      "where": {
+        "cohort": "cohort2",
+        "college_group": "new",
+        "frame_role": "responded"
+      },
+      "column": "prior_grade_mean",
+      "value": "2.9094576012223077",
+      "places": 6,
+      "display": "2.909458"
+    },
+    "unit09_resample_summary_unchanged_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "brier"
+      },
+      "column": "q025",
+      "value": "0.090794940778005054",
+      "places": 6,
+      "display": "0.090795"
+    },
+    "unit09_resample_summary_unchanged_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "brier"
+      },
+      "column": "q975",
+      "value": "0.15984993359101662",
+      "places": 6,
+      "display": "0.159850"
+    },
+    "unit09_resample_summary_unchanged_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "brier"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_unchanged_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "log_loss"
+      },
+      "column": "q025",
+      "value": "0.31158679624218694",
+      "places": 6,
+      "display": "0.311587"
+    },
+    "unit09_resample_summary_unchanged_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "log_loss"
+      },
+      "column": "q975",
+      "value": "0.49877066202694487",
+      "places": 6,
+      "display": "0.498771"
+    },
+    "unit09_resample_summary_unchanged_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "log_loss"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_unchanged_delta_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "delta_brier"
+      },
+      "column": "q025",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit09_resample_summary_unchanged_delta_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "delta_brier"
+      },
+      "column": "q975",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit09_resample_summary_unchanged_delta_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "delta_brier"
+      },
+      "column": "positive_draws",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit09_resample_summary_unchanged_delta_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "delta_log_loss"
+      },
+      "column": "q025",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit09_resample_summary_unchanged_delta_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "delta_log_loss"
+      },
+      "column": "q975",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit09_resample_summary_unchanged_delta_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "unchanged",
+        "metric": "delta_log_loss"
+      },
+      "column": "positive_draws",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit09_resample_summary_offset_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "brier"
+      },
+      "column": "q025",
+      "value": "0.092737223828071827",
+      "places": 6,
+      "display": "0.092737"
+    },
+    "unit09_resample_summary_offset_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "brier"
+      },
+      "column": "q975",
+      "value": "0.15840980958156117",
+      "places": 6,
+      "display": "0.158410"
+    },
+    "unit09_resample_summary_offset_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "brier"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_offset_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "log_loss"
+      },
+      "column": "q025",
+      "value": "0.31780823443235023",
+      "places": 6,
+      "display": "0.317808"
+    },
+    "unit09_resample_summary_offset_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "log_loss"
+      },
+      "column": "q975",
+      "value": "0.49361960007218125",
+      "places": 6,
+      "display": "0.493620"
+    },
+    "unit09_resample_summary_offset_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "log_loss"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_offset_delta_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "delta_brier"
+      },
+      "column": "q025",
+      "value": "-0.0014401240094554513",
+      "places": 6,
+      "display": "-0.001440"
+    },
+    "unit09_resample_summary_offset_delta_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "delta_brier"
+      },
+      "column": "q975",
+      "value": "0.0019422830500667732",
+      "places": 6,
+      "display": "0.001942"
+    },
+    "unit09_resample_summary_offset_delta_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "delta_brier"
+      },
+      "column": "positive_draws",
+      "value": "162",
+      "places": 0,
+      "display": "162"
+    },
+    "unit09_resample_summary_offset_delta_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "delta_log_loss"
+      },
+      "column": "q025",
+      "value": "-0.0051510619547636138",
+      "places": 6,
+      "display": "-0.005151"
+    },
+    "unit09_resample_summary_offset_delta_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "delta_log_loss"
+      },
+      "column": "q975",
+      "value": "0.0062214381901633531",
+      "places": 6,
+      "display": "0.006221"
+    },
+    "unit09_resample_summary_offset_delta_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "offset",
+        "metric": "delta_log_loss"
+      },
+      "column": "positive_draws",
+      "value": "156",
+      "places": 0,
+      "display": "156"
+    },
+    "unit09_resample_summary_joint_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "brier"
+      },
+      "column": "q025",
+      "value": "0.0916346545859658",
+      "places": 6,
+      "display": "0.091635"
+    },
+    "unit09_resample_summary_joint_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "brier"
+      },
+      "column": "q975",
+      "value": "0.15998984503761318",
+      "places": 6,
+      "display": "0.159990"
+    },
+    "unit09_resample_summary_joint_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "brier"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_joint_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "log_loss"
+      },
+      "column": "q025",
+      "value": "0.3205933642749601",
+      "places": 6,
+      "display": "0.320593"
+    },
+    "unit09_resample_summary_joint_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "log_loss"
+      },
+      "column": "q975",
+      "value": "0.49353787058166648",
+      "places": 6,
+      "display": "0.493538"
+    },
+    "unit09_resample_summary_joint_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "log_loss"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_joint_delta_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "delta_brier"
+      },
+      "column": "q025",
+      "value": "-0.00042683764173065408",
+      "places": 6,
+      "display": "-0.000427"
+    },
+    "unit09_resample_summary_joint_delta_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "delta_brier"
+      },
+      "column": "q975",
+      "value": "0.0013420458675530711",
+      "places": 6,
+      "display": "0.001342"
+    },
+    "unit09_resample_summary_joint_delta_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "delta_brier"
+      },
+      "column": "positive_draws",
+      "value": "209",
+      "places": 0,
+      "display": "209"
+    },
+    "unit09_resample_summary_joint_delta_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "delta_log_loss"
+      },
+      "column": "q025",
+      "value": "-0.0065768792127199882",
+      "places": 6,
+      "display": "-0.006577"
+    },
+    "unit09_resample_summary_joint_delta_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "delta_log_loss"
+      },
+      "column": "q975",
+      "value": "0.009063743694328108",
+      "places": 6,
+      "display": "0.009064"
+    },
+    "unit09_resample_summary_joint_delta_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "joint",
+        "metric": "delta_log_loss"
+      },
+      "column": "positive_draws",
+      "value": "179",
+      "places": 0,
+      "display": "179"
+    },
+    "unit09_resample_summary_refit_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "brier"
+      },
+      "column": "q025",
+      "value": "0.10072780628248018",
+      "places": 6,
+      "display": "0.100728"
+    },
+    "unit09_resample_summary_refit_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "brier"
+      },
+      "column": "q975",
+      "value": "0.15680157152912047",
+      "places": 6,
+      "display": "0.156802"
+    },
+    "unit09_resample_summary_refit_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "brier"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_refit_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "log_loss"
+      },
+      "column": "q025",
+      "value": "0.34317425675863167",
+      "places": 6,
+      "display": "0.343174"
+    },
+    "unit09_resample_summary_refit_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "log_loss"
+      },
+      "column": "q975",
+      "value": "0.48893370085308085",
+      "places": 6,
+      "display": "0.488934"
+    },
+    "unit09_resample_summary_refit_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "log_loss"
+      },
+      "column": "positive_draws",
+      "value": "256",
+      "places": 0,
+      "display": "256"
+    },
+    "unit09_resample_summary_refit_delta_brier_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "delta_brier"
+      },
+      "column": "q025",
+      "value": "-0.0031802580944101655",
+      "places": 6,
+      "display": "-0.003180"
+    },
+    "unit09_resample_summary_refit_delta_brier_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "delta_brier"
+      },
+      "column": "q975",
+      "value": "0.011105815494446863",
+      "places": 6,
+      "display": "0.011106"
+    },
+    "unit09_resample_summary_refit_delta_brier_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "delta_brier"
+      },
+      "column": "positive_draws",
+      "value": "202",
+      "places": 0,
+      "display": "202"
+    },
+    "unit09_resample_summary_refit_delta_log_loss_q025": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "delta_log_loss"
+      },
+      "column": "q025",
+      "value": "-0.014140339681351921",
+      "places": 6,
+      "display": "-0.014140"
+    },
+    "unit09_resample_summary_refit_delta_log_loss_q975": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "delta_log_loss"
+      },
+      "column": "q975",
+      "value": "0.036978187131385676",
+      "places": 6,
+      "display": "0.036978"
+    },
+    "unit09_resample_summary_refit_delta_log_loss_positive_draws": {
+      "source": "resample_summary",
+      "where": {
+        "method": "refit",
+        "metric": "delta_log_loss"
+      },
+      "column": "positive_draws",
+      "value": "215",
+      "places": 0,
+      "display": "215"
+    }
+  }
+}

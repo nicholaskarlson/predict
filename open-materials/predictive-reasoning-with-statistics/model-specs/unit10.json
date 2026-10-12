@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "unit_id": 10,
+  "title": "Subgroup Performance and Fairness",
+  "state": "specified_before_first_unit10_score",
+  "raw_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978"
+  },
+  "predictor_allowlist": [
+    "part_time",
+    "first_gen",
+    "age",
+    "gender",
+    "program_area",
+    "prior_grade",
+    "wellbeing_score",
+    "stress_score"
+  ],
+  "groups": [
+    {
+      "id": "all",
+      "field": "all",
+      "value": "all",
+      "label": "All evaluated respondents"
+    },
+    {
+      "id": "part_time_0",
+      "field": "part_time",
+      "value": "0",
+      "label": "part_time = 0"
+    },
+    {
+      "id": "part_time_1",
+      "field": "part_time",
+      "value": "1",
+      "label": "part_time = 1"
+    },
+    {
+      "id": "first_gen_0",
+      "field": "first_gen",
+      "value": "0",
+      "label": "first_gen = 0"
+    },
+    {
+      "id": "first_gen_1",
+      "field": "first_gen",
+      "value": "1",
+      "label": "first_gen = 1"
+    },
+    {
+      "id": "gender_female",
+      "field": "gender",
+      "value": "female",
+      "label": "gender = female"
+    },
+    {
+      "id": "gender_male",
+      "field": "gender",
+      "value": "male",
+      "label": "gender = male"
+    },
+    {
+      "id": "gender_another",
+      "field": "gender",
+      "value": "another",
+      "label": "gender = another"
+    },
+    {
+      "id": "program_area_Arts_and_Humanities",
+      "field": "program_area",
+      "value": "Arts and Humanities",
+      "label": "program_area = Arts and Humanities"
+    },
+    {
+      "id": "program_area_Social_Sciences",
+      "field": "program_area",
+      "value": "Social Sciences",
+      "label": "program_area = Social Sciences"
+    },
+    {
+      "id": "program_area_STEM",
+      "field": "program_area",
+      "value": "STEM",
+      "label": "program_area = STEM"
+    },
+    {
+      "id": "program_area_Health",
+      "field": "program_area",
+      "value": "Health",
+      "label": "program_area = Health"
+    },
+    {
+      "id": "program_area_Business",
+      "field": "program_area",
+      "value": "Business",
+      "label": "program_area = Business"
+    },
+    {
+      "id": "part_time_0_first_gen_0",
+      "field": "part_time_first_gen",
+      "value": "0|0",
+      "label": "Part-time 0, first-generation 0"
+    },
+    {
+      "id": "part_time_0_first_gen_1",
+      "field": "part_time_first_gen",
+      "value": "0|1",
+      "label": "Part-time 0, first-generation 1"
+    },
+    {
+      "id": "part_time_1_first_gen_0",
+      "field": "part_time_first_gen",
+      "value": "1|0",
+      "label": "Part-time 1, first-generation 0"
+    },
+    {
+      "id": "part_time_1_first_gen_1",
+      "field": "part_time_first_gen",
+      "value": "1|1",
+      "label": "Part-time 1, first-generation 1"
+    }
+  ],
+  "evaluation_roles": [
+    "continuing_final",
+    "new_final"
+  ],
+  "model": "frozen_Unit7_full_logistic_offer_zero",
+  "fit_or_update": false,
+  "role_assignment": "retain_Unit8_Unit9_roles",
+  "previous_final_labels_already_reported": true,
+  "evidence_scope": "teaching_reanalysis_not_fresh_validation",
+  "final_labels_for_selection": false,
+  "group_threshold_selection": false,
+  "action": {
+    "threshold": 0.2,
+    "orientation": "greater_than_or_equal",
+    "capacity": {
+      "continuing_final": 300,
+      "new_final": 146
+    },
+    "capacity_new_definition": "floor(300*654/1341), declared allocation fraction from Unit7",
+    "rank_ties": "row_id_ascending_then_resample_position",
+    "utility": "hypothetical_TP4_FPminus1_not_prevention"
+  },
+  "clip_epsilon": 1e-12,
+  "calibration": {
+    "bins": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "endpoints": "left_closed_right_open_final_endpoint_closed",
+    "assessment": "group_mean_probability_observed_fraction_signed_bias_Brier_logloss_ECE_fixed_bins",
+    "refit": false
+  },
+  "undefined": {
+    "empty_group": "empty_group",
+    "auc": "one_class",
+    "tpr": "no_events",
+    "fpr": "no_nonevents",
+    "ppv": "no_selected"
+  },
+  "bootstrap": {
+    "draws": 200,
+    "seed": 1010,
+    "assignment": "student_with_replacement_within_each_fixed_college_and_role_before_scores",
+    "capacity": "rerank_each_resample_same_fixed_role_capacity",
+    "prediction": "fixed_rule_no_fit",
+    "metrics": [
+      "brier",
+      "calibration_bias",
+      "selection_rate",
+      "tpr",
+      "fpr",
+      "ppv"
+    ],
+    "percentiles": "type7_0.025_0.5_0.975_over_defined_replicates",
+    "undefined_replicates": "count_explicitly_never_replace_with_zero",
+    "scope": "conditional_pointwise_approximate_bootstrap_not_simultaneous_not_new_college_population_CI",
+    "assumption": "exchangeable_students_within_fixed_college_role_stable_measurement",
+    "model_fit_uncertainty": false
+  },
+  "small_groups": "retain_counts_undefined_reasons_and_pointwise_uncertainty_no_group_ranking",
+  "group_sets_overlap": true,
+  "pooling_settings": false,
+  "fairness_certificate": false,
+  "latent_truth_used": false,
+  "publication_ready": false
+}

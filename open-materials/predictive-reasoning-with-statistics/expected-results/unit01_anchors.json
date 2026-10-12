@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even",
+  "anchors": {
+    "control_pool_n": {
+      "exact": "610",
+      "display": "610"
+    },
+    "development_brier_baseline": {
+      "exact": "5270/40401",
+      "display": "0.130442"
+    },
+    "development_brier_table": {
+      "exact": "10756171423/87281777700",
+      "display": "0.123235"
+    },
+    "development_events": {
+      "exact": "93",
+      "display": "93"
+    },
+    "development_n": {
+      "exact": "603",
+      "display": "603"
+    },
+    "development_transfer_n": {
+      "exact": "22",
+      "display": "22"
+    },
+    "temporal_brier_baseline": {
+      "exact": "2683313/18059247",
+      "display": "0.148584"
+    },
+    "temporal_brier_table": {
+      "exact": "1948826120100856721/14047897317546105000",
+      "display": "0.138727"
+    },
+    "temporal_events": {
+      "exact": "242",
+      "display": "242"
+    },
+    "temporal_improvement": {
+      "exact": "1864707853753583303293/189183033175393396035000",
+      "display": "0.009857"
+    },
+    "temporal_n": {
+      "exact": "1341",
+      "display": "1341"
+    },
+    "temporal_prevalence": {
+      "exact": "242/1341",
+      "display": "0.180462"
+    },
+    "temporal_relative_improvement": {
+      "exact": "1864707853753583303293/28109549213151820765000",
+      "display": "0.066337"
+    },
+    "temporal_transfer_n": {
+      "exact": "41",
+      "display": "41"
+    },
+    "training_prevalence": {
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "unknown_n": {
+      "exact": "7",
+      "display": "7"
+    },
+    "cut_25": {
+      "exact": "267/100",
+      "display": "2.67"
+    },
+    "cut_50": {
+      "exact": "299/100",
+      "display": "2.99"
+    },
+    "cut_75": {
+      "exact": "33/10",
+      "display": "3.30"
+    },
+    "cell_0_1_n": {
+      "exact": "92",
+      "display": "92"
+    },
+    "cell_0_1_events": {
+      "exact": "20",
+      "display": "20"
+    },
+    "cell_0_1_risk": {
+      "exact": "5/23",
+      "display": "0.217391"
+    },
+    "cell_0_2_n": {
+      "exact": "100",
+      "display": "100"
+    },
+    "cell_0_2_events": {
+      "exact": "14",
+      "display": "14"
+    },
+    "cell_0_2_risk": {
+      "exact": "7/50",
+      "display": "0.140000"
+    },
+    "cell_0_3_n": {
+      "exact": "94",
+      "display": "94"
+    },
+    "cell_0_3_events": {
+      "exact": "6",
+      "display": "6"
+    },
+    "cell_0_3_risk": {
+      "exact": "3/47",
+      "display": "0.063830"
+    },
+    "cell_0_4_n": {
+      "exact": "103",
+      "display": "103"
+    },
+    "cell_0_4_events": {
+      "exact": "5",
+      "display": "5"
+    },
+    "cell_0_4_risk": {
+      "exact": "5/103",
+      "display": "0.048544"
+    },
+    "cell_1_1_n": {
+      "exact": "65",
+      "display": "65"
+    },
+    "cell_1_1_events": {
+      "exact": "19",
+      "display": "19"
+    },
+    "cell_1_1_risk": {
+      "exact": "19/65",
+      "display": "0.292308"
+    },
+    "cell_1_2_n": {
+      "exact": "52",
+      "display": "52"
+    },
+    "cell_1_2_events": {
+      "exact": "13",
+      "display": "13"
+    },
+    "cell_1_2_risk": {
+      "exact": "1/4",
+      "display": "0.250000"
+    },
+    "cell_1_3_n": {
+      "exact": "50",
+      "display": "50"
+    },
+    "cell_1_3_events": {
+      "exact": "11",
+      "display": "11"
+    },
+    "cell_1_3_risk": {
+      "exact": "11/50",
+      "display": "0.220000"
+    },
+    "cell_1_4_n": {
+      "exact": "47",
+      "display": "47"
+    },
+    "cell_1_4_events": {
+      "exact": "5",
+      "display": "5"
+    },
+    "cell_1_4_risk": {
+      "exact": "5/47",
+      "display": "0.106383"
+    },
+    "wrong_unknown_baseline": {
+      "exact": "93/610",
+      "display": "0.152459"
+    },
+    "risk_partial_first": {
+      "exact": "19/65",
+      "display": "0.292308"
+    },
+    "partial_first_loss_nonevent": {
+      "exact": "361/4225",
+      "display": "0.085444"
+    },
+    "partial_first_loss_event": {
+      "exact": "2116/4225",
+      "display": "0.500828"
+    },
+    "relative_improvement_percent": {
+      "exact": "1864707853753583303293/281095492131518207650",
+      "display": "6.633717"
+    },
+    "known_training_nonevents": {
+      "exact": "510",
+      "display": "510"
+    },
+    "temporal_nonevents": {
+      "exact": "1099",
+      "display": "1099"
+    }
+  }
+}

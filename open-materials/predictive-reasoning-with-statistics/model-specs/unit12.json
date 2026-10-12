@@ -1,0 +1,59 @@
+{
+  "absolute_tolerance": 1e-10,
+  "designer_blindness_claimed": false,
+  "final_labels_for_selection": false,
+  "independent_routes": [
+    "numpy",
+    "stdlib",
+    "base-r"
+  ],
+  "new_analysis_random_permutations": 128,
+  "new_world_random_draws": 0,
+  "offer_contrast": {
+    "bounds": "full assigned-arm risks [events/n_assigned,(events+unknown)/n_assigned], standardized with same all-randomized college weights; bounds on missing-data completions of the realized assigned-group contrast, not confidence intervals or bounds on a population causal effect",
+    "causal_link": "assignment effect requires consistency, no interference, comparable outcome ascertainment and justified missing-outcome handling; complete-case contrast alone is not an identified full ITT effect; uptake effect is not identified",
+    "population": "1219 anchor baseline respondents randomized to offer within 16 colleges; 381 invited nonrespondents were not randomized",
+    "positive_direction": "offer minus no offer withdrawal risk",
+    "primary": "sum(college randomized n/1219 * (known-outcome offered risk - known-outcome control risk))",
+    "randomization": "uniform within-college assignment of half; odd college sizes have a fair random extra offer; original fixed assignments preserved",
+    "sampling_inference": "not supplied; sixteen sampled colleges do not establish future-system benefit",
+    "unknown_labels": "11 consent-censored outcomes remain blank; 4 offered and 7 controls",
+    "weights": "all randomized respondents within each sampled college, not known-outcome n, invited n, population weights or equal-college weights"
+  },
+  "permutation": {
+    "difference": "permuted Brier minus unpermuted frozen-frame Brier",
+    "draws_per_role": 64,
+    "feature": "prior_grade",
+    "interpretation": "descriptive sensitivity of this frozen model to this disruption on reused fixed records; permutation spread is not a sampling interval, causal effect or universal feature ranking",
+    "mapping": "one bijection within each fixed college and role; permute prior_grade alone",
+    "outcomes_used_to_make_maps": false,
+    "quantiles": "type7; .025 and .975",
+    "seed": 2026101204
+  },
+  "prediction": {
+    "comparator": "177/984 development prevalence independently reconstructed from 984 known no-offer anchor invitees",
+    "evaluation_roles": [
+      "temporal_continuing",
+      "temporal_new"
+    ],
+    "model": "unchanged Unit 11 frame_only frozen model; prespecified teaching handoff, not selected by evaluation scores",
+    "outcome": "withdrawal before first transfer by twelve months",
+    "prediction_time": "enrollment snapshot with complete administrative frame",
+    "refitting": false,
+    "scoring": "unweighted Brier and tied-pair AUC on identical records; no pooled setting score"
+  },
+  "previous_outcomes_already_known": true,
+  "prior_source_sha256": {
+    "data/unit11_rows.csv": "2f050c4c79c562481a7273185d70a3cb6b6c1c6072bab02fda9edea2c86dae6c",
+    "deployment/unit11_bundle.json": "303df3292a15c8fcf30b46f61c04d289a256e0ce569c7c06f51adc9eacbc3ae7",
+    "expected-results/unit11_scores.csv": "b533f2600b031b038cbb03cc6786e6b9c5f63202da3904a5de41e50dc90d2b09",
+    "predictions/unit11_predictions.csv": "d3097bdb21ab32bbdf61ab6ef16ef1166e213f955e0eebba76c26939de830f18",
+    "source/tonmick-v1.0.0/WORLD_SPEC.md": "3fad7526f5060dbdbdcbebba8235d28df0d9e4e1c93f87fe20982090a62517e5",
+    "source/tonmick-v1.0.0/data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "source/tonmick-v1.0.0/data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "source/tonmick-v1.0.0/data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47"
+  },
+  "schema_version": 1,
+  "scope": "calculation_foundation_reader_pending",
+  "unit": 12
+}

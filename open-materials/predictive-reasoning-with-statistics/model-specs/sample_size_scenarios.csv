@@ -1,0 +1,5 @@
+id,parameters,prevalence,r2_cs,shrinkage,optimism_delta,risk_margin,z,usable_fraction
+plan_main,13,0.15,0.08,0.9,0.05,0.05,1.96,0.8
+weaker_signal,13,0.15,0.05,0.9,0.05,0.05,1.96,0.8
+stronger_signal,13,0.15,0.1,0.9,0.05,0.05,1.96,0.8
+more_parameters,20,0.15,0.08,0.9,0.05,0.05,1.96,0.8

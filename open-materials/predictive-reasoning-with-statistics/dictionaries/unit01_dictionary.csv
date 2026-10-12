@@ -1,0 +1,13 @@
+variable,definition,use
+row_id,stable student_id; unique across the two source cohorts,"join key, never predictor"
+cohort,anchor or cohort2,defines historical source and role
+college_id,original Tonmick college ID,"setting audit, never fitted predictor here"
+part_time,0 full-time; 1 part-time at enrollment,allowed predictor
+prior_grade,original recorded enrollment grade on 0 to 4 scale,allowed predictor; no fitted scaling
+offer,0 for selected anchor controls; 0 by later-cohort design,"policy selection, not table predictor"
+exit_type,"none, withdrawal, transfer, or consent_withdrawn","outcome observation rule, never predictor"
+withdrawn_12,original source 0/1; consent zeros are not confirmed negatives,source audit only
+eligible,1 known target; 0 consent-censored target,explicit observation eligibility
+y,known withdrawal before transfer by 12 months; blank when unknown,fit/score label only
+role,"train, test, or excluded_unknown in the role manifest",committed assignment
+grade_bin,"1 to 4 from fixed type-7 training cutpoints, right-closed",derived enrollment predictor category

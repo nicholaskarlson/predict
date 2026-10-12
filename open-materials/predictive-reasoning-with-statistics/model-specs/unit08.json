@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "unit_id": 8,
+  "title": "Calibration and Predictive Uncertainty",
+  "predictor_allowlist": [
+    "part_time",
+    "first_gen",
+    "age",
+    "gender",
+    "program_area",
+    "prior_grade",
+    "wellbeing_score",
+    "stress_score"
+  ],
+  "binary_rule": "frozen_unit07_full_logistic_offer_zero",
+  "binary_calibration": "offset_intercept_slope_fixed_one_and_joint_intercept_slope",
+  "clip_epsilon": 1e-12,
+  "binary_fit": "new_updating_known_scorable_only",
+  "binary_evaluation": [
+    "continuing_final",
+    "new_final"
+  ],
+  "updating_choices": [
+    "unchanged",
+    "offset",
+    "joint"
+  ],
+  "selection_between_choices": false,
+  "diagnostics_do_not_update": true,
+  "bins": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1
+  ],
+  "bin_edges": "left_closed_right_open_last_closed",
+  "grade_model": "OLS_intercept_prior_grade_only",
+  "grade_fit": "anchor_offer0_grade_fit_observed",
+  "grade_calibration": "anchor_offer0_grade_calibration_observed",
+  "grade_evaluation": [
+    "continuing_final",
+    "new_final"
+  ],
+  "alpha_numerator": 1,
+  "alpha_denominator": 10,
+  "conformal_order": "ceil((n+1)*9/10)_one_based_no_interpolation",
+  "quantile_overflow": "positive_infinity",
+  "interval": "prediction_plus_minus_absolute_residual_order_statistic",
+  "endpoint_rule": "closed",
+  "interval_clipping": false,
+  "scores": [
+    "brier",
+    "log_loss",
+    "offset_intercept",
+    "joint_intercept",
+    "joint_slope",
+    "coverage",
+    "mean_width"
+  ],
+  "group_reports": [
+    "all",
+    "part_time_0",
+    "part_time_1"
+  ],
+  "coverage_claim": "measured_only_shift_and_college_dependence_prevent_guarantee_here",
+  "unknown_binary": "excluded_not_zero",
+  "missing_grade": "excluded_not_zero",
+  "new_assignment": "label_blind_hash_sort_round_robin_within_college_all_respondents_before_eligibility",
+  "anchor_assignment": "label_blind_hash_sort_round_robin_within_college_offer0_before_grade_eligibility",
+  "raw_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/registry.csv": "9522f8a8d100a59aba4deff4fc3a19eeaa84d9266385991514409fcc0afa7978"
+  },
+  "solver": {
+    "maximum_iterations": 200,
+    "gradient_inf_tolerance": 1e-10,
+    "newton_step_inf_tolerance": 1e-10,
+    "rank_relative_tolerance": 1e-10,
+    "condition_r_inf_limit": 100000.0,
+    "maximum_abs_coefficient": 30,
+    "backtracking_factor": 0.5,
+    "minimum_step": 9.094947017729282e-13
+  },
+  "comparison": {
+    "probability": 1e-10,
+    "prediction": 1e-10,
+    "score": 1e-10,
+    "coefficient": 1e-08,
+    "condition": 1e-08
+  },
+  "local_freeze_scope": "local_order_only_no_preregistration_or_blindness",
+  "earlier_final_labels_reused": "educational_diagnostics_no_fresh_external_validation_claim"
+}

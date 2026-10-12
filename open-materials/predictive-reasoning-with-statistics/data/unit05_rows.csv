@@ -1,0 +1,611 @@
+row_id,college_id,region,part_time,program_area,prior_grade,role,y,exit_type
+S1000017,TC01,North,0,Arts and Humanities,3.54,eligible,0,none
+S1000186,TC01,North,0,STEM,3.04,eligible,0,none
+S1000389,TC01,North,0,Business,3.02,eligible,0,none
+S1000409,TC01,North,0,STEM,2.51,eligible,0,none
+S1000577,TC01,North,1,Business,2.91,eligible,0,none
+S1000801,TC01,North,1,Social Sciences,2.79,eligible,0,none
+S1000949,TC01,North,0,Business,3.33,eligible,0,none
+S1000963,TC01,North,1,Social Sciences,2.37,eligible,0,none
+S1001021,TC01,North,1,Health,3.71,eligible,0,none
+S1001117,TC01,North,1,Business,3.87,eligible,0,none
+S1001239,TC01,North,0,STEM,2.93,eligible,0,none
+S1001336,TC01,North,0,STEM,3.37,eligible,0,none
+S1001521,TC01,North,0,Business,2.54,eligible,0,none
+S1001732,TC01,North,0,Social Sciences,3.01,eligible,0,none
+S1001898,TC01,North,1,STEM,2.91,eligible,0,none
+S1002190,TC01,North,0,Business,3.52,eligible,0,none
+S1002376,TC01,North,0,STEM,2.79,eligible,0,none
+S1002447,TC01,North,0,Arts and Humanities,2.38,eligible,0,none
+S1002763,TC01,North,0,Arts and Humanities,2.49,eligible,0,none
+S1003185,TC01,North,0,Business,2.96,eligible,0,none
+S1003427,TC01,North,0,STEM,2.95,eligible,0,none
+S1003428,TC01,North,0,Business,3.12,eligible,0,none
+S1003518,TC01,North,0,Arts and Humanities,3.15,eligible,0,none
+S1003551,TC01,North,0,Arts and Humanities,2.86,eligible,0,none
+S1003630,TC01,North,0,STEM,3.77,eligible,0,none
+S1003640,TC01,North,1,Social Sciences,2.17,eligible,0,none
+S1003704,TC01,North,1,STEM,2.88,eligible,1,withdrawal
+S1004072,TC01,North,0,Business,3.07,eligible,0,none
+S1004115,TC01,North,0,Business,2.9,eligible,1,withdrawal
+S1004121,TC01,North,0,Social Sciences,2.34,eligible,0,none
+S1004124,TC01,North,0,STEM,3.28,eligible,0,none
+S1004600,TC01,North,0,STEM,2.77,eligible,1,withdrawal
+S1004834,TC01,North,0,Health,3.02,eligible,0,none
+S1004863,TC01,North,1,Social Sciences,2.99,eligible,0,none
+S1004877,TC01,North,0,Business,2.88,excluded_unknown,,consent_withdrawn
+S1004897,TC01,North,0,STEM,2.72,eligible,0,none
+S1004955,TC02,North,1,Social Sciences,3.06,eligible,0,none
+S1005125,TC02,North,0,Health,2.85,eligible,0,none
+S1005136,TC02,North,1,STEM,2.85,eligible,0,none
+S1005182,TC02,North,0,Social Sciences,2.64,eligible,1,withdrawal
+S1005226,TC02,North,0,Health,3.16,eligible,0,none
+S1005255,TC02,North,0,Social Sciences,3.43,eligible,0,none
+S1005260,TC02,North,0,Social Sciences,3.3,eligible,0,none
+S1005261,TC02,North,1,Business,3.9,eligible,0,none
+S1005310,TC02,North,0,Health,3.25,eligible,0,none
+S1005319,TC02,North,1,Social Sciences,2.57,eligible,1,withdrawal
+S1005639,TC02,North,0,STEM,3.35,eligible,0,none
+S1005749,TC02,North,1,Business,2.09,eligible,1,withdrawal
+S1005841,TC02,North,1,Health,2.28,eligible,0,none
+S1005845,TC02,North,0,STEM,2.39,eligible,0,none
+S1005931,TC02,North,0,Business,2.73,eligible,0,none
+S1005940,TC02,North,0,Social Sciences,2.74,eligible,0,none
+S1006015,TC02,North,1,Social Sciences,2.63,eligible,1,withdrawal
+S1006026,TC02,North,0,Social Sciences,2.82,eligible,0,none
+S1006042,TC02,North,0,Arts and Humanities,2.75,eligible,0,none
+S1006188,TC02,North,1,Arts and Humanities,2.32,eligible,0,none
+S1006214,TC02,North,0,STEM,3.13,eligible,1,withdrawal
+S1006291,TC02,North,0,Business,2.92,eligible,0,none
+S1006482,TC02,North,1,Arts and Humanities,2.36,eligible,0,none
+S1006566,TC02,North,0,Business,2.98,eligible,0,none
+S1006607,TC02,North,0,Arts and Humanities,3.68,eligible,0,none
+S1006672,TC02,North,0,Business,3.26,excluded_unknown,,consent_withdrawn
+S1006775,TC02,North,0,Social Sciences,2.64,eligible,0,none
+S1006821,TC02,North,1,STEM,3.04,eligible,0,none
+S1006841,TC02,North,0,Arts and Humanities,3.95,eligible,0,none
+S1006929,TC02,North,1,Arts and Humanities,3.26,eligible,0,none
+S1006962,TC02,North,0,Social Sciences,3.21,eligible,0,none
+S1006963,TC02,North,0,Business,2.4,eligible,0,none
+S1006995,TC02,North,0,Social Sciences,3.43,eligible,0,none
+S1007313,TC02,North,0,STEM,3.08,eligible,0,none
+S1007341,TC02,North,1,STEM,2.6,eligible,1,withdrawal
+S1007373,TC02,North,1,Business,2.04,eligible,0,none
+S1007448,TC02,North,0,Arts and Humanities,2.99,eligible,0,none
+S1007452,TC02,North,0,Business,3.35,eligible,0,none
+S1008866,TC04,North,0,Business,3.19,eligible,0,none
+S1008895,TC04,North,1,STEM,3.04,eligible,0,none
+S1008955,TC04,North,1,STEM,2.81,eligible,0,none
+S1009058,TC04,North,0,Social Sciences,2.66,eligible,0,none
+S1009061,TC04,North,0,STEM,3.22,eligible,0,none
+S1009077,TC04,North,1,Social Sciences,2.2,eligible,0,none
+S1009092,TC04,North,0,STEM,3.08,eligible,0,none
+S1009106,TC04,North,0,STEM,2.59,eligible,0,none
+S1009128,TC04,North,0,STEM,2.67,eligible,0,none
+S1009137,TC04,North,0,Social Sciences,3.81,eligible,0,none
+S1009168,TC04,North,0,Arts and Humanities,3.07,eligible,0,none
+S1009275,TC04,North,1,Arts and Humanities,2.83,eligible,0,none
+S1009344,TC04,North,1,STEM,2.91,eligible,0,transfer
+S1009346,TC04,North,1,Arts and Humanities,3.73,eligible,0,none
+S1009581,TC04,North,1,Health,2.48,eligible,0,none
+S1009584,TC04,North,0,STEM,2.6,eligible,0,none
+S1009599,TC04,North,0,Social Sciences,2.8,eligible,1,withdrawal
+S1009618,TC04,North,0,Social Sciences,3.36,eligible,0,none
+S1009734,TC04,North,0,Business,2.65,eligible,0,none
+S1009738,TC04,North,1,STEM,3.36,eligible,0,none
+S1009872,TC04,North,1,STEM,1.9,eligible,0,none
+S1009895,TC04,North,0,Social Sciences,3.3,eligible,0,none
+S1009905,TC04,North,1,Arts and Humanities,2.5,eligible,0,none
+S1009930,TC04,North,0,STEM,3.24,eligible,0,none
+S1009941,TC04,North,1,Social Sciences,2.56,eligible,0,none
+S1009964,TC04,North,1,Arts and Humanities,3.26,eligible,0,none
+S1010037,TC04,North,1,Health,2.08,eligible,1,withdrawal
+S1010085,TC04,North,1,Arts and Humanities,2.76,eligible,0,none
+S1010100,TC04,North,0,Social Sciences,2.81,eligible,0,none
+S1010118,TC04,North,0,STEM,2.8,eligible,0,none
+S1010253,TC04,North,1,Health,3.46,eligible,0,none
+S1010314,TC04,North,0,STEM,2.96,eligible,0,none
+S1010399,TC04,North,1,Social Sciences,2.43,eligible,0,none
+S1010462,TC04,North,0,STEM,2.5,eligible,1,withdrawal
+S1010511,TC04,North,1,Health,3.56,eligible,0,none
+S1010661,TC04,North,0,STEM,2.79,eligible,0,none
+S1010696,TC04,North,1,STEM,2.36,eligible,0,none
+S1010934,TC04,North,0,Social Sciences,3.9,eligible,0,none
+S1010967,TC04,North,0,Arts and Humanities,3.55,eligible,0,none
+S1011112,TC04,North,0,Arts and Humanities,3.35,eligible,0,none
+S1011137,TC04,North,1,Social Sciences,3.6,eligible,0,transfer
+S1012683,TC07,North,0,STEM,3.45,eligible,0,none
+S1012704,TC07,North,1,Arts and Humanities,2.99,eligible,0,none
+S1012706,TC07,North,1,STEM,2.98,eligible,0,none
+S1012711,TC07,North,0,STEM,3.72,eligible,0,transfer
+S1012719,TC07,North,0,Social Sciences,2.79,eligible,0,none
+S1012720,TC07,North,0,Business,3.36,eligible,0,none
+S1012728,TC07,North,1,STEM,3.16,eligible,1,withdrawal
+S1012746,TC07,North,0,Business,3.73,eligible,0,none
+S1012750,TC07,North,1,Social Sciences,4.0,eligible,0,transfer
+S1012765,TC07,North,1,STEM,3.1,eligible,0,none
+S1012788,TC07,North,1,STEM,3.65,eligible,0,none
+S1012789,TC07,North,0,STEM,3.49,eligible,0,none
+S1012815,TC07,North,0,Arts and Humanities,3.77,eligible,0,none
+S1012816,TC07,North,1,STEM,3.43,eligible,0,none
+S1012821,TC07,North,0,Arts and Humanities,3.36,eligible,0,none
+S1012843,TC07,North,0,Arts and Humanities,3.32,eligible,0,none
+S1012848,TC07,North,0,Health,3.91,eligible,0,none
+S1012873,TC07,North,1,Arts and Humanities,3.44,eligible,0,none
+S1012879,TC07,North,1,STEM,2.67,eligible,0,none
+S1012884,TC07,North,0,Business,3.48,eligible,0,none
+S1012916,TC07,North,1,Business,3.89,eligible,0,none
+S1012918,TC07,North,0,Health,3.9,eligible,0,none
+S1012920,TC07,North,1,STEM,2.67,eligible,1,withdrawal
+S1012922,TC07,North,0,Health,2.62,eligible,0,none
+S1012954,TC07,North,1,Business,3.6,eligible,0,none
+S1012963,TC07,North,0,STEM,2.71,eligible,0,none
+S1013006,TC07,North,1,Arts and Humanities,3.7,eligible,0,none
+S1013028,TC07,North,1,STEM,3.11,eligible,0,none
+S1013044,TC07,North,0,Arts and Humanities,3.22,eligible,0,none
+S1013060,TC07,North,1,Arts and Humanities,3.09,eligible,0,none
+S1013063,TC07,North,0,Health,3.94,eligible,0,none
+S1013067,TC07,North,0,Business,3.49,eligible,0,none
+S1013079,TC07,North,0,Health,4.0,eligible,0,none
+S1013090,TC07,North,0,STEM,3.8,eligible,0,none
+S1013149,TC07,North,1,Social Sciences,2.68,eligible,0,none
+S1013152,TC07,North,1,STEM,2.87,eligible,0,none
+S1013159,TC07,North,1,Business,3.16,eligible,0,none
+S1013161,TC07,North,0,Business,3.57,eligible,0,none
+S1013187,TC07,North,1,Business,4.0,eligible,1,withdrawal
+S1013235,TC07,North,0,Arts and Humanities,4.0,eligible,1,withdrawal
+S1013275,TC07,North,1,Arts and Humanities,3.03,eligible,0,none
+S1016519,TC11,East,0,Arts and Humanities,2.88,eligible,0,none
+S1016536,TC11,East,0,STEM,3.54,eligible,0,none
+S1016567,TC11,East,0,Health,3.38,eligible,0,none
+S1016605,TC11,East,0,Social Sciences,2.74,eligible,0,none
+S1016618,TC11,East,0,STEM,2.6,eligible,0,none
+S1016640,TC11,East,0,Arts and Humanities,2.9,eligible,0,none
+S1016727,TC11,East,0,Social Sciences,3.29,eligible,0,none
+S1016743,TC11,East,1,Health,2.66,eligible,0,none
+S1016751,TC11,East,1,Social Sciences,2.32,eligible,0,none
+S1016831,TC11,East,0,Arts and Humanities,2.29,eligible,0,none
+S1016845,TC11,East,0,Business,3.15,eligible,0,none
+S1016859,TC11,East,0,Social Sciences,2.57,eligible,0,none
+S1016868,TC11,East,0,Social Sciences,2.67,eligible,0,none
+S1016905,TC11,East,0,STEM,2.94,eligible,0,none
+S1016916,TC11,East,1,STEM,2.85,eligible,0,none
+S1017003,TC11,East,1,Social Sciences,2.38,eligible,0,none
+S1017086,TC11,East,0,Arts and Humanities,3.24,eligible,0,none
+S1017091,TC11,East,1,STEM,2.79,eligible,0,none
+S1017178,TC11,East,1,Social Sciences,2.89,eligible,0,none
+S1017245,TC11,East,1,Social Sciences,2.7,eligible,0,none
+S1017253,TC11,East,0,Business,2.61,eligible,1,withdrawal
+S1017293,TC11,East,1,Business,2.63,eligible,0,none
+S1017330,TC11,East,1,Social Sciences,3.84,eligible,0,none
+S1017363,TC11,East,1,Arts and Humanities,3.11,eligible,0,none
+S1017389,TC11,East,0,Arts and Humanities,2.53,eligible,0,none
+S1017398,TC11,East,0,Social Sciences,3.26,eligible,0,none
+S1017423,TC11,East,1,Arts and Humanities,2.97,eligible,1,withdrawal
+S1017448,TC11,East,1,Business,2.58,eligible,0,none
+S1017491,TC11,East,0,Business,3.39,eligible,0,none
+S1017507,TC11,East,1,Arts and Humanities,2.63,eligible,1,withdrawal
+S1017512,TC11,East,1,Arts and Humanities,2.43,eligible,0,none
+S1017516,TC11,East,1,Social Sciences,1.87,eligible,0,none
+S1017523,TC11,East,0,STEM,3.26,eligible,0,none
+S1017556,TC11,East,1,Social Sciences,3.7,eligible,0,none
+S1017616,TC11,East,1,Arts and Humanities,3.22,eligible,0,none
+S1017640,TC11,East,1,Arts and Humanities,3.0,eligible,1,withdrawal
+S1017642,TC11,East,0,STEM,2.76,eligible,0,none
+S1017694,TC11,East,1,Arts and Humanities,3.37,eligible,0,none
+S1017712,TC12,East,0,Social Sciences,2.7,eligible,0,none
+S1017850,TC12,East,0,Health,2.66,eligible,0,none
+S1018088,TC12,East,1,Health,2.34,eligible,0,none
+S1018111,TC12,East,1,Social Sciences,2.33,eligible,1,withdrawal
+S1018143,TC12,East,0,Health,2.67,eligible,0,none
+S1018198,TC12,East,0,Social Sciences,3.17,eligible,0,none
+S1018244,TC12,East,1,Health,2.78,eligible,1,withdrawal
+S1018245,TC12,East,0,Business,3.24,eligible,0,transfer
+S1018371,TC12,East,0,Business,2.45,eligible,0,none
+S1018379,TC12,East,1,Health,3.13,eligible,0,none
+S1018397,TC12,East,0,Health,2.46,eligible,0,none
+S1018417,TC12,East,0,Health,2.41,eligible,0,none
+S1018489,TC12,East,0,Business,3.06,eligible,0,none
+S1018530,TC12,East,0,Health,3.23,eligible,0,none
+S1018581,TC12,East,0,Health,2.65,eligible,0,none
+S1018589,TC12,East,0,Business,2.61,eligible,1,withdrawal
+S1018635,TC12,East,1,Arts and Humanities,2.91,eligible,1,withdrawal
+S1018636,TC12,East,0,Business,3.37,eligible,0,none
+S1018700,TC12,East,0,Social Sciences,2.63,eligible,1,withdrawal
+S1018725,TC12,East,0,Health,2.7,eligible,0,none
+S1018749,TC12,East,1,STEM,2.87,eligible,0,none
+S1018857,TC12,East,0,STEM,3.14,eligible,0,none
+S1018940,TC12,East,0,Health,2.93,eligible,0,none
+S1018948,TC12,East,0,Health,2.6,eligible,0,none
+S1018981,TC12,East,0,Health,3.12,eligible,0,none
+S1018996,TC12,East,0,Business,2.55,eligible,0,none
+S1019024,TC12,East,0,STEM,2.05,eligible,1,withdrawal
+S1019031,TC12,East,0,Health,3.05,eligible,0,none
+S1019046,TC12,East,0,STEM,3.28,eligible,0,none
+S1019068,TC12,East,0,Health,3.42,eligible,0,none
+S1019069,TC12,East,0,Business,3.19,eligible,0,none
+S1019121,TC12,East,0,Social Sciences,4.0,eligible,0,none
+S1019129,TC12,East,0,Social Sciences,3.45,eligible,0,none
+S1019132,TC12,East,0,Business,2.37,eligible,0,none
+S1019196,TC12,East,0,STEM,2.95,eligible,0,none
+S1019206,TC12,East,1,Health,2.34,eligible,0,none
+S1019213,TC12,East,1,Health,2.62,eligible,0,none
+S1019253,TC12,East,1,Arts and Humanities,3.17,eligible,0,none
+S1019343,TC12,East,1,Social Sciences,2.95,eligible,0,none
+S1021433,TC15,East,0,Arts and Humanities,2.78,eligible,0,none
+S1021470,TC15,East,1,Arts and Humanities,2.61,eligible,0,none
+S1021496,TC15,East,1,STEM,3.73,eligible,0,none
+S1021503,TC15,East,0,Arts and Humanities,3.33,eligible,0,none
+S1021514,TC15,East,0,Health,2.99,eligible,0,none
+S1021529,TC15,East,1,Arts and Humanities,3.09,eligible,1,withdrawal
+S1021577,TC15,East,0,STEM,3.03,eligible,0,none
+S1021599,TC15,East,0,Social Sciences,3.03,eligible,0,none
+S1021608,TC15,East,0,Social Sciences,4.0,eligible,0,none
+S1021631,TC15,East,0,Business,2.37,eligible,0,none
+S1021635,TC15,East,1,Arts and Humanities,2.96,eligible,1,withdrawal
+S1021642,TC15,East,0,Social Sciences,2.84,eligible,0,none
+S1021661,TC15,East,1,Social Sciences,2.7,eligible,0,none
+S1021676,TC15,East,0,STEM,2.69,eligible,0,none
+S1021677,TC15,East,0,STEM,2.88,eligible,0,none
+S1021710,TC15,East,1,Arts and Humanities,3.54,eligible,0,none
+S1021718,TC15,East,0,Health,3.24,eligible,0,none
+S1021725,TC15,East,0,STEM,3.42,eligible,1,withdrawal
+S1021726,TC15,East,0,Social Sciences,3.25,eligible,0,none
+S1021730,TC15,East,0,Social Sciences,2.24,eligible,1,withdrawal
+S1021735,TC15,East,0,STEM,2.6,eligible,1,withdrawal
+S1021739,TC15,East,1,Arts and Humanities,3.23,eligible,0,none
+S1021747,TC15,East,1,Business,2.62,eligible,0,none
+S1021778,TC15,East,0,Business,3.65,eligible,0,none
+S1021791,TC15,East,0,STEM,4.0,eligible,0,none
+S1021801,TC15,East,0,STEM,3.21,eligible,0,none
+S1021825,TC15,East,1,Business,3.07,eligible,0,none
+S1021826,TC15,East,0,Social Sciences,3.71,eligible,0,none
+S1021843,TC15,East,1,Social Sciences,2.64,eligible,0,none
+S1021846,TC15,East,1,Arts and Humanities,2.72,eligible,0,none
+S1021847,TC15,East,0,STEM,3.96,excluded_unknown,,consent_withdrawn
+S1021871,TC15,East,0,Arts and Humanities,3.52,eligible,0,none
+S1021873,TC15,East,0,STEM,3.73,eligible,0,none
+S1021876,TC15,East,1,Business,3.15,eligible,1,withdrawal
+S1021902,TC15,East,1,Social Sciences,2.1,eligible,0,transfer
+S1021906,TC15,East,0,STEM,2.54,eligible,0,none
+S1021911,TC15,East,1,Business,2.64,eligible,0,none
+S1021927,TC15,East,0,Arts and Humanities,2.99,eligible,0,none
+S1021955,TC15,East,1,Social Sciences,3.1,eligible,0,none
+S1021956,TC15,East,1,Arts and Humanities,2.29,eligible,0,none
+S1021966,TC15,East,1,STEM,3.39,eligible,1,withdrawal
+S1021995,TC15,East,0,Business,3.44,eligible,0,none
+S1021997,TC15,East,0,Arts and Humanities,3.36,eligible,1,withdrawal
+S1023804,TC17,East,1,Business,3.23,eligible,0,none
+S1023805,TC17,East,1,STEM,3.19,eligible,0,none
+S1023906,TC17,East,1,STEM,3.43,eligible,0,transfer
+S1023978,TC17,East,0,Business,2.56,eligible,0,none
+S1023993,TC17,East,0,Social Sciences,3.15,eligible,0,none
+S1024010,TC17,East,0,Business,2.72,eligible,0,none
+S1024015,TC17,East,0,Business,3.71,eligible,0,none
+S1024123,TC17,East,1,Business,3.33,eligible,0,none
+S1024154,TC17,East,0,Business,3.3,eligible,0,none
+S1024186,TC17,East,0,STEM,3.42,eligible,0,none
+S1024250,TC17,East,0,Business,3.49,eligible,0,none
+S1024307,TC17,East,1,STEM,3.48,eligible,0,transfer
+S1024347,TC17,East,0,Arts and Humanities,3.18,eligible,0,none
+S1024535,TC17,East,1,Business,3.16,eligible,0,none
+S1024591,TC17,East,0,Business,2.18,eligible,0,none
+S1024645,TC17,East,0,Social Sciences,3.08,eligible,0,none
+S1024809,TC17,East,0,Social Sciences,3.33,eligible,0,none
+S1024840,TC17,East,1,Business,3.5,eligible,0,none
+S1024870,TC17,East,1,STEM,3.11,eligible,0,transfer
+S1025001,TC17,East,0,Social Sciences,2.85,eligible,0,none
+S1025164,TC17,East,0,Arts and Humanities,3.21,eligible,0,none
+S1025302,TC17,East,1,Arts and Humanities,4.0,eligible,0,none
+S1025416,TC17,East,0,Health,2.62,eligible,0,none
+S1025438,TC17,East,0,Business,3.01,eligible,0,none
+S1025447,TC17,East,1,Business,3.07,eligible,1,withdrawal
+S1025458,TC17,East,0,Business,3.06,eligible,0,none
+S1025516,TC17,East,0,Business,2.36,eligible,0,none
+S1025587,TC17,East,0,STEM,3.53,eligible,0,none
+S1025825,TC17,East,0,Health,2.33,eligible,0,none
+S1025835,TC17,East,0,Business,3.37,eligible,0,none
+S1025885,TC17,East,1,STEM,3.52,eligible,0,none
+S1025952,TC17,East,0,Health,2.61,eligible,0,none
+S1025978,TC17,East,0,STEM,3.11,eligible,0,none
+S1026025,TC17,East,1,Health,3.02,eligible,1,withdrawal
+S1026244,TC17,East,0,STEM,3.35,eligible,0,none
+S1026291,TC17,East,0,Health,2.96,eligible,0,none
+S1026334,TC17,East,0,Business,3.21,eligible,0,none
+S1026389,TC17,East,0,STEM,2.95,eligible,0,none
+S1026444,TC17,East,1,Health,3.46,eligible,0,none
+S1026475,TC17,East,0,STEM,3.57,eligible,0,none
+S1026518,TC17,East,0,Health,3.21,eligible,1,withdrawal
+S1026599,TC17,East,0,STEM,2.58,eligible,0,none
+S1030631,TC21,South,0,Business,2.63,eligible,0,none
+S1030777,TC21,South,1,Business,2.53,eligible,0,none
+S1030833,TC21,South,0,Social Sciences,2.74,eligible,0,none
+S1030998,TC21,South,0,Social Sciences,2.86,eligible,0,none
+S1031418,TC21,South,1,Social Sciences,2.11,eligible,1,withdrawal
+S1031662,TC21,South,0,Arts and Humanities,2.36,eligible,0,none
+S1031840,TC21,South,0,Social Sciences,3.11,eligible,0,none
+S1032051,TC21,South,0,Social Sciences,2.51,eligible,0,transfer
+S1032100,TC21,South,0,Social Sciences,3.26,eligible,0,none
+S1032251,TC21,South,0,Health,3.14,eligible,0,transfer
+S1032289,TC21,South,1,Health,2.94,eligible,0,none
+S1032585,TC21,South,0,Arts and Humanities,3.39,eligible,0,none
+S1032696,TC21,South,0,Health,2.47,eligible,0,none
+S1032789,TC21,South,0,STEM,2.51,eligible,0,none
+S1033163,TC21,South,1,Business,2.83,eligible,0,transfer
+S1033448,TC21,South,0,Health,2.74,eligible,1,withdrawal
+S1033588,TC21,South,0,Social Sciences,2.15,eligible,0,none
+S1033704,TC21,South,1,Business,3.05,eligible,0,none
+S1033763,TC21,South,1,Business,2.19,eligible,1,withdrawal
+S1034017,TC21,South,1,Social Sciences,3.79,eligible,0,none
+S1034115,TC21,South,0,STEM,3.42,eligible,0,none
+S1034314,TC21,South,0,Arts and Humanities,2.85,eligible,0,none
+S1034431,TC21,South,0,Health,3.64,eligible,0,none
+S1034651,TC21,South,0,Social Sciences,2.47,eligible,0,none
+S1034669,TC21,South,1,Health,2.73,eligible,1,withdrawal
+S1034722,TC21,South,0,STEM,2.87,eligible,0,none
+S1034826,TC21,South,0,Social Sciences,2.4,eligible,0,none
+S1034928,TC21,South,1,Health,2.81,eligible,0,none
+S1035000,TC21,South,0,Arts and Humanities,2.57,eligible,0,none
+S1035067,TC21,South,0,Health,3.0,excluded_unknown,,consent_withdrawn
+S1035091,TC21,South,0,STEM,1.92,eligible,0,none
+S1035213,TC21,South,0,Business,3.79,eligible,0,none
+S1035678,TC21,South,0,Business,2.38,eligible,1,withdrawal
+S1035681,TC21,South,0,Arts and Humanities,3.32,eligible,0,transfer
+S1035713,TC21,South,1,STEM,2.59,eligible,0,none
+S1035929,TC21,South,0,Social Sciences,2.5,eligible,0,none
+S1037341,TC23,South,0,Health,3.53,eligible,0,none
+S1037370,TC23,South,0,Health,3.1,eligible,0,none
+S1037482,TC23,South,0,Business,3.21,eligible,0,none
+S1037484,TC23,South,1,STEM,3.02,eligible,0,none
+S1037565,TC23,South,1,STEM,3.2,eligible,1,withdrawal
+S1037596,TC23,South,0,Business,3.14,eligible,0,transfer
+S1037620,TC23,South,0,Social Sciences,2.78,eligible,0,none
+S1037657,TC23,South,0,Arts and Humanities,3.08,eligible,0,none
+S1037742,TC23,South,0,STEM,2.94,eligible,0,none
+S1037779,TC23,South,1,STEM,2.55,eligible,0,none
+S1037792,TC23,South,0,Arts and Humanities,3.19,eligible,0,none
+S1037815,TC23,South,0,STEM,2.99,eligible,0,none
+S1037825,TC23,South,0,STEM,3.54,eligible,0,none
+S1037837,TC23,South,0,Arts and Humanities,4.0,eligible,0,transfer
+S1037883,TC23,South,0,Arts and Humanities,3.23,eligible,0,none
+S1037937,TC23,South,0,STEM,3.92,eligible,0,none
+S1037951,TC23,South,1,STEM,3.72,eligible,0,none
+S1037990,TC23,South,0,STEM,4.0,eligible,0,none
+S1038005,TC23,South,0,Arts and Humanities,2.92,eligible,0,none
+S1038038,TC23,South,0,Business,4.0,eligible,0,none
+S1038051,TC23,South,1,Business,2.71,eligible,1,withdrawal
+S1038058,TC23,South,1,Social Sciences,3.02,eligible,0,none
+S1038145,TC23,South,0,Business,3.34,eligible,0,none
+S1038169,TC23,South,1,Social Sciences,2.9,eligible,1,withdrawal
+S1038189,TC23,South,0,Health,3.05,eligible,1,withdrawal
+S1038208,TC23,South,0,STEM,3.16,eligible,0,transfer
+S1038221,TC23,South,1,STEM,2.87,eligible,0,none
+S1038223,TC23,South,0,STEM,2.83,eligible,1,withdrawal
+S1038258,TC23,South,0,Arts and Humanities,3.03,eligible,0,none
+S1038342,TC23,South,1,Health,2.85,eligible,0,none
+S1038369,TC23,South,0,STEM,3.72,eligible,0,none
+S1038405,TC23,South,0,Arts and Humanities,2.84,eligible,0,none
+S1038432,TC23,South,0,Social Sciences,2.77,eligible,0,none
+S1038618,TC23,South,1,Business,3.97,eligible,0,none
+S1038652,TC23,South,0,Business,2.75,eligible,1,withdrawal
+S1038819,TC23,South,1,Health,2.97,eligible,1,withdrawal
+S1038969,TC23,South,1,Health,3.36,eligible,0,none
+S1038997,TC23,South,1,Business,3.37,eligible,1,withdrawal
+S1039031,TC23,South,1,STEM,3.23,eligible,0,none
+S1039071,TC23,South,0,STEM,2.99,eligible,0,none
+S1041703,TC25,South,0,Health,2.66,eligible,1,withdrawal
+S1041721,TC25,South,0,Health,2.82,eligible,0,none
+S1041792,TC25,South,0,Social Sciences,2.82,eligible,0,none
+S1041807,TC25,South,1,STEM,3.46,eligible,1,withdrawal
+S1041814,TC25,South,0,Health,2.86,eligible,0,none
+S1041870,TC25,South,0,Health,3.41,eligible,0,none
+S1041956,TC25,South,0,Health,2.49,excluded_unknown,,consent_withdrawn
+S1041963,TC25,South,1,Social Sciences,2.12,excluded_unknown,,consent_withdrawn
+S1041974,TC25,South,0,Social Sciences,3.09,eligible,0,none
+S1041993,TC25,South,0,Social Sciences,2.82,eligible,0,none
+S1042002,TC25,South,0,Social Sciences,2.77,eligible,0,none
+S1042038,TC25,South,0,Health,3.1,eligible,0,none
+S1042039,TC25,South,0,Business,3.03,eligible,0,none
+S1042103,TC25,South,0,Health,3.23,eligible,0,none
+S1042291,TC25,South,1,STEM,2.51,eligible,1,withdrawal
+S1042321,TC25,South,0,Business,2.99,eligible,0,none
+S1042374,TC25,South,1,Health,2.67,eligible,1,withdrawal
+S1042484,TC25,South,0,Health,2.92,eligible,0,none
+S1042561,TC25,South,0,Business,2.48,eligible,0,none
+S1042655,TC25,South,0,Health,2.75,eligible,0,none
+S1042810,TC25,South,1,Health,2.08,eligible,1,withdrawal
+S1042855,TC25,South,0,Social Sciences,2.68,eligible,0,none
+S1042859,TC25,South,0,Arts and Humanities,2.4,eligible,1,withdrawal
+S1042865,TC25,South,1,Health,2.55,eligible,0,none
+S1042909,TC25,South,0,Business,2.63,eligible,0,none
+S1042973,TC25,South,0,STEM,3.21,eligible,0,none
+S1042989,TC25,South,1,Health,3.03,eligible,0,none
+S1043227,TC25,South,0,Business,3.8,eligible,0,none
+S1043269,TC25,South,0,Business,2.16,eligible,1,withdrawal
+S1043307,TC25,South,0,STEM,2.49,eligible,1,withdrawal
+S1043355,TC25,South,1,Business,2.72,eligible,0,none
+S1043358,TC25,South,1,Social Sciences,3.21,eligible,0,none
+S1048829,TC30,South,0,STEM,3.0,eligible,0,none
+S1048889,TC30,South,1,Health,4.0,eligible,0,none
+S1048899,TC30,South,0,Business,2.97,eligible,0,none
+S1048919,TC30,South,0,Social Sciences,3.27,eligible,1,withdrawal
+S1049098,TC30,South,0,Arts and Humanities,3.48,eligible,0,none
+S1049099,TC30,South,1,STEM,3.59,eligible,0,transfer
+S1049220,TC30,South,0,Business,4.0,eligible,1,withdrawal
+S1049288,TC30,South,0,Arts and Humanities,3.11,eligible,0,none
+S1049290,TC30,South,1,Business,3.09,eligible,0,none
+S1049298,TC30,South,0,Arts and Humanities,3.38,eligible,0,none
+S1049332,TC30,South,0,Health,3.58,eligible,0,none
+S1049370,TC30,South,0,STEM,3.89,eligible,0,none
+S1049417,TC30,South,1,Business,3.32,eligible,1,withdrawal
+S1049464,TC30,South,0,Social Sciences,3.61,eligible,0,transfer
+S1049497,TC30,South,0,Business,3.07,eligible,0,none
+S1049504,TC30,South,0,Arts and Humanities,2.99,eligible,0,none
+S1049578,TC30,South,1,Business,3.11,eligible,0,none
+S1049612,TC30,South,0,Health,3.43,eligible,0,none
+S1049652,TC30,South,1,STEM,3.78,eligible,0,none
+S1049785,TC30,South,0,Health,2.83,eligible,0,none
+S1049788,TC30,South,0,Health,3.46,eligible,0,none
+S1049865,TC30,South,0,STEM,3.4,eligible,0,none
+S1049893,TC30,South,0,Health,3.86,eligible,0,none
+S1049900,TC30,South,1,Social Sciences,2.91,eligible,0,none
+S1050021,TC30,South,0,Social Sciences,3.45,eligible,0,none
+S1050116,TC30,South,0,Health,2.9,eligible,1,withdrawal
+S1050149,TC30,South,0,Business,3.22,eligible,1,withdrawal
+S1050217,TC30,South,0,Social Sciences,2.97,eligible,0,none
+S1050230,TC30,South,0,Arts and Humanities,2.97,eligible,1,withdrawal
+S1050252,TC30,South,0,Social Sciences,2.56,eligible,0,none
+S1050288,TC30,South,0,Social Sciences,3.04,eligible,0,none
+S1050305,TC30,South,0,Business,2.86,eligible,0,none
+S1050436,TC30,South,0,Business,2.66,eligible,1,withdrawal
+S1050453,TC30,South,1,Arts and Humanities,2.91,eligible,1,withdrawal
+S1050478,TC30,South,0,Social Sciences,3.91,eligible,0,none
+S1050481,TC30,South,0,Arts and Humanities,2.49,eligible,0,none
+S1050482,TC30,South,1,Arts and Humanities,3.24,eligible,0,none
+S1050494,TC30,South,0,Health,4.0,excluded_unknown,,consent_withdrawn
+S1050636,TC31,West,0,STEM,3.03,eligible,0,none
+S1050642,TC31,West,0,Business,2.39,eligible,0,none
+S1050662,TC31,West,1,Health,2.94,eligible,0,none
+S1050701,TC31,West,1,Arts and Humanities,2.38,eligible,0,none
+S1050739,TC31,West,1,Business,3.5,eligible,0,none
+S1050761,TC31,West,1,Health,3.03,eligible,1,withdrawal
+S1050772,TC31,West,0,STEM,2.75,eligible,1,withdrawal
+S1050827,TC31,West,0,Social Sciences,2.25,eligible,1,withdrawal
+S1050919,TC31,West,0,Social Sciences,2.37,eligible,0,none
+S1050946,TC31,West,0,Health,2.35,eligible,0,none
+S1051013,TC31,West,0,Arts and Humanities,2.89,eligible,0,none
+S1051046,TC31,West,0,Business,2.69,eligible,0,none
+S1051160,TC31,West,1,Business,3.02,eligible,0,none
+S1051168,TC31,West,0,Social Sciences,2.67,eligible,0,none
+S1051250,TC31,West,0,Social Sciences,3.66,eligible,0,none
+S1051385,TC31,West,1,Health,3.02,eligible,0,none
+S1051403,TC31,West,0,Health,2.85,eligible,0,none
+S1051434,TC31,West,1,Social Sciences,3.03,eligible,0,none
+S1051440,TC31,West,1,Business,2.71,eligible,1,withdrawal
+S1051463,TC31,West,0,STEM,2.99,eligible,0,none
+S1051585,TC31,West,1,Business,1.95,eligible,0,none
+S1051598,TC31,West,0,Social Sciences,3.41,eligible,0,none
+S1051606,TC31,West,0,Social Sciences,2.29,eligible,0,none
+S1051745,TC31,West,0,Business,2.98,eligible,0,transfer
+S1051966,TC31,West,1,Health,3.04,eligible,0,none
+S1052121,TC31,West,0,Business,2.73,eligible,1,withdrawal
+S1052174,TC31,West,0,Business,2.76,eligible,0,none
+S1052310,TC31,West,1,Social Sciences,2.37,eligible,1,withdrawal
+S1052334,TC31,West,0,Business,2.27,eligible,0,none
+S1052446,TC31,West,0,Business,2.71,eligible,0,none
+S1052535,TC31,West,0,Arts and Humanities,2.9,eligible,0,none
+S1052723,TC31,West,0,Social Sciences,2.39,eligible,0,none
+S1052744,TC31,West,0,Business,3.57,eligible,0,none
+S1052779,TC31,West,1,Social Sciences,2.97,eligible,0,none
+S1052812,TC31,West,0,Social Sciences,2.98,eligible,0,none
+S1052831,TC31,West,1,Social Sciences,2.92,eligible,0,none
+S1052850,TC31,West,0,Arts and Humanities,2.6,eligible,1,withdrawal
+S1053872,TC33,West,1,Social Sciences,3.08,eligible,1,withdrawal
+S1053884,TC33,West,0,Business,3.11,eligible,0,none
+S1053960,TC33,West,1,Arts and Humanities,2.5,eligible,0,none
+S1053971,TC33,West,0,Social Sciences,3.04,eligible,0,none
+S1053977,TC33,West,0,Arts and Humanities,2.92,eligible,1,withdrawal
+S1054049,TC33,West,1,STEM,2.41,eligible,0,none
+S1054115,TC33,West,0,Social Sciences,2.73,eligible,0,none
+S1054143,TC33,West,0,Social Sciences,3.44,eligible,0,none
+S1054147,TC33,West,0,Health,3.45,eligible,0,transfer
+S1054148,TC33,West,0,Social Sciences,3.45,eligible,0,none
+S1054171,TC33,West,1,Health,3.61,eligible,0,none
+S1054193,TC33,West,1,Health,1.97,eligible,0,none
+S1054203,TC33,West,1,Social Sciences,2.78,eligible,0,none
+S1054222,TC33,West,1,Social Sciences,3.12,eligible,1,withdrawal
+S1054252,TC33,West,0,Health,3.75,eligible,0,transfer
+S1054281,TC33,West,1,Business,3.11,eligible,0,none
+S1054318,TC33,West,1,Health,2.73,eligible,0,none
+S1054375,TC33,West,0,Health,3.14,eligible,0,none
+S1054395,TC33,West,1,Health,3.27,eligible,0,none
+S1054447,TC33,West,0,Social Sciences,3.26,eligible,0,none
+S1054524,TC33,West,0,Business,3.14,eligible,1,withdrawal
+S1054574,TC33,West,0,Health,3.77,eligible,0,none
+S1054619,TC33,West,0,STEM,3.6,eligible,1,withdrawal
+S1054735,TC33,West,0,Health,3.52,eligible,0,none
+S1054794,TC33,West,0,Social Sciences,3.01,eligible,0,none
+S1054815,TC33,West,0,Arts and Humanities,2.93,eligible,0,none
+S1054867,TC33,West,0,Arts and Humanities,3.01,eligible,0,none
+S1054873,TC33,West,0,Business,3.27,eligible,0,none
+S1054882,TC33,West,0,Social Sciences,2.3,eligible,0,none
+S1054979,TC33,West,1,STEM,3.13,eligible,0,none
+S1054993,TC33,West,0,Business,2.76,eligible,0,none
+S1055050,TC33,West,0,Business,2.72,eligible,1,withdrawal
+S1055076,TC33,West,0,Social Sciences,2.93,eligible,0,none
+S1055100,TC33,West,0,Arts and Humanities,2.67,eligible,0,none
+S1055111,TC33,West,1,Health,3.72,eligible,0,none
+S1055156,TC33,West,1,STEM,2.0,eligible,1,withdrawal
+S1055225,TC33,West,0,Arts and Humanities,3.04,eligible,0,none
+S1055904,TC35,West,1,Social Sciences,2.59,eligible,0,none
+S1055941,TC35,West,0,Arts and Humanities,2.56,eligible,0,none
+S1055949,TC35,West,1,Health,2.99,eligible,0,none
+S1055961,TC35,West,0,STEM,3.22,eligible,0,none
+S1055968,TC35,West,0,STEM,3.41,eligible,0,none
+S1055970,TC35,West,1,Business,2.67,eligible,0,none
+S1055989,TC35,West,1,Health,2.91,eligible,0,transfer
+S1056006,TC35,West,0,Social Sciences,2.47,eligible,0,none
+S1056019,TC35,West,0,Health,2.64,eligible,1,withdrawal
+S1056029,TC35,West,0,Social Sciences,2.87,eligible,0,none
+S1056038,TC35,West,1,Business,2.42,eligible,0,none
+S1056055,TC35,West,1,STEM,2.53,eligible,1,withdrawal
+S1056067,TC35,West,0,Health,2.6,eligible,0,none
+S1056112,TC35,West,0,STEM,2.93,eligible,0,none
+S1056126,TC35,West,1,STEM,2.08,eligible,1,withdrawal
+S1056150,TC35,West,1,STEM,2.4,eligible,1,withdrawal
+S1056157,TC35,West,1,Health,2.63,eligible,0,none
+S1056163,TC35,West,0,Health,2.87,eligible,0,none
+S1056187,TC35,West,1,Business,2.95,eligible,0,none
+S1056202,TC35,West,0,Arts and Humanities,3.31,eligible,0,none
+S1056212,TC35,West,0,Business,2.89,eligible,1,withdrawal
+S1056240,TC35,West,0,Health,3.18,eligible,0,none
+S1056263,TC35,West,1,Health,3.89,eligible,0,none
+S1056293,TC35,West,1,Health,2.61,eligible,0,none
+S1056301,TC35,West,0,Business,2.88,eligible,0,none
+S1056314,TC35,West,1,STEM,2.71,eligible,1,withdrawal
+S1056316,TC35,West,0,STEM,1.96,eligible,1,withdrawal
+S1056329,TC35,West,0,Arts and Humanities,2.33,eligible,0,none
+S1056436,TC35,West,0,Social Sciences,2.83,eligible,0,none
+S1056457,TC35,West,0,Health,2.95,eligible,0,none
+S1056484,TC35,West,0,STEM,3.63,eligible,0,none
+S1056492,TC35,West,1,Health,3.36,eligible,0,none
+S1056495,TC35,West,0,Social Sciences,2.74,eligible,0,none
+S1056517,TC35,West,1,Arts and Humanities,3.09,eligible,1,withdrawal
+S1056520,TC35,West,0,Health,2.28,eligible,0,none
+S1056527,TC35,West,0,Arts and Humanities,3.08,eligible,0,none
+S1056679,TC36,West,0,Business,2.66,eligible,1,withdrawal
+S1056727,TC36,West,0,Social Sciences,3.1,eligible,0,none
+S1056729,TC36,West,0,Business,2.69,eligible,1,withdrawal
+S1056766,TC36,West,0,STEM,1.5,eligible,0,none
+S1056777,TC36,West,1,Health,3.5,eligible,0,none
+S1056865,TC36,West,0,STEM,2.36,eligible,1,withdrawal
+S1056890,TC36,West,1,STEM,2.19,eligible,0,none
+S1056917,TC36,West,0,Business,3.13,eligible,0,none
+S1056962,TC36,West,1,STEM,2.88,eligible,1,withdrawal
+S1056965,TC36,West,0,Health,3.56,eligible,0,none
+S1057063,TC36,West,0,Arts and Humanities,3.31,eligible,0,none
+S1057186,TC36,West,1,Social Sciences,3.08,eligible,0,none
+S1057298,TC36,West,0,Business,1.99,eligible,0,none
+S1057300,TC36,West,0,Health,3.09,eligible,0,none
+S1057407,TC36,West,1,Health,2.7,eligible,0,none
+S1057444,TC36,West,0,Health,2.56,eligible,0,none
+S1057564,TC36,West,0,Social Sciences,2.35,eligible,0,none
+S1057597,TC36,West,0,Health,2.92,eligible,0,none
+S1057821,TC36,West,0,STEM,3.19,eligible,0,none
+S1058029,TC36,West,0,Social Sciences,3.15,eligible,0,none
+S1058051,TC36,West,0,Arts and Humanities,3.45,eligible,0,none
+S1058148,TC36,West,1,Health,2.42,eligible,1,withdrawal
+S1058386,TC36,West,0,Health,2.5,eligible,0,none
+S1058608,TC36,West,0,Business,3.58,eligible,0,none
+S1058647,TC36,West,1,Health,3.0,eligible,0,none
+S1058685,TC36,West,0,Business,2.76,eligible,0,none
+S1058689,TC36,West,1,Health,3.55,eligible,0,none
+S1058695,TC36,West,1,Health,2.97,eligible,0,none
+S1058778,TC36,West,1,STEM,2.77,eligible,0,none
+S1058943,TC36,West,1,Health,2.65,eligible,0,none
+S1059101,TC36,West,0,Health,3.19,eligible,0,none
+S1059135,TC36,West,0,Business,3.22,eligible,0,none
+S1059169,TC36,West,0,Health,4.0,eligible,0,none
+S1059186,TC36,West,1,STEM,3.35,eligible,0,none
+S1059239,TC36,West,0,Health,3.11,eligible,0,none
+S1059334,TC36,West,0,Health,1.78,eligible,0,none

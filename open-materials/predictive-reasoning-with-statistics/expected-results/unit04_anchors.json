@@ -1,0 +1,1467 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even",
+  "precision": "six_decimals_except_integer_counts",
+  "anchors": {
+    "u4_anchor_college_n": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_college_n"
+      },
+      "column": "value",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "u4_anchor_consent_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_consent_missing_n"
+      },
+      "column": "value",
+      "value": "7",
+      "places": 0,
+      "display": "7"
+    },
+    "u4_anchor_exit_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_exit_grade_n"
+      },
+      "column": "value",
+      "value": "67",
+      "places": 0,
+      "display": "67"
+    },
+    "u4_anchor_grade_mean": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_grade_mean"
+      },
+      "column": "value",
+      "value": "2.9532072072072078",
+      "places": 6,
+      "display": "2.953207"
+    },
+    "u4_anchor_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_grade_n"
+      },
+      "column": "value",
+      "value": "555",
+      "places": 0,
+      "display": "555"
+    },
+    "u4_anchor_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_missing_n"
+      },
+      "column": "value",
+      "value": "55",
+      "places": 0,
+      "display": "55"
+    },
+    "u4_anchor_pool_n": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_pool_n"
+      },
+      "column": "value",
+      "value": "610",
+      "places": 0,
+      "display": "610"
+    },
+    "u4_example_mae": {
+      "source": "summary",
+      "where": {
+        "name": "example_mae"
+      },
+      "column": "value",
+      "value": "0.17927954136819335",
+      "places": 6,
+      "display": "0.179280"
+    },
+    "u4_example_mse": {
+      "source": "summary",
+      "where": {
+        "name": "example_mse"
+      },
+      "column": "value",
+      "value": "0.062604801637430776",
+      "places": 6,
+      "display": "0.062605"
+    },
+    "u4_example_rmse": {
+      "source": "summary",
+      "where": {
+        "name": "example_rmse"
+      },
+      "column": "value",
+      "value": "0.25020951548138765",
+      "places": 6,
+      "display": "0.250210"
+    },
+    "u4_temporal_college_n": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_college_n"
+      },
+      "column": "value",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "u4_temporal_consent_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_consent_missing_n"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u4_temporal_exit_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_exit_grade_n"
+      },
+      "column": "value",
+      "value": "142",
+      "places": 0,
+      "display": "142"
+    },
+    "u4_temporal_grade_mean": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_grade_mean"
+      },
+      "column": "value",
+      "value": "2.9022583333333332",
+      "places": 6,
+      "display": "2.902258"
+    },
+    "u4_temporal_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_grade_n"
+      },
+      "column": "value",
+      "value": "1200",
+      "places": 0,
+      "display": "1200"
+    },
+    "u4_temporal_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_missing_n"
+      },
+      "column": "value",
+      "value": "141",
+      "places": 0,
+      "display": "141"
+    },
+    "u4_temporal_pool_n": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_pool_n"
+      },
+      "column": "value",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u4_wrong_zero_anchor_mean": {
+      "source": "summary",
+      "where": {
+        "name": "wrong_zero_anchor_mean"
+      },
+      "column": "value",
+      "value": "2.6869344262295081",
+      "places": 6,
+      "display": "2.686934"
+    },
+    "u4_college_baseline_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "baseline"
+      },
+      "column": "mse",
+      "value": "0.20286288785141091",
+      "places": 6,
+      "display": "0.202863"
+    },
+    "u4_college_baseline_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "baseline"
+      },
+      "column": "mae",
+      "value": "0.36138195282056712",
+      "places": 6,
+      "display": "0.361382"
+    },
+    "u4_college_baseline_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "baseline"
+      },
+      "column": "rmse",
+      "value": "0.45040302824405043",
+      "places": 6,
+      "display": "0.450403"
+    },
+    "u4_college_baseline_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "baseline"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.20303314308453538",
+      "places": 6,
+      "display": "0.203033"
+    },
+    "u4_college_baseline_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "baseline"
+      },
+      "column": "fold_min_mse",
+      "value": "0.10056320632441786",
+      "places": 6,
+      "display": "0.100563"
+    },
+    "u4_college_baseline_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "baseline"
+      },
+      "column": "fold_max_mse",
+      "value": "0.44284375876512577",
+      "places": 6,
+      "display": "0.442844"
+    },
+    "u4_college_college_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "college"
+      },
+      "column": "mse",
+      "value": "0.20262459716886874",
+      "places": 6,
+      "display": "0.202625"
+    },
+    "u4_college_college_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "college"
+      },
+      "column": "mae",
+      "value": "0.36231899348719843",
+      "places": 6,
+      "display": "0.362319"
+    },
+    "u4_college_college_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "college"
+      },
+      "column": "rmse",
+      "value": "0.45013842000974402",
+      "places": 6,
+      "display": "0.450138"
+    },
+    "u4_college_college_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "college"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.2027748070719646",
+      "places": 6,
+      "display": "0.202775"
+    },
+    "u4_college_college_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "college"
+      },
+      "column": "fold_min_mse",
+      "value": "0.09984450509854248",
+      "places": 6,
+      "display": "0.099845"
+    },
+    "u4_college_college_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "college"
+      },
+      "column": "fold_max_mse",
+      "value": "0.44599185718196965",
+      "places": 6,
+      "display": "0.445992"
+    },
+    "u4_college_entry_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.20534558141252587",
+      "places": 6,
+      "display": "0.205346"
+    },
+    "u4_college_entry_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.36832178959655498",
+      "places": 6,
+      "display": "0.368322"
+    },
+    "u4_college_entry_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "entry"
+      },
+      "column": "rmse",
+      "value": "0.45315072703519504",
+      "places": 6,
+      "display": "0.453151"
+    },
+    "u4_college_entry_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "entry"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.20533872137989256",
+      "places": 6,
+      "display": "0.205339"
+    },
+    "u4_college_entry_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "entry"
+      },
+      "column": "fold_min_mse",
+      "value": "0.10405779369034185",
+      "places": 6,
+      "display": "0.104058"
+    },
+    "u4_college_entry_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "entry"
+      },
+      "column": "fold_max_mse",
+      "value": "0.45430342992010869",
+      "places": 6,
+      "display": "0.454303"
+    },
+    "u4_college_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "mean"
+      },
+      "column": "mse",
+      "value": "0.3302144147358948",
+      "places": 6,
+      "display": "0.330214"
+    },
+    "u4_college_mean_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "mean"
+      },
+      "column": "mae",
+      "value": "0.46123761065758706",
+      "places": 6,
+      "display": "0.461238"
+    },
+    "u4_college_mean_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "mean"
+      },
+      "column": "rmse",
+      "value": "0.57464285842242468",
+      "places": 6,
+      "display": "0.574643"
+    },
+    "u4_college_mean_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "mean"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.32816606182257646",
+      "places": 6,
+      "display": "0.328166"
+    },
+    "u4_college_mean_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "mean"
+      },
+      "column": "fold_min_mse",
+      "value": "0.22527927097081069",
+      "places": 6,
+      "display": "0.225279"
+    },
+    "u4_college_mean_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "college",
+        "model_id": "mean"
+      },
+      "column": "fold_max_mse",
+      "value": "0.61298601689414911",
+      "places": 6,
+      "display": "0.612986"
+    },
+    "u4_region_baseline_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "baseline"
+      },
+      "column": "mse",
+      "value": "0.2096928709402677",
+      "places": 6,
+      "display": "0.209693"
+    },
+    "u4_region_baseline_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "baseline"
+      },
+      "column": "mae",
+      "value": "0.36741440783642726",
+      "places": 6,
+      "display": "0.367414"
+    },
+    "u4_region_baseline_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "baseline"
+      },
+      "column": "rmse",
+      "value": "0.45792234160419354",
+      "places": 6,
+      "display": "0.457922"
+    },
+    "u4_region_baseline_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "baseline"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.20833196472040327",
+      "places": 6,
+      "display": "0.208332"
+    },
+    "u4_region_baseline_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "baseline"
+      },
+      "column": "fold_min_mse",
+      "value": "0.17616915142954165",
+      "places": 6,
+      "display": "0.176169"
+    },
+    "u4_region_baseline_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "baseline"
+      },
+      "column": "fold_max_mse",
+      "value": "0.27014101590277828",
+      "places": 6,
+      "display": "0.270141"
+    },
+    "u4_region_college_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "college"
+      },
+      "column": "mse",
+      "value": "0.20814779517664916",
+      "places": 6,
+      "display": "0.208148"
+    },
+    "u4_region_college_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "college"
+      },
+      "column": "mae",
+      "value": "0.36672722165581606",
+      "places": 6,
+      "display": "0.366727"
+    },
+    "u4_region_college_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "college"
+      },
+      "column": "rmse",
+      "value": "0.45623217244803022",
+      "places": 6,
+      "display": "0.456232"
+    },
+    "u4_region_college_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "college"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.20676234213717321",
+      "places": 6,
+      "display": "0.206762"
+    },
+    "u4_region_college_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "college"
+      },
+      "column": "fold_min_mse",
+      "value": "0.17401449154120907",
+      "places": 6,
+      "display": "0.174014"
+    },
+    "u4_region_college_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "college"
+      },
+      "column": "fold_max_mse",
+      "value": "0.26887958795190625",
+      "places": 6,
+      "display": "0.268880"
+    },
+    "u4_region_entry_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.21168761936237876",
+      "places": 6,
+      "display": "0.211688"
+    },
+    "u4_region_entry_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.37276950999420932",
+      "places": 6,
+      "display": "0.372770"
+    },
+    "u4_region_entry_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "entry"
+      },
+      "column": "rmse",
+      "value": "0.46009522858032204",
+      "places": 6,
+      "display": "0.460095"
+    },
+    "u4_region_entry_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "entry"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.21014508315785965",
+      "places": 6,
+      "display": "0.210145"
+    },
+    "u4_region_entry_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "entry"
+      },
+      "column": "fold_min_mse",
+      "value": "0.17425967261990166",
+      "places": 6,
+      "display": "0.174260"
+    },
+    "u4_region_entry_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "entry"
+      },
+      "column": "fold_max_mse",
+      "value": "0.27642027826558524",
+      "places": 6,
+      "display": "0.276420"
+    },
+    "u4_region_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "mean"
+      },
+      "column": "mse",
+      "value": "0.33558846686546295",
+      "places": 6,
+      "display": "0.335588"
+    },
+    "u4_region_mean_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "mean"
+      },
+      "column": "mae",
+      "value": "0.46519181910165702",
+      "places": 6,
+      "display": "0.465192"
+    },
+    "u4_region_mean_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "mean"
+      },
+      "column": "rmse",
+      "value": "0.57929998003233429",
+      "places": 6,
+      "display": "0.579300"
+    },
+    "u4_region_mean_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "mean"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.33335649321963579",
+      "places": 6,
+      "display": "0.333356"
+    },
+    "u4_region_mean_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "mean"
+      },
+      "column": "fold_min_mse",
+      "value": "0.29203695747539465",
+      "places": 6,
+      "display": "0.292037"
+    },
+    "u4_region_mean_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "region",
+        "model_id": "mean"
+      },
+      "column": "fold_max_mse",
+      "value": "0.44043423349732019",
+      "places": 6,
+      "display": "0.440434"
+    },
+    "u4_student_baseline_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "baseline"
+      },
+      "column": "mse",
+      "value": "0.20000295902730716",
+      "places": 6,
+      "display": "0.200003"
+    },
+    "u4_student_baseline_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "baseline"
+      },
+      "column": "mae",
+      "value": "0.35960587897272916",
+      "places": 6,
+      "display": "0.359606"
+    },
+    "u4_student_baseline_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "baseline"
+      },
+      "column": "rmse",
+      "value": "0.4472169037808244",
+      "places": 6,
+      "display": "0.447217"
+    },
+    "u4_student_baseline_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "baseline"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.1993270294867478",
+      "places": 6,
+      "display": "0.199327"
+    },
+    "u4_student_baseline_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "baseline"
+      },
+      "column": "fold_min_mse",
+      "value": "0.17820862297304321",
+      "places": 6,
+      "display": "0.178209"
+    },
+    "u4_student_baseline_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "baseline"
+      },
+      "column": "fold_max_mse",
+      "value": "0.23382643522849653",
+      "places": 6,
+      "display": "0.233826"
+    },
+    "u4_student_college_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "college"
+      },
+      "column": "mse",
+      "value": "0.18245809280204214",
+      "places": 6,
+      "display": "0.182458"
+    },
+    "u4_student_college_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "college"
+      },
+      "column": "mae",
+      "value": "0.34644488242148502",
+      "places": 6,
+      "display": "0.346445"
+    },
+    "u4_student_college_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "college"
+      },
+      "column": "rmse",
+      "value": "0.42715113578456299",
+      "places": 6,
+      "display": "0.427151"
+    },
+    "u4_student_college_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "college"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.1819770826617943",
+      "places": 6,
+      "display": "0.181977"
+    },
+    "u4_student_college_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "college"
+      },
+      "column": "fold_min_mse",
+      "value": "0.16154586937359156",
+      "places": 6,
+      "display": "0.161546"
+    },
+    "u4_student_college_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "college"
+      },
+      "column": "fold_max_mse",
+      "value": "0.21222409526775343",
+      "places": 6,
+      "display": "0.212224"
+    },
+    "u4_student_entry_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.20247638341069518",
+      "places": 6,
+      "display": "0.202476"
+    },
+    "u4_student_entry_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.3661284869879245",
+      "places": 6,
+      "display": "0.366128"
+    },
+    "u4_student_entry_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "entry"
+      },
+      "column": "rmse",
+      "value": "0.44997375858009231",
+      "places": 6,
+      "display": "0.449974"
+    },
+    "u4_student_entry_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "entry"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.20178241340447084",
+      "places": 6,
+      "display": "0.201782"
+    },
+    "u4_student_entry_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "entry"
+      },
+      "column": "fold_min_mse",
+      "value": "0.18235181145494808",
+      "places": 6,
+      "display": "0.182352"
+    },
+    "u4_student_entry_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "entry"
+      },
+      "column": "fold_max_mse",
+      "value": "0.22144133178514563",
+      "places": 6,
+      "display": "0.221441"
+    },
+    "u4_student_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "mean"
+      },
+      "column": "mse",
+      "value": "0.32607703589184656",
+      "places": 6,
+      "display": "0.326077"
+    },
+    "u4_student_mean_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "mean"
+      },
+      "column": "mae",
+      "value": "0.45887903985100487",
+      "places": 6,
+      "display": "0.458879"
+    },
+    "u4_student_mean_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "mean"
+      },
+      "column": "rmse",
+      "value": "0.57103155419980656",
+      "places": 6,
+      "display": "0.571032"
+    },
+    "u4_student_mean_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "mean"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.32547913546806706",
+      "places": 6,
+      "display": "0.325479"
+    },
+    "u4_student_mean_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "mean"
+      },
+      "column": "fold_min_mse",
+      "value": "0.2597014463835351",
+      "places": 6,
+      "display": "0.259701"
+    },
+    "u4_student_mean_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "student",
+        "model_id": "mean"
+      },
+      "column": "fold_max_mse",
+      "value": "0.37215000922801644",
+      "places": 6,
+      "display": "0.372150"
+    },
+    "u4_temporal_baseline_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline"
+      },
+      "column": "mse",
+      "value": "0.19429145761562036",
+      "places": 6,
+      "display": "0.194291"
+    },
+    "u4_temporal_baseline_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline"
+      },
+      "column": "mae",
+      "value": "0.35485152297740363",
+      "places": 6,
+      "display": "0.354852"
+    },
+    "u4_temporal_baseline_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline"
+      },
+      "column": "rmse",
+      "value": "0.44078504695102844",
+      "places": 6,
+      "display": "0.440785"
+    },
+    "u4_temporal_baseline_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.19429145761562036",
+      "places": 6,
+      "display": "0.194291"
+    },
+    "u4_temporal_baseline_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline"
+      },
+      "column": "fold_min_mse",
+      "value": "0.19429145761562036",
+      "places": 6,
+      "display": "0.194291"
+    },
+    "u4_temporal_baseline_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline"
+      },
+      "column": "fold_max_mse",
+      "value": "0.19429145761562036",
+      "places": 6,
+      "display": "0.194291"
+    },
+    "u4_temporal_college_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "college"
+      },
+      "column": "mse",
+      "value": "0.19311802244200854",
+      "places": 6,
+      "display": "0.193118"
+    },
+    "u4_temporal_college_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "college"
+      },
+      "column": "mae",
+      "value": "0.3492589172947308",
+      "places": 6,
+      "display": "0.349259"
+    },
+    "u4_temporal_college_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "college"
+      },
+      "column": "rmse",
+      "value": "0.43945195692135508",
+      "places": 6,
+      "display": "0.439452"
+    },
+    "u4_temporal_college_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "college"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.19311802244200854",
+      "places": 6,
+      "display": "0.193118"
+    },
+    "u4_temporal_college_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "college"
+      },
+      "column": "fold_min_mse",
+      "value": "0.19311802244200854",
+      "places": 6,
+      "display": "0.193118"
+    },
+    "u4_temporal_college_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "college"
+      },
+      "column": "fold_max_mse",
+      "value": "0.19311802244200854",
+      "places": 6,
+      "display": "0.193118"
+    },
+    "u4_temporal_entry_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.19326495905870422",
+      "places": 6,
+      "display": "0.193265"
+    },
+    "u4_temporal_entry_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.35634665406067856",
+      "places": 6,
+      "display": "0.356347"
+    },
+    "u4_temporal_entry_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "entry"
+      },
+      "column": "rmse",
+      "value": "0.43961910679439792",
+      "places": 6,
+      "display": "0.439619"
+    },
+    "u4_temporal_entry_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "entry"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.19326495905870422",
+      "places": 6,
+      "display": "0.193265"
+    },
+    "u4_temporal_entry_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "entry"
+      },
+      "column": "fold_min_mse",
+      "value": "0.19326495905870422",
+      "places": 6,
+      "display": "0.193265"
+    },
+    "u4_temporal_entry_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "entry"
+      },
+      "column": "fold_max_mse",
+      "value": "0.19326495905870422",
+      "places": 6,
+      "display": "0.193265"
+    },
+    "u4_temporal_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "mean"
+      },
+      "column": "mse",
+      "value": "0.32151960434623822",
+      "places": 6,
+      "display": "0.321520"
+    },
+    "u4_temporal_mean_mae": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "mean"
+      },
+      "column": "mae",
+      "value": "0.4608734084084084",
+      "places": 6,
+      "display": "0.460873"
+    },
+    "u4_temporal_mean_rmse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "mean"
+      },
+      "column": "rmse",
+      "value": "0.56702698731739232",
+      "places": 6,
+      "display": "0.567027"
+    },
+    "u4_temporal_mean_fold_mean_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "mean"
+      },
+      "column": "fold_mean_mse",
+      "value": "0.32151960434623822",
+      "places": 6,
+      "display": "0.321520"
+    },
+    "u4_temporal_mean_fold_min_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "mean"
+      },
+      "column": "fold_min_mse",
+      "value": "0.32151960434623822",
+      "places": 6,
+      "display": "0.321520"
+    },
+    "u4_temporal_mean_fold_max_mse": {
+      "source": "aggregate",
+      "where": {
+        "design": "temporal",
+        "model_id": "mean"
+      },
+      "column": "fold_max_mse",
+      "value": "0.32151960434623822",
+      "places": 6,
+      "display": "0.321520"
+    },
+    "u4_example1_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "y",
+      "value": "2.9500000000000002",
+      "places": 6,
+      "display": "2.950000"
+    },
+    "u4_example1_prediction": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "prediction",
+      "value": "2.8453192457394212",
+      "places": 6,
+      "display": "2.845319"
+    },
+    "u4_example1_squared_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "squared_error",
+      "value": "0.010958060312563727",
+      "places": 6,
+      "display": "0.010958"
+    },
+    "u4_example1_absolute_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "absolute_error",
+      "value": "0.10468075426057899",
+      "places": 6,
+      "display": "0.104681"
+    },
+    "u4_example2_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "y",
+      "value": "1.8899999999999999",
+      "places": 6,
+      "display": "1.890000"
+    },
+    "u4_example2_prediction": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "prediction",
+      "value": "1.8771898979448443",
+      "places": 6,
+      "display": "1.877190"
+    },
+    "u4_example2_squared_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "squared_error",
+      "value": "0.00016409871466350294",
+      "places": 6,
+      "display": "0.000164"
+    },
+    "u4_example2_absolute_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "absolute_error",
+      "value": "0.012810102055155648",
+      "places": 6,
+      "display": "0.012810"
+    },
+    "u4_example3_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "y",
+      "value": "2.2000000000000002",
+      "places": 6,
+      "display": "2.200000"
+    },
+    "u4_example3_prediction": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "prediction",
+      "value": "2.6203477677888456",
+      "places": 6,
+      "display": "2.620348"
+    },
+    "u4_example3_squared_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "squared_error",
+      "value": "0.1766922458850651",
+      "places": 6,
+      "display": "0.176692"
+    },
+    "u4_example3_absolute_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "absolute_error",
+      "value": "0.42034776778884542",
+      "places": 6,
+      "display": "0.420348"
+    },
+    "u4_beta_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline",
+        "term": "first_gen"
+      },
+      "column": "coefficient",
+      "value": "-0.0058050818720685338",
+      "places": 6,
+      "display": "-0.005805"
+    },
+    "u4_beta_intercept": {
+      "source": "coefficients",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "3.0171930172661847",
+      "places": 6,
+      "display": "3.017193"
+    },
+    "u4_beta_part_time": {
+      "source": "coefficients",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline",
+        "term": "part_time"
+      },
+      "column": "coefficient",
+      "value": "-0.18045659605110198",
+      "places": 6,
+      "display": "-0.180457"
+    },
+    "u4_beta_z_age": {
+      "source": "coefficients",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline",
+        "term": "z_age"
+      },
+      "column": "coefficient",
+      "value": "0.025223424473223444",
+      "places": 6,
+      "display": "0.025223"
+    },
+    "u4_beta_z_prior_grade": {
+      "source": "coefficients",
+      "where": {
+        "design": "temporal",
+        "model_id": "baseline",
+        "term": "z_prior_grade"
+      },
+      "column": "coefficient",
+      "value": "0.34502492901291254",
+      "places": 6,
+      "display": "0.345025"
+    },
+    "u4_age_mean": {
+      "source": "transforms",
+      "where": {
+        "design": "temporal",
+        "column": "age"
+      },
+      "column": "mean",
+      "value": "22.118918918918919",
+      "places": 6,
+      "display": "22.118919"
+    },
+    "u4_age_sd": {
+      "source": "transforms",
+      "where": {
+        "design": "temporal",
+        "column": "age"
+      },
+      "column": "sd",
+      "value": "6.3183062149486142",
+      "places": 6,
+      "display": "6.318306"
+    },
+    "u4_prior_grade_mean": {
+      "source": "transforms",
+      "where": {
+        "design": "temporal",
+        "column": "prior_grade"
+      },
+      "column": "mean",
+      "value": "3.000864864864865",
+      "places": 6,
+      "display": "3.000865"
+    },
+    "u4_prior_grade_sd": {
+      "source": "transforms",
+      "where": {
+        "design": "temporal",
+        "column": "prior_grade"
+      },
+      "column": "sd",
+      "value": "0.45635687170361294",
+      "places": 6,
+      "display": "0.456357"
+    }
+  }
+}

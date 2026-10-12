@@ -1,0 +1,547 @@
+{
+  "cases": {
+    "envelope": {
+      "command_kind": "addition",
+      "comparison": "envelope",
+      "deadline_seconds": 180,
+      "files": {
+        "sealed_bins": "expected-results/sealed_bins.csv",
+        "sealed_comparisons": "expected-results/sealed_comparisons.csv",
+        "sealed_predictions": "expected-results/sealed_predictions.csv",
+        "sealed_scores": "expected-results/sealed_scores.csv"
+      },
+      "markers": {
+        "base_r": [
+          "SEALED_BASE_R_ORACLES_OK",
+          "SEALED_BASE_R_OK"
+        ],
+        "numpy": [
+          "SEALED_NUMPY_OK"
+        ],
+        "stdlib": [
+          "SEALED_STDLIB_OK"
+        ]
+      },
+      "stem": "sealed_envelope",
+      "tolerance": null
+    },
+    "planning": {
+      "command_kind": "addition",
+      "comparison": "planning",
+      "deadline_seconds": 180,
+      "files": {
+        "planning_diagnostics": "expected-results/planning_diagnostics.csv",
+        "planning_scenarios": "expected-results/planning_scenarios.csv"
+      },
+      "markers": {
+        "base_r": [],
+        "numpy": [],
+        "stdlib": []
+      },
+      "stem": "sample_size",
+      "tolerance": 2e-10
+    },
+    "uncertainty": {
+      "command_kind": "addition",
+      "comparison": "uncertainty",
+      "deadline_seconds": 180,
+      "files": {
+        "score_colleges": "expected-results/score_colleges.csv",
+        "score_draws": "expected-results/score_draws.csv",
+        "score_summary": "expected-results/score_summary.csv"
+      },
+      "markers": {
+        "base_r": [],
+        "numpy": [],
+        "stdlib": []
+      },
+      "stem": "score_uncertainty",
+      "tolerance": 2e-12
+    },
+    "unit01": {
+      "command_kind": "unit",
+      "comparison": "unit01",
+      "deadline_seconds": 180,
+      "files": {
+        "cells": "expected-results/unit01_cells.csv",
+        "cutpoints": "expected-results/unit01_cutpoints.csv",
+        "fit_rows": "splits/unit01_fit_rows.csv",
+        "predictions": "predictions/unit01_predictions.csv",
+        "summary": "expected-results/unit01_summary.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT01_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT01_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT01_STDLIB_OK"
+        ]
+      },
+      "stem": "unit01",
+      "supplementary_csv": {
+        "stdlib": [
+          "exact_cutpoints.csv",
+          "exact_summary.csv"
+        ]
+      }
+    },
+    "unit02": {
+      "command_kind": "unit",
+      "comparison": "unit02",
+      "deadline_seconds": 180,
+      "files": {
+        "cells": "expected-results/unit02_cells.csv",
+        "examples": "expected-results/unit02_examples.csv",
+        "fit_rows": "splits/unit02_fit_rows.csv",
+        "fits": "expected-results/unit02_fits.csv",
+        "predictions": "predictions/unit02_predictions.csv",
+        "scores": "expected-results/unit02_scores.csv",
+        "summary": "expected-results/unit02_summary.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT02_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT02_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT02_STDLIB_OK"
+        ]
+      },
+      "stem": "unit02",
+      "supplementary_csv": {
+        "stdlib": [
+          "exact_anchors.csv"
+        ]
+      }
+    },
+    "unit03": {
+      "command_kind": "unit",
+      "comparison": "unit03",
+      "deadline_seconds": 180,
+      "files": {
+        "coefficients": "expected-results/unit03_coefficients.csv",
+        "corrections": "expected-results/unit03_corrections.csv",
+        "diagnostics": "expected-results/unit03_diagnostics.csv",
+        "examples": "expected-results/unit03_examples.csv",
+        "fit_rows": "splits/unit03_fit_rows.csv",
+        "optimism": "expected-results/unit03_optimism.csv",
+        "predictions": "predictions/unit03_predictions.csv",
+        "scores": "expected-results/unit03_scores.csv",
+        "selections": "expected-results/unit03_selections.csv",
+        "summary": "expected-results/unit03_summary.csv",
+        "transforms": "expected-results/unit03_transforms.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT03_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT03_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT03_STDLIB_OK"
+        ]
+      },
+      "stem": "unit03",
+      "supplementary_csv": {}
+    },
+    "unit04": {
+      "command_kind": "unit",
+      "comparison": "unit04",
+      "deadline_seconds": 180,
+      "files": {
+        "aggregate": "expected-results/unit04_aggregate.csv",
+        "coefficients": "expected-results/unit04_coefficients.csv",
+        "diagnostics": "expected-results/unit04_diagnostics.csv",
+        "examples": "expected-results/unit04_examples.csv",
+        "fit_rows": "splits/unit04_fit_rows.csv",
+        "fold_scores": "expected-results/unit04_fold_scores.csv",
+        "predictions": "predictions/unit04_predictions.csv",
+        "summary": "expected-results/unit04_summary.csv",
+        "transforms": "expected-results/unit04_transforms.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT04_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT04_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT04_STDLIB_OK"
+        ]
+      },
+      "stem": "unit04",
+      "supplementary_csv": {}
+    },
+    "unit05": {
+      "command_kind": "unit",
+      "comparison": "unit05",
+      "deadline_seconds": 180,
+      "files": {
+        "cells": "expected-results/unit05_cells.csv",
+        "coefficients": "expected-results/unit05_coefficients.csv",
+        "encodings": "expected-results/unit05_encodings.csv",
+        "fit_rows": "splits/unit05_fit_rows.csv",
+        "predictions": "predictions/unit05_predictions.csv",
+        "scores": "expected-results/unit05_scores.csv",
+        "summary": "expected-results/unit05_summary.csv",
+        "training_features": "expected-results/unit05_training_features.csv",
+        "transforms": "expected-results/unit05_transforms.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT05_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT05_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT05_STDLIB_OK"
+        ]
+      },
+      "stem": "unit05",
+      "supplementary_csv": {}
+    },
+    "unit06": {
+      "command_kind": "unit",
+      "comparison": "unit06",
+      "deadline_seconds": 600,
+      "files": {
+        "coefficients": "expected-results/unit06_coefficients.csv",
+        "diagnostics": "expected-results/unit06_diagnostics.csv",
+        "fit_rows": "splits/unit06_fit_rows.csv",
+        "predictions": "predictions/unit06_predictions.csv",
+        "scores": "expected-results/unit06_scores.csv",
+        "selection": "expected-results/unit06_selection.csv",
+        "summary": "expected-results/unit06_summary.csv",
+        "transforms": "expected-results/unit06_transforms.csv",
+        "tuning": "expected-results/unit06_tuning.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT06_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT06_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT06_STDLIB_OK"
+        ]
+      },
+      "stem": "unit06",
+      "supplementary_csv": {}
+    },
+    "unit07": {
+      "command_kind": "unit",
+      "comparison": "unit07",
+      "deadline_seconds": 180,
+      "files": {
+        "action_ids": "splits/unit07_action_ids.csv",
+        "coefficients": "expected-results/unit07_coefficients.csv",
+        "cutpoints": "expected-results/unit07_cutpoints.csv",
+        "decisions": "expected-results/unit07_decisions.csv",
+        "diagnostics": "expected-results/unit07_diagnostics.csv",
+        "examples": "expected-results/unit07_examples.csv",
+        "fit_rows": "splits/unit07_fit_rows.csv",
+        "predictions": "predictions/unit07_predictions.csv",
+        "scores": "expected-results/unit07_scores.csv",
+        "summary": "expected-results/unit07_summary.csv",
+        "table_cells": "expected-results/unit07_table_cells.csv",
+        "transforms": "expected-results/unit07_transforms.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT07_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT07_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT07_STDLIB_OK"
+        ]
+      },
+      "stem": "unit07",
+      "supplementary_csv": {}
+    },
+    "unit08": {
+      "command_kind": "unit",
+      "comparison": "unit08",
+      "deadline_seconds": 180,
+      "files": {
+        "binary_scores": "expected-results/unit08_binary_scores.csv",
+        "bins": "expected-results/unit08_bins.csv",
+        "coefficients": "expected-results/unit08_coefficients.csv",
+        "coverage": "expected-results/unit08_coverage.csv",
+        "diagnostics": "expected-results/unit08_diagnostics.csv",
+        "fit_rows": "splits/unit08_fit_rows.csv",
+        "intervals": "expected-results/unit08_intervals.csv",
+        "predictions": "predictions/unit08_predictions.csv",
+        "residuals": "expected-results/unit08_residuals.csv",
+        "selection": "expected-results/unit08_selection.csv",
+        "summary": "expected-results/unit08_summary.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT08_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT08_ROUTE_OK"
+        ],
+        "stdlib": [
+          "UNIT08_ROUTE_OK"
+        ]
+      },
+      "stem": "unit08",
+      "supplementary_csv": {}
+    },
+    "unit09": {
+      "command_kind": "unit",
+      "comparison": "unit09",
+      "deadline_seconds": 180,
+      "files": {
+        "coefficients": "expected-results/unit09_coefficients.csv",
+        "diagnostics": "expected-results/unit09_diagnostics.csv",
+        "fit_rows": "splits/unit09_fit_rows.csv",
+        "predictions": "predictions/unit09_predictions.csv",
+        "profiles": "expected-results/unit09_profiles.csv",
+        "resample_summary": "expected-results/unit09_resample_summary.csv",
+        "resampling": "expected-results/unit09_resampling.csv",
+        "scores": "expected-results/unit09_scores.csv",
+        "summary": "expected-results/unit09_summary.csv",
+        "transforms": "expected-results/unit09_transforms.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT09_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT09_ROUTE_OK"
+        ],
+        "stdlib": [
+          "UNIT09_ROUTE_OK"
+        ]
+      },
+      "stem": "unit09",
+      "supplementary_csv": {}
+    },
+    "unit10": {
+      "command_kind": "unit",
+      "comparison": "unit10",
+      "deadline_seconds": 180,
+      "files": {
+        "action_scores": "expected-results/unit10_action_scores.csv",
+        "actions": "expected-results/unit10_actions.csv",
+        "bins": "expected-results/unit10_bins.csv",
+        "bootstrap": "expected-results/unit10_bootstrap.csv",
+        "bootstrap_summary": "expected-results/unit10_bootstrap_summary.csv",
+        "predictions": "predictions/unit10_predictions.csv",
+        "scores": "expected-results/unit10_scores.csv",
+        "toy": "expected-results/unit10_toy.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT10_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT10_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT10_STDLIB_OK"
+        ]
+      },
+      "stem": "unit10",
+      "supplementary_csv": {}
+    },
+    "unit11": {
+      "command_kind": "unit",
+      "comparison": "unit11",
+      "deadline_seconds": 180,
+      "files": {
+        "coefficients": "model-specs/unit11_coefficients.csv",
+        "completed": "expected-results/unit11_completed.csv",
+        "coverage": "expected-results/unit11_coverage.csv",
+        "diagnostics": "expected-results/unit11_diagnostics.csv",
+        "fit_rows": "model-specs/unit11_fit_rows.csv",
+        "new_predictions": "expected-results/unit11_new_predictions.csv",
+        "predictions": "predictions/unit11_predictions.csv",
+        "scores": "expected-results/unit11_scores.csv",
+        "summary": "expected-results/unit11_summary.csv",
+        "transforms": "model-specs/unit11_transforms.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT11_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT11_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT11_STDLIB_OK"
+        ]
+      },
+      "stem": "unit11",
+      "supplementary_csv": {}
+    },
+    "unit12": {
+      "command_kind": "unit",
+      "comparison": "unit12",
+      "deadline_seconds": 180,
+      "files": {
+        "new_prediction": "expected-results/unit12_new_prediction.csv",
+        "offer_contrasts": "expected-results/unit12_offer_contrasts.csv",
+        "offer_counts": "expected-results/unit12_offer_counts.csv",
+        "permutation_draws": "expected-results/unit12_permutation_draws.csv",
+        "permutation_summary": "expected-results/unit12_permutation_summary.csv",
+        "predictions": "predictions/unit12_predictions.csv",
+        "scores": "expected-results/unit12_scores.csv",
+        "training": "expected-results/unit12_training.csv"
+      },
+      "markers": {
+        "base_r": [
+          "UNIT12_BASE_R_OK"
+        ],
+        "numpy": [
+          "UNIT12_NUMPY_OK"
+        ],
+        "stdlib": [
+          "UNIT12_STDLIB_OK"
+        ]
+      },
+      "stem": "unit12",
+      "supplementary_csv": {}
+    }
+  },
+  "comparison_ports": {
+    "envelope": {
+      "adjustment": "self-contained CSV/error helpers; original comparison function and numeric thresholds unchanged",
+      "origin": "scripts/check_sealed_envelope.py",
+      "origin_sha256": "5e53f9803c7e408b8910ee4e00799211ff2d60b7b2100bffbc3747bb644acc8f",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "planning": {
+      "adjustment": "self-contained CSV/error helpers; original comparison function and numeric thresholds unchanged",
+      "origin": "scripts/check_method_additions.py",
+      "origin_sha256": "2a512439877b774547e1e6460d5097984e624efdc39152cd1c6f4ef5de862362",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "uncertainty": {
+      "adjustment": "self-contained CSV/error helpers; original comparison function and numeric thresholds unchanged",
+      "origin": "scripts/check_method_additions.py",
+      "origin_sha256": "2a512439877b774547e1e6460d5097984e624efdc39152cd1c6f4ef5de862362",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit01": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit01.py",
+      "origin_sha256": "21b2f573944cc5ee12dfed75675f71a7c811eb68f26e10b4bb2de3779d77d498",
+      "symbols": [
+        "compare_rows"
+      ]
+    },
+    "unit02": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit02.py",
+      "origin_sha256": "7098652b22ba0da4b0b42e8357c680b463b1930b5e9e71a1093bec666bb731a3",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit03": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit03.py",
+      "origin_sha256": "28e6b9662bcc3e0589e8ccd0827eb78945c2da98a09ed3e3b0c7ec6d6a3b69a1",
+      "symbols": [
+        "tolerance",
+        "compare"
+      ]
+    },
+    "unit04": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit04.py",
+      "origin_sha256": "e80fa619d26c488792a87d833c7918a3a1b45f606c22e6d8c5d8bb9095b62311",
+      "symbols": [
+        "tolerance",
+        "compare"
+      ]
+    },
+    "unit05": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit05.py",
+      "origin_sha256": "bf104aacfbbfb110990313e379bb877e9f50a5be2b2993b4c51daec0dfc8c184",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit06": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit06.py",
+      "origin_sha256": "3ca15e1d46f25e8decf78ad2ad31f4c00aade73b50fb1a5d3202612c65fd36f6",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit07": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit07.py",
+      "origin_sha256": "229e29199ec89ec0bb5bf526418cdb4d6face083885f321cba55bd2fc067204a",
+      "symbols": [
+        "tolerance",
+        "compare"
+      ]
+    },
+    "unit08": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit08.py",
+      "origin_sha256": "6171a298171d52f3505ab4b6cddc648d23a43abb3660a3d3bef478233d075bb6",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit09": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit09.py",
+      "origin_sha256": "c7f1250d1e341ae0d38be33a87d33f414b6fa40410f5f3c7e79b17d8fa0255b2",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit10": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit10.py",
+      "origin_sha256": "7b4e7659762250b574e40db26988a509895486a9001c06521c9ce2a14fd3026d",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit11": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit11.py",
+      "origin_sha256": "ad8950969db783b96c75f9a6a39920b150d99c8987f2f9ed03c3bdf856ce8491",
+      "symbols": [
+        "compare"
+      ]
+    },
+    "unit12": {
+      "adjustment": "self-contained imports and error helper; comparison functions and numeric thresholds unchanged",
+      "origin": "scripts/check_unit12.py",
+      "origin_sha256": "e765f5a35195dfa4d1411d70579a3d116e055f564e7c8203cc1abbc9e939cc64",
+      "symbols": [
+        "compare"
+      ]
+    }
+  },
+  "resource": "open-materials/predictive-reasoning-with-statistics",
+  "schema_version": 1
+}

@@ -1,0 +1,1035 @@
+{
+  "schema_version": 1,
+  "anchors": {
+    "u03_West_college_n": {
+      "source": "summary",
+      "where": {
+        "name": "West_college_n"
+      },
+      "column": "value",
+      "value": "4",
+      "places": 0,
+      "display": "4",
+      "arithmetic": "integer"
+    },
+    "u03_West_exit_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "West_exit_grade_n"
+      },
+      "column": "value",
+      "value": "22",
+      "places": 0,
+      "display": "22",
+      "arithmetic": "integer"
+    },
+    "u03_West_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "West_grade_n"
+      },
+      "column": "value",
+      "value": "137",
+      "places": 0,
+      "display": "137",
+      "arithmetic": "integer"
+    },
+    "u03_West_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "West_missing_n"
+      },
+      "column": "value",
+      "value": "9",
+      "places": 0,
+      "display": "9",
+      "arithmetic": "integer"
+    },
+    "u03_West_pool_n": {
+      "source": "summary",
+      "where": {
+        "name": "West_pool_n"
+      },
+      "column": "value",
+      "value": "146",
+      "places": 0,
+      "display": "146",
+      "arithmetic": "integer"
+    },
+    "u03_fit_slots_n": {
+      "source": "summary",
+      "where": {
+        "name": "fit_slots_n"
+      },
+      "column": "value",
+      "value": "27537",
+      "places": 0,
+      "display": "27537",
+      "arithmetic": "integer"
+    },
+    "u03_fits_n": {
+      "source": "summary",
+      "where": {
+        "name": "fits_n"
+      },
+      "column": "value",
+      "value": "603",
+      "places": 0,
+      "display": "603",
+      "arithmetic": "integer"
+    },
+    "u03_other_college_n": {
+      "source": "summary",
+      "where": {
+        "name": "other_college_n"
+      },
+      "column": "value",
+      "value": "12",
+      "places": 0,
+      "display": "12",
+      "arithmetic": "integer"
+    },
+    "u03_other_exit_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "other_exit_grade_n"
+      },
+      "column": "value",
+      "value": "45",
+      "places": 0,
+      "display": "45",
+      "arithmetic": "integer"
+    },
+    "u03_other_grade_n": {
+      "source": "summary",
+      "where": {
+        "name": "other_grade_n"
+      },
+      "column": "value",
+      "value": "418",
+      "places": 0,
+      "display": "418",
+      "arithmetic": "integer"
+    },
+    "u03_other_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "other_missing_n"
+      },
+      "column": "value",
+      "value": "46",
+      "places": 0,
+      "display": "46",
+      "arithmetic": "integer"
+    },
+    "u03_other_pool_n": {
+      "source": "summary",
+      "where": {
+        "name": "other_pool_n"
+      },
+      "column": "value",
+      "value": "464",
+      "places": 0,
+      "display": "464",
+      "arithmetic": "integer"
+    },
+    "u03_predictions_n": {
+      "source": "summary",
+      "where": {
+        "name": "predictions_n"
+      },
+      "column": "value",
+      "value": "111265",
+      "places": 0,
+      "display": "111265",
+      "arithmetic": "integer"
+    },
+    "u03_replicates_n": {
+      "source": "summary",
+      "where": {
+        "name": "replicates_n"
+      },
+      "column": "value",
+      "value": "200",
+      "places": 0,
+      "display": "200",
+      "arithmetic": "integer"
+    },
+    "u03_selected_baseline_n": {
+      "source": "summary",
+      "where": {
+        "name": "selected_baseline_n"
+      },
+      "column": "value",
+      "value": "69",
+      "places": 0,
+      "display": "69",
+      "arithmetic": "integer"
+    },
+    "u03_selected_entry_n": {
+      "source": "summary",
+      "where": {
+        "name": "selected_entry_n"
+      },
+      "column": "value",
+      "value": "56",
+      "places": 0,
+      "display": "56",
+      "arithmetic": "integer"
+    },
+    "u03_selected_rich_n": {
+      "source": "summary",
+      "where": {
+        "name": "selected_rich_n"
+      },
+      "column": "value",
+      "value": "75",
+      "places": 0,
+      "display": "75",
+      "arithmetic": "integer"
+    },
+    "u03_original_baseline_p": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "baseline"
+      },
+      "column": "p",
+      "value": "5",
+      "places": 0,
+      "display": "5",
+      "arithmetic": "integer"
+    },
+    "u03_original_baseline_fit_mse": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "baseline"
+      },
+      "column": "fit_mse",
+      "value": "0.18294239741979473",
+      "places": 6,
+      "display": "0.182942",
+      "arithmetic": "floating_point"
+    },
+    "u03_original_baseline_aic": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "baseline"
+      },
+      "column": "aic",
+      "value": "-220.70600031271988",
+      "places": 6,
+      "display": "-220.706000",
+      "arithmetic": "floating_point"
+    },
+    "u03_original_entry_p": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "entry"
+      },
+      "column": "p",
+      "value": "2",
+      "places": 0,
+      "display": "2",
+      "arithmetic": "integer"
+    },
+    "u03_original_entry_fit_mse": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "entry"
+      },
+      "column": "fit_mse",
+      "value": "0.19006919700472658",
+      "places": 6,
+      "display": "0.190069",
+      "arithmetic": "floating_point"
+    },
+    "u03_original_entry_aic": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "entry"
+      },
+      "column": "aic",
+      "value": "-221.4702897356963",
+      "places": 6,
+      "display": "-221.470290",
+      "arithmetic": "floating_point"
+    },
+    "u03_original_rich_p": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "rich"
+      },
+      "column": "p",
+      "value": "10",
+      "places": 0,
+      "display": "10",
+      "arithmetic": "integer"
+    },
+    "u03_original_rich_fit_mse": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "rich"
+      },
+      "column": "fit_mse",
+      "value": "0.17708255259258737",
+      "places": 6,
+      "display": "0.177083",
+      "arithmetic": "floating_point"
+    },
+    "u03_original_rich_aic": {
+      "source": "diagnostics",
+      "where": {
+        "replicate": "original",
+        "model_id": "rich"
+      },
+      "column": "aic",
+      "value": "-215.1660781145053",
+      "places": 6,
+      "display": "-215.166078",
+      "arithmetic": "floating_point"
+    },
+    "u03_apparent_baseline_mse": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "apparent",
+        "model_id": "baseline"
+      },
+      "column": "mse",
+      "value": "0.18294239741979473",
+      "places": 6,
+      "display": "0.182942",
+      "arithmetic": "floating_point"
+    },
+    "u03_apparent_baseline_r2": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "apparent",
+        "model_id": "baseline"
+      },
+      "column": "r2",
+      "value": "0.39294469987263481",
+      "places": 6,
+      "display": "0.392945",
+      "arithmetic": "floating_point"
+    },
+    "u03_apparent_entry_mse": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "apparent",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.19006919700472658",
+      "places": 6,
+      "display": "0.190069",
+      "arithmetic": "floating_point"
+    },
+    "u03_apparent_entry_r2": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "apparent",
+        "model_id": "entry"
+      },
+      "column": "r2",
+      "value": "0.36929593653511961",
+      "places": 6,
+      "display": "0.369296",
+      "arithmetic": "floating_point"
+    },
+    "u03_apparent_rich_mse": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "apparent",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.17708255259258737",
+      "places": 6,
+      "display": "0.177083",
+      "arithmetic": "floating_point"
+    },
+    "u03_apparent_rich_r2": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "apparent",
+        "model_id": "rich"
+      },
+      "column": "r2",
+      "value": "0.4123893442549722",
+      "places": 6,
+      "display": "0.412389",
+      "arithmetic": "floating_point"
+    },
+    "u03_setting_check_baseline_mse": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "setting_check",
+        "model_id": "baseline"
+      },
+      "column": "mse",
+      "value": "0.2152886145618047",
+      "places": 6,
+      "display": "0.215289",
+      "arithmetic": "floating_point"
+    },
+    "u03_setting_check_baseline_r2": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "setting_check",
+        "model_id": "baseline"
+      },
+      "column": "r2",
+      "value": "0.35228782146952087",
+      "places": 6,
+      "display": "0.352288",
+      "arithmetic": "floating_point"
+    },
+    "u03_setting_check_entry_mse": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.21126152686401165",
+      "places": 6,
+      "display": "0.211262",
+      "arithmetic": "floating_point"
+    },
+    "u03_setting_check_entry_r2": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "r2",
+      "value": "0.36440362123524428",
+      "places": 6,
+      "display": "0.364404",
+      "arithmetic": "floating_point"
+    },
+    "u03_setting_check_rich_mse": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.22565910903879619",
+      "places": 6,
+      "display": "0.225659",
+      "arithmetic": "floating_point"
+    },
+    "u03_setting_check_rich_r2": {
+      "source": "scores",
+      "where": {
+        "replicate": "original",
+        "scope": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "r2",
+      "value": "0.32108739972960521",
+      "places": 6,
+      "display": "0.321087",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_apparent_mse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "apparent_mse",
+      "value": "0.19006919700472658",
+      "places": 6,
+      "display": "0.190069",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_mean_mse_gap": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "mean_mse_gap",
+      "value": "0.024274603737078758",
+      "places": 6,
+      "display": "0.024275",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_corrected_mse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "corrected_mse",
+      "value": "0.21434380074180534",
+      "places": 6,
+      "display": "0.214344",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_mse_gap_mcse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "mse_gap_mcse",
+      "value": "0.0021077440413606241",
+      "places": 6,
+      "display": "0.002108",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_apparent_r2": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "apparent_r2",
+      "value": "0.36929593653511961",
+      "places": 6,
+      "display": "0.369296",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_mean_r2_gap": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "mean_r2_gap",
+      "value": "0.07047387343335848",
+      "places": 6,
+      "display": "0.070474",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_corrected_r2": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "corrected_r2",
+      "value": "0.29882206310176113",
+      "places": 6,
+      "display": "0.298822",
+      "arithmetic": "floating_point"
+    },
+    "u03_aic_selection_r2_gap_mcse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "aic_selection"
+      },
+      "column": "r2_gap_mcse",
+      "value": "0.0069537662343484592",
+      "places": 6,
+      "display": "0.006954",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_apparent_mse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "apparent_mse",
+      "value": "0.19006919700472658",
+      "places": 6,
+      "display": "0.190069",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_mean_mse_gap": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "mean_mse_gap",
+      "value": "0.0061384417163298458",
+      "places": 6,
+      "display": "0.006138",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_corrected_mse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "corrected_mse",
+      "value": "0.19620763872105643",
+      "places": 6,
+      "display": "0.196208",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_mse_gap_mcse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "mse_gap_mcse",
+      "value": "0.0016117804171050195",
+      "places": 6,
+      "display": "0.001612",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_apparent_r2": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "apparent_r2",
+      "value": "0.36929593653511961",
+      "places": 6,
+      "display": "0.369296",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_mean_r2_gap": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "mean_r2_gap",
+      "value": "0.009711137090892618",
+      "places": 6,
+      "display": "0.009711",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_corrected_r2": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "corrected_r2",
+      "value": "0.359584799444227",
+      "places": 6,
+      "display": "0.359585",
+      "arithmetic": "floating_point"
+    },
+    "u03_entry_fixed_r2_gap_mcse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "entry_fixed"
+      },
+      "column": "r2_gap_mcse",
+      "value": "0.0047741684219322943",
+      "places": 6,
+      "display": "0.004774",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_apparent_mse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "apparent_mse",
+      "value": "0.19006919700472658",
+      "places": 6,
+      "display": "0.190069",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_mean_mse_gap": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "mean_mse_gap",
+      "value": "0.0061384417163298458",
+      "places": 6,
+      "display": "0.006138",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_corrected_mse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "corrected_mse",
+      "value": "0.19620763872105643",
+      "places": 6,
+      "display": "0.196208",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_mse_gap_mcse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "mse_gap_mcse",
+      "value": "0.0016117804171050195",
+      "places": 6,
+      "display": "0.001612",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_apparent_r2": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "apparent_r2",
+      "value": "0.36929593653511961",
+      "places": 6,
+      "display": "0.369296",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_mean_r2_gap": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "mean_r2_gap",
+      "value": "0.009711137090892618",
+      "places": 6,
+      "display": "0.009711",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_corrected_r2": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "corrected_r2",
+      "value": "0.359584799444227",
+      "places": 6,
+      "display": "0.359585",
+      "arithmetic": "floating_point"
+    },
+    "u03_frozen_choice_incomplete_r2_gap_mcse": {
+      "source": "corrections",
+      "where": {
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "r2_gap_mcse",
+      "value": "0.0047741684219322943",
+      "places": 6,
+      "display": "0.004774",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_aic_selection_bootstrap_mse": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "aic_selection"
+      },
+      "column": "bootstrap_mse",
+      "value": "0.16988639631644964",
+      "places": 6,
+      "display": "0.169886",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_aic_selection_original_mse": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "aic_selection"
+      },
+      "column": "original_mse",
+      "value": "0.18745972423149834",
+      "places": 6,
+      "display": "0.187460",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_aic_selection_mse_gap": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "aic_selection"
+      },
+      "column": "mse_gap",
+      "value": "0.017573327915048703",
+      "places": 6,
+      "display": "0.017573",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_aic_selection_bootstrap_r2": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "aic_selection"
+      },
+      "column": "bootstrap_r2",
+      "value": "0.5272056418668396",
+      "places": 6,
+      "display": "0.527206",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_aic_selection_original_r2": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "aic_selection"
+      },
+      "column": "original_r2",
+      "value": "0.37795491498881972",
+      "places": 6,
+      "display": "0.377955",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_aic_selection_r2_gap": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "aic_selection"
+      },
+      "column": "r2_gap",
+      "value": "0.14925072687801988",
+      "places": 6,
+      "display": "0.149251",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_entry_fixed_bootstrap_mse": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "entry_fixed"
+      },
+      "column": "bootstrap_mse",
+      "value": "0.18068589463428616",
+      "places": 6,
+      "display": "0.180686",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_entry_fixed_original_mse": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "entry_fixed"
+      },
+      "column": "original_mse",
+      "value": "0.19189167424341994",
+      "places": 6,
+      "display": "0.191892",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_entry_fixed_mse_gap": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "entry_fixed"
+      },
+      "column": "mse_gap",
+      "value": "0.01120577960913377",
+      "places": 6,
+      "display": "0.011206",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_entry_fixed_bootstrap_r2": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "entry_fixed"
+      },
+      "column": "bootstrap_r2",
+      "value": "0.49715060517143084",
+      "places": 6,
+      "display": "0.497151",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_entry_fixed_original_r2": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "entry_fixed"
+      },
+      "column": "original_r2",
+      "value": "0.3632484347929642",
+      "places": 6,
+      "display": "0.363248",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_entry_fixed_r2_gap": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "entry_fixed"
+      },
+      "column": "r2_gap",
+      "value": "0.13390217037846663",
+      "places": 6,
+      "display": "0.133902",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_frozen_choice_incomplete_bootstrap_mse": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "bootstrap_mse",
+      "value": "0.18068589463428616",
+      "places": 6,
+      "display": "0.180686",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_frozen_choice_incomplete_original_mse": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "original_mse",
+      "value": "0.19189167424341994",
+      "places": 6,
+      "display": "0.191892",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_frozen_choice_incomplete_mse_gap": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "mse_gap",
+      "value": "0.01120577960913377",
+      "places": 6,
+      "display": "0.011206",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_frozen_choice_incomplete_bootstrap_r2": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "bootstrap_r2",
+      "value": "0.49715060517143084",
+      "places": 6,
+      "display": "0.497151",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_frozen_choice_incomplete_original_r2": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "original_r2",
+      "value": "0.3632484347929642",
+      "places": 6,
+      "display": "0.363248",
+      "arithmetic": "floating_point"
+    },
+    "u03_B0001_frozen_choice_incomplete_r2_gap": {
+      "source": "optimism",
+      "where": {
+        "replicate": "B0001",
+        "workflow": "frozen_choice_incomplete"
+      },
+      "column": "r2_gap",
+      "value": "0.13390217037846663",
+      "places": 6,
+      "display": "0.133902",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050636_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050636"
+      },
+      "column": "y",
+      "value": "3.2000000000000002",
+      "places": 6,
+      "display": "3.200000",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050636_prediction": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050636"
+      },
+      "column": "prediction",
+      "value": "3.1205529679317734",
+      "places": 6,
+      "display": "3.120553",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050636_squared_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050636"
+      },
+      "column": "squared_error",
+      "value": "0.0063118309044498553",
+      "places": 6,
+      "display": "0.006312",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050642_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050642"
+      },
+      "column": "y",
+      "value": "1.9399999999999999",
+      "places": 6,
+      "display": "1.940000",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050642_prediction": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050642"
+      },
+      "column": "prediction",
+      "value": "2.507179451951921",
+      "places": 6,
+      "display": "2.507179",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050642_squared_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050642"
+      },
+      "column": "squared_error",
+      "value": "0.32169253071648157",
+      "places": 6,
+      "display": "0.321693",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050662_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050662"
+      },
+      "column": "y",
+      "value": "3.6400000000000001",
+      "places": 6,
+      "display": "3.640000",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050662_prediction": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050662"
+      },
+      "column": "prediction",
+      "value": "2.8418809402780343",
+      "places": 6,
+      "display": "2.841881",
+      "arithmetic": "floating_point"
+    },
+    "u03_example_S1050662_squared_error": {
+      "source": "examples",
+      "where": {
+        "row_id": "S1050662"
+      },
+      "column": "squared_error",
+      "value": "0.63699403349147488",
+      "places": 6,
+      "display": "0.636994",
+      "arithmetic": "floating_point"
+    }
+  }
+}

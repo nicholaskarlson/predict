@@ -1,0 +1,112 @@
+{
+  "origin": "Unit 7 full_logistic, not selected using Unit 8 labels",
+  "coefficients": [
+    {
+      "model_id": "full_logistic",
+      "term": "intercept",
+      "coefficient": "-2.3309132876670113"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "part_time",
+      "coefficient": "0.70458340921742713"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "first_gen",
+      "coefficient": "0.19838825393592976"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "z_age",
+      "coefficient": "0.15835196331747581"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "gender_male",
+      "coefficient": "0.013273118332141808"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "gender_another",
+      "coefficient": "0.018087187629745843"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "program_Social_Sciences",
+      "coefficient": "-0.32685458037590259"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "program_STEM",
+      "coefficient": "0.29533231277713007"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "program_Health",
+      "coefficient": "-0.22976690409292808"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "program_Business",
+      "coefficient": "0.19447926786816255"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "z_prior_grade",
+      "coefficient": "-0.55726851736601857"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "z_wellbeing_score",
+      "coefficient": "-0.16287504869980821"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "z_stress_score",
+      "coefficient": "0.35153138714213222"
+    },
+    {
+      "model_id": "full_logistic",
+      "term": "offer",
+      "coefficient": "-0.1996531205737643"
+    }
+  ],
+  "transforms": [
+    {
+      "model_id": "full_logistic",
+      "feature": "age",
+      "n_fit": "1208",
+      "mean": "22.265728476821192",
+      "sd": "6.3139248217532637"
+    },
+    {
+      "model_id": "full_logistic",
+      "feature": "prior_grade",
+      "n_fit": "1208",
+      "mean": "3.0074006622516558",
+      "sd": "0.46697901707000433"
+    },
+    {
+      "model_id": "full_logistic",
+      "feature": "wellbeing_score",
+      "n_fit": "1208",
+      "mean": "3.4919150110375279",
+      "sd": "0.73597971785556493"
+    },
+    {
+      "model_id": "full_logistic",
+      "feature": "stress_score",
+      "n_fit": "1208",
+      "mean": "2.95442880794702",
+      "sd": "0.83786292439027332"
+    }
+  ],
+  "offer_for_prediction": 0,
+  "source_sha256": {
+    "model-specs/unit07.json": "d6722c36772815cc5b551c8606293b53c073f0062d028f4c0c113ebd545ea7b0",
+    "expected-results/unit07_coefficients.csv": "768a08352f0744f8da6489abc755d1b052dd07eb75561e95a8aea0345168ad5f",
+    "expected-results/unit07_transforms.csv": "cd9231ecf9a698ffbd30d6eb4c52601e1b4cf9a0f62830066a5c25ed6788c496",
+    "predictions/unit07_predictions.csv": "bc560c1b6cc243011de2ef4c425ebf70f6e438faa12ee9f81446b3a176b09bda"
+  }
+}

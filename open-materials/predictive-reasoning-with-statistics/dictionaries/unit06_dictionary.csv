@@ -1,0 +1,13 @@
+field,type,availability,role
+row_id,string,identifier,join_only
+college_id,string,enrollment,fixed_college_fold_stratum_not_predictor
+region,string,enrollment,population_role_not_predictor
+part_time,binary,enrollment,predictor
+first_gen,binary,enrollment,predictor
+age,float,enrollment,predictor
+prior_grade,float_0_4,enrollment,predictor
+exit_type,string,followup,measurement_audit_not_predictor
+exit_month,float,followup,measurement_audit_not_predictor
+gpa_at_exit,binary,followup,measurement_audit_not_predictor
+y,float_0_4_or_blank,12_month_or_eligible_exit,observed_target
+role,string,post_followup,eligibility_and_setting_manifest

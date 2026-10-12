@@ -1,0 +1,28 @@
+{
+  "author": "Nicholas Elliott Karlson",
+  "author_only_frozen_event_inputs": [
+    "hidden/population_c1_truth.csv",
+    "hidden/population_c2_truth.csv"
+  ],
+  "input_identity": "BASELINE.json",
+  "new_world_random_draws": 0,
+  "nonrespondent_offer_policy": "no_offer_no_uptake",
+  "observation_contract": "OBSERVATION_CONTRACT.json",
+  "ordinary_inputs": [
+    "data/anchor_observed_registry.csv",
+    "data/cohort2_observed_registry.csv"
+  ],
+  "original_generator_invoked": false,
+  "original_world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "original_world_version": "1.0.0",
+  "release": "1.1.0",
+  "retained_author_input_columns": [
+    "student_id",
+    "T_withdraw_0",
+    "T_transfer"
+  ],
+  "schema_version": 1,
+  "scope": "fictional_admin_observation_addition_not_empirical_validation",
+  "unit11_status": "data_prerequisite_only",
+  "unknown_label_handling": "retain_consent_censoring_with_blank_canonical_label"
+}

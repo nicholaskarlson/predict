@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "unit_id": 2,
+  "rounding": "decimal_half_even",
+  "anchors": {
+    "u2_anchor_exit_grades": {
+      "kind": "exact_fraction",
+      "exact": "67",
+      "display": "67"
+    },
+    "u2_anchor_grade_missing": {
+      "kind": "exact_fraction",
+      "exact": "55",
+      "display": "55"
+    },
+    "u2_anchor_grade_observed": {
+      "kind": "exact_fraction",
+      "exact": "555",
+      "display": "555"
+    },
+    "u2_anchor_known": {
+      "kind": "exact_fraction",
+      "exact": "603",
+      "display": "603"
+    },
+    "u2_anchor_pool": {
+      "kind": "exact_fraction",
+      "exact": "610",
+      "display": "610"
+    },
+    "u2_anchor_transfers": {
+      "kind": "exact_fraction",
+      "exact": "22",
+      "display": "22"
+    },
+    "u2_anchor_unknown": {
+      "kind": "exact_fraction",
+      "exact": "7",
+      "display": "7"
+    },
+    "u2_anchor_withdrawals": {
+      "kind": "exact_fraction",
+      "exact": "93",
+      "display": "93"
+    },
+    "u2_cohort2_exit_grades": {
+      "kind": "exact_fraction",
+      "exact": "142",
+      "display": "142"
+    },
+    "u2_cohort2_grade_missing": {
+      "kind": "exact_fraction",
+      "exact": "141",
+      "display": "141"
+    },
+    "u2_cohort2_grade_observed": {
+      "kind": "exact_fraction",
+      "exact": "1200",
+      "display": "1200"
+    },
+    "u2_cohort2_known": {
+      "kind": "exact_fraction",
+      "exact": "1341",
+      "display": "1341"
+    },
+    "u2_cohort2_pool": {
+      "kind": "exact_fraction",
+      "exact": "1341",
+      "display": "1341"
+    },
+    "u2_cohort2_transfers": {
+      "kind": "exact_fraction",
+      "exact": "41",
+      "display": "41"
+    },
+    "u2_cohort2_unknown": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0"
+    },
+    "u2_cohort2_withdrawals": {
+      "kind": "exact_fraction",
+      "exact": "242",
+      "display": "242"
+    },
+    "u2_cut_1": {
+      "kind": "exact_fraction",
+      "exact": "267/100",
+      "display": "2.670000"
+    },
+    "u2_cut_2": {
+      "kind": "exact_fraction",
+      "exact": "299/100",
+      "display": "2.990000"
+    },
+    "u2_cut_3": {
+      "kind": "exact_fraction",
+      "exact": "33/10",
+      "display": "3.300000"
+    },
+    "u2_example_first_exit_prevalence_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_example_first_exit_prevalence_1_log_loss": {
+      "kind": "floating_log",
+      "value": "0.21160179087403824",
+      "display": "0.211602"
+    },
+    "u2_example_first_exit_prevalence_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_example_first_exit_prevalence_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "13225/363609",
+      "display": "0.036371"
+    },
+    "u2_example_first_exit_prevalence_1_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_first_exit_prevalence_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_example_first_exit_prevalence_2_log_loss": {
+      "kind": "floating_log",
+      "value": "0.21160179087403824",
+      "display": "0.211602"
+    },
+    "u2_example_first_exit_prevalence_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_example_first_exit_prevalence_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "13225/363609",
+      "display": "0.036371"
+    },
+    "u2_example_first_exit_prevalence_2_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_first_exit_prevalence_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_example_first_exit_prevalence_3_log_loss": {
+      "kind": "floating_log",
+      "value": "0.21160179087403824",
+      "display": "0.211602"
+    },
+    "u2_example_first_exit_prevalence_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_example_first_exit_prevalence_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "13225/363609",
+      "display": "0.036371"
+    },
+    "u2_example_first_exit_prevalence_3_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_first_exit_risk_table_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "3/20",
+      "display": "0.150000"
+    },
+    "u2_example_first_exit_risk_table_1_log_loss": {
+      "kind": "floating_log",
+      "value": "0.16251892949777491",
+      "display": "0.162519"
+    },
+    "u2_example_first_exit_risk_table_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "3/20",
+      "display": "0.150000"
+    },
+    "u2_example_first_exit_risk_table_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "9/400",
+      "display": "0.022500"
+    },
+    "u2_example_first_exit_risk_table_1_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_first_exit_risk_table_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "4/13",
+      "display": "0.307692"
+    },
+    "u2_example_first_exit_risk_table_2_log_loss": {
+      "kind": "floating_log",
+      "value": "0.3677247801253174",
+      "display": "0.367725"
+    },
+    "u2_example_first_exit_risk_table_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "4/13",
+      "display": "0.307692"
+    },
+    "u2_example_first_exit_risk_table_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "16/169",
+      "display": "0.094675"
+    },
+    "u2_example_first_exit_risk_table_2_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_first_exit_risk_table_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "4/13",
+      "display": "0.307692"
+    },
+    "u2_example_first_exit_risk_table_3_log_loss": {
+      "kind": "floating_log",
+      "value": "0.3677247801253174",
+      "display": "0.367725"
+    },
+    "u2_example_first_exit_risk_table_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "4/13",
+      "display": "0.307692"
+    },
+    "u2_example_first_exit_risk_table_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "16/169",
+      "display": "0.094675"
+    },
+    "u2_example_first_exit_risk_table_3_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_grade_mean_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "89/27750",
+      "display": "0.003207"
+    },
+    "u2_example_grade_mean_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "163903/55500",
+      "display": "2.953207"
+    },
+    "u2_example_grade_mean_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "7921/770062500",
+      "display": "0.000010"
+    },
+    "u2_example_grade_mean_1_y": {
+      "kind": "exact_fraction",
+      "exact": "59/20",
+      "display": "2.950000"
+    },
+    "u2_example_grade_mean_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "14752/13875",
+      "display": "1.063207"
+    },
+    "u2_example_grade_mean_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "163903/55500",
+      "display": "2.953207"
+    },
+    "u2_example_grade_mean_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "217621504/192515625",
+      "display": "1.130410"
+    },
+    "u2_example_grade_mean_2_y": {
+      "kind": "exact_fraction",
+      "exact": "189/100",
+      "display": "1.890000"
+    },
+    "u2_example_grade_mean_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "41803/55500",
+      "display": "0.753207"
+    },
+    "u2_example_grade_mean_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "163903/55500",
+      "display": "2.953207"
+    },
+    "u2_example_grade_mean_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "1747490809/3080250000",
+      "display": "0.567321"
+    },
+    "u2_example_grade_mean_3_y": {
+      "kind": "exact_fraction",
+      "exact": "11/5",
+      "display": "2.200000"
+    },
+    "u2_example_grade_median_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "1/50",
+      "display": "0.020000"
+    },
+    "u2_example_grade_median_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "297/100",
+      "display": "2.970000"
+    },
+    "u2_example_grade_median_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "1/2500",
+      "display": "0.000400"
+    },
+    "u2_example_grade_median_1_y": {
+      "kind": "exact_fraction",
+      "exact": "59/20",
+      "display": "2.950000"
+    },
+    "u2_example_grade_median_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "27/25",
+      "display": "1.080000"
+    },
+    "u2_example_grade_median_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "297/100",
+      "display": "2.970000"
+    },
+    "u2_example_grade_median_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "729/625",
+      "display": "1.166400"
+    },
+    "u2_example_grade_median_2_y": {
+      "kind": "exact_fraction",
+      "exact": "189/100",
+      "display": "1.890000"
+    },
+    "u2_example_grade_median_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "77/100",
+      "display": "0.770000"
+    },
+    "u2_example_grade_median_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "297/100",
+      "display": "2.970000"
+    },
+    "u2_example_grade_median_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "5929/10000",
+      "display": "0.592900"
+    },
+    "u2_example_grade_median_3_y": {
+      "kind": "exact_fraction",
+      "exact": "11/5",
+      "display": "2.200000"
+    },
+    "u2_example_grade_prior_grade_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "4/25",
+      "display": "0.160000"
+    },
+    "u2_example_grade_prior_grade_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "279/100",
+      "display": "2.790000"
+    },
+    "u2_example_grade_prior_grade_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "16/625",
+      "display": "0.025600"
+    },
+    "u2_example_grade_prior_grade_1_y": {
+      "kind": "exact_fraction",
+      "exact": "59/20",
+      "display": "2.950000"
+    },
+    "u2_example_grade_prior_grade_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "3/20",
+      "display": "0.150000"
+    },
+    "u2_example_grade_prior_grade_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "87/50",
+      "display": "1.740000"
+    },
+    "u2_example_grade_prior_grade_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "9/400",
+      "display": "0.022500"
+    },
+    "u2_example_grade_prior_grade_2_y": {
+      "kind": "exact_fraction",
+      "exact": "189/100",
+      "display": "1.890000"
+    },
+    "u2_example_grade_prior_grade_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "51/100",
+      "display": "0.510000"
+    },
+    "u2_example_grade_prior_grade_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "271/100",
+      "display": "2.710000"
+    },
+    "u2_example_grade_prior_grade_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "2601/10000",
+      "display": "0.260100"
+    },
+    "u2_example_grade_prior_grade_3_y": {
+      "kind": "exact_fraction",
+      "exact": "11/5",
+      "display": "2.200000"
+    },
+    "u2_example_withdrawal_prevalence_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_example_withdrawal_prevalence_1_log_loss": {
+      "kind": "floating_log",
+      "value": "0.16750647100881397",
+      "display": "0.167506"
+    },
+    "u2_example_withdrawal_prevalence_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_example_withdrawal_prevalence_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "961/40401",
+      "display": "0.023787"
+    },
+    "u2_example_withdrawal_prevalence_1_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_withdrawal_prevalence_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_example_withdrawal_prevalence_2_log_loss": {
+      "kind": "floating_log",
+      "value": "0.16750647100881397",
+      "display": "0.167506"
+    },
+    "u2_example_withdrawal_prevalence_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_example_withdrawal_prevalence_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "961/40401",
+      "display": "0.023787"
+    },
+    "u2_example_withdrawal_prevalence_2_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_withdrawal_prevalence_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_example_withdrawal_prevalence_3_log_loss": {
+      "kind": "floating_log",
+      "value": "0.16750647100881397",
+      "display": "0.167506"
+    },
+    "u2_example_withdrawal_prevalence_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_example_withdrawal_prevalence_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "961/40401",
+      "display": "0.023787"
+    },
+    "u2_example_withdrawal_prevalence_3_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_withdrawal_risk_table_1_absolute": {
+      "kind": "exact_fraction",
+      "exact": "7/50",
+      "display": "0.140000"
+    },
+    "u2_example_withdrawal_risk_table_1_log_loss": {
+      "kind": "floating_log",
+      "value": "0.15082288973458366",
+      "display": "0.150823"
+    },
+    "u2_example_withdrawal_risk_table_1_prediction": {
+      "kind": "exact_fraction",
+      "exact": "7/50",
+      "display": "0.140000"
+    },
+    "u2_example_withdrawal_risk_table_1_squared": {
+      "kind": "exact_fraction",
+      "exact": "49/2500",
+      "display": "0.019600"
+    },
+    "u2_example_withdrawal_risk_table_1_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_withdrawal_risk_table_2_absolute": {
+      "kind": "exact_fraction",
+      "exact": "19/65",
+      "display": "0.292308"
+    },
+    "u2_example_withdrawal_risk_table_2_log_loss": {
+      "kind": "floating_log",
+      "value": "0.34574587340654211",
+      "display": "0.345746"
+    },
+    "u2_example_withdrawal_risk_table_2_prediction": {
+      "kind": "exact_fraction",
+      "exact": "19/65",
+      "display": "0.292308"
+    },
+    "u2_example_withdrawal_risk_table_2_squared": {
+      "kind": "exact_fraction",
+      "exact": "361/4225",
+      "display": "0.085444"
+    },
+    "u2_example_withdrawal_risk_table_2_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_example_withdrawal_risk_table_3_absolute": {
+      "kind": "exact_fraction",
+      "exact": "1/4",
+      "display": "0.250000"
+    },
+    "u2_example_withdrawal_risk_table_3_log_loss": {
+      "kind": "floating_log",
+      "value": "0.2876820724517809",
+      "display": "0.287682"
+    },
+    "u2_example_withdrawal_risk_table_3_prediction": {
+      "kind": "exact_fraction",
+      "exact": "1/4",
+      "display": "0.250000"
+    },
+    "u2_example_withdrawal_risk_table_3_squared": {
+      "kind": "exact_fraction",
+      "exact": "1/16",
+      "display": "0.062500"
+    },
+    "u2_example_withdrawal_risk_table_3_y": {
+      "kind": "exact_fraction",
+      "exact": "0",
+      "display": "0.000000"
+    },
+    "u2_first_exit_final_n": {
+      "kind": "exact_fraction",
+      "exact": "1341",
+      "display": "1341"
+    },
+    "u2_first_exit_final_prevalence": {
+      "kind": "exact_fraction",
+      "exact": "283/1341",
+      "display": "0.211037"
+    },
+    "u2_first_exit_prevalence_Brier": {
+      "kind": "exact_fraction",
+      "exact": "3014326/18059247",
+      "display": "0.166913"
+    },
+    "u2_first_exit_prevalence_log_loss": {
+      "kind": "floating_log",
+      "value": "0.51663047657846839",
+      "display": "0.516630"
+    },
+    "u2_first_exit_risk_table_Brier": {
+      "kind": "exact_fraction",
+      "exact": "11152306051276958/70239486587730525",
+      "display": "0.158775"
+    },
+    "u2_first_exit_risk_table_log_loss": {
+      "kind": "floating_log",
+      "value": "0.49345248561320115",
+      "display": "0.493452"
+    },
+    "u2_first_exit_train_prevalence": {
+      "kind": "exact_fraction",
+      "exact": "115/603",
+      "display": "0.190713"
+    },
+    "u2_first_exit_wrong_unknown_denominator": {
+      "kind": "exact_fraction",
+      "exact": "23/122",
+      "display": "0.188525"
+    },
+    "u2_grade_final_n": {
+      "kind": "exact_fraction",
+      "exact": "1200",
+      "display": "1200"
+    },
+    "u2_grade_mean_MAE": {
+      "kind": "exact_fraction",
+      "exact": "30694169/66600000",
+      "display": "0.460873"
+    },
+    "u2_grade_mean_MSE": {
+      "kind": "exact_fraction",
+      "exact": "8803206767/27380000000",
+      "display": "0.321520"
+    },
+    "u2_grade_median_MAE": {
+      "kind": "exact_fraction",
+      "exact": "18479/40000",
+      "display": "0.461975"
+    },
+    "u2_grade_median_MSE": {
+      "kind": "exact_fraction",
+      "exact": "1294051/4000000",
+      "display": "0.323513"
+    },
+    "u2_grade_prior_grade_MAE": {
+      "kind": "exact_fraction",
+      "exact": "43411/120000",
+      "display": "0.361758"
+    },
+    "u2_grade_prior_grade_MSE": {
+      "kind": "exact_fraction",
+      "exact": "2454371/12000000",
+      "display": "0.204531"
+    },
+    "u2_grade_train_mean": {
+      "kind": "exact_fraction",
+      "exact": "163903/55500",
+      "display": "2.953207"
+    },
+    "u2_grade_train_median": {
+      "kind": "exact_fraction",
+      "exact": "297/100",
+      "display": "2.970000"
+    },
+    "u2_grade_wrong_zero_mean": {
+      "kind": "exact_fraction",
+      "exact": "163903/61000",
+      "display": "2.686934"
+    },
+    "u2_toy_mean_MAE": {
+      "kind": "exact_fraction",
+      "exact": "4/3",
+      "display": "1.333333"
+    },
+    "u2_toy_mean_MSE": {
+      "kind": "exact_fraction",
+      "exact": "2",
+      "display": "2.000000"
+    },
+    "u2_toy_median_MAE": {
+      "kind": "exact_fraction",
+      "exact": "1",
+      "display": "1.000000"
+    },
+    "u2_toy_median_MSE": {
+      "kind": "exact_fraction",
+      "exact": "3",
+      "display": "3.000000"
+    },
+    "u2_withdrawal_final_n": {
+      "kind": "exact_fraction",
+      "exact": "1341",
+      "display": "1341"
+    },
+    "u2_withdrawal_final_prevalence": {
+      "kind": "exact_fraction",
+      "exact": "242/1341",
+      "display": "0.180462"
+    },
+    "u2_withdrawal_prevalence_Brier": {
+      "kind": "exact_fraction",
+      "exact": "2683313/18059247",
+      "display": "0.148584"
+    },
+    "u2_withdrawal_prevalence_log_loss": {
+      "kind": "floating_log",
+      "value": "0.4746193108900652",
+      "display": "0.474619"
+    },
+    "u2_withdrawal_risk_table_Brier": {
+      "kind": "exact_fraction",
+      "exact": "1948826120100856721/14047897317546105000",
+      "display": "0.138727"
+    },
+    "u2_withdrawal_risk_table_log_loss": {
+      "kind": "floating_log",
+      "value": "0.44252651544729155",
+      "display": "0.442527"
+    },
+    "u2_withdrawal_train_prevalence": {
+      "kind": "exact_fraction",
+      "exact": "31/201",
+      "display": "0.154229"
+    },
+    "u2_withdrawal_wrong_unknown_denominator": {
+      "kind": "exact_fraction",
+      "exact": "93/610",
+      "display": "0.152459"
+    }
+  }
+}

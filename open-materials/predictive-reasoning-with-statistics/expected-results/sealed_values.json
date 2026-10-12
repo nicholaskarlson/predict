@@ -1,0 +1,546 @@
+{
+  "rounding": "decimal_half_even",
+  "schema_version": 1,
+  "values": {
+    "all_brier_advantage": {
+      "display": "0.0112",
+      "places": 4,
+      "value": "0.01116879640434537"
+    },
+    "all_development_prevalence_auc": {
+      "display": "0.500",
+      "places": 3,
+      "value": "0.5"
+    },
+    "all_development_prevalence_brier": {
+      "display": "0.1489",
+      "places": 4,
+      "value": "0.14890611243307553"
+    },
+    "all_development_prevalence_events": {
+      "display": "18,204",
+      "places": 0,
+      "value": "18204"
+    },
+    "all_development_prevalence_log_loss": {
+      "display": "0.4745",
+      "places": 4,
+      "value": "0.47448857203642641"
+    },
+    "all_development_prevalence_mae_to_no_transfer_risk": {
+      "display": "0.105",
+      "places": 3,
+      "value": "0.10530975593000001"
+    },
+    "all_development_prevalence_mean_gap_to_no_transfer_risk": {
+      "display": "-0.004",
+      "places": 3,
+      "value": "-0.004061503589512204"
+    },
+    "all_development_prevalence_mean_no_transfer_risk": {
+      "display": "0.184",
+      "places": 3,
+      "value": "0.18393955236999998"
+    },
+    "all_development_prevalence_mean_probability": {
+      "display": "0.180",
+      "places": 3,
+      "value": "0.1798780487804878"
+    },
+    "all_development_prevalence_n": {
+      "display": "100,000",
+      "places": 0,
+      "value": "100000"
+    },
+    "all_development_prevalence_nonevents": {
+      "display": "81,796",
+      "places": 0,
+      "value": "81796"
+    },
+    "all_development_prevalence_prevalence": {
+      "display": "0.182",
+      "places": 3,
+      "value": "0.18204000000000001"
+    },
+    "all_development_prevalence_rmse_to_no_transfer_risk": {
+      "display": "0.142",
+      "places": 3,
+      "value": "0.14216740696422403"
+    },
+    "all_frame_only_auc": {
+      "display": "0.689",
+      "places": 3,
+      "value": "0.6888829345922558"
+    },
+    "all_frame_only_brier": {
+      "display": "0.1377",
+      "places": 4,
+      "value": "0.13773731602873016"
+    },
+    "all_frame_only_events": {
+      "display": "18,204",
+      "places": 0,
+      "value": "18204"
+    },
+    "all_frame_only_log_loss": {
+      "display": "0.4396",
+      "places": 4,
+      "value": "0.4396306057588254"
+    },
+    "all_frame_only_mae_to_no_transfer_risk": {
+      "display": "0.067",
+      "places": 3,
+      "value": "0.067109460154656631"
+    },
+    "all_frame_only_mean_gap_to_no_transfer_risk": {
+      "display": "-0.011",
+      "places": 3,
+      "value": "-0.011215057831257575"
+    },
+    "all_frame_only_mean_no_transfer_risk": {
+      "display": "0.184",
+      "places": 3,
+      "value": "0.18393955236999998"
+    },
+    "all_frame_only_mean_probability": {
+      "display": "0.173",
+      "places": 3,
+      "value": "0.17272449453874239"
+    },
+    "all_frame_only_n": {
+      "display": "100,000",
+      "places": 0,
+      "value": "100000"
+    },
+    "all_frame_only_nonevents": {
+      "display": "81,796",
+      "places": 0,
+      "value": "81796"
+    },
+    "all_frame_only_prevalence": {
+      "display": "0.182",
+      "places": 3,
+      "value": "0.18204000000000001"
+    },
+    "all_frame_only_rmse_to_no_transfer_risk": {
+      "display": "0.096",
+      "places": 3,
+      "value": "0.095571050411345088"
+    },
+    "continuing_brier_advantage": {
+      "display": "0.0107",
+      "places": 4,
+      "value": "0.01074942554967587"
+    },
+    "continuing_development_prevalence_auc": {
+      "display": "0.500",
+      "places": 3,
+      "value": "0.5"
+    },
+    "continuing_development_prevalence_brier": {
+      "display": "0.1524",
+      "places": 4,
+      "value": "0.15237874731851528"
+    },
+    "continuing_development_prevalence_events": {
+      "display": "10,393",
+      "places": 0,
+      "value": "10393"
+    },
+    "continuing_development_prevalence_log_loss": {
+      "display": "0.4827",
+      "places": 4,
+      "value": "0.48271760962086485"
+    },
+    "continuing_development_prevalence_mae_to_no_transfer_risk": {
+      "display": "0.103",
+      "places": 3,
+      "value": "0.10252936454571852"
+    },
+    "continuing_development_prevalence_mean_gap_to_no_transfer_risk": {
+      "display": "-0.008",
+      "places": 3,
+      "value": "-0.0081980863024847857"
+    },
+    "continuing_development_prevalence_mean_no_transfer_risk": {
+      "display": "0.188",
+      "places": 3,
+      "value": "0.18807613508297263"
+    },
+    "continuing_development_prevalence_mean_probability": {
+      "display": "0.180",
+      "places": 3,
+      "value": "0.17987804878048777"
+    },
+    "continuing_development_prevalence_n": {
+      "display": "55,440",
+      "places": 0,
+      "value": "55440"
+    },
+    "continuing_development_prevalence_nonevents": {
+      "display": "45,047",
+      "places": 0,
+      "value": "45047"
+    },
+    "continuing_development_prevalence_prevalence": {
+      "display": "0.187",
+      "places": 3,
+      "value": "0.18746392496392497"
+    },
+    "continuing_development_prevalence_rmse_to_no_transfer_risk": {
+      "display": "0.140",
+      "places": 3,
+      "value": "0.13953358249919284"
+    },
+    "continuing_difference": {
+      "display": "-0.0045",
+      "places": 4,
+      "value": "-0.0044966904414038278"
+    },
+    "continuing_frame_only_auc": {
+      "display": "0.682",
+      "places": 3,
+      "value": "0.68202368091890453"
+    },
+    "continuing_frame_only_brier": {
+      "display": "0.1416",
+      "places": 4,
+      "value": "0.14162932176883941"
+    },
+    "continuing_frame_only_events": {
+      "display": "10,393",
+      "places": 0,
+      "value": "10393"
+    },
+    "continuing_frame_only_log_loss": {
+      "display": "0.4501",
+      "places": 4,
+      "value": "0.45009169629181744"
+    },
+    "continuing_frame_only_mae_to_no_transfer_risk": {
+      "display": "0.066",
+      "places": 3,
+      "value": "0.066427735695895565"
+    },
+    "continuing_frame_only_mean_gap_to_no_transfer_risk": {
+      "display": "-0.016",
+      "places": 3,
+      "value": "-0.016164024453160758"
+    },
+    "continuing_frame_only_mean_no_transfer_risk": {
+      "display": "0.188",
+      "places": 3,
+      "value": "0.18807613508297263"
+    },
+    "continuing_frame_only_mean_probability": {
+      "display": "0.172",
+      "places": 3,
+      "value": "0.17191211062981185"
+    },
+    "continuing_frame_only_n": {
+      "display": "55,440",
+      "places": 0,
+      "value": "55440"
+    },
+    "continuing_frame_only_nonevents": {
+      "display": "45,047",
+      "places": 0,
+      "value": "45047"
+    },
+    "continuing_frame_only_prevalence": {
+      "display": "0.187",
+      "places": 3,
+      "value": "0.18746392496392497"
+    },
+    "continuing_frame_only_rmse_to_no_transfer_risk": {
+      "display": "0.095",
+      "places": 3,
+      "value": "0.094708031654980374"
+    },
+    "continuing_prior_brier": {
+      "display": "0.1461",
+      "places": 4,
+      "value": "0.14612601221024324"
+    },
+    "continuing_prior_n": {
+      "display": "1,792",
+      "places": 0,
+      "value": "1792"
+    },
+    "continuing_sealed_brier": {
+      "display": "0.1416",
+      "places": 4,
+      "value": "0.14162932176883941"
+    },
+    "previously_new_brier_advantage": {
+      "display": "0.0096",
+      "places": 4,
+      "value": "0.00957612664985660"
+    },
+    "previously_new_development_prevalence_auc": {
+      "display": "0.500",
+      "places": 3,
+      "value": "0.5"
+    },
+    "previously_new_development_prevalence_brier": {
+      "display": "0.1367",
+      "places": 4,
+      "value": "0.13670128485496338"
+    },
+    "previously_new_development_prevalence_events": {
+      "display": "1,016",
+      "places": 0,
+      "value": "1016"
+    },
+    "previously_new_development_prevalence_log_loss": {
+      "display": "0.4456",
+      "places": 4,
+      "value": "0.44556702163877848"
+    },
+    "previously_new_development_prevalence_mae_to_no_transfer_risk": {
+      "display": "0.098",
+      "places": 3,
+      "value": "0.097804575518204637"
+    },
+    "previously_new_development_prevalence_mean_gap_to_no_transfer_risk": {
+      "display": "0.013",
+      "places": 3,
+      "value": "0.013499550063773008"
+    },
+    "previously_new_development_prevalence_mean_no_transfer_risk": {
+      "display": "0.166",
+      "places": 3,
+      "value": "0.16637849871671478"
+    },
+    "previously_new_development_prevalence_mean_probability": {
+      "display": "0.180",
+      "places": 3,
+      "value": "0.1798780487804878"
+    },
+    "previously_new_development_prevalence_n": {
+      "display": "6,234",
+      "places": 0,
+      "value": "6234"
+    },
+    "previously_new_development_prevalence_nonevents": {
+      "display": "5,218",
+      "places": 0,
+      "value": "5218"
+    },
+    "previously_new_development_prevalence_prevalence": {
+      "display": "0.163",
+      "places": 3,
+      "value": "0.16297722168752005"
+    },
+    "previously_new_development_prevalence_rmse_to_no_transfer_risk": {
+      "display": "0.128",
+      "places": 3,
+      "value": "0.12823749625023917"
+    },
+    "previously_new_difference": {
+      "display": "-0.0131",
+      "places": 4,
+      "value": "-0.013056040650056028"
+    },
+    "previously_new_frame_only_auc": {
+      "display": "0.682",
+      "places": 3,
+      "value": "0.68165484860099657"
+    },
+    "previously_new_frame_only_brier": {
+      "display": "0.1271",
+      "places": 4,
+      "value": "0.12712515820510678"
+    },
+    "previously_new_frame_only_events": {
+      "display": "1,016",
+      "places": 0,
+      "value": "1016"
+    },
+    "previously_new_frame_only_log_loss": {
+      "display": "0.4140",
+      "places": 4,
+      "value": "0.41401352394180596"
+    },
+    "previously_new_frame_only_mae_to_no_transfer_risk": {
+      "display": "0.055",
+      "places": 3,
+      "value": "0.055256000859740681"
+    },
+    "previously_new_frame_only_mean_gap_to_no_transfer_risk": {
+      "display": "-0.003",
+      "places": 3,
+      "value": "-0.0028568522021794329"
+    },
+    "previously_new_frame_only_mean_no_transfer_risk": {
+      "display": "0.166",
+      "places": 3,
+      "value": "0.16637849871671478"
+    },
+    "previously_new_frame_only_mean_probability": {
+      "display": "0.164",
+      "places": 3,
+      "value": "0.16352164651453538"
+    },
+    "previously_new_frame_only_n": {
+      "display": "6,234",
+      "places": 0,
+      "value": "6234"
+    },
+    "previously_new_frame_only_nonevents": {
+      "display": "5,218",
+      "places": 0,
+      "value": "5218"
+    },
+    "previously_new_frame_only_prevalence": {
+      "display": "0.163",
+      "places": 3,
+      "value": "0.16297722168752005"
+    },
+    "previously_new_frame_only_rmse_to_no_transfer_risk": {
+      "display": "0.079",
+      "places": 3,
+      "value": "0.078611767723149692"
+    },
+    "previously_new_prior_brier": {
+      "display": "0.1402",
+      "places": 4,
+      "value": "0.14018119885516281"
+    },
+    "previously_new_prior_n": {
+      "display": "1,800",
+      "places": 0,
+      "value": "1800"
+    },
+    "previously_new_sealed_brier": {
+      "display": "0.1271",
+      "places": 4,
+      "value": "0.12712515820510678"
+    },
+    "unseen_brier_advantage": {
+      "display": "0.0120",
+      "places": 4,
+      "value": "0.01203449132247822"
+    },
+    "unseen_development_prevalence_auc": {
+      "display": "0.500",
+      "places": 3,
+      "value": "0.5"
+    },
+    "unseen_development_prevalence_brier": {
+      "display": "0.1459",
+      "places": 4,
+      "value": "0.14586801863443152"
+    },
+    "unseen_development_prevalence_events": {
+      "display": "6,795",
+      "places": 0,
+      "value": "6795"
+    },
+    "unseen_development_prevalence_log_loss": {
+      "display": "0.4673",
+      "places": 4,
+      "value": "0.46728925829373646"
+    },
+    "unseen_development_prevalence_mae_to_no_transfer_risk": {
+      "display": "0.111",
+      "places": 3,
+      "value": "0.11055246826710009"
+    },
+    "unseen_development_prevalence_mean_gap_to_no_transfer_risk": {
+      "display": "-0.001",
+      "places": 3,
+      "value": "-0.00093421305221063266"
+    },
+    "unseen_development_prevalence_mean_no_transfer_risk": {
+      "display": "0.181",
+      "places": 3,
+      "value": "0.18081226183269841"
+    },
+    "unseen_development_prevalence_mean_probability": {
+      "display": "0.180",
+      "places": 3,
+      "value": "0.1798780487804878"
+    },
+    "unseen_development_prevalence_n": {
+      "display": "38,326",
+      "places": 0,
+      "value": "38326"
+    },
+    "unseen_development_prevalence_nonevents": {
+      "display": "31,531",
+      "places": 0,
+      "value": "31531"
+    },
+    "unseen_development_prevalence_prevalence": {
+      "display": "0.177",
+      "places": 3,
+      "value": "0.17729478682878463"
+    },
+    "unseen_development_prevalence_rmse_to_no_transfer_risk": {
+      "display": "0.148",
+      "places": 3,
+      "value": "0.14797808985884386"
+    },
+    "unseen_frame_only_auc": {
+      "display": "0.700",
+      "places": 3,
+      "value": "0.70031401406033034"
+    },
+    "unseen_frame_only_brier": {
+      "display": "0.1338",
+      "places": 4,
+      "value": "0.1338335273119533"
+    },
+    "unseen_frame_only_events": {
+      "display": "6,795",
+      "places": 0,
+      "value": "6795"
+    },
+    "unseen_frame_only_log_loss": {
+      "display": "0.4287",
+      "places": 4,
+      "value": "0.42866504788422899"
+    },
+    "unseen_frame_only_mae_to_no_transfer_risk": {
+      "display": "0.070",
+      "places": 3,
+      "value": "0.070023650762552611"
+    },
+    "unseen_frame_only_mean_gap_to_no_transfer_risk": {
+      "display": "-0.005",
+      "places": 3,
+      "value": "-0.0054157138969404169"
+    },
+    "unseen_frame_only_mean_no_transfer_risk": {
+      "display": "0.181",
+      "places": 3,
+      "value": "0.18081226183269841"
+    },
+    "unseen_frame_only_mean_probability": {
+      "display": "0.175",
+      "places": 3,
+      "value": "0.17539654793575801"
+    },
+    "unseen_frame_only_n": {
+      "display": "38,326",
+      "places": 0,
+      "value": "38326"
+    },
+    "unseen_frame_only_nonevents": {
+      "display": "31,531",
+      "places": 0,
+      "value": "31531"
+    },
+    "unseen_frame_only_prevalence": {
+      "display": "0.177",
+      "places": 3,
+      "value": "0.17729478682878463"
+    },
+    "unseen_frame_only_rmse_to_no_transfer_risk": {
+      "display": "0.099",
+      "places": 3,
+      "value": "0.09925653596268616"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "development": "anchor_offer0_outcome_known; 603 respondents and 381 nonrespondents; seven unknown no-offer excluded; 609 offered excluded",
+  "evaluation": "all 3592 cohort2 invitees, continuing and new colleges reported separately",
+  "evidence_ceiling": "fictional arithmetic under administrative observation policy; no causal or missing-at-random claim",
+  "expected_development_n": 984,
+  "fallback": "survey_fallback uses its survey logistic only with both scores available; otherwise frozen frame_only model",
+  "final_labels_for_selection": false,
+  "frame_features": [
+    "part_time",
+    "first_gen",
+    "age",
+    "gender",
+    "program_area",
+    "prior_grade"
+  ],
+  "gender_levels": [
+    "female",
+    "male",
+    "another"
+  ],
+  "gender_reference": "female",
+  "imputation": {
+    "conditional_mean_clip": [
+      1,
+      5
+    ],
+    "fit_rows": "known-outcome no-offer development rows with that scale observed",
+    "method": "two deterministic unpenalized OLS QR regressions, one per scale, using frame only",
+    "observed_values_unchanged": true,
+    "predictor_outcome_in_imputer": false,
+    "uncertainty_claim": "not multiple imputation; no completed-data uncertainty guarantee"
+  },
+  "indicator_alias_policy": "score-unavailable indicators equal nonresponse in the frozen data and are not additional regressors; future unscorable responder patterns flagged unsupported",
+  "indicator_definitions": {
+    "st_item_missing": "observed st item count <5",
+    "survey_absent": "1-responded_baseline",
+    "wb_item_missing": "observed wb item count <5"
+  },
+  "indicators": [
+    "survey_absent",
+    "wb_item_missing",
+    "st_item_missing"
+  ],
+  "item_rule": {
+    "allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "items_per_scale": 5,
+    "minimum_observed": 3,
+    "prefixes": [
+      "wb",
+      "st"
+    ],
+    "reverse_constant": 6,
+    "reverse_item": 4,
+    "score": "mean of observed reversed items; no outcome in scoring"
+  },
+  "learner": {
+    "coefficient_abs_limit": 30,
+    "condition_r_inf_limit": 100000.0,
+    "failure": "rank, conditioning, nonfinite, separation or nonconvergence stops; no silent coefficient deletion",
+    "intercept": true,
+    "maximum_iterations": 100,
+    "model": "ridge logistic regression",
+    "objective": "summed negative natural-log Bernoulli likelihood plus 0.5 times sum of squared slopes",
+    "penalized_terms": "all slopes; intercept unpenalized",
+    "penalty_selection": "fixed numerical stabilizer after development-only separation diagnostic, before any Unit11 evaluation metrics; no tuning",
+    "rank_relative_diag_limit": 1e-10,
+    "ridge_lambda": 1,
+    "score_inf_limit": 1e-09,
+    "step_inf_limit": 1e-09
+  },
+  "legacy_evaluation": "includes 1341 previous continuing_final and 655 previous new_updating plus 654 previous new_final respondents, with 942 newly available nonrespondents; not newly untouched data",
+  "metadata_not_predictors": [
+    "row_id",
+    "college_id",
+    "region",
+    "college_group",
+    "legacy_role"
+  ],
+  "method_order": [
+    "frame_only",
+    "survey_fallback",
+    "imputed",
+    "imputed_indicators"
+  ],
+  "new_student": "manual fictional records; JSON or CSV frame and optional observed items only; no outcome, future variables or reference to existing student lookup",
+  "new_world_random_draws": 0,
+  "no_bootstrap": true,
+  "no_model_selection": true,
+  "observation_policy": "Tonmick derived observed v1.1.0; unknown consent outcomes remain blank",
+  "patterns": [
+    "survey_absent",
+    "scores_complete_items",
+    "scores_partial_wb",
+    "scores_partial_st",
+    "scores_partial_both",
+    "wb_unscorable",
+    "st_unscorable",
+    "both_unscorable"
+  ],
+  "prediction_time": "enrollment",
+  "program_levels": [
+    "Arts and Humanities",
+    "Social Sciences",
+    "STEM",
+    "Health",
+    "Business"
+  ],
+  "program_reference": "Arts and Humanities",
+  "raw_sha256": {
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/cohort2/baseline.csv": "531c93ac3b82062bfcf1b507040a21459f40ee7268d86fcaeeb2d8dc244f220a",
+    "data/cohort2/participants.csv": "63939aff755daf68463aee740ca31afdc5ed2844b621ae705dffc20f938401e0",
+    "observed/DICTIONARY.csv": "78a6f84904c754c399c63db847dfdd48e25d037cf9708b3513441ba8d3437473",
+    "observed/LICENSES.md": "c870b5b89b68c9777441b7be1d3c94461e29db8be4843a83e6c00b51849bb8a0",
+    "observed/MANIFEST.json": "455620fd81c85b5b8700a23f4e4f55d5ad388420a41aed612aec8b8c33687d67",
+    "observed/OBSERVATION_CONTRACT.json": "d95ae3145b03c5e6b82b9c2648f17555b3648cfdd817745299744659dab607e7",
+    "observed/OBSERVATION_POLICY.md": "20ba14604463a9b6a15c46060b62fda6e4bfbb44d4a7e55cc88356e7431a29f3",
+    "observed/PROVENANCE.json": "2da523be695523c2c3ca767e98c19eaf502f9b13dcef1f7653d5250d050063ad",
+    "observed/data/anchor_observed_registry.csv": "28c2a43ab569f517435fbb58c0152cfdbe990012f8f91139714146483e2f6e35",
+    "observed/data/cohort2_observed_registry.csv": "4b5ee9082d8db37039103623d39afb8473829574a5c6cad2a89db32460ae6815"
+  },
+  "scale_features": [
+    "wellbeing_score",
+    "stress_score"
+  ],
+  "schema_version": 1,
+  "scores": {
+    "auc": "twice strict positive-negative wins plus exact ties divided by twice class product",
+    "auc_undefined": "empty or one_class with reason",
+    "binary_y": "withdrawal_label; known flag required; never impute label",
+    "brier": "mean squared probability error on identical known-label rows",
+    "prediction_coverage": "all eligible later invitees; label coverage and model route reported separately"
+  },
+  "snapshot_assumption": "administrative frame, baseline response status and returned baseline items resolved at enrollment; earlier forecasts require a different availability contract",
+  "standardization": {
+    "fit_separately_for": "each imputer, frame model, survey model, and each completed-data prediction model",
+    "mean": "fit-row mean",
+    "sd": "population SD denominator n",
+    "zero_sd": "fail"
+  },
+  "state": "calculation_foundation_reader_pending",
+  "target": "withdrawal by month12 before transfer under no mentoring offer",
+  "unit": 11
+}

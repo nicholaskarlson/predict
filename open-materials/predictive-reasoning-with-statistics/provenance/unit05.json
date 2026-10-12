@@ -1,0 +1,20 @@
+{
+  "world_version": "1.0.0",
+  "world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "raw_source_sha256": {
+    "participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47"
+  },
+  "fictional": true,
+  "regeneration": false,
+  "raw_join": "participants.responded_baseline=1 one_to_one baseline registry; offer=0",
+  "pool_n": 610,
+  "unknown_excluded_n": 7,
+  "eligible_n": 603,
+  "events": 93,
+  "colleges": 16,
+  "cohort2_used": false,
+  "latent_truth_used": false,
+  "future_registry_counterexample": "observed retrospective outcome field deliberately marked invalid; not simulator truth"
+}

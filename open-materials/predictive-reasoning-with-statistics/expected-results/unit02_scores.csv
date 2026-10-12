@@ -1,0 +1,15 @@
+target,recipe,n,measure,value,clipped
+first_exit,prevalence,1341,Brier,0.16691316088649763,0
+first_exit,prevalence,1341,log_loss,0.51663047657846839,0
+first_exit,risk_table,1341,Brier,0.15877544943822311,0
+first_exit,risk_table,1341,log_loss,0.49345248561320115,0
+grade,mean,1200,MAE,0.4608734084084084,0
+grade,mean,1200,MSE,0.32151960434623822,0
+grade,median,1200,MAE,0.46197500000000002,0
+grade,median,1200,MSE,0.32351275000000007,0
+grade,prior_grade,1200,MAE,0.36175833333333335,0
+grade,prior_grade,1200,MSE,0.20453091666666665,0
+withdrawal,prevalence,1341,Brier,0.14858388060144481,0
+withdrawal,prevalence,1341,log_loss,0.4746193108900652,0
+withdrawal,risk_table,1341,Brier,0.13872724693586233,0
+withdrawal,risk_table,1341,log_loss,0.44252651544729155,0

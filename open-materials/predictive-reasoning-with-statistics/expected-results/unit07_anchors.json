@@ -1,0 +1,3078 @@
+{
+  "schema_version": 1,
+  "rounding": "half_even",
+  "anchors": {
+    "u7_coefficients_entry_logistic_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "entry_logistic",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "-1.8458684398525056",
+      "places": 6,
+      "display": "-1.845868"
+    },
+    "u7_coefficients_entry_logistic_z_prior_grade_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "entry_logistic",
+        "term": "z_prior_grade"
+      },
+      "column": "coefficient",
+      "value": "-0.62893382991956037",
+      "places": 6,
+      "display": "-0.628934"
+    },
+    "u7_coefficients_entry_logistic_offer_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "entry_logistic",
+        "term": "offer"
+      },
+      "column": "coefficient",
+      "value": "-0.16187025360022986",
+      "places": 6,
+      "display": "-0.161870"
+    },
+    "u7_coefficients_full_logistic_intercept_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "-2.3309132876670113",
+      "places": 6,
+      "display": "-2.330913"
+    },
+    "u7_coefficients_full_logistic_part_time_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "part_time"
+      },
+      "column": "coefficient",
+      "value": "0.70458340921742713",
+      "places": 6,
+      "display": "0.704583"
+    },
+    "u7_coefficients_full_logistic_first_gen_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "first_gen"
+      },
+      "column": "coefficient",
+      "value": "0.19838825393592976",
+      "places": 6,
+      "display": "0.198388"
+    },
+    "u7_coefficients_full_logistic_z_age_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "z_age"
+      },
+      "column": "coefficient",
+      "value": "0.15835196331747581",
+      "places": 6,
+      "display": "0.158352"
+    },
+    "u7_coefficients_full_logistic_gender_male_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "gender_male"
+      },
+      "column": "coefficient",
+      "value": "0.013273118332141808",
+      "places": 6,
+      "display": "0.013273"
+    },
+    "u7_coefficients_full_logistic_gender_another_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "gender_another"
+      },
+      "column": "coefficient",
+      "value": "0.018087187629745843",
+      "places": 6,
+      "display": "0.018087"
+    },
+    "u7_coefficients_full_logistic_program_Social_Sciences_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "program_Social_Sciences"
+      },
+      "column": "coefficient",
+      "value": "-0.32685458037590259",
+      "places": 6,
+      "display": "-0.326855"
+    },
+    "u7_coefficients_full_logistic_program_STEM_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "program_STEM"
+      },
+      "column": "coefficient",
+      "value": "0.29533231277713007",
+      "places": 6,
+      "display": "0.295332"
+    },
+    "u7_coefficients_full_logistic_program_Health_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "program_Health"
+      },
+      "column": "coefficient",
+      "value": "-0.22976690409292808",
+      "places": 6,
+      "display": "-0.229767"
+    },
+    "u7_coefficients_full_logistic_program_Business_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "program_Business"
+      },
+      "column": "coefficient",
+      "value": "0.19447926786816255",
+      "places": 6,
+      "display": "0.194479"
+    },
+    "u7_coefficients_full_logistic_z_prior_grade_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "z_prior_grade"
+      },
+      "column": "coefficient",
+      "value": "-0.55726851736601857",
+      "places": 6,
+      "display": "-0.557269"
+    },
+    "u7_coefficients_full_logistic_z_wellbeing_score_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "z_wellbeing_score"
+      },
+      "column": "coefficient",
+      "value": "-0.16287504869980821",
+      "places": 6,
+      "display": "-0.162875"
+    },
+    "u7_coefficients_full_logistic_z_stress_score_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "z_stress_score"
+      },
+      "column": "coefficient",
+      "value": "0.35153138714213222",
+      "places": 6,
+      "display": "0.351531"
+    },
+    "u7_coefficients_full_logistic_offer_coefficient": {
+      "source": "coefficients",
+      "where": {
+        "model_id": "full_logistic",
+        "term": "offer"
+      },
+      "column": "coefficient",
+      "value": "-0.1996531205737643",
+      "places": 6,
+      "display": "-0.199653"
+    },
+    "u7_transforms_entry_logistic_prior_grade_n_fit": {
+      "source": "transforms",
+      "where": {
+        "model_id": "entry_logistic",
+        "feature": "prior_grade"
+      },
+      "column": "n_fit",
+      "value": "1208",
+      "places": 0,
+      "display": "1208"
+    },
+    "u7_transforms_entry_logistic_prior_grade_mean": {
+      "source": "transforms",
+      "where": {
+        "model_id": "entry_logistic",
+        "feature": "prior_grade"
+      },
+      "column": "mean",
+      "value": "3.0074006622516558",
+      "places": 6,
+      "display": "3.007401"
+    },
+    "u7_transforms_entry_logistic_prior_grade_sd": {
+      "source": "transforms",
+      "where": {
+        "model_id": "entry_logistic",
+        "feature": "prior_grade"
+      },
+      "column": "sd",
+      "value": "0.46697901707000433",
+      "places": 6,
+      "display": "0.466979"
+    },
+    "u7_transforms_full_logistic_age_n_fit": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "age"
+      },
+      "column": "n_fit",
+      "value": "1208",
+      "places": 0,
+      "display": "1208"
+    },
+    "u7_transforms_full_logistic_age_mean": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "age"
+      },
+      "column": "mean",
+      "value": "22.265728476821192",
+      "places": 6,
+      "display": "22.265728"
+    },
+    "u7_transforms_full_logistic_age_sd": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "age"
+      },
+      "column": "sd",
+      "value": "6.3139248217532637",
+      "places": 6,
+      "display": "6.313925"
+    },
+    "u7_transforms_full_logistic_prior_grade_n_fit": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "prior_grade"
+      },
+      "column": "n_fit",
+      "value": "1208",
+      "places": 0,
+      "display": "1208"
+    },
+    "u7_transforms_full_logistic_prior_grade_mean": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "prior_grade"
+      },
+      "column": "mean",
+      "value": "3.0074006622516558",
+      "places": 6,
+      "display": "3.007401"
+    },
+    "u7_transforms_full_logistic_prior_grade_sd": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "prior_grade"
+      },
+      "column": "sd",
+      "value": "0.46697901707000433",
+      "places": 6,
+      "display": "0.466979"
+    },
+    "u7_transforms_full_logistic_wellbeing_score_n_fit": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "wellbeing_score"
+      },
+      "column": "n_fit",
+      "value": "1208",
+      "places": 0,
+      "display": "1208"
+    },
+    "u7_transforms_full_logistic_wellbeing_score_mean": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "wellbeing_score"
+      },
+      "column": "mean",
+      "value": "3.4919150110375279",
+      "places": 6,
+      "display": "3.491915"
+    },
+    "u7_transforms_full_logistic_wellbeing_score_sd": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "wellbeing_score"
+      },
+      "column": "sd",
+      "value": "0.73597971785556493",
+      "places": 6,
+      "display": "0.735980"
+    },
+    "u7_transforms_full_logistic_stress_score_n_fit": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "stress_score"
+      },
+      "column": "n_fit",
+      "value": "1208",
+      "places": 0,
+      "display": "1208"
+    },
+    "u7_transforms_full_logistic_stress_score_mean": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "stress_score"
+      },
+      "column": "mean",
+      "value": "2.95442880794702",
+      "places": 6,
+      "display": "2.954429"
+    },
+    "u7_transforms_full_logistic_stress_score_sd": {
+      "source": "transforms",
+      "where": {
+        "model_id": "full_logistic",
+        "feature": "stress_score"
+      },
+      "column": "sd",
+      "value": "0.83786292439027332",
+      "places": 6,
+      "display": "0.837863"
+    },
+    "u7_scores_control_mean_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_scores_control_mean_events": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_scores_control_mean_nonevents": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "nonevents",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_scores_control_mean_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "auc_twice_wins",
+      "value": "265958",
+      "places": 0,
+      "display": "265958"
+    },
+    "u7_scores_control_mean_auc_denominator": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "auc_denominator",
+      "value": "531916",
+      "places": 0,
+      "display": "531916"
+    },
+    "u7_scores_control_mean_auc": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "u7_scores_control_mean_brier": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "brier",
+      "value": "0.14858388060144481",
+      "places": 6,
+      "display": "0.148584"
+    },
+    "u7_scores_control_mean_log_loss": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "log_loss",
+      "value": "0.4746193108900652",
+      "places": 6,
+      "display": "0.474619"
+    },
+    "u7_scores_control_mean_clipped_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "clipped_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_scores_control_mean_mean_probability": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_mean"
+      },
+      "column": "mean_probability",
+      "value": "0.15422885572139305",
+      "places": 6,
+      "display": "0.154229"
+    },
+    "u7_scores_control_table_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_scores_control_table_events": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_scores_control_table_nonevents": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "nonevents",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_scores_control_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "370596",
+      "places": 0,
+      "display": "370596"
+    },
+    "u7_scores_control_table_auc_denominator": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "auc_denominator",
+      "value": "531916",
+      "places": 0,
+      "display": "531916"
+    },
+    "u7_scores_control_table_auc": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "auc",
+      "value": "0.69671903082441589",
+      "places": 6,
+      "display": "0.696719"
+    },
+    "u7_scores_control_table_brier": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "brier",
+      "value": "0.13872724693586233",
+      "places": 6,
+      "display": "0.138727"
+    },
+    "u7_scores_control_table_log_loss": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "log_loss",
+      "value": "0.44252651544729155",
+      "places": 6,
+      "display": "0.442527"
+    },
+    "u7_scores_control_table_clipped_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "clipped_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_scores_control_table_mean_probability": {
+      "source": "scores",
+      "where": {
+        "model_id": "control_table"
+      },
+      "column": "mean_probability",
+      "value": "0.16078760720851579",
+      "places": 6,
+      "display": "0.160788"
+    },
+    "u7_scores_entry_logistic_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_scores_entry_logistic_events": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_scores_entry_logistic_nonevents": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "nonevents",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_scores_entry_logistic_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "auc_twice_wins",
+      "value": "336722",
+      "places": 0,
+      "display": "336722"
+    },
+    "u7_scores_entry_logistic_auc_denominator": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "auc_denominator",
+      "value": "531916",
+      "places": 0,
+      "display": "531916"
+    },
+    "u7_scores_entry_logistic_auc": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "auc",
+      "value": "0.63303604328502994",
+      "places": 6,
+      "display": "0.633036"
+    },
+    "u7_scores_entry_logistic_brier": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "brier",
+      "value": "0.14179124805697618",
+      "places": 6,
+      "display": "0.141791"
+    },
+    "u7_scores_entry_logistic_log_loss": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "log_loss",
+      "value": "0.45448863589502075",
+      "places": 6,
+      "display": "0.454489"
+    },
+    "u7_scores_entry_logistic_clipped_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "clipped_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_scores_entry_logistic_mean_probability": {
+      "source": "scores",
+      "where": {
+        "model_id": "entry_logistic"
+      },
+      "column": "mean_probability",
+      "value": "0.16408922879456248",
+      "places": 6,
+      "display": "0.164089"
+    },
+    "u7_scores_full_logistic_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_scores_full_logistic_events": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_scores_full_logistic_nonevents": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "nonevents",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_scores_full_logistic_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "auc_twice_wins",
+      "value": "388082",
+      "places": 0,
+      "display": "388082"
+    },
+    "u7_scores_full_logistic_auc_denominator": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "auc_denominator",
+      "value": "531916",
+      "places": 0,
+      "display": "531916"
+    },
+    "u7_scores_full_logistic_auc": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "auc",
+      "value": "0.72959264244730371",
+      "places": 6,
+      "display": "0.729593"
+    },
+    "u7_scores_full_logistic_brier": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "brier",
+      "value": "0.1322443232082188",
+      "places": 6,
+      "display": "0.132244"
+    },
+    "u7_scores_full_logistic_log_loss": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "log_loss",
+      "value": "0.42245243811017213",
+      "places": 6,
+      "display": "0.422452"
+    },
+    "u7_scores_full_logistic_clipped_n": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "clipped_n",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_scores_full_logistic_mean_probability": {
+      "source": "scores",
+      "where": {
+        "model_id": "full_logistic"
+      },
+      "column": "mean_probability",
+      "value": "0.16585206507068134",
+      "places": 6,
+      "display": "0.165852"
+    },
+    "u7_decisions_control_mean_threshold_020_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_mean_threshold_020_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_threshold_020_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "tp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_threshold_020_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "fp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_threshold_020_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "tn",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_control_mean_threshold_020_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "fn",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_control_mean_threshold_020_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "net_benefit",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u7_decisions_control_mean_threshold_020_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "threshold_020"
+      },
+      "column": "utility_total",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_capacity_300_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_mean_capacity_300_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "selected",
+      "value": "300",
+      "places": 0,
+      "display": "300"
+    },
+    "u7_decisions_control_mean_capacity_300_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "tp",
+      "value": "36",
+      "places": 0,
+      "display": "36"
+    },
+    "u7_decisions_control_mean_capacity_300_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "fp",
+      "value": "264",
+      "places": 0,
+      "display": "264"
+    },
+    "u7_decisions_control_mean_capacity_300_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "tn",
+      "value": "835",
+      "places": 0,
+      "display": "835"
+    },
+    "u7_decisions_control_mean_capacity_300_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "fn",
+      "value": "206",
+      "places": 0,
+      "display": "206"
+    },
+    "u7_decisions_control_mean_capacity_300_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "net_benefit",
+      "value": "-0.022371364653243849",
+      "places": 6,
+      "display": "-0.022371"
+    },
+    "u7_decisions_control_mean_capacity_300_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "capacity_300"
+      },
+      "column": "utility_total",
+      "value": "-120",
+      "places": 0,
+      "display": "-120"
+    },
+    "u7_decisions_control_mean_all_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_mean_all_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "selected",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_mean_all_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "tp",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_control_mean_all_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "fp",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_control_mean_all_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "tn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_all_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "fn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_all_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "net_benefit",
+      "value": "-0.0244220730797912",
+      "places": 6,
+      "display": "-0.024422"
+    },
+    "u7_decisions_control_mean_all_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "all"
+      },
+      "column": "utility_total",
+      "value": "-131",
+      "places": 0,
+      "display": "-131"
+    },
+    "u7_decisions_control_mean_none_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_mean_none_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_none_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "tp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_none_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "fp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_mean_none_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "tn",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_control_mean_none_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "fn",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_control_mean_none_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "net_benefit",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u7_decisions_control_mean_none_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_mean",
+        "rule": "none"
+      },
+      "column": "utility_total",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_table_threshold_020_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_table_threshold_020_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "623",
+      "places": 0,
+      "display": "623"
+    },
+    "u7_decisions_control_table_threshold_020_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "tp",
+      "value": "171",
+      "places": 0,
+      "display": "171"
+    },
+    "u7_decisions_control_table_threshold_020_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "fp",
+      "value": "452",
+      "places": 0,
+      "display": "452"
+    },
+    "u7_decisions_control_table_threshold_020_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "tn",
+      "value": "647",
+      "places": 0,
+      "display": "647"
+    },
+    "u7_decisions_control_table_threshold_020_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "fn",
+      "value": "71",
+      "places": 0,
+      "display": "71"
+    },
+    "u7_decisions_control_table_threshold_020_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "net_benefit",
+      "value": "0.043251304996271438",
+      "places": 6,
+      "display": "0.043251"
+    },
+    "u7_decisions_control_table_threshold_020_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "threshold_020"
+      },
+      "column": "utility_total",
+      "value": "232",
+      "places": 0,
+      "display": "232"
+    },
+    "u7_decisions_control_table_capacity_300_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_table_capacity_300_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "selected",
+      "value": "300",
+      "places": 0,
+      "display": "300"
+    },
+    "u7_decisions_control_table_capacity_300_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "tp",
+      "value": "106",
+      "places": 0,
+      "display": "106"
+    },
+    "u7_decisions_control_table_capacity_300_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "fp",
+      "value": "194",
+      "places": 0,
+      "display": "194"
+    },
+    "u7_decisions_control_table_capacity_300_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "tn",
+      "value": "905",
+      "places": 0,
+      "display": "905"
+    },
+    "u7_decisions_control_table_capacity_300_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "fn",
+      "value": "136",
+      "places": 0,
+      "display": "136"
+    },
+    "u7_decisions_control_table_capacity_300_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "net_benefit",
+      "value": "0.042878448918717373",
+      "places": 6,
+      "display": "0.042878"
+    },
+    "u7_decisions_control_table_capacity_300_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "capacity_300"
+      },
+      "column": "utility_total",
+      "value": "230",
+      "places": 0,
+      "display": "230"
+    },
+    "u7_decisions_control_table_all_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_table_all_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "selected",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_table_all_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "tp",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_control_table_all_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "fp",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_control_table_all_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "tn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_table_all_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "fn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_table_all_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "net_benefit",
+      "value": "-0.0244220730797912",
+      "places": 6,
+      "display": "-0.024422"
+    },
+    "u7_decisions_control_table_all_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "all"
+      },
+      "column": "utility_total",
+      "value": "-131",
+      "places": 0,
+      "display": "-131"
+    },
+    "u7_decisions_control_table_none_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_control_table_none_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_table_none_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "tp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_table_none_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "fp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_control_table_none_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "tn",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_control_table_none_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "fn",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_control_table_none_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "net_benefit",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u7_decisions_control_table_none_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "control_table",
+        "rule": "none"
+      },
+      "column": "utility_total",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_entry_logistic_threshold_020_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_entry_logistic_threshold_020_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "363",
+      "places": 0,
+      "display": "363"
+    },
+    "u7_decisions_entry_logistic_threshold_020_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "tp",
+      "value": "95",
+      "places": 0,
+      "display": "95"
+    },
+    "u7_decisions_entry_logistic_threshold_020_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "fp",
+      "value": "268",
+      "places": 0,
+      "display": "268"
+    },
+    "u7_decisions_entry_logistic_threshold_020_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "tn",
+      "value": "831",
+      "places": 0,
+      "display": "831"
+    },
+    "u7_decisions_entry_logistic_threshold_020_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "fn",
+      "value": "147",
+      "places": 0,
+      "display": "147"
+    },
+    "u7_decisions_entry_logistic_threshold_020_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "net_benefit",
+      "value": "0.020879940343027592",
+      "places": 6,
+      "display": "0.020880"
+    },
+    "u7_decisions_entry_logistic_threshold_020_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "utility_total",
+      "value": "112",
+      "places": 0,
+      "display": "112"
+    },
+    "u7_decisions_entry_logistic_capacity_300_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_entry_logistic_capacity_300_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "selected",
+      "value": "300",
+      "places": 0,
+      "display": "300"
+    },
+    "u7_decisions_entry_logistic_capacity_300_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "tp",
+      "value": "85",
+      "places": 0,
+      "display": "85"
+    },
+    "u7_decisions_entry_logistic_capacity_300_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "fp",
+      "value": "215",
+      "places": 0,
+      "display": "215"
+    },
+    "u7_decisions_entry_logistic_capacity_300_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "tn",
+      "value": "884",
+      "places": 0,
+      "display": "884"
+    },
+    "u7_decisions_entry_logistic_capacity_300_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "fn",
+      "value": "157",
+      "places": 0,
+      "display": "157"
+    },
+    "u7_decisions_entry_logistic_capacity_300_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "net_benefit",
+      "value": "0.023303504847129008",
+      "places": 6,
+      "display": "0.023304"
+    },
+    "u7_decisions_entry_logistic_capacity_300_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "utility_total",
+      "value": "125",
+      "places": 0,
+      "display": "125"
+    },
+    "u7_decisions_entry_logistic_all_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_entry_logistic_all_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "selected",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_entry_logistic_all_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "tp",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_entry_logistic_all_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "fp",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_entry_logistic_all_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "tn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_entry_logistic_all_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "fn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_entry_logistic_all_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "net_benefit",
+      "value": "-0.0244220730797912",
+      "places": 6,
+      "display": "-0.024422"
+    },
+    "u7_decisions_entry_logistic_all_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "all"
+      },
+      "column": "utility_total",
+      "value": "-131",
+      "places": 0,
+      "display": "-131"
+    },
+    "u7_decisions_entry_logistic_none_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_entry_logistic_none_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_entry_logistic_none_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "tp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_entry_logistic_none_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "fp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_entry_logistic_none_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "tn",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_entry_logistic_none_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "fn",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_entry_logistic_none_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "net_benefit",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u7_decisions_entry_logistic_none_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "entry_logistic",
+        "rule": "none"
+      },
+      "column": "utility_total",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_full_logistic_threshold_020_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_full_logistic_threshold_020_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "395",
+      "places": 0,
+      "display": "395"
+    },
+    "u7_decisions_full_logistic_threshold_020_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "tp",
+      "value": "135",
+      "places": 0,
+      "display": "135"
+    },
+    "u7_decisions_full_logistic_threshold_020_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "fp",
+      "value": "260",
+      "places": 0,
+      "display": "260"
+    },
+    "u7_decisions_full_logistic_threshold_020_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "tn",
+      "value": "839",
+      "places": 0,
+      "display": "839"
+    },
+    "u7_decisions_full_logistic_threshold_020_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "fn",
+      "value": "107",
+      "places": 0,
+      "display": "107"
+    },
+    "u7_decisions_full_logistic_threshold_020_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "net_benefit",
+      "value": "0.05219985085756898",
+      "places": 6,
+      "display": "0.052200"
+    },
+    "u7_decisions_full_logistic_threshold_020_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "threshold_020"
+      },
+      "column": "utility_total",
+      "value": "280",
+      "places": 0,
+      "display": "280"
+    },
+    "u7_decisions_full_logistic_capacity_300_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_full_logistic_capacity_300_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "selected",
+      "value": "300",
+      "places": 0,
+      "display": "300"
+    },
+    "u7_decisions_full_logistic_capacity_300_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "tp",
+      "value": "108",
+      "places": 0,
+      "display": "108"
+    },
+    "u7_decisions_full_logistic_capacity_300_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "fp",
+      "value": "192",
+      "places": 0,
+      "display": "192"
+    },
+    "u7_decisions_full_logistic_capacity_300_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "tn",
+      "value": "907",
+      "places": 0,
+      "display": "907"
+    },
+    "u7_decisions_full_logistic_capacity_300_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "fn",
+      "value": "134",
+      "places": 0,
+      "display": "134"
+    },
+    "u7_decisions_full_logistic_capacity_300_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "net_benefit",
+      "value": "0.044742729306487698",
+      "places": 6,
+      "display": "0.044743"
+    },
+    "u7_decisions_full_logistic_capacity_300_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "capacity_300"
+      },
+      "column": "utility_total",
+      "value": "240",
+      "places": 0,
+      "display": "240"
+    },
+    "u7_decisions_full_logistic_all_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_full_logistic_all_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "selected",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_full_logistic_all_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "tp",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_full_logistic_all_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "fp",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_full_logistic_all_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "tn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_full_logistic_all_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "fn",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_full_logistic_all_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "net_benefit",
+      "value": "-0.0244220730797912",
+      "places": 6,
+      "display": "-0.024422"
+    },
+    "u7_decisions_full_logistic_all_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "all"
+      },
+      "column": "utility_total",
+      "value": "-131",
+      "places": 0,
+      "display": "-131"
+    },
+    "u7_decisions_full_logistic_none_n": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_decisions_full_logistic_none_selected": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_full_logistic_none_tp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "tp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_full_logistic_none_fp": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "fp",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_decisions_full_logistic_none_tn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "tn",
+      "value": "1099",
+      "places": 0,
+      "display": "1099"
+    },
+    "u7_decisions_full_logistic_none_fn": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "fn",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_decisions_full_logistic_none_net_benefit": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "net_benefit",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u7_decisions_full_logistic_none_utility_total": {
+      "source": "decisions",
+      "where": {
+        "model_id": "full_logistic",
+        "rule": "none"
+      },
+      "column": "utility_total",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_0_1_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "1"
+      },
+      "column": "n",
+      "value": "92",
+      "places": 0,
+      "display": "92"
+    },
+    "u7_table_cells_0_1_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "1"
+      },
+      "column": "events",
+      "value": "20",
+      "places": 0,
+      "display": "20"
+    },
+    "u7_table_cells_0_1_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "1"
+      },
+      "column": "probability",
+      "value": "0.21739130434782608",
+      "places": 6,
+      "display": "0.217391"
+    },
+    "u7_table_cells_0_1_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "1"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_0_2_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "2"
+      },
+      "column": "n",
+      "value": "100",
+      "places": 0,
+      "display": "100"
+    },
+    "u7_table_cells_0_2_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "2"
+      },
+      "column": "events",
+      "value": "14",
+      "places": 0,
+      "display": "14"
+    },
+    "u7_table_cells_0_2_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "2"
+      },
+      "column": "probability",
+      "value": "0.14000000000000001",
+      "places": 6,
+      "display": "0.140000"
+    },
+    "u7_table_cells_0_2_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "2"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_0_3_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "3"
+      },
+      "column": "n",
+      "value": "94",
+      "places": 0,
+      "display": "94"
+    },
+    "u7_table_cells_0_3_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "3"
+      },
+      "column": "events",
+      "value": "6",
+      "places": 0,
+      "display": "6"
+    },
+    "u7_table_cells_0_3_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "3"
+      },
+      "column": "probability",
+      "value": "0.063829787234042548",
+      "places": 6,
+      "display": "0.063830"
+    },
+    "u7_table_cells_0_3_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "3"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_0_4_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "4"
+      },
+      "column": "n",
+      "value": "103",
+      "places": 0,
+      "display": "103"
+    },
+    "u7_table_cells_0_4_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "4"
+      },
+      "column": "events",
+      "value": "5",
+      "places": 0,
+      "display": "5"
+    },
+    "u7_table_cells_0_4_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "4"
+      },
+      "column": "probability",
+      "value": "0.048543689320388349",
+      "places": 6,
+      "display": "0.048544"
+    },
+    "u7_table_cells_0_4_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "0",
+        "grade_bin": "4"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_1_1_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "1"
+      },
+      "column": "n",
+      "value": "65",
+      "places": 0,
+      "display": "65"
+    },
+    "u7_table_cells_1_1_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "1"
+      },
+      "column": "events",
+      "value": "19",
+      "places": 0,
+      "display": "19"
+    },
+    "u7_table_cells_1_1_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "1"
+      },
+      "column": "probability",
+      "value": "0.29230769230769232",
+      "places": 6,
+      "display": "0.292308"
+    },
+    "u7_table_cells_1_1_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "1"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_1_2_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "2"
+      },
+      "column": "n",
+      "value": "52",
+      "places": 0,
+      "display": "52"
+    },
+    "u7_table_cells_1_2_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "2"
+      },
+      "column": "events",
+      "value": "13",
+      "places": 0,
+      "display": "13"
+    },
+    "u7_table_cells_1_2_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "2"
+      },
+      "column": "probability",
+      "value": "0.25",
+      "places": 6,
+      "display": "0.250000"
+    },
+    "u7_table_cells_1_2_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "2"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_1_3_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "3"
+      },
+      "column": "n",
+      "value": "50",
+      "places": 0,
+      "display": "50"
+    },
+    "u7_table_cells_1_3_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "3"
+      },
+      "column": "events",
+      "value": "11",
+      "places": 0,
+      "display": "11"
+    },
+    "u7_table_cells_1_3_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "3"
+      },
+      "column": "probability",
+      "value": "0.22",
+      "places": 6,
+      "display": "0.220000"
+    },
+    "u7_table_cells_1_3_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "3"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_table_cells_1_4_n": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "4"
+      },
+      "column": "n",
+      "value": "47",
+      "places": 0,
+      "display": "47"
+    },
+    "u7_table_cells_1_4_events": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "4"
+      },
+      "column": "events",
+      "value": "5",
+      "places": 0,
+      "display": "5"
+    },
+    "u7_table_cells_1_4_probability": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "4"
+      },
+      "column": "probability",
+      "value": "0.10638297872340426",
+      "places": 6,
+      "display": "0.106383"
+    },
+    "u7_table_cells_1_4_fallback": {
+      "source": "table_cells",
+      "where": {
+        "part_time": "1",
+        "grade_bin": "4"
+      },
+      "column": "fallback",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_cutpoints_0_25_value": {
+      "source": "cutpoints",
+      "where": {
+        "quantile": "0.25"
+      },
+      "column": "value",
+      "value": "2.6699999999999999",
+      "places": 6,
+      "display": "2.670000"
+    },
+    "u7_cutpoints_0_5_value": {
+      "source": "cutpoints",
+      "where": {
+        "quantile": "0.5"
+      },
+      "column": "value",
+      "value": "2.9900000000000002",
+      "places": 6,
+      "display": "2.990000"
+    },
+    "u7_cutpoints_0_75_value": {
+      "source": "cutpoints",
+      "where": {
+        "quantile": "0.75"
+      },
+      "column": "value",
+      "value": "3.2999999999999998",
+      "places": 6,
+      "display": "3.300000"
+    },
+    "u7_examples_S2000124_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "y",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_examples_S2000124_wellbeing_score": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "wellbeing_score",
+      "value": "3.2000000000000002",
+      "places": 6,
+      "display": "3.200000"
+    },
+    "u7_examples_S2000124_stress_score": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "stress_score",
+      "value": "4",
+      "places": 6,
+      "display": "4.000000"
+    },
+    "u7_examples_S2000124_eta": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "eta",
+      "value": "-1.4423512942850809",
+      "places": 6,
+      "display": "-1.442351"
+    },
+    "u7_examples_S2000124_probability": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "probability",
+      "value": "0.19118150122752933",
+      "places": 6,
+      "display": "0.191182"
+    },
+    "u7_examples_S2000124_brier_loss": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "brier_loss",
+      "value": "0.036550366411611801",
+      "places": 6,
+      "display": "0.036550"
+    },
+    "u7_examples_S2000124_log_loss": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "log_loss",
+      "value": "0.21218073966246898",
+      "places": 6,
+      "display": "0.212181"
+    },
+    "u7_examples_S2000124_rank": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "rank",
+      "value": "411",
+      "places": 0,
+      "display": "411"
+    },
+    "u7_examples_S2000124_threshold_selected": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "threshold_selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_examples_S2000124_capacity_selected": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000124"
+      },
+      "column": "capacity_selected",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_examples_S2000161_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "y",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_examples_S2000161_wellbeing_score": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "wellbeing_score",
+      "value": "2",
+      "places": 6,
+      "display": "2.000000"
+    },
+    "u7_examples_S2000161_stress_score": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "stress_score",
+      "value": "4",
+      "places": 6,
+      "display": "4.000000"
+    },
+    "u7_examples_S2000161_eta": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "eta",
+      "value": "0.51983275400744589",
+      "places": 6,
+      "display": "0.519833"
+    },
+    "u7_examples_S2000161_probability": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "probability",
+      "value": "0.62710865777495695",
+      "places": 6,
+      "display": "0.627109"
+    },
+    "u7_examples_S2000161_brier_loss": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "brier_loss",
+      "value": "0.39326526865630806",
+      "places": 6,
+      "display": "0.393265"
+    },
+    "u7_examples_S2000161_log_loss": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "log_loss",
+      "value": "0.98646820948431313",
+      "places": 6,
+      "display": "0.986468"
+    },
+    "u7_examples_S2000161_rank": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "rank",
+      "value": "9",
+      "places": 0,
+      "display": "9"
+    },
+    "u7_examples_S2000161_threshold_selected": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "threshold_selected",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "u7_examples_S2000161_capacity_selected": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000161"
+      },
+      "column": "capacity_selected",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "u7_examples_S2000340_y": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "y",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_examples_S2000340_wellbeing_score": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "wellbeing_score",
+      "value": "2.6000000000000001",
+      "places": 6,
+      "display": "2.600000"
+    },
+    "u7_examples_S2000340_stress_score": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "stress_score",
+      "value": "2.7999999999999998",
+      "places": 6,
+      "display": "2.800000"
+    },
+    "u7_examples_S2000340_eta": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "eta",
+      "value": "-0.92594031953959699",
+      "places": 6,
+      "display": "-0.925940"
+    },
+    "u7_examples_S2000340_probability": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "probability",
+      "value": "0.28374906098866393",
+      "places": 6,
+      "display": "0.283749"
+    },
+    "u7_examples_S2000340_brier_loss": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "brier_loss",
+      "value": "0.08051352961194852",
+      "places": 6,
+      "display": "0.080514"
+    },
+    "u7_examples_S2000340_log_loss": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "log_loss",
+      "value": "0.33372469994345572",
+      "places": 6,
+      "display": "0.333725"
+    },
+    "u7_examples_S2000340_rank": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "rank",
+      "value": "223",
+      "places": 0,
+      "display": "223"
+    },
+    "u7_examples_S2000340_threshold_selected": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "threshold_selected",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "u7_examples_S2000340_capacity_selected": {
+      "source": "examples",
+      "where": {
+        "row_id": "S2000340"
+      },
+      "column": "capacity_selected",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "u7_summary_anchor_pool_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_pool_n"
+      },
+      "column": "value",
+      "value": "1219",
+      "places": 0,
+      "display": "1219"
+    },
+    "u7_summary_anchor_unknown_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_unknown_n"
+      },
+      "column": "value",
+      "value": "11",
+      "places": 0,
+      "display": "11"
+    },
+    "u7_summary_anchor_unscorable_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "anchor_unscorable_n"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u7_summary_candidate_parameters_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "candidate_parameters_n"
+      },
+      "column": "value",
+      "value": "13",
+      "places": 0,
+      "display": "13"
+    },
+    "u7_summary_control_prevalence_value": {
+      "source": "summary",
+      "where": {
+        "name": "control_prevalence"
+      },
+      "column": "value",
+      "value": "0.15422885572139303",
+      "places": 6,
+      "display": "0.154229"
+    },
+    "u7_summary_development_events_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_events"
+      },
+      "column": "value",
+      "value": "173",
+      "places": 0,
+      "display": "173"
+    },
+    "u7_summary_development_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_n"
+      },
+      "column": "value",
+      "value": "1208",
+      "places": 0,
+      "display": "1208"
+    },
+    "u7_summary_development_offer0_events_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_offer0_events"
+      },
+      "column": "value",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "u7_summary_development_offer0_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_offer0_n"
+      },
+      "column": "value",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "u7_summary_development_offer1_events_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_offer1_events"
+      },
+      "column": "value",
+      "value": "80",
+      "places": 0,
+      "display": "80"
+    },
+    "u7_summary_development_offer1_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_offer1_n"
+      },
+      "column": "value",
+      "value": "605",
+      "places": 0,
+      "display": "605"
+    },
+    "u7_summary_development_partial_st_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_partial_st_n"
+      },
+      "column": "value",
+      "value": "152",
+      "places": 0,
+      "display": "152"
+    },
+    "u7_summary_development_partial_wb_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_partial_wb_n"
+      },
+      "column": "value",
+      "value": "169",
+      "places": 0,
+      "display": "169"
+    },
+    "u7_summary_development_transfer_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "development_transfer_n"
+      },
+      "column": "value",
+      "value": "43",
+      "places": 0,
+      "display": "43"
+    },
+    "u7_summary_events_per_candidate_parameter_value": {
+      "source": "summary",
+      "where": {
+        "name": "events_per_candidate_parameter"
+      },
+      "column": "value",
+      "value": "13.307692307692308",
+      "places": 6,
+      "display": "13.307692"
+    },
+    "u7_summary_full_coefficients_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "full_coefficients_n"
+      },
+      "column": "value",
+      "value": "14",
+      "places": 0,
+      "display": "14"
+    },
+    "u7_summary_temporal_events_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_events"
+      },
+      "column": "value",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u7_summary_temporal_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_n"
+      },
+      "column": "value",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u7_summary_temporal_partial_st_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_partial_st_n"
+      },
+      "column": "value",
+      "value": "202",
+      "places": 0,
+      "display": "202"
+    },
+    "u7_summary_temporal_partial_wb_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_partial_wb_n"
+      },
+      "column": "value",
+      "value": "194",
+      "places": 0,
+      "display": "194"
+    },
+    "u7_summary_temporal_prevalence_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_prevalence"
+      },
+      "column": "value",
+      "value": "0.18046234153616703",
+      "places": 6,
+      "display": "0.180462"
+    },
+    "u7_summary_temporal_transfer_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_transfer_n"
+      },
+      "column": "value",
+      "value": "41",
+      "places": 0,
+      "display": "41"
+    },
+    "u7_summary_temporal_unscorable_n_value": {
+      "source": "summary",
+      "where": {
+        "name": "temporal_unscorable_n"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    }
+  }
+}

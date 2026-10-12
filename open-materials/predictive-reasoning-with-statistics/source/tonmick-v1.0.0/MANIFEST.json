@@ -1,0 +1,171 @@
+{
+  "world": "Tonmick college system",
+  "version": "1.0.0",
+  "frozen": "2026-10-04",
+  "root_seed": 20261003,
+  "block_ids": {
+    "colleges": 1,
+    "frame1": 2,
+    "outcomes1": 3,
+    "sample1_colleges": 4,
+    "sample1_students": 5,
+    "response1": 6,
+    "randomize": 7,
+    "uptake": 8,
+    "trajectories": 9,
+    "modes": 10,
+    "items": 11,
+    "attrition": 12,
+    "item_missing": 13,
+    "forms": 14,
+    "intention": 15,
+    "visits": 16,
+    "consent": 17,
+    "replicates": 18,
+    "colleges2": 19,
+    "frame2": 20,
+    "outcomes2": 21,
+    "sample2_colleges": 22,
+    "sample2_students": 23,
+    "response2": 24,
+    "modes2": 25,
+    "items2": 26,
+    "item_missing2": 27,
+    "deployment": 28
+  },
+  "reserved_block_ids": {
+    "esm_substudy": 101,
+    "literature_layer": 102
+  },
+  "software": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "files": [
+    {
+      "path": "CHECKS.md",
+      "bytes": 3459
+    },
+    {
+      "path": "DICTIONARY.csv",
+      "bytes": 10458
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 1449
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1344
+    },
+    {
+      "path": "README.md",
+      "bytes": 1940
+    },
+    {
+      "path": "WORLD_SPEC.md",
+      "bytes": 5184
+    },
+    {
+      "path": "data/anchor/baseline.csv",
+      "bytes": 56701
+    },
+    {
+      "path": "data/anchor/design_colleges.csv",
+      "bytes": 1247
+    },
+    {
+      "path": "data/anchor/design_joint_pi.csv",
+      "bytes": 4786
+    },
+    {
+      "path": "data/anchor/followup_long.csv",
+      "bytes": 142979
+    },
+    {
+      "path": "data/anchor/participants.csv",
+      "bytes": 443703
+    },
+    {
+      "path": "data/anchor/registry.csv",
+      "bytes": 46522
+    },
+    {
+      "path": "data/cohort2/baseline.csv",
+      "bytes": 127223
+    },
+    {
+      "path": "data/cohort2/participants.csv",
+      "bytes": 391826
+    },
+    {
+      "path": "data/cohort2/registry.csv",
+      "bytes": 81889
+    },
+    {
+      "path": "data/population/colleges.csv",
+      "bytes": 1261
+    },
+    {
+      "path": "data/population/frame_c1.csv",
+      "bytes": 3051682
+    },
+    {
+      "path": "data/population/frame_c2.csv",
+      "bytes": 3108873
+    },
+    {
+      "path": "data/population/registry_totals_c1.csv",
+      "bytes": 1589
+    },
+    {
+      "path": "generator/checks.py",
+      "bytes": 9615
+    },
+    {
+      "path": "generator/dictionary.py",
+      "bytes": 7781
+    },
+    {
+      "path": "generator/generate_world.py",
+      "bytes": 32064
+    },
+    {
+      "path": "generator/spec.py",
+      "bytes": 6240
+    },
+    {
+      "path": "generator/verify_world.py",
+      "bytes": 1039
+    },
+    {
+      "path": "hidden/anchor_items_complete.csv",
+      "bytes": 185709
+    },
+    {
+      "path": "hidden/anchor_truth.csv",
+      "bytes": 243307
+    },
+    {
+      "path": "hidden/calibrated_intercepts.json",
+      "bytes": 351
+    },
+    {
+      "path": "hidden/colleges_truth.csv",
+      "bytes": 9375
+    },
+    {
+      "path": "hidden/deployment_c2.csv",
+      "bytes": 7918120
+    },
+    {
+      "path": "hidden/population_c1_truth.csv",
+      "bytes": 6731463
+    },
+    {
+      "path": "hidden/population_c2_truth.csv",
+      "bytes": 6844694
+    }
+  ]
+}

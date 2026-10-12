@@ -1,0 +1,3932 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even_6_places_metrics_0_integer",
+  "anchors": {
+    "unit05_calibration_fits": {
+      "source": "summary",
+      "where": {
+        "name": "calibration_fits"
+      },
+      "column": "value",
+      "value": "15",
+      "places": 0,
+      "display": "15"
+    },
+    "unit05_clipped_nested": {
+      "source": "summary",
+      "where": {
+        "name": "clipped_nested"
+      },
+      "column": "value",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit05_colleges": {
+      "source": "summary",
+      "where": {
+        "name": "colleges"
+      },
+      "column": "value",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_eligible_n": {
+      "source": "summary",
+      "where": {
+        "name": "eligible_n"
+      },
+      "column": "value",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_encoder_maps": {
+      "source": "summary",
+      "where": {
+        "name": "encoder_maps"
+      },
+      "column": "value",
+      "value": "4792",
+      "places": 0,
+      "display": "4792"
+    },
+    "unit05_events": {
+      "source": "summary",
+      "where": {
+        "name": "events"
+      },
+      "column": "value",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_fallback_nested": {
+      "source": "summary",
+      "where": {
+        "name": "fallback_nested"
+      },
+      "column": "value",
+      "value": "33",
+      "places": 0,
+      "display": "33"
+    },
+    "unit05_fit_memberships": {
+      "source": "summary",
+      "where": {
+        "name": "fit_memberships"
+      },
+      "column": "value",
+      "value": "25326",
+      "places": 0,
+      "display": "25326"
+    },
+    "unit05_inner_memberships": {
+      "source": "summary",
+      "where": {
+        "name": "inner_memberships"
+      },
+      "column": "value",
+      "value": "2412",
+      "places": 0,
+      "display": "2412"
+    },
+    "unit05_outer_folds": {
+      "source": "summary",
+      "where": {
+        "name": "outer_folds"
+      },
+      "column": "value",
+      "value": "5",
+      "places": 0,
+      "display": "5"
+    },
+    "unit05_pool_n": {
+      "source": "summary",
+      "where": {
+        "name": "pool_n"
+      },
+      "column": "value",
+      "value": "610",
+      "places": 0,
+      "display": "610"
+    },
+    "unit05_prediction_records": {
+      "source": "summary",
+      "where": {
+        "name": "prediction_records"
+      },
+      "column": "value",
+      "value": "4221",
+      "places": 0,
+      "display": "4221"
+    },
+    "unit05_transfer_n": {
+      "source": "summary",
+      "where": {
+        "name": "transfer_n"
+      },
+      "column": "value",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_unknown_n": {
+      "source": "summary",
+      "where": {
+        "name": "unknown_n"
+      },
+      "column": "value",
+      "value": "7",
+      "places": 0,
+      "display": "7"
+    },
+    "unit05_1_eligible_prevalence_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_prevalence_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_prevalence_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "brier",
+      "value": "0.11075180055401659",
+      "places": 6,
+      "display": "0.110752"
+    },
+    "unit05_1_eligible_prevalence_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "unit05_1_eligible_prevalence_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_prevalence_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_twice_wins",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.10651344335563188",
+      "places": 6,
+      "display": "0.106513"
+    },
+    "unit05_1_eligible_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.69140625",
+      "places": 6,
+      "display": "0.691406"
+    },
+    "unit05_1_eligible_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2478",
+      "places": 0,
+      "display": "2478"
+    },
+    "unit05_1_eligible_encoding_nested_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_encoding_nested_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_encoding_nested_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "brier",
+      "value": "0.11143762516053027",
+      "places": 6,
+      "display": "0.111438"
+    },
+    "unit05_1_eligible_encoding_nested_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc",
+      "value": "0.4732142857142857",
+      "places": 6,
+      "display": "0.473214"
+    },
+    "unit05_1_eligible_encoding_nested_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_encoding_nested_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_twice_wins",
+      "value": "1696",
+      "places": 0,
+      "display": "1696"
+    },
+    "unit05_1_eligible_encoding_in_sample_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_encoding_in_sample_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_encoding_in_sample_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "brier",
+      "value": "0.13299754123956534",
+      "places": 6,
+      "display": "0.132998"
+    },
+    "unit05_1_eligible_encoding_in_sample_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc",
+      "value": "0.5290178571428571",
+      "places": 6,
+      "display": "0.529018"
+    },
+    "unit05_1_eligible_encoding_in_sample_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_encoding_in_sample_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_twice_wins",
+      "value": "1896",
+      "places": 0,
+      "display": "1896"
+    },
+    "unit05_1_eligible_encoding_pooled_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_encoding_pooled_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_encoding_pooled_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "brier",
+      "value": "0.078801040672813044",
+      "places": 6,
+      "display": "0.078801"
+    },
+    "unit05_1_eligible_encoding_pooled_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc",
+      "value": "0.8822544642857143",
+      "places": 6,
+      "display": "0.882254"
+    },
+    "unit05_1_eligible_encoding_pooled_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_encoding_pooled_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_twice_wins",
+      "value": "3162",
+      "places": 0,
+      "display": "3162"
+    },
+    "unit05_1_eligible_table_pooled_cutpoints_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_table_pooled_cutpoints_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_table_pooled_cutpoints_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "brier",
+      "value": "0.10638011660360504",
+      "places": 6,
+      "display": "0.106380"
+    },
+    "unit05_1_eligible_table_pooled_cutpoints_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc",
+      "value": "0.6964285714285714",
+      "places": 6,
+      "display": "0.696429"
+    },
+    "unit05_1_eligible_table_pooled_cutpoints_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_table_pooled_cutpoints_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_twice_wins",
+      "value": "2496",
+      "places": 0,
+      "display": "2496"
+    },
+    "unit05_1_eligible_future_registry_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "n",
+      "value": "128",
+      "places": 0,
+      "display": "128"
+    },
+    "unit05_1_eligible_future_registry_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_eligible_future_registry_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "brier",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit05_1_eligible_future_registry_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit05_1_eligible_future_registry_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_pairs",
+      "value": "1792",
+      "places": 0,
+      "display": "1792"
+    },
+    "unit05_1_eligible_future_registry_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_twice_wins",
+      "value": "3584",
+      "places": 0,
+      "display": "3584"
+    },
+    "unit05_1_future_no_transfer_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "122",
+      "places": 0,
+      "display": "122"
+    },
+    "unit05_1_future_no_transfer_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "16",
+      "places": 0,
+      "display": "16"
+    },
+    "unit05_1_future_no_transfer_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.11007243141261946",
+      "places": 6,
+      "display": "0.110072"
+    },
+    "unit05_1_future_no_transfer_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.69398584905660377",
+      "places": 6,
+      "display": "0.693986"
+    },
+    "unit05_1_future_no_transfer_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1696",
+      "places": 0,
+      "display": "1696"
+    },
+    "unit05_1_future_no_transfer_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "1",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2354",
+      "places": 0,
+      "display": "2354"
+    },
+    "unit05_2_eligible_prevalence_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_prevalence_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_prevalence_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "brier",
+      "value": "0.14679401029514785",
+      "places": 6,
+      "display": "0.146794"
+    },
+    "unit05_2_eligible_prevalence_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "unit05_2_eligible_prevalence_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_prevalence_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_twice_wins",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.14019149292629721",
+      "places": 6,
+      "display": "0.140191"
+    },
+    "unit05_2_eligible_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.64861853832442062",
+      "places": 6,
+      "display": "0.648619"
+    },
+    "unit05_2_eligible_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2911",
+      "places": 0,
+      "display": "2911"
+    },
+    "unit05_2_eligible_encoding_nested_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_encoding_nested_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_encoding_nested_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "brier",
+      "value": "0.14717507806546898",
+      "places": 6,
+      "display": "0.147175"
+    },
+    "unit05_2_eligible_encoding_nested_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc",
+      "value": "0.51470588235294112",
+      "places": 6,
+      "display": "0.514706"
+    },
+    "unit05_2_eligible_encoding_nested_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_encoding_nested_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_twice_wins",
+      "value": "2310",
+      "places": 0,
+      "display": "2310"
+    },
+    "unit05_2_eligible_encoding_in_sample_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_encoding_in_sample_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_encoding_in_sample_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "brier",
+      "value": "0.1752234875942639",
+      "places": 6,
+      "display": "0.175223"
+    },
+    "unit05_2_eligible_encoding_in_sample_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc",
+      "value": "0.48328877005347592",
+      "places": 6,
+      "display": "0.483289"
+    },
+    "unit05_2_eligible_encoding_in_sample_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_encoding_in_sample_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_twice_wins",
+      "value": "2169",
+      "places": 0,
+      "display": "2169"
+    },
+    "unit05_2_eligible_encoding_pooled_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_encoding_pooled_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_encoding_pooled_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "brier",
+      "value": "0.11243376968023132",
+      "places": 6,
+      "display": "0.112434"
+    },
+    "unit05_2_eligible_encoding_pooled_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc",
+      "value": "0.83556149732620322",
+      "places": 6,
+      "display": "0.835561"
+    },
+    "unit05_2_eligible_encoding_pooled_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_encoding_pooled_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_twice_wins",
+      "value": "3750",
+      "places": 0,
+      "display": "3750"
+    },
+    "unit05_2_eligible_table_pooled_cutpoints_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_table_pooled_cutpoints_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_table_pooled_cutpoints_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "brier",
+      "value": "0.14036679005456063",
+      "places": 6,
+      "display": "0.140367"
+    },
+    "unit05_2_eligible_table_pooled_cutpoints_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc",
+      "value": "0.65285204991087342",
+      "places": 6,
+      "display": "0.652852"
+    },
+    "unit05_2_eligible_table_pooled_cutpoints_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_table_pooled_cutpoints_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_twice_wins",
+      "value": "2930",
+      "places": 0,
+      "display": "2930"
+    },
+    "unit05_2_eligible_future_registry_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "n",
+      "value": "124",
+      "places": 0,
+      "display": "124"
+    },
+    "unit05_2_eligible_future_registry_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_eligible_future_registry_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "brier",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit05_2_eligible_future_registry_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit05_2_eligible_future_registry_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_pairs",
+      "value": "2244",
+      "places": 0,
+      "display": "2244"
+    },
+    "unit05_2_eligible_future_registry_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_twice_wins",
+      "value": "4488",
+      "places": 0,
+      "display": "4488"
+    },
+    "unit05_2_future_no_transfer_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "119",
+      "places": 0,
+      "display": "119"
+    },
+    "unit05_2_future_no_transfer_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit05_2_future_no_transfer_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.14483352852852982",
+      "places": 6,
+      "display": "0.144834"
+    },
+    "unit05_2_future_no_transfer_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.64831302717900652",
+      "places": 6,
+      "display": "0.648313"
+    },
+    "unit05_2_future_no_transfer_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "2134",
+      "places": 0,
+      "display": "2134"
+    },
+    "unit05_2_future_no_transfer_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "2",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2767",
+      "places": 0,
+      "display": "2767"
+    },
+    "unit05_3_eligible_prevalence_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_prevalence_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_prevalence_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "brier",
+      "value": "0.12347186519938534",
+      "places": 6,
+      "display": "0.123472"
+    },
+    "unit05_3_eligible_prevalence_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "unit05_3_eligible_prevalence_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_prevalence_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_twice_wins",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.11322533038676484",
+      "places": 6,
+      "display": "0.113225"
+    },
+    "unit05_3_eligible_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.7358765288293535",
+      "places": 6,
+      "display": "0.735877"
+    },
+    "unit05_3_eligible_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2527",
+      "places": 0,
+      "display": "2527"
+    },
+    "unit05_3_eligible_encoding_nested_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_encoding_nested_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_encoding_nested_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "brier",
+      "value": "0.12468393392247848",
+      "places": 6,
+      "display": "0.124684"
+    },
+    "unit05_3_eligible_encoding_nested_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "unit05_3_eligible_encoding_nested_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_encoding_nested_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_twice_wins",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_encoding_in_sample_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_encoding_in_sample_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_encoding_in_sample_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "brier",
+      "value": "0.15033218456532454",
+      "places": 6,
+      "display": "0.150332"
+    },
+    "unit05_3_eligible_encoding_in_sample_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc",
+      "value": "0.50378567268491559",
+      "places": 6,
+      "display": "0.503786"
+    },
+    "unit05_3_eligible_encoding_in_sample_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_encoding_in_sample_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_twice_wins",
+      "value": "1730",
+      "places": 0,
+      "display": "1730"
+    },
+    "unit05_3_eligible_encoding_pooled_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_encoding_pooled_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_encoding_pooled_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "brier",
+      "value": "0.086306646120060254",
+      "places": 6,
+      "display": "0.086307"
+    },
+    "unit05_3_eligible_encoding_pooled_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc",
+      "value": "0.86167734420500874",
+      "places": 6,
+      "display": "0.861677"
+    },
+    "unit05_3_eligible_encoding_pooled_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_encoding_pooled_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_twice_wins",
+      "value": "2959",
+      "places": 0,
+      "display": "2959"
+    },
+    "unit05_3_eligible_table_pooled_cutpoints_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_table_pooled_cutpoints_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_table_pooled_cutpoints_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "brier",
+      "value": "0.11453733817790837",
+      "places": 6,
+      "display": "0.114537"
+    },
+    "unit05_3_eligible_table_pooled_cutpoints_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc",
+      "value": "0.70529994175888178",
+      "places": 6,
+      "display": "0.705300"
+    },
+    "unit05_3_eligible_table_pooled_cutpoints_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_table_pooled_cutpoints_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_twice_wins",
+      "value": "2422",
+      "places": 0,
+      "display": "2422"
+    },
+    "unit05_3_eligible_future_registry_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "n",
+      "value": "118",
+      "places": 0,
+      "display": "118"
+    },
+    "unit05_3_eligible_future_registry_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_eligible_future_registry_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "brier",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit05_3_eligible_future_registry_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit05_3_eligible_future_registry_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_pairs",
+      "value": "1717",
+      "places": 0,
+      "display": "1717"
+    },
+    "unit05_3_eligible_future_registry_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_twice_wins",
+      "value": "3434",
+      "places": 0,
+      "display": "3434"
+    },
+    "unit05_3_future_no_transfer_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "114",
+      "places": 0,
+      "display": "114"
+    },
+    "unit05_3_future_no_transfer_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_3_future_no_transfer_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.11658634302062254",
+      "places": 6,
+      "display": "0.116586"
+    },
+    "unit05_3_future_no_transfer_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.73195876288659789",
+      "places": 6,
+      "display": "0.731959"
+    },
+    "unit05_3_future_no_transfer_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1649",
+      "places": 0,
+      "display": "1649"
+    },
+    "unit05_3_future_no_transfer_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "3",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2414",
+      "places": 0,
+      "display": "2414"
+    },
+    "unit05_4_eligible_prevalence_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_prevalence_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_prevalence_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "brier",
+      "value": "0.12431005800918926",
+      "places": 6,
+      "display": "0.124310"
+    },
+    "unit05_4_eligible_prevalence_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "unit05_4_eligible_prevalence_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_prevalence_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_twice_wins",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.12491783635253918",
+      "places": 6,
+      "display": "0.124918"
+    },
+    "unit05_4_eligible_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.61823529411764711",
+      "places": 6,
+      "display": "0.618235"
+    },
+    "unit05_4_eligible_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2102",
+      "places": 0,
+      "display": "2102"
+    },
+    "unit05_4_eligible_encoding_nested_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_encoding_nested_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_encoding_nested_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "brier",
+      "value": "0.12457961349118864",
+      "places": 6,
+      "display": "0.124580"
+    },
+    "unit05_4_eligible_encoding_nested_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc",
+      "value": "0.53470588235294114",
+      "places": 6,
+      "display": "0.534706"
+    },
+    "unit05_4_eligible_encoding_nested_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_encoding_nested_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_twice_wins",
+      "value": "1818",
+      "places": 0,
+      "display": "1818"
+    },
+    "unit05_4_eligible_encoding_in_sample_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_encoding_in_sample_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_encoding_in_sample_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "brier",
+      "value": "0.1572848580938048",
+      "places": 6,
+      "display": "0.157285"
+    },
+    "unit05_4_eligible_encoding_in_sample_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc",
+      "value": "0.45970588235294119",
+      "places": 6,
+      "display": "0.459706"
+    },
+    "unit05_4_eligible_encoding_in_sample_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_encoding_in_sample_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_twice_wins",
+      "value": "1563",
+      "places": 0,
+      "display": "1563"
+    },
+    "unit05_4_eligible_encoding_pooled_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_encoding_pooled_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_encoding_pooled_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "brier",
+      "value": "0.099593602914189006",
+      "places": 6,
+      "display": "0.099594"
+    },
+    "unit05_4_eligible_encoding_pooled_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc",
+      "value": "0.8394117647058823",
+      "places": 6,
+      "display": "0.839412"
+    },
+    "unit05_4_eligible_encoding_pooled_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_encoding_pooled_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_twice_wins",
+      "value": "2854",
+      "places": 0,
+      "display": "2854"
+    },
+    "unit05_4_eligible_table_pooled_cutpoints_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_table_pooled_cutpoints_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_table_pooled_cutpoints_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "brier",
+      "value": "0.12426778396017947",
+      "places": 6,
+      "display": "0.124268"
+    },
+    "unit05_4_eligible_table_pooled_cutpoints_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc",
+      "value": "0.61823529411764711",
+      "places": 6,
+      "display": "0.618235"
+    },
+    "unit05_4_eligible_table_pooled_cutpoints_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_table_pooled_cutpoints_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_twice_wins",
+      "value": "2102",
+      "places": 0,
+      "display": "2102"
+    },
+    "unit05_4_eligible_future_registry_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "n",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "unit05_4_eligible_future_registry_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_eligible_future_registry_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "brier",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit05_4_eligible_future_registry_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit05_4_eligible_future_registry_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_pairs",
+      "value": "1700",
+      "places": 0,
+      "display": "1700"
+    },
+    "unit05_4_eligible_future_registry_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_twice_wins",
+      "value": "3400",
+      "places": 0,
+      "display": "3400"
+    },
+    "unit05_4_future_no_transfer_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "115",
+      "places": 0,
+      "display": "115"
+    },
+    "unit05_4_future_no_transfer_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "unit05_4_future_no_transfer_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.12607549148554009",
+      "places": 6,
+      "display": "0.126075"
+    },
+    "unit05_4_future_no_transfer_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.62274909963985592",
+      "places": 6,
+      "display": "0.622749"
+    },
+    "unit05_4_future_no_transfer_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1666",
+      "places": 0,
+      "display": "1666"
+    },
+    "unit05_4_future_no_transfer_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "4",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2075",
+      "places": 0,
+      "display": "2075"
+    },
+    "unit05_5_eligible_prevalence_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_prevalence_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_prevalence_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "brier",
+      "value": "0.14936261077325769",
+      "places": 6,
+      "display": "0.149363"
+    },
+    "unit05_5_eligible_prevalence_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "unit05_5_eligible_prevalence_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_prevalence_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_twice_wins",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.14888852936154931",
+      "places": 6,
+      "display": "0.148889"
+    },
+    "unit05_5_eligible_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.61729323308270678",
+      "places": 6,
+      "display": "0.617293"
+    },
+    "unit05_5_eligible_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2463",
+      "places": 0,
+      "display": "2463"
+    },
+    "unit05_5_eligible_encoding_nested_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_encoding_nested_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_encoding_nested_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "brier",
+      "value": "0.15017722610805936",
+      "places": 6,
+      "display": "0.150177"
+    },
+    "unit05_5_eligible_encoding_nested_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc",
+      "value": "0.45213032581453633",
+      "places": 6,
+      "display": "0.452130"
+    },
+    "unit05_5_eligible_encoding_nested_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_encoding_nested_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_twice_wins",
+      "value": "1804",
+      "places": 0,
+      "display": "1804"
+    },
+    "unit05_5_eligible_encoding_in_sample_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_encoding_in_sample_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_encoding_in_sample_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "brier",
+      "value": "0.19377218406856403",
+      "places": 6,
+      "display": "0.193772"
+    },
+    "unit05_5_eligible_encoding_in_sample_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc",
+      "value": "0.45213032581453633",
+      "places": 6,
+      "display": "0.452130"
+    },
+    "unit05_5_eligible_encoding_in_sample_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_encoding_in_sample_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_twice_wins",
+      "value": "1804",
+      "places": 0,
+      "display": "1804"
+    },
+    "unit05_5_eligible_encoding_pooled_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_encoding_pooled_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_encoding_pooled_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "brier",
+      "value": "0.11577219221446171",
+      "places": 6,
+      "display": "0.115772"
+    },
+    "unit05_5_eligible_encoding_pooled_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc",
+      "value": "0.84661654135338349",
+      "places": 6,
+      "display": "0.846617"
+    },
+    "unit05_5_eligible_encoding_pooled_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_encoding_pooled_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_twice_wins",
+      "value": "3378",
+      "places": 0,
+      "display": "3378"
+    },
+    "unit05_5_eligible_table_pooled_cutpoints_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_table_pooled_cutpoints_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_table_pooled_cutpoints_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "brier",
+      "value": "0.14925974408263315",
+      "places": 6,
+      "display": "0.149260"
+    },
+    "unit05_5_eligible_table_pooled_cutpoints_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc",
+      "value": "0.65538847117794485",
+      "places": 6,
+      "display": "0.655388"
+    },
+    "unit05_5_eligible_table_pooled_cutpoints_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_table_pooled_cutpoints_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_twice_wins",
+      "value": "2615",
+      "places": 0,
+      "display": "2615"
+    },
+    "unit05_5_eligible_future_registry_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "n",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "unit05_5_eligible_future_registry_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_eligible_future_registry_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "brier",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit05_5_eligible_future_registry_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit05_5_eligible_future_registry_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_pairs",
+      "value": "1995",
+      "places": 0,
+      "display": "1995"
+    },
+    "unit05_5_eligible_future_registry_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_twice_wins",
+      "value": "3990",
+      "places": 0,
+      "display": "3990"
+    },
+    "unit05_5_future_no_transfer_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "111",
+      "places": 0,
+      "display": "111"
+    },
+    "unit05_5_future_no_transfer_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "21",
+      "places": 0,
+      "display": "21"
+    },
+    "unit05_5_future_no_transfer_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.15548229525422572",
+      "places": 6,
+      "display": "0.155482"
+    },
+    "unit05_5_future_no_transfer_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.59973544973544979",
+      "places": 6,
+      "display": "0.599735"
+    },
+    "unit05_5_future_no_transfer_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "1890",
+      "places": 0,
+      "display": "1890"
+    },
+    "unit05_5_future_no_transfer_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "5",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "2267",
+      "places": 0,
+      "display": "2267"
+    },
+    "unit05_pooled_eligible_prevalence_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_prevalence_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_prevalence_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "brier",
+      "value": "0.13071095767464835",
+      "places": 6,
+      "display": "0.130711"
+    },
+    "unit05_pooled_eligible_prevalence_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc",
+      "value": "0.45498629559350623",
+      "places": 6,
+      "display": "0.454986"
+    },
+    "unit05_pooled_eligible_prevalence_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_prevalence_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "prevalence"
+      },
+      "column": "auc_twice_wins",
+      "value": "43160",
+      "places": 0,
+      "display": "43160"
+    },
+    "unit05_pooled_eligible_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.12647514281460495",
+      "places": 6,
+      "display": "0.126475"
+    },
+    "unit05_pooled_eligible_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.64970482816782626",
+      "places": 6,
+      "display": "0.649705"
+    },
+    "unit05_pooled_eligible_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "61631",
+      "places": 0,
+      "display": "61631"
+    },
+    "unit05_pooled_eligible_encoding_nested_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_encoding_nested_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_encoding_nested_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "brier",
+      "value": "0.13138109935410022",
+      "places": 6,
+      "display": "0.131381"
+    },
+    "unit05_pooled_eligible_encoding_nested_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc",
+      "value": "0.47593295382669198",
+      "places": 6,
+      "display": "0.475933"
+    },
+    "unit05_pooled_eligible_encoding_nested_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_encoding_nested_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_nested"
+      },
+      "column": "auc_twice_wins",
+      "value": "45147",
+      "places": 0,
+      "display": "45147"
+    },
+    "unit05_pooled_eligible_encoding_in_sample_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_encoding_in_sample_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_encoding_in_sample_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "brier",
+      "value": "0.1614767782222056",
+      "places": 6,
+      "display": "0.161477"
+    },
+    "unit05_pooled_eligible_encoding_in_sample_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc",
+      "value": "0.48510436432637571",
+      "places": 6,
+      "display": "0.485104"
+    },
+    "unit05_pooled_eligible_encoding_in_sample_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_encoding_in_sample_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "auc_twice_wins",
+      "value": "46017",
+      "places": 0,
+      "display": "46017"
+    },
+    "unit05_pooled_eligible_encoding_pooled_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_encoding_pooled_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_encoding_pooled_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "brier",
+      "value": "0.098332555101946162",
+      "places": 6,
+      "display": "0.098333"
+    },
+    "unit05_pooled_eligible_encoding_pooled_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc",
+      "value": "0.85234029095509167",
+      "places": 6,
+      "display": "0.852340"
+    },
+    "unit05_pooled_eligible_encoding_pooled_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_encoding_pooled_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "auc_twice_wins",
+      "value": "80853",
+      "places": 0,
+      "display": "80853"
+    },
+    "unit05_pooled_eligible_table_pooled_cutpoints_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_table_pooled_cutpoints_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_table_pooled_cutpoints_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "brier",
+      "value": "0.12668491514750679",
+      "places": 6,
+      "display": "0.126685"
+    },
+    "unit05_pooled_eligible_table_pooled_cutpoints_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc",
+      "value": "0.64356947079907234",
+      "places": 6,
+      "display": "0.643569"
+    },
+    "unit05_pooled_eligible_table_pooled_cutpoints_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_table_pooled_cutpoints_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "table_pooled_cutpoints"
+      },
+      "column": "auc_twice_wins",
+      "value": "61049",
+      "places": 0,
+      "display": "61049"
+    },
+    "unit05_pooled_eligible_future_registry_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "n",
+      "value": "603",
+      "places": 0,
+      "display": "603"
+    },
+    "unit05_pooled_eligible_future_registry_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_eligible_future_registry_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "brier",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit05_pooled_eligible_future_registry_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit05_pooled_eligible_future_registry_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_pairs",
+      "value": "47430",
+      "places": 0,
+      "display": "47430"
+    },
+    "unit05_pooled_eligible_future_registry_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "eligible",
+        "pipeline": "future_registry"
+      },
+      "column": "auc_twice_wins",
+      "value": "94860",
+      "places": 0,
+      "display": "94860"
+    },
+    "unit05_pooled_future_no_transfer_risk_table_n": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "n",
+      "value": "581",
+      "places": 0,
+      "display": "581"
+    },
+    "unit05_pooled_future_no_transfer_risk_table_events": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "events",
+      "value": "93",
+      "places": 0,
+      "display": "93"
+    },
+    "unit05_pooled_future_no_transfer_risk_table_brier": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "brier",
+      "value": "0.13031340090471905",
+      "places": 6,
+      "display": "0.130313"
+    },
+    "unit05_pooled_future_no_transfer_risk_table_auc": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc",
+      "value": "0.64713335096069102",
+      "places": 6,
+      "display": "0.647133"
+    },
+    "unit05_pooled_future_no_transfer_risk_table_auc_pairs": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_pairs",
+      "value": "45384",
+      "places": 0,
+      "display": "45384"
+    },
+    "unit05_pooled_future_no_transfer_risk_table_auc_twice_wins": {
+      "source": "scores",
+      "where": {
+        "fold": "pooled",
+        "scope": "future_no_transfer",
+        "pipeline": "risk_table"
+      },
+      "column": "auc_twice_wins",
+      "value": "58739",
+      "places": 0,
+      "display": "58739"
+    },
+    "unit05_1_encoding_nested_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "1",
+        "pipeline": "encoding_nested"
+      },
+      "column": "intercept",
+      "value": "0.2015483109198806",
+      "places": 6,
+      "display": "0.201548"
+    },
+    "unit05_1_encoding_nested_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "1",
+        "pipeline": "encoding_nested"
+      },
+      "column": "slope",
+      "value": "-0.24927444362923565",
+      "places": 6,
+      "display": "-0.249274"
+    },
+    "unit05_1_encoding_in_sample_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "1",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "intercept",
+      "value": "-0.2321576143687496",
+      "places": 6,
+      "display": "-0.232158"
+    },
+    "unit05_1_encoding_in_sample_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "1",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "slope",
+      "value": "2.5151220287237916",
+      "places": 6,
+      "display": "2.515122"
+    },
+    "unit05_1_encoding_pooled_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "1",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "intercept",
+      "value": "-0.17790934912841672",
+      "places": 6,
+      "display": "-0.177909"
+    },
+    "unit05_1_encoding_pooled_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "1",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "slope",
+      "value": "2.2398916293081239",
+      "places": 6,
+      "display": "2.239892"
+    },
+    "unit05_2_encoding_nested_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "2",
+        "pipeline": "encoding_nested"
+      },
+      "column": "intercept",
+      "value": "0.16602403443331731",
+      "places": 6,
+      "display": "0.166024"
+    },
+    "unit05_2_encoding_nested_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "2",
+        "pipeline": "encoding_nested"
+      },
+      "column": "slope",
+      "value": "-0.12662810917286244",
+      "places": 6,
+      "display": "-0.126628"
+    },
+    "unit05_2_encoding_in_sample_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "2",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "intercept",
+      "value": "-0.2234495731176617",
+      "places": 6,
+      "display": "-0.223450"
+    },
+    "unit05_2_encoding_in_sample_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "2",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "slope",
+      "value": "2.6364162863100846",
+      "places": 6,
+      "display": "2.636416"
+    },
+    "unit05_2_encoding_pooled_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "2",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "intercept",
+      "value": "-0.18171798300565925",
+      "places": 6,
+      "display": "-0.181718"
+    },
+    "unit05_2_encoding_pooled_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "2",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "slope",
+      "value": "2.2408080756713216",
+      "places": 6,
+      "display": "2.240808"
+    },
+    "unit05_3_encoding_nested_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "3",
+        "pipeline": "encoding_nested"
+      },
+      "column": "intercept",
+      "value": "0.19944589962589404",
+      "places": 6,
+      "display": "0.199446"
+    },
+    "unit05_3_encoding_nested_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "3",
+        "pipeline": "encoding_nested"
+      },
+      "column": "slope",
+      "value": "-0.28144572531420631",
+      "places": 6,
+      "display": "-0.281446"
+    },
+    "unit05_3_encoding_in_sample_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "3",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "intercept",
+      "value": "-0.21642887554341708",
+      "places": 6,
+      "display": "-0.216429"
+    },
+    "unit05_3_encoding_in_sample_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "3",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "slope",
+      "value": "2.446731131993833",
+      "places": 6,
+      "display": "2.446731"
+    },
+    "unit05_3_encoding_pooled_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "3",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "intercept",
+      "value": "-0.18371807569336687",
+      "places": 6,
+      "display": "-0.183718"
+    },
+    "unit05_3_encoding_pooled_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "3",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "slope",
+      "value": "2.3012443661558311",
+      "places": 6,
+      "display": "2.301244"
+    },
+    "unit05_4_encoding_nested_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "4",
+        "pipeline": "encoding_nested"
+      },
+      "column": "intercept",
+      "value": "0.18056867294520748",
+      "places": 6,
+      "display": "0.180569"
+    },
+    "unit05_4_encoding_nested_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "4",
+        "pipeline": "encoding_nested"
+      },
+      "column": "slope",
+      "value": "-0.16343153992178441",
+      "places": 6,
+      "display": "-0.163432"
+    },
+    "unit05_4_encoding_in_sample_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "4",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "intercept",
+      "value": "-0.22080289706066708",
+      "places": 6,
+      "display": "-0.220803"
+    },
+    "unit05_4_encoding_in_sample_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "4",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "slope",
+      "value": "2.5122339167122436",
+      "places": 6,
+      "display": "2.512234"
+    },
+    "unit05_4_encoding_pooled_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "4",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "intercept",
+      "value": "-0.1867085420472325",
+      "places": 6,
+      "display": "-0.186709"
+    },
+    "unit05_4_encoding_pooled_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "4",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "slope",
+      "value": "2.3255992656586302",
+      "places": 6,
+      "display": "2.325599"
+    },
+    "unit05_5_encoding_nested_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "5",
+        "pipeline": "encoding_nested"
+      },
+      "column": "intercept",
+      "value": "0.12792897912904322",
+      "places": 6,
+      "display": "0.127929"
+    },
+    "unit05_5_encoding_nested_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "5",
+        "pipeline": "encoding_nested"
+      },
+      "column": "slope",
+      "value": "0.13903133039420545",
+      "places": 6,
+      "display": "0.139031"
+    },
+    "unit05_5_encoding_in_sample_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "5",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "intercept",
+      "value": "-0.1993398003136698",
+      "places": 6,
+      "display": "-0.199340"
+    },
+    "unit05_5_encoding_in_sample_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "5",
+        "pipeline": "encoding_in_sample"
+      },
+      "column": "slope",
+      "value": "2.4204291213455957",
+      "places": 6,
+      "display": "2.420429"
+    },
+    "unit05_5_encoding_pooled_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fold": "5",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "intercept",
+      "value": "-0.18004083880980473",
+      "places": 6,
+      "display": "-0.180041"
+    },
+    "unit05_5_encoding_pooled_slope": {
+      "source": "coefficients",
+      "where": {
+        "fold": "5",
+        "pipeline": "encoding_pooled"
+      },
+      "column": "slope",
+      "value": "2.230212335693551",
+      "places": 6,
+      "display": "2.230212"
+    }
+  }
+}

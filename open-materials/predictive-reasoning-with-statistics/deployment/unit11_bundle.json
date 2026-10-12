@@ -1,0 +1,297 @@
+{
+  "imputers": {
+    "stress_score": {
+      "coefficients": [
+        2.912505718620862,
+        0.11606008265147191,
+        0.02427503515935445,
+        -0.03576079153023104,
+        -0.05686055708320973,
+        0.41649725896925144,
+        -0.002591858326480937,
+        0.07137847323327078,
+        0.07060244211473952,
+        0.09612077921343981,
+        -0.013169595270763017
+      ],
+      "terms": [
+        "intercept",
+        "part_time",
+        "first_gen",
+        "z_age",
+        "gender_male",
+        "gender_another",
+        "program_Social_Sciences",
+        "program_STEM",
+        "program_Health",
+        "program_Business",
+        "z_prior_grade"
+      ],
+      "transforms": {
+        "age": [
+          22.275290215588722,
+          6.476939809345482
+        ],
+        "prior_grade": [
+          2.994344941956885,
+          0.460084021910529
+        ]
+      }
+    },
+    "wellbeing_score": {
+      "coefficients": [
+        3.3885478618436102,
+        0.03509046263135065,
+        -0.10537524273127281,
+        -0.009631185700230126,
+        0.07787782949800155,
+        -0.15317028022782525,
+        0.02776555933140927,
+        0.1576774295465142,
+        0.14522249780777924,
+        0.0711998158323426,
+        0.08570516013346445
+      ],
+      "terms": [
+        "intercept",
+        "part_time",
+        "first_gen",
+        "z_age",
+        "gender_male",
+        "gender_another",
+        "program_Social_Sciences",
+        "program_STEM",
+        "program_Health",
+        "program_Business",
+        "z_prior_grade"
+      ],
+      "transforms": {
+        "age": [
+          22.275290215588722,
+          6.476939809345482
+        ],
+        "prior_grade": [
+          2.994344941956885,
+          0.460084021910529
+        ]
+      }
+    }
+  },
+  "methods": [
+    "frame_only",
+    "survey_fallback",
+    "imputed",
+    "imputed_indicators"
+  ],
+  "models": {
+    "frame_only": {
+      "coefficients": [
+        -1.79582047986401,
+        0.34509629496751804,
+        0.21326872022088847,
+        0.21307775624631095,
+        -0.32690747022457484,
+        -0.8662674407387994,
+        -0.13981910169532882,
+        0.26723929859338097,
+        -0.15024684069734573,
+        0.13988381170963235,
+        -0.5510742913012152
+      ],
+      "terms": [
+        "intercept",
+        "part_time",
+        "first_gen",
+        "z_age",
+        "gender_male",
+        "gender_another",
+        "program_Social_Sciences",
+        "program_STEM",
+        "program_Health",
+        "program_Business",
+        "z_prior_grade"
+      ],
+      "transforms": {
+        "age": [
+          22.816056910569106,
+          6.689369851106404
+        ],
+        "prior_grade": [
+          2.8962906504064985,
+          0.4802901402010807
+        ]
+      }
+    },
+    "imputed": {
+      "coefficients": [
+        -1.8417373924863083,
+        0.3267418142933503,
+        0.20388144354130136,
+        0.22678870687030478,
+        -0.28551308599087905,
+        -0.9795362106330282,
+        -0.15223717520895363,
+        0.2930663343350899,
+        -0.13080626078067115,
+        0.11411790075204276,
+        -0.5265007207558777,
+        -0.1635015019077935,
+        0.26042493548717166
+      ],
+      "terms": [
+        "intercept",
+        "part_time",
+        "first_gen",
+        "z_age",
+        "gender_male",
+        "gender_another",
+        "program_Social_Sciences",
+        "program_STEM",
+        "program_Health",
+        "program_Business",
+        "z_prior_grade",
+        "z_wellbeing_score",
+        "z_stress_score"
+      ],
+      "transforms": {
+        "age": [
+          22.816056910569106,
+          6.689369851106404
+        ],
+        "prior_grade": [
+          2.8962906504064985,
+          0.4802901402010807
+        ],
+        "stress_score": [
+          3.005579571840986,
+          0.6556655371417482
+        ],
+        "wellbeing_score": [
+          3.4590485918321723,
+          0.5868993058868791
+        ]
+      }
+    },
+    "imputed_indicators": {
+      "coefficients": [
+        -2.0237548076781304,
+        0.31587389427028667,
+        0.19244926135550566,
+        0.2199996047266203,
+        -0.32004283181303794,
+        -1.0527867396264068,
+        -0.14475149573001422,
+        0.2754581211965573,
+        -0.1561187909898778,
+        0.1100267193305149,
+        -0.5144862750651703,
+        -0.1649316678390024,
+        0.2768289239789558,
+        -0.6013111633900069,
+        0.6466251110916872,
+        0.25948445329850356
+      ],
+      "terms": [
+        "intercept",
+        "part_time",
+        "first_gen",
+        "z_age",
+        "gender_male",
+        "gender_another",
+        "program_Social_Sciences",
+        "program_STEM",
+        "program_Health",
+        "program_Business",
+        "z_prior_grade",
+        "z_wellbeing_score",
+        "z_stress_score",
+        "survey_absent",
+        "wb_item_missing",
+        "st_item_missing"
+      ],
+      "transforms": {
+        "age": [
+          22.816056910569106,
+          6.689369851106404
+        ],
+        "prior_grade": [
+          2.8962906504064985,
+          0.4802901402010807
+        ],
+        "stress_score": [
+          3.005579571840986,
+          0.6556655371417482
+        ],
+        "wellbeing_score": [
+          3.4590485918321723,
+          0.5868993058868791
+        ]
+      }
+    },
+    "survey_fallback": {
+      "coefficients": [
+        -2.01187564712416,
+        0.3900530805090323,
+        0.34455466715314226,
+        0.21214988409019508,
+        -0.5829388684377089,
+        -0.8291386404777142,
+        -0.4242460594992006,
+        0.3122131223000542,
+        -0.2759798865468103,
+        0.377236883031777,
+        -0.4684316399133408,
+        -0.21734569068485501,
+        0.3561541804561104
+      ],
+      "terms": [
+        "intercept",
+        "part_time",
+        "first_gen",
+        "z_age",
+        "gender_male",
+        "gender_another",
+        "program_Social_Sciences",
+        "program_STEM",
+        "program_Health",
+        "program_Business",
+        "z_prior_grade",
+        "z_wellbeing_score",
+        "z_stress_score"
+      ],
+      "transforms": {
+        "age": [
+          22.275290215588722,
+          6.476939809345482
+        ],
+        "prior_grade": [
+          2.994344941956885,
+          0.460084021910529
+        ],
+        "stress_score": [
+          2.9932835820895547,
+          0.8333435805414366
+        ],
+        "wellbeing_score": [
+          3.480127142067444,
+          0.7418445743195734
+        ]
+      }
+    }
+  },
+  "offer_policy": "no_offer",
+  "outcomes_required_for_prediction": false,
+  "prediction_time": "enrollment",
+  "schema_version": 1,
+  "training_pattern_counts": {
+    "both_unscorable": 0,
+    "scores_complete_items": 456,
+    "scores_partial_both": 14,
+    "scores_partial_st": 58,
+    "scores_partial_wb": 75,
+    "st_unscorable": 0,
+    "survey_absent": 381,
+    "wb_unscorable": 0
+  },
+  "unit": 11
+}

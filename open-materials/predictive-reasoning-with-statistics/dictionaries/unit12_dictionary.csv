@@ -1,0 +1,62 @@
+field,definition
+row_id,unique observed student identifier; no joining on outcome
+role,"development, temporal_continuing or temporal_new; predictive analysis only"
+college_id,fixed sampled college; permutation block and causal stratum
+part_time,enrollment administrative binary 0/1
+first_gen,enrollment administrative binary 0/1
+age,"enrollment administrative age in years, finite 16 to 80"
+gender,"female reference, male or another"
+program_area,"Arts and Humanities reference, Social Sciences, STEM, Health or Business"
+prior_grade,"complete enrollment frame grade, finite 0 to 4"
+y,withdrawal before first transfer by twelve months; blank consent-censored labels in randomized data remain unknown
+offer,original randomized offer assignment 0/1; no conditioning on uptake
+outcome_known,1 exactly when randomized y is observed
+draw_id,committed analysis permutation 1 to 64 per temporal role
+donor_id,one-to-one donor within the same college and temporal role for prior_grade alone
+probability,frozen frame or development prevalence; no refitting on evaluation data
+brier,unweighted mean squared probability error; lower is better
+auc_pairs2,two times wins plus tied positive-negative pairs; exact integer
+auc_denominator,two times events times nonevents; one-class AUC undefined
+difference,permuted Brier minus unpermuted frozen-frame Brier
+permutation_sd,"sample SD across 64 disruptions, not sampling uncertainty"
+q025,"linear type-7 descriptive permutation quantile, not confidence limit"
+q975,"linear type-7 descriptive permutation quantile, not confidence limit"
+weight,"college all-randomized n / 1219, not known-outcome n"
+rd_known,"offered minus no-offer known-outcome risk, standardized or secondary pooled"
+rd_lower,lowest realized assigned-group contrast over missing binary-label completions
+rd_upper,highest realized assigned-group contrast over missing binary-label completions
+eta,log odds from unchanged frame model for a permitted enrollment record
+method_id,frame_only or training_prevalence; no later-data selection
+record_id,manually specified fictional prediction input identifier
+n,number of records in the declared predictive role or development pool
+events,observed withdrawal events in the declared pool
+nonevents,observed zeros in the declared pool
+mean_probability,unweighted mean predicted probability
+auc,wins plus half ties divided by event-nonevent pairs; blank for one class
+auc_reason,"one_class if AUC undefined, otherwise empty"
+draws,64 analysis permutations per temporal setting
+baseline_brier,unpermuted frozen-frame loss on exactly the same role records
+permuted_brier,frozen-frame loss after prior-grade disruption
+mean_difference,mean of 64 within-college disruption loss changes
+min_difference,smallest of 64 disruption loss changes
+max_difference,largest of 64 disruption loss changes
+positive_draws,number of strictly positive disruption loss changes
+randomized_n,all original randomized respondents in a college or pooled
+known_n,randomized records with an observed target
+unknown_n,consent-censored records with a blank target
+contrast_id,standardized primary or pooled secondary contrast
+prevalence,development-only events divided by n
+assigned0,all randomized assigned-arm records; no-offer arm
+known0,assigned-arm records with observed target; no-offer arm
+unknown0,assigned-arm records with blank target; no-offer arm
+events0,assigned-arm known withdrawal events; no-offer arm
+risk_known0,events/known; empty known arms fail; no-offer arm
+risk_lower0,"events/assigned, setting unknown outcomes zero only for the bound; no-offer arm"
+risk_upper0,"(events+unknown)/assigned, setting unknown outcomes one only for the bound; no-offer arm"
+assigned1,all randomized assigned-arm records; offered arm
+known1,assigned-arm records with observed target; offered arm
+unknown1,assigned-arm records with blank target; offered arm
+events1,assigned-arm known withdrawal events; offered arm
+risk_known1,events/known; empty known arms fail; offered arm
+risk_lower1,"events/assigned, setting unknown outcomes zero only for the bound; offered arm"
+risk_upper1,"(events+unknown)/assigned, setting unknown outcomes one only for the bound; offered arm"

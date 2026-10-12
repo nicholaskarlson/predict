@@ -1,0 +1,4088 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even_per_anchor_places_6_metric_default_5_for_four_boundary_adjacent_diagnostics_integer_counts_1_lambda_normalized_zero",
+  "anchors": {
+    "unit06_development_colleges": {
+      "source": "summary",
+      "where": {
+        "name": "development_colleges"
+      },
+      "column": "value",
+      "value": "4",
+      "places": 0,
+      "display": "4"
+    },
+    "unit06_development_exit_grades": {
+      "source": "summary",
+      "where": {
+        "name": "development_exit_grades"
+      },
+      "column": "value",
+      "value": "22",
+      "places": 0,
+      "display": "22"
+    },
+    "unit06_development_n": {
+      "source": "summary",
+      "where": {
+        "name": "development_n"
+      },
+      "column": "value",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_fit_memberships": {
+      "source": "summary",
+      "where": {
+        "name": "fit_memberships"
+      },
+      "column": "value",
+      "value": "41100",
+      "places": 0,
+      "display": "41100"
+    },
+    "unit06_fits": {
+      "source": "summary",
+      "where": {
+        "name": "fits"
+      },
+      "column": "value",
+      "value": "444",
+      "places": 0,
+      "display": "444"
+    },
+    "unit06_inner_memberships": {
+      "source": "summary",
+      "where": {
+        "name": "inner_memberships"
+      },
+      "column": "value",
+      "value": "685",
+      "places": 0,
+      "display": "685"
+    },
+    "unit06_missing_n": {
+      "source": "summary",
+      "where": {
+        "name": "missing_n"
+      },
+      "column": "value",
+      "value": "55",
+      "places": 0,
+      "display": "55"
+    },
+    "unit06_pool_n": {
+      "source": "summary",
+      "where": {
+        "name": "pool_n"
+      },
+      "column": "value",
+      "value": "610",
+      "places": 0,
+      "display": "610"
+    },
+    "unit06_prediction_records": {
+      "source": "summary",
+      "where": {
+        "name": "prediction_records"
+      },
+      "column": "value",
+      "value": "12358",
+      "places": 0,
+      "display": "12358"
+    },
+    "unit06_setting_colleges": {
+      "source": "summary",
+      "where": {
+        "name": "setting_colleges"
+      },
+      "column": "value",
+      "value": "12",
+      "places": 0,
+      "display": "12"
+    },
+    "unit06_setting_exit_grades": {
+      "source": "summary",
+      "where": {
+        "name": "setting_exit_grades"
+      },
+      "column": "value",
+      "value": "45",
+      "places": 0,
+      "display": "45"
+    },
+    "unit06_setting_n": {
+      "source": "summary",
+      "where": {
+        "name": "setting_n"
+      },
+      "column": "value",
+      "value": "418",
+      "places": 0,
+      "display": "418"
+    },
+    "unit06_full_apparent_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_full_apparent_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.19006919700472658",
+      "places": 6,
+      "display": "0.190069"
+    },
+    "unit06_full_apparent_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.36069104455526513",
+      "places": 6,
+      "display": "0.360691"
+    },
+    "unit06_full_apparent_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "-4.4408920985006262e-16",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_full_apparent_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit06_full_apparent_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_apparent_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_full_apparent_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.17708255259258737",
+      "places": 6,
+      "display": "0.177083"
+    },
+    "unit06_full_apparent_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.33905461639994605",
+      "places": 6,
+      "display": "0.339055"
+    },
+    "unit06_full_apparent_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "4.4408920985006262e-16",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_full_apparent_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "unit06_full_apparent_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_apparent_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_full_apparent_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.18221929812724666",
+      "places": 6,
+      "display": "0.182219"
+    },
+    "unit06_full_apparent_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.35030560349573775",
+      "places": 6,
+      "display": "0.350306"
+    },
+    "unit06_full_apparent_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.1187212145899994",
+      "places": 6,
+      "display": "-0.118721"
+    },
+    "unit06_full_apparent_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "1.040354314350155",
+      "places": 6,
+      "display": "1.040354"
+    },
+    "unit06_full_apparent_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_apparent_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_full_apparent_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.18277201096093362",
+      "places": 6,
+      "display": "0.182772"
+    },
+    "unit06_full_apparent_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.35085878420280914",
+      "places": 6,
+      "display": "0.350859"
+    },
+    "unit06_full_apparent_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.1224628786922719",
+      "places": 6,
+      "display": "-0.122463"
+    },
+    "unit06_full_apparent_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "1.0416261366600701",
+      "places": 6,
+      "display": "1.041626"
+    },
+    "unit06_full_apparent_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "apparent",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_setting_check_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "418",
+      "places": 0,
+      "display": "418"
+    },
+    "unit06_full_setting_check_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.21126152686401165",
+      "places": 6,
+      "display": "0.211262"
+    },
+    "unit06_full_setting_check_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.36902871880927074",
+      "places": 6,
+      "display": "0.369029"
+    },
+    "unit06_full_setting_check_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.29021175327345272",
+      "places": 6,
+      "display": "-0.290212"
+    },
+    "unit06_full_setting_check_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "1.0632507424951865",
+      "places": 6,
+      "display": "1.063251"
+    },
+    "unit06_full_setting_check_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_setting_check_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "418",
+      "places": 0,
+      "display": "418"
+    },
+    "unit06_full_setting_check_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.22565910903879624",
+      "places": 6,
+      "display": "0.225659"
+    },
+    "unit06_full_setting_check_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.3770953399441756",
+      "places": 6,
+      "display": "0.377095"
+    },
+    "unit06_full_setting_check_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "0.12125170470439661",
+      "places": 6,
+      "display": "0.121252"
+    },
+    "unit06_full_setting_check_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "0.9278215116149009",
+      "places": 6,
+      "display": "0.927822"
+    },
+    "unit06_full_setting_check_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_setting_check_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "418",
+      "places": 0,
+      "display": "418"
+    },
+    "unit06_full_setting_check_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.21378292128585802",
+      "places": 6,
+      "display": "0.213783"
+    },
+    "unit06_full_setting_check_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.36561038136830626",
+      "places": 6,
+      "display": "0.365610"
+    },
+    "unit06_full_setting_check_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.11832688094831356",
+      "places": 6,
+      "display": "-0.118327"
+    },
+    "unit06_full_setting_check_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "1.0044762147698982",
+      "places": 6,
+      "display": "1.004476"
+    },
+    "unit06_full_setting_check_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_setting_check_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "418",
+      "places": 0,
+      "display": "418"
+    },
+    "unit06_full_setting_check_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.21282851950626624",
+      "places": 6,
+      "display": "0.212829"
+    },
+    "unit06_full_setting_check_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.36651843047697019",
+      "places": 6,
+      "display": "0.366518"
+    },
+    "unit06_full_setting_check_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.24633838029743549",
+      "places": 6,
+      "display": "-0.246338"
+    },
+    "unit06_full_setting_check_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "1.0481064546943593",
+      "places": 6,
+      "display": "1.048106"
+    },
+    "unit06_full_setting_check_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "full",
+        "role": "setting_check",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer1_outer_validation_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer1_outer_validation_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.27135738834544421",
+      "places": 6,
+      "display": "0.271357"
+    },
+    "unit06_outer1_outer_validation_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.42521283022670059",
+      "places": 6,
+      "display": "0.425213"
+    },
+    "unit06_outer1_outer_validation_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "0.62761052382295368",
+      "places": 6,
+      "display": "0.627611"
+    },
+    "unit06_outer1_outer_validation_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "0.80424113370116856",
+      "places": 6,
+      "display": "0.804241"
+    },
+    "unit06_outer1_outer_validation_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer1_outer_validation_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer1_outer_validation_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.26139347118252659",
+      "places": 6,
+      "display": "0.261393"
+    },
+    "unit06_outer1_outer_validation_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.41240462658928373",
+      "places": 6,
+      "display": "0.412405"
+    },
+    "unit06_outer1_outer_validation_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "0.50181543295725195",
+      "places": 6,
+      "display": "0.501815"
+    },
+    "unit06_outer1_outer_validation_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "0.84856692714739357",
+      "places": 6,
+      "display": "0.848567"
+    },
+    "unit06_outer1_outer_validation_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer1_outer_validation_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer1_outer_validation_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.25456655179540583",
+      "places": 6,
+      "display": "0.254567"
+    },
+    "unit06_outer1_outer_validation_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.41689451112752102",
+      "places": 6,
+      "display": "0.416895"
+    },
+    "unit06_outer1_outer_validation_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "0.096229936657688864",
+      "places": 6,
+      "display": "0.096230"
+    },
+    "unit06_outer1_outer_validation_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "0.98277626522742423",
+      "places": 6,
+      "display": "0.982776"
+    },
+    "unit06_outer1_outer_validation_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer1_outer_validation_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer1_outer_validation_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.25782327816055833",
+      "places": 6,
+      "display": "0.257823"
+    },
+    "unit06_outer1_outer_validation_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.41700165546853168",
+      "places": 6,
+      "display": "0.417002"
+    },
+    "unit06_outer1_outer_validation_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "0.27017774997541899",
+      "places": 6,
+      "display": "0.270178"
+    },
+    "unit06_outer1_outer_validation_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "0.92305579831826645",
+      "places": 6,
+      "display": "0.923056"
+    },
+    "unit06_outer1_outer_validation_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer1",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer2_outer_validation_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer2_outer_validation_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.22364193580319675",
+      "places": 6,
+      "display": "0.223642"
+    },
+    "unit06_outer2_outer_validation_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.40809408029846522",
+      "places": 6,
+      "display": "0.408094"
+    },
+    "unit06_outer2_outer_validation_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "0.3941047472750534",
+      "places": 6,
+      "display": "0.394105"
+    },
+    "unit06_outer2_outer_validation_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "0.90288320662845933",
+      "places": 6,
+      "display": "0.902883"
+    },
+    "unit06_outer2_outer_validation_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer2_outer_validation_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer2_outer_validation_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.34005182505029252",
+      "places": 6,
+      "display": "0.340052"
+    },
+    "unit06_outer2_outer_validation_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.48097148716544641",
+      "places": 6,
+      "display": "0.480971"
+    },
+    "unit06_outer2_outer_validation_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "1.3676063944682428",
+      "places": 6,
+      "display": "1.367606"
+    },
+    "unit06_outer2_outer_validation_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "0.57171228277646791",
+      "places": 6,
+      "display": "0.571712"
+    },
+    "unit06_outer2_outer_validation_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer2_outer_validation_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer2_outer_validation_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.23426162051552962",
+      "places": 6,
+      "display": "0.234262"
+    },
+    "unit06_outer2_outer_validation_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.41765634338870977",
+      "places": 6,
+      "display": "0.417656"
+    },
+    "unit06_outer2_outer_validation_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "0.42411385975242721",
+      "places": 6,
+      "display": "0.424114"
+    },
+    "unit06_outer2_outer_validation_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "0.89138793734905852",
+      "places": 6,
+      "display": "0.891388"
+    },
+    "unit06_outer2_outer_validation_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer2_outer_validation_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer2_outer_validation_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.22019946467171619",
+      "places": 6,
+      "display": "0.220199"
+    },
+    "unit06_outer2_outer_validation_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.39260476787172321",
+      "places": 6,
+      "display": "0.392605"
+    },
+    "unit06_outer2_outer_validation_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.066308874197452017",
+      "places": 6,
+      "display": "-0.066309"
+    },
+    "unit06_outer2_outer_validation_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "1.0585893020185571",
+      "places": 6,
+      "display": "1.058589"
+    },
+    "unit06_outer2_outer_validation_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer2",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer3_outer_validation_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer3_outer_validation_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.1832160389332522",
+      "places": 6,
+      "display": "0.183216"
+    },
+    "unit06_outer3_outer_validation_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.34634071925935278",
+      "places": 6,
+      "display": "0.346341"
+    },
+    "unit06_outer3_outer_validation_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "-1.3819456576673175",
+      "places": 6,
+      "display": "-1.381946"
+    },
+    "unit06_outer3_outer_validation_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "1.4139225247646168",
+      "places": 6,
+      "display": "1.413923"
+    },
+    "unit06_outer3_outer_validation_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer3_outer_validation_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer3_outer_validation_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.22387581303569731",
+      "places": 6,
+      "display": "0.223876"
+    },
+    "unit06_outer3_outer_validation_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.35683748098062323",
+      "places": 6,
+      "display": "0.356837"
+    },
+    "unit06_outer3_outer_validation_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "0.025912475206858243",
+      "places": 6,
+      "display": "0.025912"
+    },
+    "unit06_outer3_outer_validation_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "0.95758399295639596",
+      "places": 6,
+      "display": "0.957584"
+    },
+    "unit06_outer3_outer_validation_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer3_outer_validation_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer3_outer_validation_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.21109254886649506",
+      "places": 6,
+      "display": "0.211093"
+    },
+    "unit06_outer3_outer_validation_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.35259227775043317",
+      "places": 6,
+      "display": "0.352592"
+    },
+    "unit06_outer3_outer_validation_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.17899001184520102",
+      "places": 6,
+      "display": "-0.178990"
+    },
+    "unit06_outer3_outer_validation_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "1.0311850265210583",
+      "places": 6,
+      "display": "1.031185"
+    },
+    "unit06_outer3_outer_validation_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer3_outer_validation_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "28",
+      "places": 0,
+      "display": "28"
+    },
+    "unit06_outer3_outer_validation_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.20809858028016265",
+      "places": 6,
+      "display": "0.208099"
+    },
+    "unit06_outer3_outer_validation_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.35248295474355368",
+      "places": 6,
+      "display": "0.352483"
+    },
+    "unit06_outer3_outer_validation_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.29048214870460987",
+      "places": 6,
+      "display": "-0.290482"
+    },
+    "unit06_outer3_outer_validation_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "1.0674748749998757",
+      "places": 6,
+      "display": "1.067475"
+    },
+    "unit06_outer3_outer_validation_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer3",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer4_outer_validation_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "27",
+      "places": 0,
+      "display": "27"
+    },
+    "unit06_outer4_outer_validation_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.13841254252614249",
+      "places": 6,
+      "display": "0.138413"
+    },
+    "unit06_outer4_outer_validation_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.32406117852997052",
+      "places": 6,
+      "display": "0.324061"
+    },
+    "unit06_outer4_outer_validation_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.29154533863417464",
+      "places": 6,
+      "display": "-0.291545"
+    },
+    "unit06_outer4_outer_validation_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "1.0946293157108429",
+      "places": 6,
+      "display": "1.094629"
+    },
+    "unit06_outer4_outer_validation_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer4_outer_validation_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "27",
+      "places": 0,
+      "display": "27"
+    },
+    "unit06_outer4_outer_validation_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.11784386853485822",
+      "places": 6,
+      "display": "0.117844"
+    },
+    "unit06_outer4_outer_validation_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.29545562654251389",
+      "places": 6,
+      "display": "0.295456"
+    },
+    "unit06_outer4_outer_validation_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.37977649541869507",
+      "places": 5,
+      "display": "-0.37978"
+    },
+    "unit06_outer4_outer_validation_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "1.1237572153733717",
+      "places": 6,
+      "display": "1.123757"
+    },
+    "unit06_outer4_outer_validation_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer4_outer_validation_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "27",
+      "places": 0,
+      "display": "27"
+    },
+    "unit06_outer4_outer_validation_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.12834099613198313",
+      "places": 6,
+      "display": "0.128341"
+    },
+    "unit06_outer4_outer_validation_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.31106822145278745",
+      "places": 6,
+      "display": "0.311068"
+    },
+    "unit06_outer4_outer_validation_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.2696772784168382",
+      "places": 6,
+      "display": "-0.269677"
+    },
+    "unit06_outer4_outer_validation_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "1.0875328206762491",
+      "places": 6,
+      "display": "1.087533"
+    },
+    "unit06_outer4_outer_validation_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer4_outer_validation_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "27",
+      "places": 0,
+      "display": "27"
+    },
+    "unit06_outer4_outer_validation_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.12597314857474048",
+      "places": 6,
+      "display": "0.125973"
+    },
+    "unit06_outer4_outer_validation_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.30687350670743635",
+      "places": 5,
+      "display": "0.30687"
+    },
+    "unit06_outer4_outer_validation_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.23679110868565667",
+      "places": 6,
+      "display": "-0.236791"
+    },
+    "unit06_outer4_outer_validation_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "1.0741100363824345",
+      "places": 6,
+      "display": "1.074110"
+    },
+    "unit06_outer4_outer_validation_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer4",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer5_outer_validation_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "26",
+      "places": 0,
+      "display": "26"
+    },
+    "unit06_outer5_outer_validation_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.14838988985977511",
+      "places": 6,
+      "display": "0.148390"
+    },
+    "unit06_outer5_outer_validation_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.32097001137564274",
+      "places": 6,
+      "display": "0.320970"
+    },
+    "unit06_outer5_outer_validation_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.129782440970303",
+      "places": 6,
+      "display": "-0.129782"
+    },
+    "unit06_outer5_outer_validation_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "1.0293102102466225",
+      "places": 6,
+      "display": "1.029310"
+    },
+    "unit06_outer5_outer_validation_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer5_outer_validation_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "26",
+      "places": 0,
+      "display": "26"
+    },
+    "unit06_outer5_outer_validation_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.15338262998197222",
+      "places": 6,
+      "display": "0.153383"
+    },
+    "unit06_outer5_outer_validation_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.30439262833124475",
+      "places": 6,
+      "display": "0.304393"
+    },
+    "unit06_outer5_outer_validation_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "0.027841181416547123",
+      "places": 6,
+      "display": "0.027841"
+    },
+    "unit06_outer5_outer_validation_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "0.97961218181053444",
+      "places": 6,
+      "display": "0.979612"
+    },
+    "unit06_outer5_outer_validation_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer5_outer_validation_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "26",
+      "places": 0,
+      "display": "26"
+    },
+    "unit06_outer5_outer_validation_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.16185097522871522",
+      "places": 6,
+      "display": "0.161851"
+    },
+    "unit06_outer5_outer_validation_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.32743037595008989",
+      "places": 6,
+      "display": "0.327430"
+    },
+    "unit06_outer5_outer_validation_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "0.013263603655011114",
+      "places": 6,
+      "display": "0.013264"
+    },
+    "unit06_outer5_outer_validation_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "0.98609623823778925",
+      "places": 6,
+      "display": "0.986096"
+    },
+    "unit06_outer5_outer_validation_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_outer5_outer_validation_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "26",
+      "places": 0,
+      "display": "26"
+    },
+    "unit06_outer5_outer_validation_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.15996888571959092",
+      "places": 6,
+      "display": "0.159969"
+    },
+    "unit06_outer5_outer_validation_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.32787697021418755",
+      "places": 6,
+      "display": "0.327877"
+    },
+    "unit06_outer5_outer_validation_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "-0.11894712295006604",
+      "places": 6,
+      "display": "-0.118947"
+    },
+    "unit06_outer5_outer_validation_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "1.0312034277945359",
+      "places": 6,
+      "display": "1.031203"
+    },
+    "unit06_outer5_outer_validation_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "outer5",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_pooled_outer_validation_entry_n": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_pooled_outer_validation_entry_mse": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mse",
+      "value": "0.19405332810841611",
+      "places": 6,
+      "display": "0.194053"
+    },
+    "unit06_pooled_outer_validation_entry_mae": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "mae",
+      "value": "0.36587595437987175",
+      "places": 6,
+      "display": "0.365876"
+    },
+    "unit06_pooled_outer_validation_entry_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_intercept",
+      "value": "0.10405470294956221",
+      "places": 6,
+      "display": "0.104055"
+    },
+    "unit06_pooled_outer_validation_entry_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "calibration_slope",
+      "value": "0.96554182326506988",
+      "places": 6,
+      "display": "0.965542"
+    },
+    "unit06_pooled_outer_validation_entry_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "entry"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_pooled_outer_validation_rich_n": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_pooled_outer_validation_rich_mse": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mse",
+      "value": "0.22101258313497016",
+      "places": 6,
+      "display": "0.221013"
+    },
+    "unit06_pooled_outer_validation_rich_mae": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "mae",
+      "value": "0.37151453215949004",
+      "places": 6,
+      "display": "0.371515"
+    },
+    "unit06_pooled_outer_validation_rich_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_intercept",
+      "value": "0.6025114254237729",
+      "places": 6,
+      "display": "0.602511"
+    },
+    "unit06_pooled_outer_validation_rich_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "calibration_slope",
+      "value": "0.80046768836480586",
+      "places": 6,
+      "display": "0.800468"
+    },
+    "unit06_pooled_outer_validation_rich_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "rich"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_pooled_outer_validation_ridge_n": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_pooled_outer_validation_ridge_mse": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mse",
+      "value": "0.19905921492319847",
+      "places": 6,
+      "display": "0.199059"
+    },
+    "unit06_pooled_outer_validation_ridge_mae": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "mae",
+      "value": "0.36607328071090645",
+      "places": 6,
+      "display": "0.366073"
+    },
+    "unit06_pooled_outer_validation_ridge_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_intercept",
+      "value": "0.15551867653358764",
+      "places": 6,
+      "display": "0.155519"
+    },
+    "unit06_pooled_outer_validation_ridge_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "calibration_slope",
+      "value": "0.94967315870087565",
+      "places": 6,
+      "display": "0.949673"
+    },
+    "unit06_pooled_outer_validation_ridge_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "ridge"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_pooled_outer_validation_lasso_n": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "n",
+      "value": "137",
+      "places": 0,
+      "display": "137"
+    },
+    "unit06_pooled_outer_validation_lasso_mse": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mse",
+      "value": "0.19541505903193868",
+      "places": 6,
+      "display": "0.195415"
+    },
+    "unit06_pooled_outer_validation_lasso_mae": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "mae",
+      "value": "0.36021086491252774",
+      "places": 6,
+      "display": "0.360211"
+    },
+    "unit06_pooled_outer_validation_lasso_calibration_intercept": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_intercept",
+      "value": "0.0052869685478649231",
+      "places": 6,
+      "display": "0.005287"
+    },
+    "unit06_pooled_outer_validation_lasso_calibration_slope": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "calibration_slope",
+      "value": "0.99981487677605885",
+      "places": 6,
+      "display": "0.999815"
+    },
+    "unit06_pooled_outer_validation_lasso_outside_0_4": {
+      "source": "scores",
+      "where": {
+        "context": "pooled",
+        "role": "outer_validation",
+        "model_id": "lasso"
+      },
+      "column": "outside_0_4",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "unit06_full_ridge_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "ridge",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.20949925715995396",
+      "places": 6,
+      "display": "0.209499"
+    },
+    "unit06_full_ridge_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "ridge",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.20682172629612067",
+      "places": 6,
+      "display": "0.206822"
+    },
+    "unit06_full_ridge_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "ridge",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.20216865259684774",
+      "places": 6,
+      "display": "0.202169"
+    },
+    "unit06_full_ridge_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "ridge",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.20047630143975709",
+      "places": 6,
+      "display": "0.200476"
+    },
+    "unit06_full_ridge_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "ridge",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.20457595374461152",
+      "places": 6,
+      "display": "0.204576"
+    },
+    "unit06_full_ridge_lambda_1000_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "ridge",
+        "lambda_value": "1000"
+      },
+      "column": "mse",
+      "value": "0.26409177839687736",
+      "places": 6,
+      "display": "0.264092"
+    },
+    "unit06_full_lasso_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.20949925715995396",
+      "places": 6,
+      "display": "0.209499"
+    },
+    "unit06_full_lasso_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.20759093280775431",
+      "places": 6,
+      "display": "0.207591"
+    },
+    "unit06_full_lasso_lambda_0p3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "0.3"
+      },
+      "column": "mse",
+      "value": "0.20626653167949191",
+      "places": 6,
+      "display": "0.206267"
+    },
+    "unit06_full_lasso_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.20194015126285836",
+      "places": 6,
+      "display": "0.201940"
+    },
+    "unit06_full_lasso_lambda_3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "3"
+      },
+      "column": "mse",
+      "value": "0.1990974238614964",
+      "places": 6,
+      "display": "0.199097"
+    },
+    "unit06_full_lasso_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.20170671505400664",
+      "places": 6,
+      "display": "0.201707"
+    },
+    "unit06_full_lasso_lambda_30_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "30"
+      },
+      "column": "mse",
+      "value": "0.21370777756461298",
+      "places": 6,
+      "display": "0.213708"
+    },
+    "unit06_full_lasso_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "full",
+        "model_id": "lasso",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.30350959003026673",
+      "places": 6,
+      "display": "0.303510"
+    },
+    "unit06_outer1_ridge_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.20097094772133436",
+      "places": 6,
+      "display": "0.200971"
+    },
+    "unit06_outer1_ridge_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.19506280693594746",
+      "places": 6,
+      "display": "0.195063"
+    },
+    "unit06_outer1_ridge_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.18357288274823053",
+      "places": 6,
+      "display": "0.183573"
+    },
+    "unit06_outer1_ridge_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.17970594475784757",
+      "places": 6,
+      "display": "0.179706"
+    },
+    "unit06_outer1_ridge_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.1890634755903865",
+      "places": 6,
+      "display": "0.189063"
+    },
+    "unit06_outer1_ridge_lambda_1000_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge",
+        "lambda_value": "1000"
+      },
+      "column": "mse",
+      "value": "0.26051723503516305",
+      "places": 6,
+      "display": "0.260517"
+    },
+    "unit06_outer1_lasso_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.20097094772133436",
+      "places": 6,
+      "display": "0.200971"
+    },
+    "unit06_outer1_lasso_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.1966114122947433",
+      "places": 6,
+      "display": "0.196611"
+    },
+    "unit06_outer1_lasso_lambda_0p3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "0.3"
+      },
+      "column": "mse",
+      "value": "0.18789865082624957",
+      "places": 6,
+      "display": "0.187899"
+    },
+    "unit06_outer1_lasso_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.18186158665543298",
+      "places": 6,
+      "display": "0.181862"
+    },
+    "unit06_outer1_lasso_lambda_3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "3"
+      },
+      "column": "mse",
+      "value": "0.18066055615252702",
+      "places": 6,
+      "display": "0.180661"
+    },
+    "unit06_outer1_lasso_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.18244014068443837",
+      "places": 6,
+      "display": "0.182440"
+    },
+    "unit06_outer1_lasso_lambda_30_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "30"
+      },
+      "column": "mse",
+      "value": "0.20616988514428733",
+      "places": 6,
+      "display": "0.206170"
+    },
+    "unit06_outer1_lasso_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.29866081136951061",
+      "places": 6,
+      "display": "0.298661"
+    },
+    "unit06_outer2_ridge_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.21187323740145858",
+      "places": 6,
+      "display": "0.211873"
+    },
+    "unit06_outer2_ridge_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.20575199646563153",
+      "places": 6,
+      "display": "0.205752"
+    },
+    "unit06_outer2_ridge_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.19712269173576327",
+      "places": 6,
+      "display": "0.197123"
+    },
+    "unit06_outer2_ridge_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.19625226666483248",
+      "places": 6,
+      "display": "0.196252"
+    },
+    "unit06_outer2_ridge_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.20512093222016853",
+      "places": 6,
+      "display": "0.205121"
+    },
+    "unit06_outer2_ridge_lambda_1000_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge",
+        "lambda_value": "1000"
+      },
+      "column": "mse",
+      "value": "0.26386082897263641",
+      "places": 6,
+      "display": "0.263861"
+    },
+    "unit06_outer2_lasso_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.21187323740145858",
+      "places": 6,
+      "display": "0.211873"
+    },
+    "unit06_outer2_lasso_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.20676157005129772",
+      "places": 6,
+      "display": "0.206762"
+    },
+    "unit06_outer2_lasso_lambda_0p3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "0.3"
+      },
+      "column": "mse",
+      "value": "0.20230653008351521",
+      "places": 6,
+      "display": "0.202307"
+    },
+    "unit06_outer2_lasso_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.20125955957000646",
+      "places": 6,
+      "display": "0.201260"
+    },
+    "unit06_outer2_lasso_lambda_3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "3"
+      },
+      "column": "mse",
+      "value": "0.20360413788421933",
+      "places": 6,
+      "display": "0.203604"
+    },
+    "unit06_outer2_lasso_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.20003698037850196",
+      "places": 6,
+      "display": "0.200037"
+    },
+    "unit06_outer2_lasso_lambda_30_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "30"
+      },
+      "column": "mse",
+      "value": "0.21876308933972274",
+      "places": 6,
+      "display": "0.218763"
+    },
+    "unit06_outer2_lasso_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.2940450510146394",
+      "places": 6,
+      "display": "0.294045"
+    },
+    "unit06_outer3_ridge_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.24948488165954583",
+      "places": 6,
+      "display": "0.249485"
+    },
+    "unit06_outer3_ridge_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.23224865008136505",
+      "places": 6,
+      "display": "0.232249"
+    },
+    "unit06_outer3_ridge_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.21351585179756472",
+      "places": 6,
+      "display": "0.213516"
+    },
+    "unit06_outer3_ridge_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.20323387525034967",
+      "places": 6,
+      "display": "0.203234"
+    },
+    "unit06_outer3_ridge_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.2069614163454325",
+      "places": 6,
+      "display": "0.206961"
+    },
+    "unit06_outer3_ridge_lambda_1000_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge",
+        "lambda_value": "1000"
+      },
+      "column": "mse",
+      "value": "0.26668672326329151",
+      "places": 6,
+      "display": "0.266687"
+    },
+    "unit06_outer3_lasso_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.24948488165954583",
+      "places": 6,
+      "display": "0.249485"
+    },
+    "unit06_outer3_lasso_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.23578013917606269",
+      "places": 6,
+      "display": "0.235780"
+    },
+    "unit06_outer3_lasso_lambda_0p3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "0.3"
+      },
+      "column": "mse",
+      "value": "0.22168158675218536",
+      "places": 6,
+      "display": "0.221682"
+    },
+    "unit06_outer3_lasso_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.20877566781348122",
+      "places": 6,
+      "display": "0.208776"
+    },
+    "unit06_outer3_lasso_lambda_3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "3"
+      },
+      "column": "mse",
+      "value": "0.20135777329490404",
+      "places": 6,
+      "display": "0.201358"
+    },
+    "unit06_outer3_lasso_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.20366594066585361",
+      "places": 6,
+      "display": "0.203666"
+    },
+    "unit06_outer3_lasso_lambda_30_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "30"
+      },
+      "column": "mse",
+      "value": "0.23260119237940238",
+      "places": 6,
+      "display": "0.232601"
+    },
+    "unit06_outer3_lasso_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.29687314138359144",
+      "places": 6,
+      "display": "0.296873"
+    },
+    "unit06_outer4_ridge_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.22844853090741465",
+      "places": 6,
+      "display": "0.228449"
+    },
+    "unit06_outer4_ridge_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.22356530595157331",
+      "places": 6,
+      "display": "0.223565"
+    },
+    "unit06_outer4_ridge_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.21481516680111867",
+      "places": 6,
+      "display": "0.214815"
+    },
+    "unit06_outer4_ridge_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.21095433490314591",
+      "places": 6,
+      "display": "0.210954"
+    },
+    "unit06_outer4_ridge_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.22284505164053042",
+      "places": 6,
+      "display": "0.222845"
+    },
+    "unit06_outer4_ridge_lambda_1000_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge",
+        "lambda_value": "1000"
+      },
+      "column": "mse",
+      "value": "0.28989685568586837",
+      "places": 6,
+      "display": "0.289897"
+    },
+    "unit06_outer4_lasso_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.22844853090741465",
+      "places": 6,
+      "display": "0.228449"
+    },
+    "unit06_outer4_lasso_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.22335666113920222",
+      "places": 6,
+      "display": "0.223357"
+    },
+    "unit06_outer4_lasso_lambda_0p3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "0.3"
+      },
+      "column": "mse",
+      "value": "0.21805593014876445",
+      "places": 6,
+      "display": "0.218056"
+    },
+    "unit06_outer4_lasso_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.21083599664670125",
+      "places": 6,
+      "display": "0.210836"
+    },
+    "unit06_outer4_lasso_lambda_3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "3"
+      },
+      "column": "mse",
+      "value": "0.2111734108586833",
+      "places": 6,
+      "display": "0.211173"
+    },
+    "unit06_outer4_lasso_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.21647122081559453",
+      "places": 6,
+      "display": "0.216471"
+    },
+    "unit06_outer4_lasso_lambda_30_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "30"
+      },
+      "column": "mse",
+      "value": "0.24390506705253456",
+      "places": 6,
+      "display": "0.243905"
+    },
+    "unit06_outer4_lasso_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.32344424754727313",
+      "places": 6,
+      "display": "0.323444"
+    },
+    "unit06_outer5_ridge_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.23671447499453543",
+      "places": 6,
+      "display": "0.236714"
+    },
+    "unit06_outer5_ridge_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.22485020100827785",
+      "places": 6,
+      "display": "0.224850"
+    },
+    "unit06_outer5_ridge_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.21202307241251303",
+      "places": 6,
+      "display": "0.212023"
+    },
+    "unit06_outer5_ridge_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.20849813582148494",
+      "places": 6,
+      "display": "0.208498"
+    },
+    "unit06_outer5_ridge_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.21725567855953193",
+      "places": 6,
+      "display": "0.217256"
+    },
+    "unit06_outer5_ridge_lambda_1000_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge",
+        "lambda_value": "1000"
+      },
+      "column": "mse",
+      "value": "0.28176121962804185",
+      "places": 6,
+      "display": "0.281761"
+    },
+    "unit06_outer5_lasso_lambda_0_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "0"
+      },
+      "column": "mse",
+      "value": "0.23671447499453543",
+      "places": 6,
+      "display": "0.236714"
+    },
+    "unit06_outer5_lasso_lambda_0p1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "0.1"
+      },
+      "column": "mse",
+      "value": "0.22700700323968331",
+      "places": 6,
+      "display": "0.227007"
+    },
+    "unit06_outer5_lasso_lambda_0p3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "0.3"
+      },
+      "column": "mse",
+      "value": "0.21664928823773927",
+      "places": 6,
+      "display": "0.216649"
+    },
+    "unit06_outer5_lasso_lambda_1_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "1"
+      },
+      "column": "mse",
+      "value": "0.20877314218300397",
+      "places": 6,
+      "display": "0.208773"
+    },
+    "unit06_outer5_lasso_lambda_3_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "3"
+      },
+      "column": "mse",
+      "value": "0.20761010432730656",
+      "places": 6,
+      "display": "0.207610"
+    },
+    "unit06_outer5_lasso_lambda_10_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "10"
+      },
+      "column": "mse",
+      "value": "0.21030444659324554",
+      "places": 6,
+      "display": "0.210304"
+    },
+    "unit06_outer5_lasso_lambda_30_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "30"
+      },
+      "column": "mse",
+      "value": "0.23926056147695335",
+      "places": 6,
+      "display": "0.239261"
+    },
+    "unit06_outer5_lasso_lambda_100_mse": {
+      "source": "tuning",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso",
+        "lambda_value": "100"
+      },
+      "column": "mse",
+      "value": "0.31648977558043306",
+      "places": 6,
+      "display": "0.316490"
+    },
+    "unit06_full_ridge_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "full",
+        "model_id": "ridge"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_full_lasso_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "full",
+        "model_id": "lasso"
+      },
+      "column": "lambda_value",
+      "value": "3",
+      "places": 1,
+      "display": "3.0"
+    },
+    "unit06_outer1_ridge_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer1",
+        "model_id": "ridge"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_outer1_lasso_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer1",
+        "model_id": "lasso"
+      },
+      "column": "lambda_value",
+      "value": "3",
+      "places": 1,
+      "display": "3.0"
+    },
+    "unit06_outer2_ridge_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer2",
+        "model_id": "ridge"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_outer2_lasso_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer2",
+        "model_id": "lasso"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_outer3_ridge_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer3",
+        "model_id": "ridge"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_outer3_lasso_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer3",
+        "model_id": "lasso"
+      },
+      "column": "lambda_value",
+      "value": "3",
+      "places": 1,
+      "display": "3.0"
+    },
+    "unit06_outer4_ridge_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer4",
+        "model_id": "ridge"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_outer4_lasso_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer4",
+        "model_id": "lasso"
+      },
+      "column": "lambda_value",
+      "value": "1",
+      "places": 1,
+      "display": "1.0"
+    },
+    "unit06_outer5_ridge_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer5",
+        "model_id": "ridge"
+      },
+      "column": "lambda_value",
+      "value": "10",
+      "places": 1,
+      "display": "10.0"
+    },
+    "unit06_outer5_lasso_lambda": {
+      "source": "selection",
+      "where": {
+        "context": "outer5",
+        "model_id": "lasso"
+      },
+      "column": "lambda_value",
+      "value": "3",
+      "places": 1,
+      "display": "3.0"
+    },
+    "unit06_entry_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|entry|0",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "2.9419708029197085",
+      "places": 6,
+      "display": "2.941971"
+    },
+    "unit06_entry_prior_grade": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|entry|0",
+        "term": "prior_grade"
+      },
+      "column": "coefficient",
+      "value": "0.33360328611656009",
+      "places": 6,
+      "display": "0.333603"
+    },
+    "unit06_rich_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "2.9419708029197071",
+      "places": 6,
+      "display": "2.941971"
+    },
+    "unit06_rich_prior_grade": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "prior_grade"
+      },
+      "column": "coefficient",
+      "value": "0.30098272354766281",
+      "places": 6,
+      "display": "0.300983"
+    },
+    "unit06_rich_part_time": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "part_time"
+      },
+      "column": "coefficient",
+      "value": "0.42743153384430188",
+      "places": 6,
+      "display": "0.427432"
+    },
+    "unit06_rich_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "first_gen"
+      },
+      "column": "coefficient",
+      "value": "-0.25134818773330353",
+      "places": 6,
+      "display": "-0.251348"
+    },
+    "unit06_rich_age": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "age"
+      },
+      "column": "coefficient",
+      "value": "0.27859226654381758",
+      "places": 6,
+      "display": "0.278592"
+    },
+    "unit06_rich_prior_grade_squared": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "prior_grade_squared"
+      },
+      "column": "coefficient",
+      "value": "-0.016332757280764516",
+      "places": 6,
+      "display": "-0.016333"
+    },
+    "unit06_rich_age_squared": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "age_squared"
+      },
+      "column": "coefficient",
+      "value": "-0.35447371467377703",
+      "places": 6,
+      "display": "-0.354474"
+    },
+    "unit06_rich_prior_grade_part_time": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "prior_grade_part_time"
+      },
+      "column": "coefficient",
+      "value": "-0.53147177380180755",
+      "places": 6,
+      "display": "-0.531472"
+    },
+    "unit06_rich_prior_grade_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "prior_grade_first_gen"
+      },
+      "column": "coefficient",
+      "value": "0.17822594236550468",
+      "places": 6,
+      "display": "0.178226"
+    },
+    "unit06_rich_prior_grade_age": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|rich|0",
+        "term": "prior_grade_age"
+      },
+      "column": "coefficient",
+      "value": "0.1497723612935063",
+      "places": 6,
+      "display": "0.149772"
+    },
+    "unit06_ridge_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "2.9419708029197071",
+      "places": 6,
+      "display": "2.941971"
+    },
+    "unit06_ridge_prior_grade": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "prior_grade"
+      },
+      "column": "coefficient",
+      "value": "0.16711768672840865",
+      "places": 6,
+      "display": "0.167118"
+    },
+    "unit06_ridge_part_time": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "part_time"
+      },
+      "column": "coefficient",
+      "value": "0.017547380226026005",
+      "places": 6,
+      "display": "0.017547"
+    },
+    "unit06_ridge_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "first_gen"
+      },
+      "column": "coefficient",
+      "value": "-0.074258296932190007",
+      "places": 6,
+      "display": "-0.074258"
+    },
+    "unit06_ridge_age": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "age"
+      },
+      "column": "coefficient",
+      "value": "0.013625910144985104",
+      "places": 6,
+      "display": "0.013626"
+    },
+    "unit06_ridge_prior_grade_squared": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "prior_grade_squared"
+      },
+      "column": "coefficient",
+      "value": "0.13965983976092122",
+      "places": 6,
+      "display": "0.139660"
+    },
+    "unit06_ridge_age_squared": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "age_squared"
+      },
+      "column": "coefficient",
+      "value": "-0.015454434121293308",
+      "places": 6,
+      "display": "-0.015454"
+    },
+    "unit06_ridge_prior_grade_part_time": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "prior_grade_part_time"
+      },
+      "column": "coefficient",
+      "value": "-0.078809938753927597",
+      "places": 6,
+      "display": "-0.078810"
+    },
+    "unit06_ridge_prior_grade_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "prior_grade_first_gen"
+      },
+      "column": "coefficient",
+      "value": "0.0068264950120347301",
+      "places": 5,
+      "display": "0.00683"
+    },
+    "unit06_ridge_prior_grade_age": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|ridge|10",
+        "term": "prior_grade_age"
+      },
+      "column": "coefficient",
+      "value": "0.031796796061089087",
+      "places": 6,
+      "display": "0.031797"
+    },
+    "unit06_lasso_intercept": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "intercept"
+      },
+      "column": "coefficient",
+      "value": "2.9419708029197076",
+      "places": 6,
+      "display": "2.941971"
+    },
+    "unit06_lasso_prior_grade": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "prior_grade"
+      },
+      "column": "coefficient",
+      "value": "0.32042921239732164",
+      "places": 6,
+      "display": "0.320429"
+    },
+    "unit06_lasso_part_time": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "part_time"
+      },
+      "column": "coefficient",
+      "value": "-0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_lasso_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "first_gen"
+      },
+      "column": "coefficient",
+      "value": "-0.059434332935504625",
+      "places": 6,
+      "display": "-0.059434"
+    },
+    "unit06_lasso_age": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "age"
+      },
+      "column": "coefficient",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_lasso_prior_grade_squared": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "prior_grade_squared"
+      },
+      "column": "coefficient",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_lasso_age_squared": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "age_squared"
+      },
+      "column": "coefficient",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_lasso_prior_grade_part_time": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "prior_grade_part_time"
+      },
+      "column": "coefficient",
+      "value": "-0.036341930007665252",
+      "places": 6,
+      "display": "-0.036342"
+    },
+    "unit06_lasso_prior_grade_first_gen": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "prior_grade_first_gen"
+      },
+      "column": "coefficient",
+      "value": "-0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_lasso_prior_grade_age": {
+      "source": "coefficients",
+      "where": {
+        "fit_id": "full|refit|lasso|3",
+        "term": "prior_grade_age"
+      },
+      "column": "coefficient",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_entry_rss": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|entry|0"
+      },
+      "column": "rss",
+      "value": "26.039479989647543",
+      "places": 6,
+      "display": "26.039480"
+    },
+    "unit06_entry_penalty": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|entry|0"
+      },
+      "column": "penalty",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_entry_objective": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|entry|0"
+      },
+      "column": "objective",
+      "value": "26.039479989647543",
+      "places": 6,
+      "display": "26.039480"
+    },
+    "unit06_entry_nonzero": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|entry|0"
+      },
+      "column": "nonzero",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "unit06_rich_rss": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|rich|0"
+      },
+      "column": "rss",
+      "value": "24.260309705184458",
+      "places": 6,
+      "display": "24.260310"
+    },
+    "unit06_rich_penalty": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|rich|0"
+      },
+      "column": "penalty",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "unit06_rich_objective": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|rich|0"
+      },
+      "column": "objective",
+      "value": "24.260309705184458",
+      "places": 6,
+      "display": "24.260310"
+    },
+    "unit06_rich_nonzero": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|rich|0"
+      },
+      "column": "nonzero",
+      "value": "9",
+      "places": 0,
+      "display": "9"
+    },
+    "unit06_ridge_rss": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|ridge|10"
+      },
+      "column": "rss",
+      "value": "24.96404384343279",
+      "places": 6,
+      "display": "24.964044"
+    },
+    "unit06_ridge_penalty": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|ridge|10"
+      },
+      "column": "penalty",
+      "value": "0.60948545957153",
+      "places": 6,
+      "display": "0.609485"
+    },
+    "unit06_ridge_objective": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|ridge|10"
+      },
+      "column": "objective",
+      "value": "25.573529303004321",
+      "places": 6,
+      "display": "25.573529"
+    },
+    "unit06_ridge_nonzero": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|ridge|10"
+      },
+      "column": "nonzero",
+      "value": "9",
+      "places": 0,
+      "display": "9"
+    },
+    "unit06_lasso_rss": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|lasso|3"
+      },
+      "column": "rss",
+      "value": "25.03976550164791",
+      "places": 5,
+      "display": "25.03977"
+    },
+    "unit06_lasso_penalty": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|lasso|3"
+      },
+      "column": "penalty",
+      "value": "1.2486164260214747",
+      "places": 6,
+      "display": "1.248616"
+    },
+    "unit06_lasso_objective": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|lasso|3"
+      },
+      "column": "objective",
+      "value": "26.288381927669384",
+      "places": 6,
+      "display": "26.288382"
+    },
+    "unit06_lasso_nonzero": {
+      "source": "diagnostics",
+      "where": {
+        "fit_id": "full|refit|lasso|3"
+      },
+      "column": "nonzero",
+      "value": "3",
+      "places": 0,
+      "display": "3"
+    }
+  },
+  "five_place_diagnostics": [
+    "unit06_outer4_outer_validation_rich_calibration_intercept",
+    "unit06_outer4_outer_validation_lasso_mae",
+    "unit06_ridge_prior_grade_first_gen",
+    "unit06_lasso_rss"
+  ]
+}

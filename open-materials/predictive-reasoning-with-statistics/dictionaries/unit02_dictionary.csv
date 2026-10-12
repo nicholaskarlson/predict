@@ -1,0 +1,15 @@
+field,meaning,availability
+row_id,row id,key
+cohort,cohort,key
+college_id,college id,enrollment
+part_time,part time,enrollment
+prior_grade,Enrollment entry grade on zero to four scale,enrollment
+offer,offer,enrollment
+exit_type,exit type,follow_up_not_predictor
+exit_month,exit month,follow_up_not_predictor
+gpa_at_exit,One if grade recorded at exit after month four,follow_up_not_predictor
+withdrawal,One for first withdrawal; transfer zero; unknown blank,follow_up_not_predictor
+first_exit,One for first withdrawal or transfer; unknown blank,follow_up_not_predictor
+grade,Recorded grade at twelve months or eligible exit; missing blank,follow_up_not_predictor
+binary_role,train or final or excluded_unknown,analysis_rule
+grade_role,train or final or excluded_missing_grade,analysis_rule

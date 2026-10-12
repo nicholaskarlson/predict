@@ -1,0 +1,20 @@
+{
+  "record_id": "UNIT11_NEW_ABSENT",
+  "part_time": 1,
+  "first_gen": 1,
+  "age": 23,
+  "gender": "female",
+  "program_area": "STEM",
+  "prior_grade": 2.8,
+  "responded_baseline": 0,
+  "wb1": null,
+  "wb2": null,
+  "wb3": null,
+  "wb4": null,
+  "wb5": null,
+  "st1": null,
+  "st2": null,
+  "st3": null,
+  "st4": null,
+  "st5": null
+}

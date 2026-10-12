@@ -1,0 +1,4 @@
+record_id,part_time,first_gen,age,gender,program_area,prior_grade,responded_baseline,wb1,wb2,wb3,wb4,wb5,st1,st2,st3,st4,st5
+UNIT11_NEW_ABSENT,1,1,23,female,STEM,2.8,0,,,,,,,,,,
+UNIT11_NEW_PARTIAL,0,0,19,male,Business,3.2,1,3,4,4,2,,3,2,3,4,
+UNIT11_NEW_UNSCORABLE,1,0,28,another,Social Sciences,2.4,1,3,4,,,,4,3,3,2,3

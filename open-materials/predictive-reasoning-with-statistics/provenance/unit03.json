@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "world_version": "1.0.0",
+  "world_commit": "4467ddb23f0e06f6216d7fc787172b99e9da8163",
+  "snapshot_base_commit": "c736c1e49def821388352e6e342ad513c5ef27e9",
+  "raw_source_sha256": {
+    "data/anchor/participants.csv": "3708dda311ac5388800ade6fc6c73c31f9ed6b6d52c02bbf2be256ddd740dd2e",
+    "data/anchor/baseline.csv": "8ba580b70745f3e1cda663cf0c9a277a4cedfaccb870f885ffa441f036086850",
+    "data/anchor/registry.csv": "df7761f29400ac18ea7ec6ab4f40a985e29796f12f1414e089d2781412afcd47",
+    "LICENSES.md": "8655b5e0fdad79eb17b5eddd66b1a3b77d164f484bffebd4f86ed154b9646d10",
+    "PROVENANCE.md": "61370f42ed53698125a98534c927bc48ce709d48b672007fd4bf3cb838a0ca15",
+    "WORLD_SPEC.md": "3fad7526f5060dbdbdcbebba8235d28df0d9e4e1c93f87fe20982090a62517e5",
+    "DICTIONARY.csv": "ce8096cacf4fcb55b09c11714435c23395f2a17bfe08412640d522341855ee01",
+    "MANIFEST.json": "2f92d8ee27fe4b49f5a17dba84ed7605e10edfb3af0595671d7cf862c1195647"
+  },
+  "extract": "deterministic_observed_join_no_world_regeneration",
+  "new_randomness": "only_committed_within_college_bootstrap_indices",
+  "latent_truth_used": false,
+  "cohort2_used": false,
+  "designer_blindness_claimed": false,
+  "local_preparation_only": true,
+  "target_observation": "recorded_grade_at_12_months_or_exit_after_month4",
+  "sampling_scope": "respondents_offer0_observed_grade_fixed_West_colleges"
+}

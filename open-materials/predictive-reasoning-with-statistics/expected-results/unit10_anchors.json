@@ -1,0 +1,2463 @@
+{
+  "schema_version": 1,
+  "rounding": "decimal_half_even",
+  "anchors": {
+    "u10_scores_c_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u10_scores_c_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "events",
+      "value": "242",
+      "places": 0,
+      "display": "242"
+    },
+    "u10_scores_n_all_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "u10_scores_n_all_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "events",
+      "value": "109",
+      "places": 0,
+      "display": "109"
+    },
+    "u10_scores_c_part_time_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "n",
+      "value": "843",
+      "places": 0,
+      "display": "843"
+    },
+    "u10_scores_c_part_time_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "events",
+      "value": "91",
+      "places": 0,
+      "display": "91"
+    },
+    "u10_scores_n_part_time_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "n",
+      "value": "422",
+      "places": 0,
+      "display": "422"
+    },
+    "u10_scores_n_part_time_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "events",
+      "value": "50",
+      "places": 0,
+      "display": "50"
+    },
+    "u10_scores_c_part_time_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "n",
+      "value": "498",
+      "places": 0,
+      "display": "498"
+    },
+    "u10_scores_c_part_time_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "events",
+      "value": "151",
+      "places": 0,
+      "display": "151"
+    },
+    "u10_scores_n_part_time_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "n",
+      "value": "232",
+      "places": 0,
+      "display": "232"
+    },
+    "u10_scores_n_part_time_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "events",
+      "value": "59",
+      "places": 0,
+      "display": "59"
+    },
+    "u10_scores_c_first_gen_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_0"
+      },
+      "column": "n",
+      "value": "893",
+      "places": 0,
+      "display": "893"
+    },
+    "u10_scores_c_first_gen_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_0"
+      },
+      "column": "events",
+      "value": "121",
+      "places": 0,
+      "display": "121"
+    },
+    "u10_scores_n_first_gen_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_0"
+      },
+      "column": "n",
+      "value": "443",
+      "places": 0,
+      "display": "443"
+    },
+    "u10_scores_n_first_gen_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_0"
+      },
+      "column": "events",
+      "value": "68",
+      "places": 0,
+      "display": "68"
+    },
+    "u10_scores_c_first_gen_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "n",
+      "value": "448",
+      "places": 0,
+      "display": "448"
+    },
+    "u10_scores_c_first_gen_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "events",
+      "value": "121",
+      "places": 0,
+      "display": "121"
+    },
+    "u10_scores_n_first_gen_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "n",
+      "value": "211",
+      "places": 0,
+      "display": "211"
+    },
+    "u10_scores_n_first_gen_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "events",
+      "value": "41",
+      "places": 0,
+      "display": "41"
+    },
+    "u10_scores_c_gender_female_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_female"
+      },
+      "column": "n",
+      "value": "745",
+      "places": 0,
+      "display": "745"
+    },
+    "u10_scores_c_gender_female_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_female"
+      },
+      "column": "events",
+      "value": "121",
+      "places": 0,
+      "display": "121"
+    },
+    "u10_scores_n_gender_female_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_female"
+      },
+      "column": "n",
+      "value": "359",
+      "places": 0,
+      "display": "359"
+    },
+    "u10_scores_n_gender_female_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_female"
+      },
+      "column": "events",
+      "value": "58",
+      "places": 0,
+      "display": "58"
+    },
+    "u10_scores_c_gender_male_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_male"
+      },
+      "column": "n",
+      "value": "571",
+      "places": 0,
+      "display": "571"
+    },
+    "u10_scores_c_gender_male_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_male"
+      },
+      "column": "events",
+      "value": "116",
+      "places": 0,
+      "display": "116"
+    },
+    "u10_scores_n_gender_male_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_male"
+      },
+      "column": "n",
+      "value": "289",
+      "places": 0,
+      "display": "289"
+    },
+    "u10_scores_n_gender_male_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_male"
+      },
+      "column": "events",
+      "value": "49",
+      "places": 0,
+      "display": "49"
+    },
+    "u10_scores_c_gender_another_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another"
+      },
+      "column": "n",
+      "value": "25",
+      "places": 0,
+      "display": "25"
+    },
+    "u10_scores_c_gender_another_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another"
+      },
+      "column": "events",
+      "value": "5",
+      "places": 0,
+      "display": "5"
+    },
+    "u10_scores_n_gender_another_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another"
+      },
+      "column": "n",
+      "value": "6",
+      "places": 0,
+      "display": "6"
+    },
+    "u10_scores_n_gender_another_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another"
+      },
+      "column": "events",
+      "value": "2",
+      "places": 0,
+      "display": "2"
+    },
+    "u10_scores_c_program_area_Arts_and_Humanities_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Arts_and_Humanities"
+      },
+      "column": "n",
+      "value": "178",
+      "places": 0,
+      "display": "178"
+    },
+    "u10_scores_c_program_area_Arts_and_Humanities_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Arts_and_Humanities"
+      },
+      "column": "events",
+      "value": "26",
+      "places": 0,
+      "display": "26"
+    },
+    "u10_scores_n_program_area_Arts_and_Humanities_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Arts_and_Humanities"
+      },
+      "column": "n",
+      "value": "99",
+      "places": 0,
+      "display": "99"
+    },
+    "u10_scores_n_program_area_Arts_and_Humanities_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Arts_and_Humanities"
+      },
+      "column": "events",
+      "value": "23",
+      "places": 0,
+      "display": "23"
+    },
+    "u10_scores_c_program_area_Social_Sciences_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Social_Sciences"
+      },
+      "column": "n",
+      "value": "287",
+      "places": 0,
+      "display": "287"
+    },
+    "u10_scores_c_program_area_Social_Sciences_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Social_Sciences"
+      },
+      "column": "events",
+      "value": "53",
+      "places": 0,
+      "display": "53"
+    },
+    "u10_scores_n_program_area_Social_Sciences_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Social_Sciences"
+      },
+      "column": "n",
+      "value": "142",
+      "places": 0,
+      "display": "142"
+    },
+    "u10_scores_n_program_area_Social_Sciences_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Social_Sciences"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "u10_scores_c_program_area_STEM_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_STEM"
+      },
+      "column": "n",
+      "value": "297",
+      "places": 0,
+      "display": "297"
+    },
+    "u10_scores_c_program_area_STEM_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_STEM"
+      },
+      "column": "events",
+      "value": "52",
+      "places": 0,
+      "display": "52"
+    },
+    "u10_scores_n_program_area_STEM_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_STEM"
+      },
+      "column": "n",
+      "value": "151",
+      "places": 0,
+      "display": "151"
+    },
+    "u10_scores_n_program_area_STEM_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_STEM"
+      },
+      "column": "events",
+      "value": "33",
+      "places": 0,
+      "display": "33"
+    },
+    "u10_scores_c_program_area_Health_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Health"
+      },
+      "column": "n",
+      "value": "280",
+      "places": 0,
+      "display": "280"
+    },
+    "u10_scores_c_program_area_Health_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Health"
+      },
+      "column": "events",
+      "value": "54",
+      "places": 0,
+      "display": "54"
+    },
+    "u10_scores_n_program_area_Health_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Health"
+      },
+      "column": "n",
+      "value": "131",
+      "places": 0,
+      "display": "131"
+    },
+    "u10_scores_n_program_area_Health_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Health"
+      },
+      "column": "events",
+      "value": "19",
+      "places": 0,
+      "display": "19"
+    },
+    "u10_scores_c_program_area_Business_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Business"
+      },
+      "column": "n",
+      "value": "299",
+      "places": 0,
+      "display": "299"
+    },
+    "u10_scores_c_program_area_Business_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "program_area_Business"
+      },
+      "column": "events",
+      "value": "57",
+      "places": 0,
+      "display": "57"
+    },
+    "u10_scores_n_program_area_Business_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Business"
+      },
+      "column": "n",
+      "value": "131",
+      "places": 0,
+      "display": "131"
+    },
+    "u10_scores_n_program_area_Business_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "program_area_Business"
+      },
+      "column": "events",
+      "value": "17",
+      "places": 0,
+      "display": "17"
+    },
+    "u10_scores_c_part_time_0_first_gen_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0_first_gen_0"
+      },
+      "column": "n",
+      "value": "594",
+      "places": 0,
+      "display": "594"
+    },
+    "u10_scores_c_part_time_0_first_gen_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0_first_gen_0"
+      },
+      "column": "events",
+      "value": "51",
+      "places": 0,
+      "display": "51"
+    },
+    "u10_scores_n_part_time_0_first_gen_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0_first_gen_0"
+      },
+      "column": "n",
+      "value": "299",
+      "places": 0,
+      "display": "299"
+    },
+    "u10_scores_n_part_time_0_first_gen_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0_first_gen_0"
+      },
+      "column": "events",
+      "value": "32",
+      "places": 0,
+      "display": "32"
+    },
+    "u10_scores_c_part_time_0_first_gen_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0_first_gen_1"
+      },
+      "column": "n",
+      "value": "249",
+      "places": 0,
+      "display": "249"
+    },
+    "u10_scores_c_part_time_0_first_gen_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0_first_gen_1"
+      },
+      "column": "events",
+      "value": "40",
+      "places": 0,
+      "display": "40"
+    },
+    "u10_scores_n_part_time_0_first_gen_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0_first_gen_1"
+      },
+      "column": "n",
+      "value": "123",
+      "places": 0,
+      "display": "123"
+    },
+    "u10_scores_n_part_time_0_first_gen_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0_first_gen_1"
+      },
+      "column": "events",
+      "value": "18",
+      "places": 0,
+      "display": "18"
+    },
+    "u10_scores_c_part_time_1_first_gen_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1_first_gen_0"
+      },
+      "column": "n",
+      "value": "299",
+      "places": 0,
+      "display": "299"
+    },
+    "u10_scores_c_part_time_1_first_gen_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1_first_gen_0"
+      },
+      "column": "events",
+      "value": "70",
+      "places": 0,
+      "display": "70"
+    },
+    "u10_scores_n_part_time_1_first_gen_0_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1_first_gen_0"
+      },
+      "column": "n",
+      "value": "144",
+      "places": 0,
+      "display": "144"
+    },
+    "u10_scores_n_part_time_1_first_gen_0_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1_first_gen_0"
+      },
+      "column": "events",
+      "value": "36",
+      "places": 0,
+      "display": "36"
+    },
+    "u10_scores_c_part_time_1_first_gen_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1_first_gen_1"
+      },
+      "column": "n",
+      "value": "199",
+      "places": 0,
+      "display": "199"
+    },
+    "u10_scores_c_part_time_1_first_gen_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1_first_gen_1"
+      },
+      "column": "events",
+      "value": "81",
+      "places": 0,
+      "display": "81"
+    },
+    "u10_scores_n_part_time_1_first_gen_1_n": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1_first_gen_1"
+      },
+      "column": "n",
+      "value": "88",
+      "places": 0,
+      "display": "88"
+    },
+    "u10_scores_n_part_time_1_first_gen_1_events": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1_first_gen_1"
+      },
+      "column": "events",
+      "value": "23",
+      "places": 0,
+      "display": "23"
+    },
+    "u10_scores_c_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.16585206507068134",
+      "places": 6,
+      "display": "0.165852"
+    },
+    "u10_scores_c_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.18046234153616703",
+      "places": 6,
+      "display": "0.180462"
+    },
+    "u10_scores_c_all_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "calibration_bias",
+      "value": "-0.014610276465485683",
+      "places": 6,
+      "display": "-0.014610"
+    },
+    "u10_scores_c_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "auc",
+      "value": "0.72959264244730371",
+      "places": 6,
+      "display": "0.729593"
+    },
+    "u10_scores_c_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all"
+      },
+      "column": "brier",
+      "value": "0.1322443232082188",
+      "places": 6,
+      "display": "0.132244"
+    },
+    "u10_scores_c_part_time_0_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "mean_probability",
+      "value": "0.10800989986744594",
+      "places": 6,
+      "display": "0.108010"
+    },
+    "u10_scores_c_part_time_0_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "observed_fraction",
+      "value": "0.10794780545670225",
+      "places": 6,
+      "display": "0.107948"
+    },
+    "u10_scores_c_part_time_0_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "calibration_bias",
+      "value": "6.2094410743687711e-05",
+      "places": 6,
+      "display": "0.000062"
+    },
+    "u10_scores_c_part_time_0_auc": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "auc",
+      "value": "0.68386135141454285",
+      "places": 6,
+      "display": "0.683861"
+    },
+    "u10_scores_c_part_time_0_brier": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0"
+      },
+      "column": "brier",
+      "value": "0.091387826203025629",
+      "places": 6,
+      "display": "0.091388"
+    },
+    "u10_scores_c_part_time_1_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "mean_probability",
+      "value": "0.26376560978218228",
+      "places": 6,
+      "display": "0.263766"
+    },
+    "u10_scores_c_part_time_1_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "observed_fraction",
+      "value": "0.30321285140562249",
+      "places": 6,
+      "display": "0.303213"
+    },
+    "u10_scores_c_part_time_1_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "calibration_bias",
+      "value": "-0.03944724162344021",
+      "places": 6,
+      "display": "-0.039447"
+    },
+    "u10_scores_c_part_time_1_auc": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "auc",
+      "value": "0.64169704372387737",
+      "places": 6,
+      "display": "0.641697"
+    },
+    "u10_scores_c_part_time_1_brier": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "brier",
+      "value": "0.2014050199459253",
+      "places": 6,
+      "display": "0.201405"
+    },
+    "u10_scores_c_first_gen_1_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "mean_probability",
+      "value": "0.20552175541932743",
+      "places": 6,
+      "display": "0.205522"
+    },
+    "u10_scores_c_first_gen_1_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "observed_fraction",
+      "value": "0.2700892857142857",
+      "places": 6,
+      "display": "0.270089"
+    },
+    "u10_scores_c_first_gen_1_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "calibration_bias",
+      "value": "-0.064567530294958264",
+      "places": 6,
+      "display": "-0.064568"
+    },
+    "u10_scores_c_first_gen_1_auc": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "auc",
+      "value": "0.7487552758611975",
+      "places": 6,
+      "display": "0.748755"
+    },
+    "u10_scores_c_first_gen_1_brier": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1"
+      },
+      "column": "brier",
+      "value": "0.16976333465078763",
+      "places": 6,
+      "display": "0.169763"
+    },
+    "u10_scores_n_all_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "mean_probability",
+      "value": "0.16565204386151608",
+      "places": 6,
+      "display": "0.165652"
+    },
+    "u10_scores_n_all_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "observed_fraction",
+      "value": "0.16666666666666666",
+      "places": 6,
+      "display": "0.166667"
+    },
+    "u10_scores_n_all_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "calibration_bias",
+      "value": "-0.0010146228051505779",
+      "places": 6,
+      "display": "-0.001015"
+    },
+    "u10_scores_n_all_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "auc",
+      "value": "0.73130207894958332",
+      "places": 6,
+      "display": "0.731302"
+    },
+    "u10_scores_n_all_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "all"
+      },
+      "column": "brier",
+      "value": "0.12447772779230275",
+      "places": 6,
+      "display": "0.124478"
+    },
+    "u10_scores_n_part_time_0_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "mean_probability",
+      "value": "0.10921671103543899",
+      "places": 6,
+      "display": "0.109217"
+    },
+    "u10_scores_n_part_time_0_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "observed_fraction",
+      "value": "0.11848341232227488",
+      "places": 6,
+      "display": "0.118483"
+    },
+    "u10_scores_n_part_time_0_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "calibration_bias",
+      "value": "-0.0092667012868358906",
+      "places": 6,
+      "display": "-0.009267"
+    },
+    "u10_scores_n_part_time_0_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "auc",
+      "value": "0.67973118279569889",
+      "places": 6,
+      "display": "0.679731"
+    },
+    "u10_scores_n_part_time_0_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0"
+      },
+      "column": "brier",
+      "value": "0.098159165073744711",
+      "places": 6,
+      "display": "0.098159"
+    },
+    "u10_scores_n_part_time_1_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "mean_probability",
+      "value": "0.26830596822619074",
+      "places": 6,
+      "display": "0.268306"
+    },
+    "u10_scores_n_part_time_1_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "observed_fraction",
+      "value": "0.25431034482758619",
+      "places": 6,
+      "display": "0.254310"
+    },
+    "u10_scores_n_part_time_1_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "calibration_bias",
+      "value": "0.013995623398604551",
+      "places": 6,
+      "display": "0.013996"
+    },
+    "u10_scores_n_part_time_1_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "auc",
+      "value": "0.70892524737924956",
+      "places": 6,
+      "display": "0.708925"
+    },
+    "u10_scores_n_part_time_1_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1"
+      },
+      "column": "brier",
+      "value": "0.17235028584071438",
+      "places": 6,
+      "display": "0.172350"
+    },
+    "u10_scores_n_first_gen_1_mean_probability": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "mean_probability",
+      "value": "0.20096735539143235",
+      "places": 6,
+      "display": "0.200967"
+    },
+    "u10_scores_n_first_gen_1_observed_fraction": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "observed_fraction",
+      "value": "0.19431279620853081",
+      "places": 6,
+      "display": "0.194313"
+    },
+    "u10_scores_n_first_gen_1_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "calibration_bias",
+      "value": "0.0066545591829015316",
+      "places": 6,
+      "display": "0.006655"
+    },
+    "u10_scores_n_first_gen_1_auc": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "auc",
+      "value": "0.70459110473457676",
+      "places": 6,
+      "display": "0.704591"
+    },
+    "u10_scores_n_first_gen_1_brier": {
+      "source": "scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1"
+      },
+      "column": "brier",
+      "value": "0.14328138321544961",
+      "places": 6,
+      "display": "0.143281"
+    },
+    "u10_action_scores_c_part_time_0_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "95",
+      "places": 0,
+      "display": "95"
+    },
+    "u10_action_scores_c_part_time_0_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "843",
+      "places": 0,
+      "display": "843"
+    },
+    "u10_action_scores_c_part_time_0_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.27472527472527475",
+      "places": 6,
+      "display": "0.274725"
+    },
+    "u10_action_scores_c_part_time_0_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.093085106382978719",
+      "places": 6,
+      "display": "0.093085"
+    },
+    "u10_action_scores_c_part_time_0_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.26315789473684209",
+      "places": 6,
+      "display": "0.263158"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "300",
+      "places": 0,
+      "display": "300"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "498",
+      "places": 0,
+      "display": "498"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.72847682119205293",
+      "places": 6,
+      "display": "0.728477"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.54755043227665701",
+      "places": 6,
+      "display": "0.547550"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.36666666666666664",
+      "places": 6,
+      "display": "0.366667"
+    },
+    "u10_action_scores_c_first_gen_1_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "186",
+      "places": 0,
+      "display": "186"
+    },
+    "u10_action_scores_c_first_gen_1_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "448",
+      "places": 0,
+      "display": "448"
+    },
+    "u10_action_scores_c_first_gen_1_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.6776859504132231",
+      "places": 6,
+      "display": "0.677686"
+    },
+    "u10_action_scores_c_first_gen_1_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.31804281345565749",
+      "places": 6,
+      "display": "0.318043"
+    },
+    "u10_action_scores_c_first_gen_1_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.44086021505376344",
+      "places": 6,
+      "display": "0.440860"
+    },
+    "u10_action_scores_c_gender_another_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "10",
+      "places": 0,
+      "display": "10"
+    },
+    "u10_action_scores_c_gender_another_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "25",
+      "places": 0,
+      "display": "25"
+    },
+    "u10_action_scores_c_gender_another_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.59999999999999998",
+      "places": 6,
+      "display": "0.600000"
+    },
+    "u10_action_scores_c_gender_another_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.34999999999999998",
+      "places": 6,
+      "display": "0.350000"
+    },
+    "u10_action_scores_c_gender_another_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.29999999999999999",
+      "places": 6,
+      "display": "0.300000"
+    },
+    "u10_action_scores_n_part_time_0_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "53",
+      "places": 0,
+      "display": "53"
+    },
+    "u10_action_scores_n_part_time_0_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "422",
+      "places": 0,
+      "display": "422"
+    },
+    "u10_action_scores_n_part_time_0_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.32000000000000001",
+      "places": 6,
+      "display": "0.320000"
+    },
+    "u10_action_scores_n_part_time_0_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.099462365591397844",
+      "places": 6,
+      "display": "0.099462"
+    },
+    "u10_action_scores_n_part_time_0_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.30188679245283018",
+      "places": 6,
+      "display": "0.301887"
+    },
+    "u10_action_scores_n_part_time_1_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "148",
+      "places": 0,
+      "display": "148"
+    },
+    "u10_action_scores_n_part_time_1_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "232",
+      "places": 0,
+      "display": "232"
+    },
+    "u10_action_scores_n_part_time_1_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.83050847457627119",
+      "places": 6,
+      "display": "0.830508"
+    },
+    "u10_action_scores_n_part_time_1_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.5722543352601156",
+      "places": 6,
+      "display": "0.572254"
+    },
+    "u10_action_scores_n_part_time_1_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.33108108108108109",
+      "places": 6,
+      "display": "0.331081"
+    },
+    "u10_action_scores_n_first_gen_1_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "82",
+      "places": 0,
+      "display": "82"
+    },
+    "u10_action_scores_n_first_gen_1_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "211",
+      "places": 0,
+      "display": "211"
+    },
+    "u10_action_scores_n_first_gen_1_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.65853658536585369",
+      "places": 6,
+      "display": "0.658537"
+    },
+    "u10_action_scores_n_first_gen_1_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.3235294117647059",
+      "places": 6,
+      "display": "0.323529"
+    },
+    "u10_action_scores_n_first_gen_1_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.32926829268292684",
+      "places": 6,
+      "display": "0.329268"
+    },
+    "u10_action_scores_n_gender_another_threshold_020_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "selected",
+      "value": "2",
+      "places": 0,
+      "display": "2"
+    },
+    "u10_action_scores_n_gender_another_threshold_020_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "n",
+      "value": "6",
+      "places": 0,
+      "display": "6"
+    },
+    "u10_action_scores_n_gender_another_threshold_020_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "tpr",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "u10_action_scores_n_gender_another_threshold_020_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "fpr",
+      "value": "0.25",
+      "places": 6,
+      "display": "0.250000"
+    },
+    "u10_action_scores_n_gender_another_threshold_020_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020"
+      },
+      "column": "ppv",
+      "value": "0.5",
+      "places": 6,
+      "display": "0.500000"
+    },
+    "u10_action_scores_c_all_capacity_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "selected",
+      "value": "300",
+      "places": 0,
+      "display": "300"
+    },
+    "u10_action_scores_c_all_capacity_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "n",
+      "value": "1341",
+      "places": 0,
+      "display": "1341"
+    },
+    "u10_action_scores_c_all_capacity_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "tpr",
+      "value": "0.4462809917355372",
+      "places": 6,
+      "display": "0.446281"
+    },
+    "u10_action_scores_c_all_capacity_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "fpr",
+      "value": "0.17470427661510465",
+      "places": 6,
+      "display": "0.174704"
+    },
+    "u10_action_scores_c_all_capacity_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "ppv",
+      "value": "0.35999999999999999",
+      "places": 6,
+      "display": "0.360000"
+    },
+    "u10_action_scores_c_part_time_0_capacity_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "selected",
+      "value": "55",
+      "places": 0,
+      "display": "55"
+    },
+    "u10_action_scores_c_part_time_0_capacity_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "n",
+      "value": "843",
+      "places": 0,
+      "display": "843"
+    },
+    "u10_action_scores_c_part_time_0_capacity_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "tpr",
+      "value": "0.17582417582417584",
+      "places": 6,
+      "display": "0.175824"
+    },
+    "u10_action_scores_c_part_time_0_capacity_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "fpr",
+      "value": "0.051861702127659573",
+      "places": 6,
+      "display": "0.051862"
+    },
+    "u10_action_scores_c_part_time_0_capacity_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "ppv",
+      "value": "0.29090909090909089",
+      "places": 6,
+      "display": "0.290909"
+    },
+    "u10_action_scores_c_part_time_1_capacity_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "selected",
+      "value": "245",
+      "places": 0,
+      "display": "245"
+    },
+    "u10_action_scores_c_part_time_1_capacity_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "n",
+      "value": "498",
+      "places": 0,
+      "display": "498"
+    },
+    "u10_action_scores_c_part_time_1_capacity_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "tpr",
+      "value": "0.60927152317880795",
+      "places": 6,
+      "display": "0.609272"
+    },
+    "u10_action_scores_c_part_time_1_capacity_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "fpr",
+      "value": "0.44092219020172913",
+      "places": 6,
+      "display": "0.440922"
+    },
+    "u10_action_scores_c_part_time_1_capacity_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "ppv",
+      "value": "0.37551020408163266",
+      "places": 6,
+      "display": "0.375510"
+    },
+    "u10_action_scores_n_all_capacity_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "selected",
+      "value": "146",
+      "places": 0,
+      "display": "146"
+    },
+    "u10_action_scores_n_all_capacity_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "n",
+      "value": "654",
+      "places": 0,
+      "display": "654"
+    },
+    "u10_action_scores_n_all_capacity_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "tpr",
+      "value": "0.50458715596330272",
+      "places": 6,
+      "display": "0.504587"
+    },
+    "u10_action_scores_n_all_capacity_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "fpr",
+      "value": "0.16697247706422019",
+      "places": 6,
+      "display": "0.166972"
+    },
+    "u10_action_scores_n_all_capacity_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "all",
+        "rule": "capacity"
+      },
+      "column": "ppv",
+      "value": "0.37671232876712329",
+      "places": 6,
+      "display": "0.376712"
+    },
+    "u10_action_scores_n_part_time_0_capacity_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "selected",
+      "value": "29",
+      "places": 0,
+      "display": "29"
+    },
+    "u10_action_scores_n_part_time_0_capacity_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "n",
+      "value": "422",
+      "places": 0,
+      "display": "422"
+    },
+    "u10_action_scores_n_part_time_0_capacity_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "tpr",
+      "value": "0.22",
+      "places": 6,
+      "display": "0.220000"
+    },
+    "u10_action_scores_n_part_time_0_capacity_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "fpr",
+      "value": "0.048387096774193547",
+      "places": 6,
+      "display": "0.048387"
+    },
+    "u10_action_scores_n_part_time_0_capacity_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_0",
+        "rule": "capacity"
+      },
+      "column": "ppv",
+      "value": "0.37931034482758619",
+      "places": 6,
+      "display": "0.379310"
+    },
+    "u10_action_scores_n_part_time_1_capacity_selected": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "selected",
+      "value": "117",
+      "places": 0,
+      "display": "117"
+    },
+    "u10_action_scores_n_part_time_1_capacity_n": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "n",
+      "value": "232",
+      "places": 0,
+      "display": "232"
+    },
+    "u10_action_scores_n_part_time_1_capacity_tpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "tpr",
+      "value": "0.74576271186440679",
+      "places": 6,
+      "display": "0.745763"
+    },
+    "u10_action_scores_n_part_time_1_capacity_fpr": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "fpr",
+      "value": "0.42196531791907516",
+      "places": 6,
+      "display": "0.421965"
+    },
+    "u10_action_scores_n_part_time_1_capacity_ppv": {
+      "source": "action_scores",
+      "where": {
+        "role": "new_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "ppv",
+      "value": "0.37606837606837606",
+      "places": 6,
+      "display": "0.376068"
+    },
+    "u10_bootstrap_summary_c_first_gen_1_probability_calibration_bias_lower": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "probability",
+        "metric": "calibration_bias"
+      },
+      "column": "lower",
+      "value": "-0.10278753340883721",
+      "places": 6,
+      "display": "-0.102788"
+    },
+    "u10_bootstrap_summary_c_first_gen_1_probability_calibration_bias_upper": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "probability",
+        "metric": "calibration_bias"
+      },
+      "column": "upper",
+      "value": "-0.026863981011557427",
+      "places": 6,
+      "display": "-0.026864"
+    },
+    "u10_bootstrap_summary_c_first_gen_1_probability_calibration_bias_undefined_draws": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "continuing_final",
+        "group": "first_gen_1",
+        "rule": "probability",
+        "metric": "calibration_bias"
+      },
+      "column": "undefined_draws",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u10_bootstrap_summary_n_first_gen_1_probability_calibration_bias_lower": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "probability",
+        "metric": "calibration_bias"
+      },
+      "column": "lower",
+      "value": "-0.04860639841096695",
+      "places": 6,
+      "display": "-0.048606"
+    },
+    "u10_bootstrap_summary_n_first_gen_1_probability_calibration_bias_upper": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "probability",
+        "metric": "calibration_bias"
+      },
+      "column": "upper",
+      "value": "0.052630135313599988",
+      "places": 6,
+      "display": "0.052630"
+    },
+    "u10_bootstrap_summary_n_first_gen_1_probability_calibration_bias_undefined_draws": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "first_gen_1",
+        "rule": "probability",
+        "metric": "calibration_bias"
+      },
+      "column": "undefined_draws",
+      "value": "0",
+      "places": 0,
+      "display": "0"
+    },
+    "u10_bootstrap_summary_c_gender_another_threshold_020_tpr_lower": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "tpr"
+      },
+      "column": "lower",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u10_bootstrap_summary_c_gender_another_threshold_020_tpr_upper": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "tpr"
+      },
+      "column": "upper",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "u10_bootstrap_summary_c_gender_another_threshold_020_tpr_undefined_draws": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "continuing_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "tpr"
+      },
+      "column": "undefined_draws",
+      "value": "1",
+      "places": 0,
+      "display": "1"
+    },
+    "u10_bootstrap_summary_n_gender_another_threshold_020_tpr_lower": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "tpr"
+      },
+      "column": "lower",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u10_bootstrap_summary_n_gender_another_threshold_020_tpr_upper": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "tpr"
+      },
+      "column": "upper",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "u10_bootstrap_summary_n_gender_another_threshold_020_tpr_undefined_draws": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "tpr"
+      },
+      "column": "undefined_draws",
+      "value": "32",
+      "places": 0,
+      "display": "32"
+    },
+    "u10_bootstrap_summary_n_gender_another_threshold_020_ppv_lower": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "ppv"
+      },
+      "column": "lower",
+      "value": "0",
+      "places": 6,
+      "display": "0.000000"
+    },
+    "u10_bootstrap_summary_n_gender_another_threshold_020_ppv_upper": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "ppv"
+      },
+      "column": "upper",
+      "value": "1",
+      "places": 6,
+      "display": "1.000000"
+    },
+    "u10_bootstrap_summary_n_gender_another_threshold_020_ppv_undefined_draws": {
+      "source": "bootstrap_summary",
+      "where": {
+        "role": "new_final",
+        "group": "gender_another",
+        "rule": "threshold_020",
+        "metric": "ppv"
+      },
+      "column": "undefined_draws",
+      "value": "31",
+      "places": 0,
+      "display": "31"
+    },
+    "u10_toy_A_tp": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "tp",
+      "value": "8",
+      "places": 0,
+      "display": "8"
+    },
+    "u10_toy_A_fp": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "fp",
+      "value": "9",
+      "places": 0,
+      "display": "9"
+    },
+    "u10_toy_A_fn": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "fn",
+      "value": "2",
+      "places": 0,
+      "display": "2"
+    },
+    "u10_toy_A_tn": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "tn",
+      "value": "81",
+      "places": 0,
+      "display": "81"
+    },
+    "u10_toy_A_tpr": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "tpr",
+      "value": "0.80000000000000004",
+      "places": 6,
+      "display": "0.800000"
+    },
+    "u10_toy_A_fpr": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "fpr",
+      "value": "0.10000000000000001",
+      "places": 6,
+      "display": "0.100000"
+    },
+    "u10_toy_A_ppv": {
+      "source": "toy",
+      "where": {
+        "group": "A"
+      },
+      "column": "ppv",
+      "value": "0.47058823529411764",
+      "places": 6,
+      "display": "0.470588"
+    },
+    "u10_toy_B_tp": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "tp",
+      "value": "32",
+      "places": 0,
+      "display": "32"
+    },
+    "u10_toy_B_fp": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "fp",
+      "value": "6",
+      "places": 0,
+      "display": "6"
+    },
+    "u10_toy_B_fn": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "fn",
+      "value": "8",
+      "places": 0,
+      "display": "8"
+    },
+    "u10_toy_B_tn": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "tn",
+      "value": "54",
+      "places": 0,
+      "display": "54"
+    },
+    "u10_toy_B_tpr": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "tpr",
+      "value": "0.80000000000000004",
+      "places": 6,
+      "display": "0.800000"
+    },
+    "u10_toy_B_fpr": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "fpr",
+      "value": "0.10000000000000001",
+      "places": 6,
+      "display": "0.100000"
+    },
+    "u10_toy_B_ppv": {
+      "source": "toy",
+      "where": {
+        "group": "B"
+      },
+      "column": "ppv",
+      "value": "0.84210526315789469",
+      "places": 6,
+      "display": "0.842105"
+    },
+    "u10_scores_c_part_time_1_first_gen_1_calibration_bias": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1_first_gen_1"
+      },
+      "column": "calibration_bias",
+      "value": "-0.10270943700174073",
+      "places": 6,
+      "display": "-0.102709"
+    },
+    "u10_action_scores_c_part_time_1_capacity_selection_rate": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "capacity"
+      },
+      "column": "selection_rate",
+      "value": "0.49196787148594379",
+      "places": 6,
+      "display": "0.491968"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_tp": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "tp",
+      "value": "110",
+      "places": 0,
+      "display": "110"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_fp": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "fp",
+      "value": "190",
+      "places": 0,
+      "display": "190"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_fn": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "fn",
+      "value": "41",
+      "places": 0,
+      "display": "41"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_tn": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "tn",
+      "value": "157",
+      "places": 0,
+      "display": "157"
+    },
+    "u10_action_scores_c_part_time_1_threshold_020_selection_rate": {
+      "source": "action_scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1",
+        "rule": "threshold_020"
+      },
+      "column": "selection_rate",
+      "value": "0.60240963855421692",
+      "places": 6,
+      "display": "0.602410"
+    },
+    "u10_scores_c_part_time_1_nonevents": {
+      "source": "scores",
+      "where": {
+        "role": "continuing_final",
+        "group": "part_time_1"
+      },
+      "column": "nonevents",
+      "value": "347",
+      "places": 0,
+      "display": "347"
+    }
+  }
+}
