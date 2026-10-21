@@ -1,5 +1,5 @@
 """Finite, resumable numerical checks for the standalone public companion."""
-import argparse, csv, hashlib, importlib, importlib.metadata, json, os, re, signal, subprocess, sys, time
+import argparse, contextlib, csv, hashlib, importlib, importlib.metadata, json, os, re, signal, subprocess, sys, time
 from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,7 +11,7 @@ SECRET_PATTERNS = [rb'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',rb'\bgh
 def need(ok,message):
     if not ok: raise ValueError(message)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-def obj(p):return json.loads(p.read_text())
+def obj(p):return json.loads(p.read_text(encoding='utf-8'))
 def files(root=ROOT):
     return sorted(p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() and not any(x in IGNORED for x in p.relative_to(root).parts))
 def safe(root,name):
@@ -20,10 +20,10 @@ def safe(root,name):
     need(not any(x.is_symlink() for x in [p,*p.parents] if x!=root.parent),'symlink forbidden '+name)
     return p
 def save(p,value):
-    p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_suffix('.tmp');tmp.write_text(json.dumps(value,indent=2,sort_keys=True)+'\n');tmp.replace(p)
+    p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_suffix('.tmp');tmp.write_text(json.dumps(value,indent=2,sort_keys=True)+'\n',encoding='utf-8',newline='\n');tmp.replace(p)
 def boundary(root=ROOT,quiet=False):
     inventory={}
-    for line in (root/'SHA256SUMS').read_text().splitlines():
+    for line in (root/'SHA256SUMS').read_text(encoding='utf-8').splitlines():
         h,n=line.split('  ',1);need(len(h)==64 and n not in inventory,'invalid checksum inventory');inventory[n]=h
     actual=files(root);need(set(actual)==set(inventory)|{'SHA256SUMS'},'unlisted or missing export file')
     for n,h in inventory.items():
@@ -45,7 +45,7 @@ def runtime(route):
     need(importlib.metadata.version('numpy')=='1.26.4','NumPy 1.26.4 is required')
     return {'python':sys.version.split()[0],'numpy':importlib.metadata.version('numpy')}
 def load_rows(p):
-    with p.open(newline='') as f:return list(csv.DictReader(f))
+    with p.open(newline='',encoding='utf-8') as f:return list(csv.DictReader(f))
 def compare_outputs(case,folder,resource):
     module=importlib.import_module('contracts.'+case['comparison']); result={}
     supplementary=set(case.get('supplementary_csv',{}).get(folder.name,[]))
@@ -79,17 +79,44 @@ def receipt_valid(receipt,proof,case,resource):
         r=obj(receipt);folder=ROOT/r['output_folder'];log=ROOT/r['log']
         need(r['status']=='success' and r['fingerprint']==proof and sha(log)==r['log_sha256'],'stale receipt')
         need(all(sha(folder/n)==h for n,h in r['output_sha256'].items()),'stale output')
-        need(all(m in log.read_text() for m in case['markers'][r['route']]),'missing completion marker')
+        need(all(m in read_log(log) for m in case['markers'][r['route']]),'missing completion marker')
         compare_outputs(case,folder,resource)
         return True
     except (OSError,ValueError,KeyError):return False
+def read_log(log):
+    # Analyses write UTF-8 (PYTHONUTF8=1 below); replace anything else rather than fail on a log byte.
+    return log.read_text(encoding='utf-8',errors='replace')
+@contextlib.contextmanager
+def case_lock(path):
+    """One run per case at a time: fcntl on Linux and macOS, msvcrt on Windows.
+    The file is opened for append, so a second run never truncates a file another run holds."""
+    with path.open('a') as handle:
+        try:
+            import fcntl
+        except ImportError:
+            import msvcrt
+            handle.seek(0)
+            try:msvcrt.locking(handle.fileno(),msvcrt.LK_NBLCK,1)
+            except OSError:raise ValueError('this case is already running')
+            try:yield
+            finally:
+                handle.seek(0);msvcrt.locking(handle.fileno(),msvcrt.LK_UNLCK,1)
+            return
+        try:fcntl.flock(handle,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        except BlockingIOError:raise ValueError('this case is already running')
+        yield
+def stop(process):
+    """End an analysis and anything it started (a process group on POSIX; the process on Windows)."""
+    if hasattr(os,'killpg'):
+        os.killpg(process.pid,signal.SIGTERM)
+        try:process.wait(timeout=5)
+        except subprocess.TimeoutExpired:os.killpg(process.pid,signal.SIGKILL);process.wait(timeout=5)
+    else:
+        process.kill();process.wait(timeout=5)
 def run_case(name,routes):
     inventory=boundary(quiet=True);cfg=obj(ROOT/'CASE_MANIFEST.json');case=cfg['cases'][name];resource=ROOT/cfg['resource'];records=[]
     parent=ROOT/'build'/(name+'-audit' if name.startswith('unit') else {'uncertainty':'score-uncertainty','planning':'sample-size-planning','envelope':'sealed-envelope'}[name]);parent.mkdir(parents=True,exist_ok=True)
-    import fcntl
-    with (parent/'runner.lock').open('w') as lock:
-        try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
-        except BlockingIOError:raise ValueError('this case is already running')
+    with case_lock(parent/'runner.lock'):
         for route in routes:
             versions=runtime(route);proof=hashlib.sha256(json.dumps({'files':inventory,'versions':versions,'route':route},sort_keys=True).encode()).hexdigest();receipt=parent/(route+'.json')
             if receipt.is_file() and receipt_valid(receipt,proof,case,resource):
@@ -99,10 +126,10 @@ def run_case(name,routes):
             if route=='base_r':command=['Rscript','--vanilla',str(source),str(resource),str(folder)]
             elif case['command_kind']=='unit':command=[sys.executable,str(source),'--root',str(resource),'--outdir',str(folder)]
             else:command=[sys.executable,str(source),'--resource',str(resource),'--out',str(folder)]
-            env=dict(os.environ,OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',MKL_NUM_THREADS='1',PYTHONUNBUFFERED='1')
+            env=dict(os.environ,OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',MKL_NUM_THREADS='1',PYTHONUNBUFFERED='1',PYTHONUTF8='1')
             start=time.monotonic();status='failure';code=None;comparison=None
             print('PREDICT_START '+name+' '+route+' deadline_seconds='+str(case['deadline_seconds']),flush=True)
-            with log.open('w') as stream:
+            with log.open('w',encoding='utf-8') as stream:
                 process=subprocess.Popen(command,stdout=stream,stderr=subprocess.STDOUT,env=env,cwd=ROOT,start_new_session=True)
                 try:
                     while process.poll() is None:
@@ -110,13 +137,10 @@ def run_case(name,routes):
                         try:process.wait(timeout=min(20,case['deadline_seconds']-elapsed))
                         except subprocess.TimeoutExpired:print('PREDICT_RUNNING '+name+' '+route+' seconds='+str(int(time.monotonic()-start)),flush=True)
                     code=process.returncode;need(code==0,'analysis failed; inspect '+str(log))
-                    need(all(m in log.read_text() for m in case['markers'][route]),'analysis completion marker missing; inspect '+str(log))
+                    need(all(m in read_log(log) for m in case['markers'][route]),'analysis completion marker missing; inspect '+str(log))
                     comparison=compare_outputs(case,folder,resource);status='success'
                 finally:
-                    if process.poll() is None:
-                        os.killpg(process.pid,signal.SIGTERM)
-                        try:process.wait(timeout=5)
-                        except subprocess.TimeoutExpired:os.killpg(process.pid,signal.SIGKILL);process.wait(timeout=5)
+                    if process.poll() is None:stop(process)
                     record={'schema_version':1,'case':name,'route':route,'status':status,'fingerprint':proof,'versions':versions,'command':command,'exit_code':process.returncode,'elapsed_seconds':round(time.monotonic()-start,3),'deadline_seconds':case['deadline_seconds'],'output_folder':folder.relative_to(ROOT).as_posix(),'log':log.relative_to(ROOT).as_posix(),'log_sha256':sha(log),'output_sha256':{p.name:sha(p) for p in folder.iterdir() if p.is_file()},'comparison_maxima_where_reported':comparison,'new_world_draws':0,'remote_ci_claimed':False}
                     save(receipt,record)
             records.append(record);print('PREDICT_OK '+name+' '+route,flush=True)

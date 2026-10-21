@@ -28,8 +28,17 @@ class NumericalGuards(unittest.TestCase):
             with self.assertRaises(ValueError):v.safe(Path(t),'../outside.csv')
     def test_symlink_is_rejected(self):
         with tempfile.TemporaryDirectory() as t:
-            root=Path(t);(root/'real.csv').write_text('x');(root/'alias.csv').symlink_to(root/'real.csv')
+            root=Path(t);(root/'real.csv').write_text('x')
+            try:(root/'alias.csv').symlink_to(root/'real.csv')
+            except OSError:self.skipTest('this system does not let an ordinary user create symlinks (Windows without Developer Mode)')
             with self.assertRaises(ValueError):v.safe(root,'alias.csv')
+    def test_second_run_of_a_case_is_refused(self):
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t)/'runner.lock'
+            with v.case_lock(path):
+                with self.assertRaises(ValueError):
+                    with v.case_lock(path):pass
+            with v.case_lock(path):pass  # released when the first run ends
     def test_missing_receipt_is_not_success(self):
         with tempfile.TemporaryDirectory() as t:
             self.assertFalse(v.receipt_valid(Path(t)/'missing.json','x',{},Path(t)))
