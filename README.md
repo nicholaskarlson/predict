@@ -10,6 +10,16 @@ the book's statistics and run its supplied prediction rules. The book's
 manuscript, problems, worked solutions, figures, typesetting and PDF-building
 tools belong to the separate private authoring project.
 
+## Free quick-start guide
+
+*Predictive Reasoning with Statistics: A Free Quick-Start Guide* (CC BY 4.0)
+says what the book does and for whom, and walks through one case from this
+repository, Unit 1, in NumPy, standard-library Python, and base R:
+https://doi.org/10.5281/zenodo.23545881. That DOI always resolves to the
+latest version; version 1.0 (October 21, 2026, checked against release
+`v1.0.1`) is https://doi.org/10.5281/zenodo.23545882. The guide's DOI
+identifies the guide, not the book.
+
 ## Start with one case
 
 Download this repository's ZIP, or clone the companion, and enter its folder.
