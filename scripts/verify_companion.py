@@ -1,5 +1,5 @@
 """Finite, resumable numerical checks for the standalone public companion."""
-import argparse, contextlib, csv, hashlib, importlib, importlib.metadata, json, os, re, signal, subprocess, sys, time
+import argparse, contextlib, csv, hashlib, importlib, importlib.metadata, json, os, re, shutil, signal, subprocess, sys, time
 from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -105,6 +105,24 @@ def case_lock(path):
         try:fcntl.flock(handle,fcntl.LOCK_EX|fcntl.LOCK_NB)
         except BlockingIOError:raise ValueError('this case is already running')
         yield
+def r_environment(env):
+    """The base-R analyses for Units 8 and 9 check their frozen specification with the
+    `sha256sum` program. Windows has one only inside Git for Windows, off the PATH, and an
+    older Mac has `shasum` instead. If `sha256sum` is missing, put one on this run's PATH."""
+    path=env.get('PATH','')
+    if shutil.which('sha256sum',path=path):return env
+    if os.name=='nt':
+        git=shutil.which('git',path=path)
+        if git:
+            base=Path(git).resolve().parent.parent   # ...\Git\cmd\git.exe or ...\Git\mingw64\bin\git.exe
+            for folder in (base/'usr'/'bin',base.parent/'usr'/'bin'):
+                if (folder/'sha256sum.exe').is_file():return dict(env,PATH=path+os.pathsep+str(folder))
+        return env
+    shasum=shutil.which('shasum',path=path)
+    if not shasum:return env
+    folder=ROOT/'build'/'tools';folder.mkdir(parents=True,exist_ok=True);shim=folder/'sha256sum'
+    shim.write_text('#!/bin/sh\nexec "'+shasum+'" -a 256 "$@"\n',encoding='utf-8',newline='\n');shim.chmod(0o755)
+    return dict(env,PATH=str(folder)+os.pathsep+path)
 def stop(process):
     """End an analysis and anything it started (a process group on POSIX; the process on Windows)."""
     if hasattr(os,'killpg'):
@@ -123,10 +141,12 @@ def run_case(name,routes):
                 print('PREDICT_RESUME '+name+' '+route+' current_outputs=true',flush=True);records.append(obj(receipt));continue
             folder=parent/('attempt-'+str(time.time_ns()))/route;folder.mkdir(parents=True);log=folder.parent/(route+'.log')
             stem=case['stem'];source=resource/'source'/(stem+'_'+route+('.R' if route=='base_r' else '.py'))
-            if route=='base_r':command=['Rscript','--vanilla',str(source),str(resource),str(folder)]
+            # R gets forward-slash paths: on Windows, sha256sum marks a name with a backslash by starting its line with one
+            if route=='base_r':command=['Rscript','--vanilla',source.as_posix(),resource.as_posix(),folder.as_posix()]
             elif case['command_kind']=='unit':command=[sys.executable,str(source),'--root',str(resource),'--outdir',str(folder)]
             else:command=[sys.executable,str(source),'--resource',str(resource),'--out',str(folder)]
             env=dict(os.environ,OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',MKL_NUM_THREADS='1',PYTHONUNBUFFERED='1',PYTHONUTF8='1')
+            if route=='base_r':env=r_environment(env)
             start=time.monotonic();status='failure';code=None;comparison=None
             print('PREDICT_START '+name+' '+route+' deadline_seconds='+str(case['deadline_seconds']),flush=True)
             with log.open('w',encoding='utf-8') as stream:

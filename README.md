@@ -58,7 +58,8 @@ if (-not (Get-Command Rscript -ErrorAction SilentlyContinue)) {
 ```
 
 The R installer does not put `Rscript` on the PATH, so the `if` block does that
-for this window. Windows has no `make`; for all fifteen cases run
+for this window. The base-R analyses for Units 8 and 9 also call the `sha256sum`
+program; on Windows the checks use the one that comes with Git for Windows. Windows has no `make`; for all fifteen cases run
 `.venv\Scripts\python -m unittest discover -s tests -v`, then
 `.venv\Scripts\python scripts\run_local_stages.py --stage verify` and
 `.venv\Scripts\python scripts\run_local_stages.py --stage base-r`.
@@ -173,13 +174,17 @@ Releases are Git tags. Cite the tag, or the commit it points to.
     Windows (it used `fcntl`, which exists only on Linux and macOS), stops a
     timed-out analysis without POSIX process groups, reads and writes its own
     files as UTF-8, and runs each analysis with `PYTHONUTF8=1`;
+  - the base-R route passes paths to R with forward slashes, and finds the
+    `sha256sum` program that the Unit 8 and Unit 9 analyses call: in Git for
+    Windows, or made from `shasum` on a Mac that lacks it;
   - the comparisons for the two extensions and the envelope read their CSV
     files as UTF-8;
   - the symlink test is skipped where an ordinary user cannot create symlinks
     (Windows without Developer Mode), and a new test checks that a second run
     of the same case is refused;
   - the Actions workflow adds Windows and macOS jobs that run both Python
-    routes and the base-R route for all fifteen cases;
+    routes and the base-R route for all fifteen cases, and keep the analysis
+    logs when a step fails;
   - this README gains Windows and macOS commands and this section.
 
   No data, dictionary, specification, assignment, prediction, expected

@@ -1,5 +1,5 @@
 """Challenge public boundaries and receipts rather than restating implementation."""
-import importlib.util, json, shutil, sys, tempfile, unittest
+import importlib.util, json, os, shutil, subprocess, sys, tempfile, unittest
 from pathlib import Path
 from unittest.mock import patch
 
@@ -39,6 +39,15 @@ class NumericalGuards(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     with v.case_lock(path):pass
             with v.case_lock(path):pass  # released when the first run ends
+    @unittest.skipIf(os.name=='nt' or not shutil.which('shasum'),'needs a POSIX shell and shasum')
+    def test_sha256sum_is_supplied_when_missing(self):
+        with tempfile.TemporaryDirectory() as t:
+            only=Path(t)/'bin';only.mkdir();(only/'shasum').symlink_to(shutil.which('shasum'))
+            env=v.r_environment({'PATH':str(only)})
+            self.assertTrue(shutil.which('sha256sum',path=env['PATH']))
+            target=Path(t)/'x.txt';target.write_bytes(b'abc')
+            out=subprocess.run(['/bin/sh','-c','sha256sum "$1"','_',str(target)],env=env,capture_output=True,text=True,check=True).stdout
+            self.assertEqual(out.split(' ')[0],'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad')
     def test_missing_receipt_is_not_success(self):
         with tempfile.TemporaryDirectory() as t:
             self.assertFalse(v.receipt_valid(Path(t)/'missing.json','x',{},Path(t)))
