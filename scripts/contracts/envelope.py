@@ -5,7 +5,7 @@ def need(ok,message):
     if not ok: raise ValueError(message)
 
 def rows(path):
-    with path.open(newline="") as f: return list(csv.DictReader(f))
+    with path.open(newline="", encoding="utf-8") as f: return list(csv.DictReader(f))
 read = rows
 
 INTEGER_FIELDS={'n','events','nonevents','auc_pairs2','auc_denominator','clipped_n','bin','prior_n','sealed_n'}
